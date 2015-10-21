@@ -1,6 +1,8 @@
 # BetterCombatEvolved
 The Better Combat Evolved mod for Witcher 3
 
+[Nexus page](http://www.nexusmods.com/witcher3/mods/769/?)
+
 Better Combat Evolved 2.0 is a combat overhaul mod which aims to add further depth, challenge, and reward to combat. Enemies are stronger, and scale better per-level. Geralt knows 5 additonal "basic" abilities per skill tree, which do not need to be slotted to function. All skills are unlockable at any level and have been changed to make end-game less of an "easy mode." Trophies are essential to combat - some are even powerful enough to design entire builds around.
 
 Below is an INCOMPLETE list of changes, feel free to read them. 
