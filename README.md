@@ -24,22 +24,6 @@ MOD DESCRIPTION CURRENTLY UNDER CONSTRUCTION! But here is something you MUST KNO
 
 3. NEW USERS who create a BRAND NEW FRESH START GAME do not need to do anything. 
 
-# Combat changes
-
-todo
-
-# Enemy changes
-
-todo
-
-# Skill changes
-
-todo
-
-# Consumable changes
-
-todo
-
 --------------------------------------------------------------------------------------------------
 A SPECIAL THANKS TO ALL WHO INSPIRED BCEVOLVED
 --------------------------------------------------------------------------------------------------
