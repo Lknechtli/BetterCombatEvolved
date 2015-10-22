@@ -245,6 +245,9 @@
       <ability name="Necrophage" on_added="" on_ended="">
         <tags> "Necrophage", MonsterSkill </tags>
       </ability>
+	  <ability name="NoJournalEntry" on_added="" on_ended="">
+        <tags> "NoJournalEntry" </tags>
+	  </ability>
       <ability name="Ogre" on_added="" on_ended="">
         <tags> "Ogre", MonsterSkill </tags>
       </ability>
@@ -602,7 +605,10 @@
         <vitality type="add" always_random="false" min="600" max="600" />
 		<attack_power type="mult" always_random="false" min="-0.6" max="-0.6"/>
       </ability>
-	 
+	  <ability name="mon_wolf_ngnerf">
+	    <tags> "base" </tags>
+        <attack_power type="mult" always_random="false" min="-0.4" max="-0.4"/>
+      </ability>
 	  <ability name="q103_wraith">
         <!-- lvl 19 -->
         <tags> "base" </tags>
