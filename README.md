@@ -1,6 +1,6 @@
 # BetterCombatEvolved
 
-Note - if you are cloning the repo to pack it yourself, read [this] (README.md#Packing)
+Note - if you are cloning the repo to pack it yourself, read [this] (README.md#packing)
 
 The Better Combat Evolved mod for Witcher 3
 
