@@ -1,4 +1,7 @@
 # BetterCombatEvolved
+
+Note - if you are cloning the repo to pack it yourself, read [this] (README.md#Packing)
+
 The Better Combat Evolved mod for Witcher 3
 
 [Nexus page](http://www.nexusmods.com/witcher3/mods/769/?)
@@ -42,3 +45,17 @@ BCEvolved edits SEVERAL .xml files, which makes it incompatible with a lot of mo
 Mods that change meshes/textures are 100% compatible with BCEvolved
 
 Mods that only edit scripts can be merged together with SCRIPT MERGER, which makes it compatible.
+
+--------------------------------------------------------------------------------------------------
+Packing
+--------------------------------------------------------------------------------------------------
+Before cloning this repository, add the following to your .gitconfig before:
+```
+[filter "utf16"]
+	clean = iconv -f utf-16 -t utf-8
+	smudge = iconv -f utf-8 -t utf-16
+	required
+```
+This is required because github doesn't understand UTF-16 encoded files, and The Witcher 3 must encoded its xml files in UTF16 in order to be read.
+iconv will force git to store the xml files encoded as utf-8, but convert them to utf-16 on your local machine.
+This means that we get the best of both worlds - git friendly files that we can use in the game.
