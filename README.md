@@ -1,5 +1,7 @@
 # BetterCombatEvolved
+
 ![](http://i1345.photobucket.com/albums/p662/sekrosis/w3fight_zpsfcm1puo5.jpg)
+
 Note - [READ THIS] (README.md#packing) if you are cloning the repo to pack it yourself.
 
 The Better Combat Evolved mod for Witcher 3
