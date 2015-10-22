@@ -432,7 +432,7 @@
 	  
 	  <ability name="q103_werewolf">
         <tags> "base" </tags>
-		<attack_power type="add" always_random="false" min="150" max="150" />
+		<attack_power type="add" always_random="false" min="275" max="350" />
 		<essence type="add" always_random="false" min="5000" max="5000" />
 		<essenceRegen type="add" always_random="false" min="-90" max="-90" /> 
       </ability>
@@ -549,7 +549,7 @@
 	 
 	  <ability name="q103_wolf">
         <tags> "base" </tags>
-        <vitality type="add" always_random="false" min="1000" max="1000" />
+        <vitality type="add" always_random="false" min="1250" max="1250" />
 		<essenceRegen type="add" always_random="false" min="-2" max="-2" />
       </ability>
 	  
