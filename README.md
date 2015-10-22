@@ -31,10 +31,10 @@ MOD DESCRIPTION CURRENTLY UNDER CONSTRUCTION! But here is something you MUST KNO
 A SPECIAL THANKS TO ALL WHO INSPIRED BCEVOLVED
 --------------------------------------------------------------------------------------------------
 BCEvolved was inspired by many other great mods here on the Nexus
-* Better Combat Enhanced
-* Brutal and Realistic Combat
-* Ucross' Hardcore Mod
-* Ranged Combat Redone
+* [Better Combat Enhanced](http://www.nexusmods.com/witcher3/mods/212/?)
+* [Brutal and Realistic Combat](http://www.nexusmods.com/witcher3/mods/467/?)
+* [Ucross' Hardcore Mod](http://www.nexusmods.com/witcher3/mods/139/?)
+* [Ranged Combat Redone](http://www.nexusmods.com/witcher3/mods/302/?)
 * AND MANY OTHERS!
 
 --------------------------------------------------------------------------------------------------
