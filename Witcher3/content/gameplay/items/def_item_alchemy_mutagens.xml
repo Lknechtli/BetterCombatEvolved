@@ -12,144 +12,172 @@
 			
       <!-- MUTAGENS -->
       <ability name="Mutagen_1">
-       <toxicity min="77" max="77" type="add" />
-       <Mutagen01Effect is_ability="true" />
-      </ability>	  
+		<toxicity_offset type="add" min="450" />
+		<toxicity min="300" max="300" type="add" />
+		<Mutagen01Effect is_ability="true" />
+      </ability>
 	  
       <ability name="Mutagen_2">
-       <toxicity min="77" max="77" type="add" />
-       <Mutagen02Effect is_ability="true" />
+		<toxicity_offset type="add" min="450" />
+		<toxicity min="300" max="300" type="add" />
+		<Mutagen02Effect is_ability="true" />
       </ability>
 	  
       <ability name="Mutagen_3">
-       <toxicity min="77" max="77" type="add" />
-       <Mutagen03Effect is_ability="true" />
+		<toxicity_offset type="add" min="450" />
+		<toxicity min="300" max="300" type="add" />
+		<Mutagen03Effect is_ability="true" />
       </ability>
 	  
       <ability name="Mutagen_4">
-        <toxicity min="77" max="77" type="add" />
-       <Mutagen04Effect is_ability="true" />
+		<toxicity_offset type="add" min="450" />
+		<toxicity min="300" max="300" type="add" />
+		<Mutagen04Effect is_ability="true" />
       </ability>
 	  
       <ability name="Mutagen_5">
-        <toxicity min="77" max="77" type="add" />
-       <Mutagen05Effect is_ability="true" />
+		<toxicity_offset type="add" min="450" />
+		<toxicity min="300" max="300" type="add" />
+		<Mutagen05Effect is_ability="true" />
       </ability>	  
       
       <ability name="Mutagen_6">
-        <toxicity min="77" max="77" type="add" />
-       <Mutagen06Effect is_ability="true" />
+		<toxicity_offset type="add" min="450" />
+		<toxicity min="300" max="300" type="add" />
+		<Mutagen06Effect is_ability="true" />
       </ability>  
       
       <ability name="Mutagen_7">
-        <toxicity min="77" max="77" type="add" />
-       <Mutagen07Effect is_ability="true" />
+		<toxicity_offset type="add" min="450" />
+		<toxicity min="300" max="300" type="add" />
+		<Mutagen07Effect is_ability="true" />
       </ability> 
       
       <ability name="Mutagen_8">
-       <toxicity min="77" max="77" type="add" />
-       <Mutagen08Effect is_ability="true" />
+		<toxicity_offset type="add" min="450" />
+		<toxicity min="300" max="300" type="add" />
+		<Mutagen08Effect is_ability="true" />
       </ability> 
       
       <ability name="Mutagen_9">
-        <toxicity min="77" max="77" type="add" />
-       <Mutagen09Effect is_ability="true" />
+		<toxicity_offset type="add" min="450" />
+		<toxicity min="300" max="300" type="add" />
+		<Mutagen09Effect is_ability="true" />
       </ability>  
       
       <ability name="Mutagen_10">
-        <toxicity min="77" max="77" type="add" />
-       <Mutagen10Effect is_ability="true" />
+		<toxicity_offset type="add" min="450" />
+		<toxicity min="300" max="300" type="add" />
+		<Mutagen10Effect is_ability="true" />
       </ability>  
       
       <ability name="Mutagen_11">
-        <toxicity min="77" max="77" type="add" />
-       <Mutagen11Effect is_ability="true" />
+		<toxicity_offset type="add" min="450" />
+		<toxicity min="300" max="300" type="add" />
+		<Mutagen11Effect is_ability="true" />
       </ability>  
       
       <ability name="Mutagen_12">
-        <toxicity min="77" max="77" type="add" />
-       <Mutagen12Effect is_ability="true" />
+		<toxicity_offset type="add" min="450" />
+		<toxicity min="300" max="300" type="add" />
+		<Mutagen12Effect is_ability="true" />
       </ability>	  
       
       <ability name="Mutagen_13">
-        <toxicity min="77" max="77" type="add" />
-       <Mutagen13Effect is_ability="true" />
+		<toxicity_offset type="add" min="450" />
+		<toxicity min="300" max="300" type="add" />
+		<Mutagen13Effect is_ability="true" />
       </ability>  
       
       <ability name="Mutagen_14">
-         <toxicity min="77" max="77" type="add" />
-        <Mutagen14Effect is_ability="true" />
+		<toxicity_offset type="add" min="450" />
+		<toxicity min="300" max="300" type="add" />
+		<Mutagen14Effect is_ability="true" />
       </ability>  
       
       <ability name="Mutagen_15">
-         <toxicity min="77" max="77" type="add" />
-        <Mutagen15Effect is_ability="true" />
+		<toxicity_offset type="add" min="450" />
+		<toxicity min="300" max="300" type="add" />
+		<Mutagen15Effect is_ability="true" />
       </ability> 
       
       <ability name="Mutagen_16">
-         <toxicity min="77" max="77" type="add" />
-        <Mutagen16Effect is_ability="true" />
+		<toxicity_offset type="add" min="450" />
+		<toxicity min="300" max="300" type="add" />
+		<Mutagen16Effect is_ability="true" />
       </ability>  
       
       <ability name="Mutagen_17">
-         <toxicity min="77" max="77" type="add" />
-        <Mutagen17Effect is_ability="true" />
+		<toxicity_offset type="add" min="450" />
+		<toxicity min="300" max="300" type="add" />
+		<Mutagen17Effect is_ability="true" />
       </ability>  
       
       <ability name="Mutagen_18">
-         <toxicity min="77" max="77" type="add" />
-        <Mutagen18Effect is_ability="true" />
+		<toxicity_offset type="add" min="450" />
+		<toxicity min="300" max="300" type="add" />
+		<Mutagen18Effect is_ability="true" />
       </ability>
       
       <ability name="Mutagen_19">
-         <toxicity min="77" max="77" type="add" />
-        <Mutagen19Effect is_ability="true" />
+		<toxicity_offset type="add" min="450" />
+		<toxicity min="300" max="300" type="add" />
+		<Mutagen19Effect is_ability="true" />
       </ability> 
       
       <ability name="Mutagen_20">
-         <toxicity min="77" max="77" type="add" />
-        <Mutagen20Effect is_ability="true" />
+		<toxicity_offset type="add" min="450" />
+		<toxicity min="300" max="300" type="add" />
+		<Mutagen20Effect is_ability="true" />
       </ability>	  
       
       <ability name="Mutagen_21">
-         <toxicity min="77" max="77" type="add" />
-        <Mutagen21Effect is_ability="true" />
+		<toxicity_offset type="add" min="450" />
+		<toxicity min="300" max="300" type="add" />
+		<Mutagen21Effect is_ability="true" />
       </ability>  
       
       <ability name="Mutagen_22">
-         <toxicity min="77" max="77" type="add" />
-        <Mutagen22Effect is_ability="true" />
+		<toxicity_offset type="add" min="450" />
+		<toxicity min="300" max="300" type="add" />
+		<Mutagen22Effect is_ability="true" />
       </ability> 
       
       <ability name="Mutagen_23">
-        <toxicity min="77" max="77" type="add" />
-        <Mutagen23Effect is_ability="true" />
-		<duration min="3960" type="add" /> <!-- +common duration -->
+		<toxicity_offset type="add" min="350" />
+		<toxicity min="200" max="200" type="add" />
+		<Mutagen23Effect is_ability="true" />
+		<duration min="3960" type="add" /> <!-- +common duration! -->
       </ability>  
       
       <ability name="Mutagen_24">
-         <toxicity min="77" max="77" type="add" />
-        <Mutagen24Effect is_ability="true" />
+		<toxicity_offset type="add" min="450" />
+		<toxicity min="300" max="300" type="add" />
+		<Mutagen24Effect is_ability="true" />
       </ability>	  
       
       <ability name="Mutagen_25">
-         <toxicity min="63" max="63" type="add" />
-        <Mutagen25Effect is_ability="true" />
+		<toxicity_offset type="add" min="400" />
+		<toxicity min="200" max="200" type="add" />
+		<Mutagen25Effect is_ability="true" />
       </ability>  
       
       <ability name="Mutagen_26">
-        <toxicity min="77" max="77" type="add" />
-        <Mutagen26Effect is_ability="true" />
+		<toxicity_offset type="add" min="450" />
+		<toxicity min="300" max="300" type="add" />
+		<Mutagen26Effect is_ability="true" />
       </ability>  
       
       <ability name="Mutagen_27">
-         <toxicity min="77" max="77" type="add" />
-        <Mutagen27Effect is_ability="true" />
+		<toxicity_offset type="add" min="450" />
+		<toxicity min="300" max="300" type="add" />
+		<Mutagen27Effect is_ability="true" />
       </ability>  
       
       <ability name="Mutagen_28">
-         <toxicity min="77" max="77" type="add" />
-        <Mutagen28Effect is_ability="true" />
+		<toxicity_offset type="add" min="450" />
+		<toxicity min="300" max="300" type="add" />
+		<Mutagen28Effect is_ability="true" />
       </ability>         
     </abilities>
 	

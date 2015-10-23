@@ -45,7 +45,6 @@
 		<spell_power					type="mult"	min="0.01"				/>
 	</ability>
 
-
 <!-- BOOTS CRAFTED LIGHT -->
 	<ability name="Boots 01_crafted _Stats">
 		<weight 						type="base"	min="1.24"				/>

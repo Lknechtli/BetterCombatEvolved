@@ -52,20 +52,16 @@
         <duration type="add" min="-1" />        
       </ability>
       <ability name="BleedingEffect">
-        <DirectDamage type="mult" min="0.002" max="0.002" />
+        <DirectDamage type="mult" min="0.008" max="0.008" />
         <duration type="add" min="10" max="10" />
         <hp_regen_reduction_strength type="add" min="200" />
         <hp_regen_reduction_duration type="add" min="5" />
-	<armor_reduction type = "add" min="300" max="300"/>
-        <attack_power type="mult" min="-0.333" />
       </ability>
       <ability name="BleedingTrackingEffect">
         <DirectDamage type="mult" min="0.001" max="0.001" />
         <duration type="add" min="30" max="30" />
         <hp_regen_reduction_strength type="add" min="200" />
         <hp_regen_reduction_duration type="add" min="5" />
-	<armor_reduction type = "add" min="300" max="300"/>
-        <attack_power type="mult" min="-0.333" />
       </ability>
 	  <ability name="BleedingEffect_BroadheadBolt">
 		<DirectDamage type="add" min="10" max="10" />
@@ -73,36 +69,24 @@
         <duration type="add" min="10" max="10" />
         <hp_regen_reduction_strength type="add" min="200" />
         <hp_regen_reduction_duration type="add" min="5" />
-	<armor_reduction type = "add" min="300" max="300"/>
-        <attack_power type="mult" min="-0.333" />
       </ability>
 	  
       <ability name="BlindnessEffect">
-        <duration type="add" min="5" max="5" />
-	<armor_reduction type = "add" min="300" max="300"/>
-        <attack_power type="mult" min="-0.333" />
+        <duration type="add" min="3" max="3" />
       </ability>
 	  
 	  <ability name="WraithBlindnessEffect">
-        <duration type="add" min="5" max="5" />
-	<armor_reduction type = "add" min="300" max="300"/>
-        <attack_power type="mult" min="-0.333" />
+        <duration type="add" min="3" max="3" />
       </ability>
 	  
 	  <ability name="BlindnessEffect_Samum_1">
         <duration type="add" min="4" max="4" />
-	<armor_reduction type = "add" min="300" max="300"/>
-        <attack_power type="mult" min="-0.333" />
       </ability>
       <ability name="BlindnessEffect_Samum_2">
         <duration type="add" min="6" max="6" />
-	<armor_reduction type = "add" min="300" max="300"/>
-        <attack_power type="mult" min="-0.333" />
       </ability>
       <ability name="BlindnessEffect_Samum_3">
         <duration type="add" min="8" max="8" />
-	<armor_reduction type = "add" min="300" max="300"/>
-        <attack_power type="mult" min="-0.333" />
       </ability>
 	  
       <ability name="BoostedEssenceRegen">
@@ -114,12 +98,10 @@
 		<staminaRegen type="mult" min="0.33" max="0.33" />
       </ability>
       <ability name="BurningEffect">
-        <FireDamage type="mult" min="0.005" max="0.005" />
-        <duration type="add" min="6" max="6" />
+        <FireDamage type="mult" min="0.01" max="0.01" />
+        <duration type="add" min="3" max="3" />
         <hp_regen_reduction_strength type="add" min="200" />
         <hp_regen_reduction_duration type="add" min="5" />
-	<armor_reduction type = "add" min="300" max="300"/>
-        <attack_power type="mult" min="-0.333" />
       </ability>
 	  
 	  <ability name="BurningEffect_FireStream">
@@ -127,8 +109,6 @@
         <duration type="add" min="1" max="1" />
         <hp_regen_reduction_strength type="add" min="200" />
         <hp_regen_reduction_duration type="add" min="5" />
-	<armor_reduction type = "add" min="300" max="300"/>
-        <attack_power type="mult" min="-0.333" />
       </ability>
 	  
       <ability name="BurningEffect_DancingStar_1">
@@ -137,8 +117,6 @@
         <duration type="add" min="0.3" />
         <hp_regen_reduction_strength type="add" min="200" />
         <hp_regen_reduction_duration type="add" min="5" />
-	<armor_reduction type = "add" min="300" max="300"/>
-        <attack_power type="mult" min="-0.333" />
       </ability>
 	  
       <ability name="BurningEffect_DancingStar_2">
@@ -147,8 +125,6 @@
         <duration type="add" min="0.3" />
         <hp_regen_reduction_strength type="add" min="200" />
         <hp_regen_reduction_duration type="add" min="5" />
-	<armor_reduction type = "add" min="300" max="300"/>
-        <attack_power type="mult" min="-0.333" />
       </ability>
 	  
       <ability name="BurningEffect_DancingStar_3">
@@ -157,15 +133,11 @@
         <duration type="add" min="3" max="3" />
         <hp_regen_reduction_strength type="add" min="200" />
         <hp_regen_reduction_duration type="add" min="5" />
-	<armor_reduction type = "add" min="300" max="300"/>
-        <attack_power type="mult" min="-0.333" />
       </ability>
 	  
       <ability name="BurningEffect_TestAuraFire">
         <FireDamage type="mult" min="0.05" max="0.05" />
         <duration type="add" min="2" max="2" />
-	<armor_reduction type = "add" min="300" max="300"/>
-        <attack_power type="mult" min="-0.333" />
       </ability>
       <ability name="ConfusionEffect">
         <duration type="add" min="2" max="2" />
@@ -205,11 +177,11 @@
 	  
 	  <ability name="EnhancedArmorEffect">
         <duration type="add" min="2700" />
-        <armor type="mult" min="0.15" />
+        <armor type="mult" min="0.10" />
       </ability>
 	  <ability name="EnhancedWeaponEffect">
         <duration type="add" min="2700" />
-        <attack_power type="mult" min="0.15" />
+        <attack_power type="mult" min="0.10" />
       </ability>
 	  
 	  <!-- needed for ability inside ability detection of fact potion item's ability -->
@@ -277,12 +249,10 @@
       </ability>
           
       <ability name="PoisonEffect">
-        <duration type="add" min="10" max="10" />
-        <PoisonDamage type="mult" min="0.004" max="0.004" />
+        <duration type="add" min="5" max="5" />
+        <PoisonDamage type="mult" min="0.016" max="0.016" />
         <hp_regen_reduction_strength type="add" min="200" />
         <hp_regen_reduction_duration type="add" min="5" />
-	<armor_reduction type = "add" min="300" max="300"/>
-        <attack_power type="mult" min="-0.333" />
       </ability>
 	  
       <ability name="PoisonEffect_DevilsPuffball_1">
@@ -290,8 +260,6 @@
         <PoisonDamage type="add" min="30" max="30" />
         <hp_regen_reduction_strength type="add" min="200" />
         <hp_regen_reduction_duration type="add" min="5" />
-	<armor_reduction type = "add" min="300" max="300"/>
-        <attack_power type="mult" min="-0.333" />
       </ability>
 	  
       <ability name="PoisonEffect_DevilsPuffball_2">
@@ -299,8 +267,6 @@
         <PoisonDamage type="add" min="60" max="60" />
         <hp_regen_reduction_strength type="add" min="200" />
         <hp_regen_reduction_duration type="add" min="5" />
-	<armor_reduction type = "add" min="300" max="300"/>
-        <attack_power type="mult" min="-0.333" />
       </ability>
 	  
       <ability name="PoisonEffect_DevilsPuffball_3">
@@ -308,8 +274,6 @@
         <PoisonDamage type="add" min="90" max="90" />
         <hp_regen_reduction_strength type="add" min="200" />
         <hp_regen_reduction_duration type="add" min="5" />
-	<armor_reduction type = "add" min="300" max="300"/>
-        <attack_power type="mult" min="-0.333" />
       </ability>
 	  
       <ability name="PoisonCriticalEffect">
@@ -317,8 +281,6 @@
         <PoisonDamage type="mult" min="0.02" max="0.02" />
         <hp_regen_reduction_strength type="add" min="200" />
         <hp_regen_reduction_duration type="add" min="5" />
-	<armor_reduction type = "add" min="300" max="300"/>
-        <attack_power type="mult" min="-0.333" />
       </ability>
 	  
       <ability name="RagdollEffect">
@@ -326,23 +288,23 @@
       </ability>
 	  
       <ability name="ShrineAardEffect">
-		<spell_power type="mult" min="0.2" />
+		<spell_power_aard type="mult" min="0.2" />
         <duration type="add" min="1800" max="1800" />
       </ability>
       <ability name="ShrineAxiiEffect">
-		<spell_power type="mult" min="0.2" />
+		<spell_power_axii type="mult" min="0.2" />
         <duration type="add" min="1800" max="1800" />
       </ability>
       <ability name="ShrineIgniEffect">
-		<spell_power type="mult" min="0.2" />
+		<spell_power_igni type="mult" min="0.2" />
         <duration type="add" min="1800" max="1800" />
       </ability>
       <ability name="ShrineQuenEffect">
-		<spell_power type="mult" min="0.2" />
+		<spell_power_quen type="mult" min="0.2" />
         <duration type="add" min="1800" max="1800" />
       </ability>
       <ability name="ShrineYrdenEffect">
-		<spell_power type="mult" min="0.2" />
+		<spell_power_yrden type="mult" min="0.2" />
         <duration type="add" min="1800" max="1800" />
       </ability>
 	  
@@ -386,9 +348,9 @@
         <hp_regen_reduction_duration type="add" min="5" />
       </ability>
       <ability name="ToxicityEffect">
-        <toxicityRegen type="add" min="-0.0075" />
+        <toxicityRegen type="add" min="-0.0025" />
         <DirectDamage type="mult" min="0.005" max="0.005" />
-        <duration type="add" min="-0.5" max="-0.5" />
+        <duration type="add" min="-1" max="-1" />
       </ability>
       <ability name="VitalityDrainEffect">
         <duration type="add" min="1" max="1" />
@@ -407,38 +369,38 @@
         <duration type="add" min="-1" />
       </ability>
       <ability name="WellFedEffect_Level1">
-        <duration type="add" min="180" max="180" />
-        <vitalityRegen type="add" min="2" max="2" />
-        <vitalityCombatRegen type="add" min="0.5" max="0.5" />
+        <duration type="add" min="60" max="60" />
+        <vitalityRegen type="add" min="8" max="8" />
+        <vitalityCombatRegen type="add" min="2" max="2" />
         <level type="add" min="1" />
       </ability>
       <ability name="WellFedEffect_Level2">
-        <duration type="add" min="240" max="240" />
-        <vitalityRegen type="add" min="3" max="3" />
-        <vitalityCombatRegen type="add" min="1" max="1" />
+        <duration type="add" min="68" max="68" />
+        <vitalityRegen type="add" min="10" max="10" />
+        <vitalityCombatRegen type="add" min="2" max="2" />
         <level type="add" min="2" />
       </ability>
       <ability name="WellFedEffect_Level3">
-        <duration type="add" min="300" max="300" />
-        <vitalityRegen type="add" min="4" max="4" />
-        <vitalityCombatRegen type="add" min="1.5" max="1.5" />
+        <duration type="add" min="75" max="75" />
+        <vitalityRegen type="add" min="12" max="12" />
+        <vitalityCombatRegen type="add" min="2" max="2" />
         <level type="add" min="3" />
       </ability>
       <ability name="WellHydratedEffect_Level1">
-        <duration type="add" min="300" max="300" />
-        <vitalityRegen type="add" min="1" max="1" />
-        <vitalityCombatRegen type="add" min="0.25" max="0.25" />
+        <duration type="add" min="80" max="80" />
+        <vitalityRegen type="add" min="5" max="5" />
+        <vitalityCombatRegen type="add" min="1" max="1" />
         <level type="add" min="1" />
       </ability>
       <ability name="WellHydratedEffect_Level2">
-        <duration type="add" min="360" max="360" />
-        <vitalityRegen type="add" min="2" max="2" />
-        <vitalityCombatRegen type="add" min="0.5" max="0.5" />
+        <duration type="add" min="90" max="90" />
+        <vitalityRegen type="add" min="7" max="7" />
+        <vitalityCombatRegen type="add" min="1" max="1" />
         <level type="add" min="2" />
       </ability>
       <ability name="WellHydratedEffect_Level3">
-        <duration type="add" min="420" max="420" />
-        <vitalityRegen type="add" min="3" max="3" />
+        <duration type="add" min="100" max="100" />
+        <vitalityRegen type="add" min="9" max="9" />
         <vitalityCombatRegen type="add" min="1" max="1" />
         <level type="add" min="3" />
       </ability>
@@ -477,7 +439,7 @@
       <effect name_name="ShrineQuenEffect" 		 	defaultAbilityName_name="ShrineQuenEffect" 			iconType_name="EffectQuen"   	showOnHUD="1" effectNameLocalisationKey_name="skill_name_magic_4" 		/>
       <effect name_name="ShrineYrdenEffect" 	 	defaultAbilityName_name="ShrineYrdenEffect" 		iconType_name="EffectYrden"  	showOnHUD="1" effectNameLocalisationKey_name="skill_name_magic_3" 		/>
 	  <effect name_name="EnhancedArmorEffect" 	 	defaultAbilityName_name="EnhancedArmorEffect" 		iconType_name="EnhancedArmor"  	showOnHUD="1" effectNameLocalisationKey_name="effect_enhanced_armor"	/>
-	  <effect name_name="EnhancedWeaponEffect" 	 	defaultAbilityName_name="EnhancedWeaponEffect" 		iconType_name="EnhancedWeapon" 	showOnHUD="1" effectNameLocalisationKey_name="effect_enhanced_weapon"	/>	  
+	  <effect name_name="EnhancedWeaponEffect" 	 	defaultAbilityName_name="EnhancedWeaponEffect" 		iconType_name="EnhancedWeapon" 	showOnHUD="1" effectNameLocalisationKey_name="effect_enhanced_weapon"	/>
 	
       <!-- not displayed on hud-->
       <effect name_name="BoostedEssenceRegen" 			defaultAbilityName_name="BoostedEssenceRegen"      		showOnHUD="0" />

@@ -9,7 +9,7 @@
       <ability name="NoTransOnHitCheat">
         <tags>"NoTransOnHitCheat, Cheat"</tags>
       </ability>
-       <!-- prices -->
+      <!-- prices -->
       <ability name="area_nml">
 		<nomansland_price_mult type="add" min="1.1" max="1.1"/>
       </ability>
@@ -586,8 +586,7 @@
       <!-- Condensation -->
       <ability name="alchemy_s15">
         <tags>alchemy_s15</tags>
-        <toxicityRegen type="add" min="-1" />
-	<toxicityRegen type="add" min="0.75" />
+        <toxicityRegen type="add" min="-2" />
       </ability>
 	  
       <!-- Frenzy -->
@@ -606,7 +605,7 @@
       <!-- Taster -->
       <ability name="alchemy_s18">
         <tags>alchemy_s18</tags>
-        <toxicity type="add" min="1" />
+        <toxicity type="add" min="8" />
       </ability>
 	  
 	  <ability name="alchemy_s19">
@@ -677,7 +676,7 @@
 		</ability>
 		<ability name="perk_12">
 			<tags>perk_12, GlobalPassiveBonus</tags>
-			<toxicity type="base" min="20" />
+			<toxicity type="base" min="200" />
 		</ability>
     </abilities>
   </definitions>

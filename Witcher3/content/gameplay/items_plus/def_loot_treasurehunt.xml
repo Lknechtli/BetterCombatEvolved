@@ -10,7 +10,7 @@
             <loot name="gryphon_set_container_upgrade_boots_1" player_level_min="0" player_level_max="100" quantity_min="1" quantity_max="1" chance="100">
                 <loot_entry name="Witcher Gryphon Boots Upgrade schematic 1" player_level_min="0" player_level_max="100" quantity_min="1" quantity_max="1" chance="100" />
             </loot>
-             <loot name="gryphon_set_container_upgrade_steel_2" player_level_min="0" player_level_max="100" quantity_min="3" quantity_max="3" chance="100">
+            <loot name="gryphon_set_container_upgrade_steel_2" player_level_min="0" player_level_max="100" quantity_min="3" quantity_max="3" chance="100">
                 <loot_entry name="Gryphon School steel sword Upgrade schematic 2" player_level_min="0" player_level_max="100" quantity_min="1" quantity_max="1" chance="100" />
 		<loot_entry name="Starting Armor Upgrade schematic 2" player_level_min="0" player_level_max="100" quantity_min="1" quantity_max="1" chance="100" />
 		<loot_entry name="Starting Gloves Upgrade schematic 2" player_level_min="0" player_level_max="100" quantity_min="1" quantity_max="1" chance="100" />

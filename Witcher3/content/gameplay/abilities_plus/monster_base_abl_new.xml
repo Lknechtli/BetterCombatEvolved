@@ -5,9 +5,9 @@
       <ability name="MonsterLevelBonusArmored">
         <tags> "base" </tags>
          <level type="add" always_random="false" min="1" max="1" />
-         <essence type="base" always_random="false" min="256" max="256" />
-         <experience type="base" always_random="false" min="1" max="1" />
-         <attack_power type="base" always_random="false" min="73" max="73" /> 
+         <essence type="base" always_random="false" min="200" max="200" />
+         <experience type="base" always_random="false" min="2" max="2" />
+         <attack_power type="base" always_random="false" min="65" max="65" /> 
 		 <force_resistance_perc type="add" always_random="false" min="0.01" max="0.01" />
 		 <burning_resistance_perc type="add" always_random="false" min="0.01" max="0.01" />
 		 <will_resistance_perc type="add" always_random="false" min="0.01" max="0.01" />
@@ -17,9 +17,9 @@
       <ability name="MonsterLevelBonusGroupArmored">
         <tags> "base" </tags>
          <level type="add" always_random="false" min="1" max="1" />
-         <essence type="base" always_random="false" min="86" max="86" />
-         <experience type="base" always_random="false" min="1" max="1" />
-         <attack_power type="base" always_random="false" min="32" max="32" /> 
+         <essence type="base" always_random="false" min="65" max="65" />
+         <experience type="base" always_random="false" min="2" max="2" />
+         <attack_power type="base" always_random="false" min="15" max="15" /> 
 		 <force_resistance_perc type="add" always_random="false" min="0.01" max="0.01" />
 		 <burning_resistance_perc type="add" always_random="false" min="0.01" max="0.01" />
 		 <will_resistance_perc type="add" always_random="false" min="0.01" max="0.01" />
@@ -30,91 +30,90 @@
       <ability name="MonsterLevelBonusGroup">
         <tags> "base" </tags>
          <level type="add" always_random="false" min="1" max="1" />
-         <essence type="base" always_random="false" min="77" max="77" />
-         <experience type="base" always_random="false" min="1" max="1" />
-		 <stamina type="add" always_random="false" min="5" max="5" />
-         <attack_power type="base" always_random="false" min="36" max="36" /> 
+         <essence type="base" always_random="false" min="62" max="62" />
+         <experience type="base" always_random="false" min="2" max="2" />
+         <attack_power type="base" always_random="false" min="15" max="15" /> 
 		 <force_resistance_perc type="add" always_random="false" min="0.01" max="0.01" />
 		 <burning_resistance_perc type="add" always_random="false" min="0.01" max="0.01" />
 		 <will_resistance_perc type="add" always_random="false" min="0.01" max="0.01" />
 		 <shock_resistance_perc type="add" always_random="false" min="0.01" max="0.01" />
-		<swarm_attack_damage_vitality type="add" always_random="false" min="15" max="15" /> 
-        <swarm_attack_damage_essence type="add" always_random="false" min="15" max="15" /> 
+		<swarm_attack_damage_vitality type="add" always_random="false" min="10" max="10" /> 
+        <swarm_attack_damage_essence type="add" always_random="false" min="10" max="10" /> 
       </ability>	  
 	  
       <ability name="MonsterLevelBonus">
         <tags> "base" </tags>	
         <level type="add" always_random="false" min="1" max="1" />
-        <essence type="base" always_random="false" min="166" max="166" />
-        <experience type="base" always_random="false" min="1" max="1" />
-		<stamina type="add" always_random="false" min="5" max="5" />
-		<force_resistance_perc type="add" always_random="false" min="0.016" max="0.016" />
-		<burning_resistance_perc type="add" always_random="false" min="0.016" max="0.016" />
-		<will_resistance_perc type="add" always_random="false" min="0.016" max="0.016" />
-		<shock_resistance_perc type="add" always_random="false" min="0.01" max="0.016" />
-        <attack_power type="base" always_random="false" min="76" max="76" />
-		<swarm_attack_damage_vitality type="add" always_random="false" min="30" max="30" /> 
-        <swarm_attack_damage_essence type="add" always_random="false" min="30" max="30" /> 
+        <essence type="base" always_random="false" min="200" max="200" />
+        <experience type="base" always_random="false" min="4" max="4" />
+		<force_resistance_perc type="add" always_random="false" min="0.009" max="0.009" />
+		<burning_resistance_perc type="add" always_random="false" min="0.009" max="0.009" />
+		<will_resistance_perc type="add" always_random="false" min="0.009" max="0.009" />
+		<shock_resistance_perc type="add" always_random="false" min="0.009" max="0.009" />
+        <attack_power type="base" always_random="false" min="65" max="65" />
+		<swarm_attack_damage_vitality type="add" always_random="false" min="20" max="20" /> 
+        <swarm_attack_damage_essence type="add" always_random="false" min="20" max="20" /> 
       </ability>	  
 	  
       <ability name="MonsterMHBoss">
         <tags> "base" </tags>	
         <level type="add" always_random="false" min="1" max="1" />
-        <experience type="base" always_random="false" min="50" max="50" />
+        <experience type="base" always_random="false" min="10" max="10" />
         <essence type="base" always_random="false" min="9000" max="9000" />
+		<staminaRegen type="mult" always_random="false" min="0.25" max="0.25" />
 		<force_resistance_perc type="add" always_random="false" min="0.5" max="0.5" />
 		<will_resistance_perc type="add" always_random="false" min="0.5" max="0.5" />
 		<shock_resistance_perc type="add" always_random="false" min="0.5" max="0.5" />
-        <attack_power type="base" always_random="false" min="200" max="200" />
+        <attack_power type="base" always_random="false" min="300" max="300" />
       </ability>	  
 	  
       <ability name="MonsterLevelBonusLow">
         <tags> "base" </tags>
-	<essence type="mult" always_random="false" min="0.35" max="0.35" />
-        <attack_power type="mult" always_random="false" min="0.35" max="0.35" />
         <experience type="base" always_random="false" min="1" max="1" />
-      </ability>	  	  
+        <essence type="mult" always_random="false" min="0.25" max="0.25" />
+        <attack_power type="mult" always_random="false" min="0.25" max="0.25" />
+      </ability>	  	  	  
 
       <ability name="MonsterLevelBonusHigh">
-        <tags> "base", "InstantKillImmune" </tags>
-        <essence type="mult" always_random="false" min="-0.2" max="-0.2" />
-        <attack_power type="mult" always_random="false" min="-0.2" max="-0.2" />
+        <tags> "base" </tags>
         <experience type="base" always_random="false" min="1" max="1" />
+        <essence type="mult" always_random="false" min="-0.15" max="-0.15" />
+        <attack_power type="mult" always_random="false" min="-0.15" max="-0.15" />
       </ability>	  	  
 	  
       <ability name="MonsterLevelBonusDeadly">
-        <tags> "base", "InstantKillImmune", "CannotBeAttackedFromBehind" </tags>
-        <essence type="mult" always_random="false" min="-0.35" max="-0.35" />
-        <attack_power type="mult" always_random="false" min="-0.35" max="-0.35" />
+        <tags> "base" </tags>
         <experience type="base" always_random="false" min="1" max="1" />
-      </ability>
+        <essence type="mult" always_random="false" min="-0.2" max="-0.2" />
+        <attack_power type="mult" always_random="false" min="-0.2" max="-0.2" />
+      </ability>	  	  
 	  
-       <ability name="_Monster_group_base">
+      <ability name="_Monster_group_base">
   	<level type="add" always_random="false" min="1" max="1" />
         <threat_level type="add" always_random="false" min="2" max="2" />
-        <essence type="base" always_random="false" min="90" max="90" />
-        <raise_guard_chance type="add" always_random="false" min="0.3" max="0.3" />
-        <dodge_melee_light_chance type="add" always_random="false" min="0.6" max="0.6" />
-	<staminaRegen type="mult" always_random="false" min="0.25" max="0.25" />
+        <essence type="base" always_random="false" min="100" max="100" />
+		<staminaRegen type="mult" always_random="false" min="0.25" max="0.25" />
+        <raise_guard_chance type="add" always_random="false" min="0.65" max="0.65" />
+        <dodge_melee_light_chance type="add" always_random="false" min="0.75" max="0.75" />
       </ability>
 	  
       <ability name="_Monster_solo_base">
   	<level type="add" always_random="false" min="1" max="1" />
         <threat_level type="add" always_random="false" min="2" max="2" />
-        <essence type="base" always_random="false" min="105" max="105" />
+        <essence type="base" always_random="false" min="100" max="100" />
+		<staminaRegen type="mult" always_random="false" min="0.25" max="0.25" />
         <raise_guard_chance type="add" always_random="false" min="1.0" max="1.0" />
-        <lower_guard_chance type="add" always_random="false" min="0.3" max="0.3" />
-	<staminaRegen type="mult" always_random="false" min="0.25" max="0.25" />
+        <lower_guard_chance type="add" always_random="false" min="0.15" max="0.15" />
       </ability>
 	  
    	  <ability name="_Monster_group_base _Stats">
 		<tags></tags>
-			<RendingDamage min="65" max="70"/>
+			<RendingDamage min="60" max="65"/>
 		</ability>	  
 		
    	  <ability name="_Monster_solo_base _Stats">
 		<tags></tags>
-			<RendingDamage min="75" max="80"/>
+			<RendingDamage min="70" max="75"/>
 		</ability>	 
 
 	   <ability name="PrologModifier">

@@ -5,7 +5,6 @@
 <!-- ######################## ABILITY DEFINITIONS ######################## -->
 <abilities>
 
-
 <!-- GLOVES STARTING -->
 	<ability name="Starting Gloves 1 _Stats">
 		<weight							type="base"	min="1.35"				/>
@@ -386,7 +385,7 @@
 		</variants>
 	</item>
 	
-<!-- GLOVES CRAFTED LIGHT -->
+	<!-- GLOVES CRAFTED LIGHT -->
 	<item
 		name							="Gloves 01_crafted"
 		category						="gloves"

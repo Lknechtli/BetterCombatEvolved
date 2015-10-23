@@ -1296,22 +1296,6 @@
 	</item>
 
 	<item
-		name							="Light Armor 1 schematic"
-		category						="crafting_schematic"
-		price							="22"
-		weight							="0.1"
-		stackable						="100"
-		localisation_key_name			="item_name_light_armor_1_schematic"
-		localisation_key_description	="item_desc_crafting_schematic"
-		icon_path						="icons/inventory/quests/ico_recipe.png"
-	>
-		<tags>							ReadableItem, mod_crafting
-		</tags>
-		<base_abilities>				<a>Magic _Stats</a>
-		</base_abilities>
-	</item>
-
-	<item
 		name							="Light Armor 2 schematic"
 		category						="crafting_schematic"
 		price							="28"
@@ -5336,6 +5320,20 @@
 										<ingredient	quantity="1"	item_name="Dark steel ingot"				/>
 										<ingredient	quantity="4"	item_name="Leather straps"					/>
 										<ingredient	quantity="4"	item_name="Monstrous claw"					/>
+		</ingredients>
+	</schematic>
+
+	<schematic
+		name_name						="Light Armor 1 schematic"
+		craftedItem_name				="Light armor 01_crafted"
+		craftsmanLevel_name				="Journeyman"
+		craftsmanType_name				="Armorer"
+		price							="108"
+	>
+		<ingredients>					<ingredient	quantity="4"	item_name="Linen"							/>
+										<ingredient	quantity="1"	item_name="Leather"							/>
+										<ingredient	quantity="2"	item_name="Leather straps"					/>
+										<ingredient	quantity="2"	item_name="Thread"							/>
 		</ingredients>
 	</schematic>
 

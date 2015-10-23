@@ -36,6 +36,7 @@
       <ability name="q403BuffUp">
 	  <attack_power type="mult" always_random="false" min="1.2" max="1.2" />
 	  </ability>
+      
 	  <ability name="_q403Follower">
 	  <level type="add" always_random="false" min="35" max="35" />
 	  <vitality type="mult" always_randome="false" min="4.5" max="4.5" />
@@ -123,6 +124,9 @@
 	  <ability name="NewGamePlusFakeLevel">
 		<tags> "NewGamePlusFakeLevel" </tags>
 	  </ability>
+	  <ability name="NPCNoRunning">
+        <tags> "NPCNoRunning" </tags>
+      </ability>
       <!-- HUMAN OPPONENTS-->
       <!-- E3 Demo Hacks, REMOVE WHEN DONE WITH DEMO!!! -->
       <ability name="E3_Demo_Health_Mod">
@@ -135,11 +139,12 @@
       <!-- minimum needed to create a character is ConDefault and one of the Skill abilities-->
       <!-- CONSTITUTION-->
       <!-- Default ability - should be added to each and every human opponent-->
+	  <!--BCEv Edit-->
       <ability name="ConDefault">
         <!-- man_base-->
         <tags> "base" </tags>
         <level type="add" always_random="false" min="1" max="1" />
-        <vitality type="base" always_random="false" min="50" max="50" />
+        <vitality type="base" always_random="false" min="11" max="11" />
         <essence type="base" always_random="false" min="0" max="0" />
         <stamina type="base" always_random="false" min="100" max="100" />
         <morale type="base" always_random="false" min="100" max="100" />
@@ -147,7 +152,7 @@
         <humanoid type="add" always_random="false" min="1.0" max="1.0" />
         <vitalityRegen type="mult" always_random="false" min="0" max="0" />
         <essenceRegen type="mult" always_random="false" min="0" max="0" />
-        <staminaRegen type="mult" always_random="false" min="0.01" max="0.01" />
+        <staminaRegen type="mult" always_random="false" min="0.25" max="0.25" />
         <moraleRegen type="mult" always_random="false" min="0.08" max="0.12" />
         <light_attack_damage_vitality type="base" always_random="false" min="100" max="100" />
         <light_attack_damage_essence type="base" always_random="false" min="0" max="0" />
@@ -175,17 +180,17 @@
         <attack_heavy is_ability="true" />
       </ability>
       <!-- Defining abilities added to default one-->
+	  <!--BCEv Edit-->
       <ability name="NPCLevelBonus">
         <tags> "base" </tags>
         <level type="add" always_random="false" min="1" max="1" />
-        <vitality type="add" always_random="false" min="30" max="30" />
-        <stamina type="add" always_random="false" min="5" max="5" />
-		<force_resistance_perc type="add" always_random="false" min="0.016" max="0.016" />
-		<burning_resistance_perc type="add" always_random="false" min="0.016" max="0.016" />
-		<will_resistance_perc type="add" always_random="false" min="0.016" max="0.016" />
-		<shock_resistance_perc type="add" always_random="false" min="0.016" max="0.016" />
-        <light_attack_damage_vitality type="base" always_random="false" min="40" max="40" />
-        <heavy_attack_damage_vitality type="base" always_random="false" min="50" max="50" />
+        <vitality type="base" always_random="false" min="23" max="23" />
+		<force_resistance_perc type="add" always_random="false" min="0.007" max="0.007" />
+		<burning_resistance_perc type="add" always_random="false" min="0.007" max="0.007" />
+		<will_resistance_perc type="add" always_random="false" min="0.007" max="0.007" />
+		<shock_resistance_perc type="add" always_random="false" min="0.007" max="0.007" />
+        <light_attack_damage_vitality type="base" always_random="false" min="20" max="20" />
+        <heavy_attack_damage_vitality type="base" always_random="false" min="20" max="20" />
       </ability>
 	  
 	  <ability name="NPCDoNotGainBoost">
@@ -197,10 +202,10 @@
       </ability>
 	  
       <ability name="NPCLevelBonusLow">
+	  <!--BCEv Edit-->
         <tags> "base" </tags>
-	<attack_power type="mult" always_random="false" min="0.15" max="0.15" />
         <vitality type="mult" always_random="false" min="0.25" max="0.25" />
-        <staminaRegen type="mult" always_random="false" min="0.1" max="0.1" />
+        <attack_power type="mult" always_random="false" min="0.25" max="0.25" />
       </ability>
 	  
 	  <ability name="NPCLevelModFistFightLower">
@@ -216,22 +221,23 @@
       </ability>
 	  
       <ability name="NPCLevelBonusHigh">
+	  <!--BCEv Edit-->
         <tags> "base" </tags>
-        <attack_power type="mult" always_random="false" min="-0.2" max="-0.2" />
-        <vitality type="mult" always_random="false" min="-0.12" max="-0.12" />
-        <staminaRegen type="mult" always_random="false" min="0.1" max="0.1" />
+        <vitality type="mult" always_random="false" min="-0.08" max="-0.08" />
+        <attack_power type="mult" always_random="false" min="-0.15" max="-0.15" />
       </ability>
 	  
       <ability name="NPCLevelBonusDeadly">
+	  <!--BCEv Edit-->
         <tags> "base" </tags>
-        <attack_power type="mult" always_random="false" min="-0.35" max="-0.35" />
-        <vitality type="mult" always_random="false" min="-0.2" max="-0.2" />
-        <staminaRegen type="mult" always_random="false" min="0.1" max="0.1" />
+        <vitality type="mult" always_random="false" min="-0.15" max="-0.15" />
+        <attack_power type="mult" always_random="false" min="-0.20" max="-0.20" />
       </ability>
 	  
       <ability name="MiniBoss">
+	  <!--BCEv Edit-->
         <tags> "base" </tags>
-        <vitality type="mult" always_random="false" min="1.5" max="1.5" />
+        <vitality type="mult" always_random="false" min="1.75" max="1.75" />
 		<force_resistance_perc type="add" always_random="false" min="0.2" max="0.2" />
 		<will_resistance_perc type="add" always_random="false" min="0.2" max="0.2" />
 		<shock_resistance_perc type="add" always_random="false" min="0.2" max="0.2" />
@@ -239,8 +245,9 @@
         <heavy_attack_damage_vitality type="mult" always_random="false" min="0.25" max="0.25" />
       </ability>
       <ability name="Boss">
+	  <!--BCEv Edit-->
         <tags> "base" </tags>
-        <vitality type="mult" always_random="false" min="2.5" max="2.5" />
+        <vitality type="mult" always_random="false" min="2.75" max="2.75" />
 		<force_resistance_perc type="add" always_random="false" min="0.4" max="0.4" />
 		<will_resistance_perc type="add" always_random="false" min="0.4" max="0.4" />
 		<shock_resistance_perc type="add" always_random="false" min="0.4" max="0.4" />
@@ -366,35 +373,26 @@
 	  <ability name="Ciri_Q205">
         <tags> "base" </tags>
         <vitality type="base" always_random="false" min="250" max="250" />
-	<vitality type="mult" always_random="false" min="1.25" max="1.25" />
       </ability>
       <ability name="Ciri_Q305">
         <tags> "base" </tags>
         <vitality type="base" always_random="false" min="500" max="500" />
         <attack_power type="add" always_random="false" min="100" max="100" />
-	<vitality type="mult" always_random="false" min="1.25" max="1.25" />
-        <attack_power type="mult" always_random="false" min="2" max="2" />
       </ability>
       <ability name="Ciri_Q403">
         <tags> "base" </tags>
         <vitality type="base" always_random="false" min="2000" max="2000" />
         <attack_power type="add" always_random="false" min="500" max="500" />
-	<vitality type="mult" always_random="false" min="1.25" max="1.25" />
-        <attack_power type="mult" always_random="false" min="2" max="2" />
       </ability>
       <ability name="Ciri_Q111">
         <tags> "base" </tags>
         <vitality type="base" always_random="false" min="2500" max="2500" />
         <attack_power type="add" always_random="false" min="600" max="600" />
-	<vitality type="mult" always_random="false" min="1.25" max="1.25" />
-        <attack_power type="mult" always_random="false" min="2" max="2" />
       </ability>
 	  <ability name="Ciri_Q501">
         <tags> "base" </tags>
 		<vitality type="base" always_random="false" min="2500" max="2500" />
         <attack_power type="add" always_random="false" min="80" max="80" />
-	<vitality type="mult" always_random="false" min="1.25" max="1.25" />
-        <attack_power type="mult" always_random="false" min="2" max="2" />
       </ability>
 	   <ability name="CiriCannotTeleport">
         <tags> "CiriCannotTeleport" </tags>
@@ -438,7 +436,7 @@
         <humanoid type="add" always_random="false" min="1.0" max="1.0" />
         <vitalityRegen type="mult" always_random="false" min="0" max="0" />
         <essenceRegen type="mult" always_random="false" min="0" max="0" />
-        <staminaRegen type="mult" always_random="false" min="0.15" max="0.15" />
+        <staminaRegen type="mult" always_random="false" min="0.18" max="0.18" />
         <moraleRegen type="mult" always_random="false" min="0.1" max="0.1" />
         <light_attack_damage_vitality type="base" always_random="false" min="100" max="10" />
         <light_attack_damage_essence type="base" always_random="false" min="0" max="0" />
@@ -472,11 +470,12 @@
         <essence type="base" always_random="false" min="0" max="0" />
         <attack_power type="mult" always_random="false" min="0.8" max="0.8" />
       </ability>
-      <ability name="ConWitcher">
+     <ability name="ConWitcher">
+	  <!--BCEv Edit-->
         <tags> "base" </tags>
-        <vitality type="base" always_random="false" min="400" max="400" />
+        <vitality type="base" always_random="false" min="500" max="500" />
         <essence type="base" always_random="false" min="0" max="0" />
-        <attack_power type="mult" always_random="false" min="0.6" max="0.6" />
+        <attack_power type="mult" always_random="false" min="0.75" max="0.75" />
       </ability>
       <!-- why do we need this anyway? -->
       <ability name="ConImmortal">
@@ -484,20 +483,24 @@
         <vitality type="base" always_random="false" min="998000" max="998000" />
       </ability>
       <ability name="StatsRangedSuperLame">
+	  <!--BCEv Edit-->
         <tags> "StatsArcherEasy" </tags>
-        <aim_duration type="add" always_random="false" min="3.5" max="3.5" />
+        <aim_duration type="add" always_random="false" min="2.0" max="2.0" />
       </ability>
       <ability name="StatsRangedLame">
+	  <!--BCEv Edit-->
         <tags> "StatsArcherEasy" </tags>
-        <aim_duration type="add" always_random="false" min="2.5" max="2.5" />
+        <aim_duration type="add" always_random="false" min="1.75" max="1.75" />
       </ability>
       <ability name="StatsRangedNormal">
+	  <!--BCEv Edit-->
         <tags> "StatsArcherEasy" </tags>
-        <aim_duration type="add" always_random="false" min="1.5" max="1.5" />
+        <aim_duration type="add" always_random="false" min="1.25" max="1.25" />
       </ability>
       <!-- SKILL  :/ these are acutally not skills but stats-->
       <ability name="SkillPeasant">
         <!-- No Dodge ; No Parry -->
+		<!--BCEv Edit-->
         <tags> "base" </tags>
         <experience type="add" always_random="false" min="0" max="0" />
         <threat_level type="add" always_random="false" min="1" max="1" />
@@ -508,16 +511,16 @@
         <parry_stamina_cost type="base" always_random="false" min="40" max="40" />
         <counter_stamina_cost type="base" always_random="false" min="15" max="15" />
 		<delay_between_raise_guard type="base" always_random="false" min="1" max="1"/>
-        <dodge_stamina_cost type="base" always_random="false" min="50" max="50" />
+        <dodge_stamina_cost type="base" always_random="false" min="0" max="0" />
         <stamina_cost_modifier type="mult" always_random="false" min="0" max="0" />
-        <hits_to_roll_counter type="add" always_random="false" min="2" max="2" />
+        <hits_to_roll_counter type="add" always_random="false" min="1" max="1" />
         <counter_chance type="add" always_random="false" min="1" max="1" />
         <hits_to_raise_guard type="add" always_random="false" min="1" max="1" />
-        <raise_guard_chance type="add" always_random="true" min="0.0" max="0.1" />
-        <lower_guard_chance type="add" always_random="true" min="0.9" max="1.0" />
+        <raise_guard_chance type="add" always_random="true" min="1" max="1" />
+        <lower_guard_chance type="add" always_random="false" min="0.75" max="0.75" />
         <taunt_chance type="add" always_random="false" min="0.25" max="0.25" />
-        <dodge_melee_light_chance type="add" always_random="false" min="0.7" max="0.7" />
-        <dodge_melee_heavy_chance type="add" always_random="false" min="0.8" max="0.8" />
+        <dodge_melee_light_chance type="add" always_random="false" min="0.65" max="0.65" />
+        <dodge_melee_heavy_chance type="add" always_random="false" min="0.75" max="0.75" />
         <dodge_magic_chance type="add" always_random="false" min="0.0" max="0.0" />
         <dodge_projectile_chance type="add" always_random="false" min="0.0" max="0.0" />
         <dodge_bomb_chance type="add" always_random="false" min="0.0" max="0.0" />
@@ -525,6 +528,7 @@
       </ability>
       <ability name="SkillThug">
         <!-- Dodge; No Parry -->
+		<!--BCEv Edit-->
         <tags> "base" </tags>
         <experience type="add" always_random="false" min="0" max="0" />
         <threat_level type="add" always_random="false" min="1" max="1" />
@@ -535,23 +539,24 @@
         <parry_stamina_cost type="base" always_random="false" min="30" max="30" />
         <counter_stamina_cost type="base" always_random="false" min="0" max="0" />
 		<delay_between_raise_guard type="base" always_random="false" min="1" max="1"/>
-        <dodge_stamina_cost type="base" always_random="false" min="40" max="40" />
+        <dodge_stamina_cost type="base" always_random="false" min="0" max="0" />
         <stamina_cost_modifier type="mult" always_random="false" min="0" max="0" />
-        <hits_to_roll_counter type="add" always_random="false" min="2" max="2" />
+        <hits_to_roll_counter type="add" always_random="false" min="1" max="1" />
         <counter_chance type="add" always_random="false" min="1" max="1" />
         <hits_to_raise_guard type="add" always_random="false" min="1" max="1" />
-        <raise_guard_chance type="add" always_random="true" min="0.0" max="0.2" />
-        <lower_guard_chance type="add" always_random="true" min="0.8" max="1.0" />
+        <raise_guard_chance type="add" always_random="true" min="1" max="1" />
+        <lower_guard_chance type="add" always_random="false" min="0.55" max="0.55" />
         <taunt_chance type="add" always_random="false" min="0.25" max="0.25" />
-        <dodge_melee_light_chance type="add" always_random="false" min="0.8" max="0.8" />
-        <dodge_melee_heavy_chance type="add" always_random="false" min="0.9" max="0.9" />
+        <dodge_melee_light_chance type="add" always_random="false" min="0.65" max="0.65" />
+        <dodge_melee_heavy_chance type="add" always_random="false" min="0.75" max="0.75" />
         <dodge_magic_chance type="add" always_random="false" min="0.0" max="0.0" />
-        <dodge_projectile_chance type="add" always_random="false" min="0.1" max="0.1" />
-        <dodge_bomb_chance type="add" always_random="true" min="0.0" max="0.05" />
+        <dodge_projectile_chance type="add" always_random="false" min="0.0" max="0.0" />
+        <dodge_bomb_chance type="add" always_random="false" min="0.0" max="0.0" />
         <dodge_fear_chance type="add" always_random="false" min="0.0" max="0.0" />
       </ability>
       <ability name="SkillBrigand">
         <!-- No Dodge; Parry ; No Counter -->
+		<!--BCEv Edit-->
         <tags> "base" </tags>
         <experience type="add" always_random="false" min="0" max="0" />
         <threat_level type="add" always_random="false" min="1" max="1" />
@@ -562,23 +567,24 @@
         <parry_stamina_cost type="base" always_random="false" min="45" max="45" />
         <counter_stamina_cost type="base" always_random="false" min="100" max="100" />
 		<delay_between_raise_guard type="base" always_random="false" min="1" max="1"/>
-        <dodge_stamina_cost type="base" always_random="false" min="30" max="30" />
+        <dodge_stamina_cost type="base" always_random="false" min="60" max="60" />
         <stamina_cost_modifier type="mult" always_random="false" min="0" max="0" />
-        <hits_to_roll_counter type="add" always_random="false" min="2" max="2" />
+        <hits_to_roll_counter type="add" always_random="false" min="1" max="1" />
         <counter_chance type="add" always_random="false" min="1.0" max="1.0" />
         <hits_to_raise_guard type="add" always_random="false" min="1" max="1" />
-        <raise_guard_chance type="add" always_random="true" min="0.0" max="0.2" />
-        <lower_guard_chance type="add" always_random="true" min="0.8" max="1.0" />
+        <raise_guard_chance type="add" always_random="true" min="1.0" max="1.0" />
+        <lower_guard_chance type="add" always_random="false" min="0.55" max="0.55" />
         <taunt_chance type="add" always_random="false" min="0.25" max="0.25" />
-        <dodge_melee_light_chance type="add" always_random="false" min="0.9" max="0.9" />
-        <dodge_melee_heavy_chance type="add" always_random="false" min="1" max="1" />
+        <dodge_melee_light_chance type="add" always_random="false" min="0.65" max="0.65" />
+        <dodge_melee_heavy_chance type="add" always_random="false" min="0.75" max="0.75" />
         <dodge_magic_chance type="add" always_random="false" min="0.0" max="0.0" />
-        <dodge_projectile_chance type="add" always_random="true" min="0.1" max="0.2" />
+        <dodge_projectile_chance type="add" always_random="false" min="0.0" max="0.0" />
         <dodge_bomb_chance type="add" always_random="false" min="0.0" max="0.0" />
         <dodge_fear_chance type="add" always_random="false" min="0.0" max="0.0" />
       </ability>
       <ability name="SkillSoldier">
         <!-- No Dodge; Parry ; Counter -->
+		<!--BCEv Edit-->
         <tags> "base" </tags>
         <experience type="add" always_random="false" min="0" max="0" />
         <threat_level type="add" always_random="false" min="2" max="2" />
@@ -589,22 +595,23 @@
         <parry_stamina_cost type="base" always_random="false" min="5" max="5" />
         <counter_stamina_cost type="base" always_random="false" min="30" max="30" />
 		<delay_between_raise_guard type="base" always_random="false" min="1" max="1"/>
-        <dodge_stamina_cost type="base" always_random="false" min="80" max="80" />
+        <dodge_stamina_cost type="base" always_random="false" min="25" max="25" />
         <stamina_cost_modifier type="mult" always_random="false" min="0" max="0" />
-        <hits_to_roll_counter type="add" always_random="true" min="1" max="2" />
+        <hits_to_roll_counter type="add" always_random="true" min="1" max="1" />
         <counter_chance type="add" always_random="false" min="1" max="1" />
         <hits_to_raise_guard type="add" always_random="false" min="1" max="1" />
-        <raise_guard_chance type="add" always_random="true" min="0.4" max="0.5" />
-        <lower_guard_chance type="add" always_random="true" min="0.5" max="0.6" />
+        <raise_guard_chance type="add" always_random="true" min="1.0" max="1.0" />
+        <lower_guard_chance type="add" always_random="false" min="0.55" max="0.55" />
         <taunt_chance type="add" always_random="false" min="0.25" max="0.25" />
-        <dodge_melee_light_chance type="add" always_random="false" min="0.5" max="0.5" />
-        <dodge_melee_heavy_chance type="add" always_random="false" min="0.6" max="0.6" />
+        <dodge_melee_light_chance type="add" always_random="false" min="0.65" max="0.65" />
+        <dodge_melee_heavy_chance type="add" always_random="false" min="0.75" max="0.75" />
         <dodge_magic_chance type="add" always_random="false" min="0.0" max="0.0" />
-        <dodge_projectile_chance type="add" always_random="false" min="0.1" max="0.1" />
+        <dodge_projectile_chance type="add" always_random="false" min="0.0" max="0.0" />
         <dodge_bomb_chance type="add" always_random="false" min="0.0" max="0.0" />
         <dodge_fear_chance type="add" always_random="false" min="0.0" max="0.0" />
       </ability>
       <ability name="SkillGuard">
+	  <!--BCEv Edit-->
         <tags> "base" </tags>
         <experience type="add" always_random="false" min="0" max="0" />
         <threat_level type="add" always_random="false" min="1" max="1" />
@@ -615,22 +622,23 @@
         <parry_stamina_cost type="base" always_random="false" min="5" max="5" />
         <counter_stamina_cost type="base" always_random="false" min="20" max="20" />
 		<delay_between_raise_guard type="base" always_random="false" min="1" max="1"/>
-        <dodge_stamina_cost type="base" always_random="false" min="80" max="80" />
+        <dodge_stamina_cost type="base" always_random="false" min="25" max="25" />
         <stamina_cost_modifier type="mult" always_random="false" min="0" max="0" />
-        <hits_to_roll_counter type="add" always_random="false" min="2" max="2" />
+        <hits_to_roll_counter type="add" always_random="false" min="1" max="1" />
         <counter_chance type="add" always_random="false" min="1" max="1" />
         <hits_to_raise_guard type="add" always_random="false" min="1" max="1" />
-        <raise_guard_chance type="add" always_random="true" min="0.3" max="0.4" />
-        <lower_guard_chance type="add" always_random="true" min="0.6" max="0.7" />
+        <raise_guard_chance type="add" always_random="false" min="1.0" max="1.0" />
+        <lower_guard_chance type="add" always_random="false" min="0.55" max="0.55" />
         <taunt_chance type="add" always_random="false" min="0.15" max="0.15" />
-        <dodge_melee_light_chance type="add" always_random="false" min="0.5" max="0.5" />
-        <dodge_melee_heavy_chance type="add" always_random="false" min="0.6" max="0.6" />
+        <dodge_melee_light_chance type="add" always_random="false" min="0.65" max="0.65" />
+        <dodge_melee_heavy_chance type="add" always_random="false" min="0.75" max="0.75" />
         <dodge_magic_chance type="add" always_random="false" min="0.0" max="0.0" />
         <dodge_projectile_chance type="add" always_random="false" min="0.15" max="0.15" />
         <dodge_bomb_chance type="add" always_random="false" min="0.0" max="0.0" />
         <dodge_fear_chance type="add" always_random="false" min="0.15" max="0.15" />
       </ability>
       <ability name="SkillMercenary">
+	  <!--BCEv Edit-->
         <tags> "base" </tags>
         <experience type="add" always_random="false" min="0" max="0" />
         <threat_level type="add" always_random="false" min="1" max="1" />
@@ -641,42 +649,43 @@
         <parry_stamina_cost type="base" always_random="false" min="10" max="10" />
 		<delay_between_raise_guard type="base" always_random="false" min="1" max="1"/>
         <counter_stamina_cost type="base" always_random="false" min="20" max="20" />
-        <dodge_stamina_cost type="base" always_random="false" min="20" max="20" />
-        <stamina_cost_modifier type="mult" always_random="false" min="0" max="0" />
-        <hits_to_roll_counter type="add" always_random="false" min="2" max="2" />
-        <counter_chance type="add" always_random="false" min="1.0" max="1.0" />
-        <hits_to_raise_guard type="add" always_random="false" min="1" max="1" />
-        <raise_guard_chance type="add" always_random="true" min="0.5" max="0.6" />
-        <lower_guard_chance type="add" always_random="true" min="0.4" max="0.5" />
-        <taunt_chance type="add" always_random="false" min="0.15" max="0.15" />
-        <dodge_melee_light_chance type="add" always_random="false" min="0.8" max="0.8" />
-        <dodge_melee_heavy_chance type="add" always_random="false" min="0.9" max="0.9" />
-        <dodge_magic_chance type="add" always_random="false" min="0.0" max="0.0" />
-        <dodge_projectile_chance type="add" always_random="false" min="0.3" max="0.3" />
-        <dodge_bomb_chance type="add" always_random="false" min="0.1" max="0.1" />
-        <dodge_fear_chance type="add" always_random="false" min="0.15" max="0.15" />
-      </ability>
-      <ability name="SkillOfficer">
-        <tags> "base" </tags>
-        <experience type="add" always_random="false" min="0" max="0" />
-        <threat_level type="add" always_random="false" min="1" max="1" />
-        <light_action_stamina_cost type="base" always_random="false" min="10" max="10" />
-        <heavy_action_stamina_cost type="base" always_random="false" min="20" max="20" />
-		<light_special_stamina_cost type="base" always_random="false" min="20" max="20" />
-        <heavy_special_stamina_cost type="base" always_random="false" min="40" max="40" />
-        <parry_stamina_cost type="base" always_random="false" min="10" max="10" />
-        <counter_stamina_cost type="base" always_random="false" min="20" max="20" />
-		<delay_between_raise_guard type="base" always_random="false" min="1" max="1"/>
-        <dodge_stamina_cost type="base" always_random="false" min="50" max="50" />
+        <dodge_stamina_cost type="base" always_random="false" min="25" max="25" />
         <stamina_cost_modifier type="mult" always_random="false" min="0" max="0" />
         <hits_to_roll_counter type="add" always_random="false" min="1" max="1" />
         <counter_chance type="add" always_random="false" min="1.0" max="1.0" />
         <hits_to_raise_guard type="add" always_random="false" min="1" max="1" />
-        <raise_guard_chance type="add" always_random="true" min="0.2" max="0.3" />
-        <lower_guard_chance type="add" always_random="true" min="0.7" max="0.8" />
+        <raise_guard_chance type="add" always_random="false" min="1.0" max="1.0" />
+        <lower_guard_chance type="add" always_random="false" min="0.55" max="0.55" />
         <taunt_chance type="add" always_random="false" min="0.15" max="0.15" />
-        <dodge_melee_light_chance type="add" always_random="false" min="0.5" max="0.5" />
-        <dodge_melee_heavy_chance type="add" always_random="false" min="0.6" max="0.6" />
+        <dodge_melee_light_chance type="add" always_random="false" min="0.65" max="0.65" />
+        <dodge_melee_heavy_chance type="add" always_random="false" min="0.75" max="0.75" />
+        <dodge_magic_chance type="add" always_random="false" min="0.0" max="0.0" />
+        <dodge_projectile_chance type="add" always_random="false" min="0.15" max="0.15" />
+        <dodge_bomb_chance type="add" always_random="false" min="0.0" max="0.0" />
+        <dodge_fear_chance type="add" always_random="false" min="0.15" max="0.15" />
+      </ability>
+      <ability name="SkillOfficer">
+	  <!--BCEv Edit-->
+        <tags> "base" </tags>
+        <experience type="add" always_random="false" min="0" max="0" />
+        <threat_level type="add" always_random="false" min="1" max="1" />
+        <light_action_stamina_cost type="base" always_random="false" min="10" max="10" />
+        <heavy_action_stamina_cost type="base" always_random="false" min="20" max="20" />
+		<light_special_stamina_cost type="base" always_random="false" min="20" max="20" />
+        <heavy_special_stamina_cost type="base" always_random="false" min="40" max="40" />
+        <parry_stamina_cost type="base" always_random="false" min="10" max="10" />
+        <counter_stamina_cost type="base" always_random="false" min="20" max="20" />
+		<delay_between_raise_guard type="base" always_random="false" min="1" max="1"/>
+        <dodge_stamina_cost type="base" always_random="false" min="25" max="25" />
+        <stamina_cost_modifier type="mult" always_random="false" min="0" max="0" />
+        <hits_to_roll_counter type="add" always_random="false" min="1" max="1" />
+        <counter_chance type="add" always_random="false" min="1.0" max="1.0" />
+        <hits_to_raise_guard type="add" always_random="false" min="1" max="1" />
+        <raise_guard_chance type="add" always_random="false" min="1.0" max="1.0" />
+        <lower_guard_chance type="add" always_random="false" min="0.55" max="0.55" />
+        <taunt_chance type="add" always_random="false" min="0.15" max="0.15" />
+        <dodge_melee_light_chance type="add" always_random="false" min="0.65" max="0.65" />
+        <dodge_melee_heavy_chance type="add" always_random="false" min="0.75" max="0.75" />
         <dodge_magic_chance type="add" always_random="false" min="0.0" max="0.0" />
         <dodge_projectile_chance type="add" always_random="false" min="0.15" max="0.15" />
         <dodge_bomb_chance type="add" always_random="false" min="0.0" max="0.0" />
@@ -684,6 +693,7 @@
       </ability>
       <ability name="SkillElite">
         <!-- Always Dodges ; No Parry -->
+		<!--BCEv Edit-->
         <tags> "base" </tags>
 		<experience type="add" always_random="false" min="0" max="0" />
         <threat_level type="add" always_random="false" min="1" max="1" />
@@ -694,23 +704,24 @@
         <parry_stamina_cost type="base" always_random="false" min="10" max="10" />
         <counter_stamina_cost type="base" always_random="false" min="15" max="15" />
 		<delay_between_raise_guard type="base" always_random="false" min="1" max="1"/>
-        <dodge_stamina_cost type="base" always_random="false" min="20" max="20" />
+        <dodge_stamina_cost type="base" always_random="false" min="0" max="0" />
         <stamina_cost_modifier type="mult" always_random="false" min="0" max="0" />
-        <hits_to_roll_counter type="add" always_random="false" min="2" max="2" />
+        <hits_to_roll_counter type="add" always_random="false" min="1" max="1" />
         <counter_chance type="add" always_random="false" min="1" max="1" />
         <hits_to_raise_guard type="add" always_random="false" min="1" max="1" />
-        <raise_guard_chance type="add" always_random="true" min="0.8" max="0.9" />
-        <lower_guard_chance type="add" always_random="true" min="0.1" max="0.2" />
+        <raise_guard_chance type="add" always_random="true" min="1" max="1" />
+        <lower_guard_chance type="add" always_random="false" min="0.55" max="0.55" />
         <taunt_chance type="add" always_random="false" min="0.25" max="0.25" />
-        <dodge_melee_light_chance type="add" always_random="false" min="0.9" max="0.9" />
-        <dodge_melee_heavy_chance type="add" always_random="false" min="1.0" max="1.0" />
+        <dodge_melee_light_chance type="add" always_random="false" min="0.65" max="0.65" />
+        <dodge_melee_heavy_chance type="add" always_random="false" min="0.75" max="0.75" />
         <dodge_magic_chance type="add" always_random="false" min="0.0" max="0.0" />
-        <dodge_projectile_chance type="add" always_random="false" min="0.4" max="0.4" />
-        <dodge_bomb_chance type="add" always_random="false" min="0.2" max="0.2" />
+        <dodge_projectile_chance type="add" always_random="false" min="0.0" max="0.0" />
+        <dodge_bomb_chance type="add" always_random="false" min="0.0" max="0.0" />
         <dodge_fear_chance type="add" always_random="false" min="0.0" max="0.0" />
       </ability>
       <ability name="SkillBoss">
         <!-- Dodge; Parry ; Counter -->
+		<!--BCEv Edit-->
         <tags> "base" </tags>
         <experience type="add" always_random="false" min="0" max="0" />
         <threat_level type="add" always_random="false" min="2" max="2" />
@@ -722,13 +733,13 @@
         <parry_stamina_cost type="base" always_random="false" min="10" max="10" />
         <counter_stamina_cost type="base" always_random="false" min="20" max="20" />
 		<delay_between_raise_guard type="base" always_random="false" min="1" max="1"/>
-        <dodge_stamina_cost type="base" always_random="false" min="10" max="10" />
+        <dodge_stamina_cost type="base" always_random="false" min="0" max="0" />
         <stamina_cost_modifier type="mult" always_random="false" min="0" max="0" />
         <counter_chance type="add" always_random="false" min="0.4" max="0.4" />
-        <raise_guard_chance type="add" always_random="true" min="0.9" max="1.0" />
-        <lower_guard_chance type="add" always_random="true" min="0.0" max="0.1" />
+        <raise_guard_chance type="add" always_random="false" min="1.0" max="1.0" />
+        <lower_guard_chance type="add" always_random="false" min="0.1" max="0.1" />
         <taunt_chance type="add" always_random="false" min="0.15" max="0.15" />
-        <dodge_melee_light_chance type="add" always_random="false" min="1.0" max="1.0" />
+        <dodge_melee_light_chance type="add" always_random="false" min="0.35" max="0.35" />
         <dodge_melee_heavy_chance type="add" always_random="false" min="1.0" max="1.0" />
         <dodge_magic_chance type="add" always_random="false" min="0.0" max="0.0" />
         <dodge_projectile_chance type="add" always_random="false" min="0.15" max="0.15" />
@@ -750,12 +761,12 @@
         <stamina_cost_modifier type="mult" always_random="false" min="0" max="0" />
         <hits_to_roll_counter type="add" always_random="false" min="3" max="3" />
         <counter_chance type="add" always_random="false" min="0.15" max="0.15" />
-        <hits_to_raise_guard type="add" always_random="false" min="1" max="1" />
-        <raise_guard_chance type="add" always_random="true" min="0.1" max="0.2" />
-        <lower_guard_chance type="add" always_random="true" min="0.8" max="0.9" />
+        <hits_to_raise_guard type="add" always_random="false" min="3" max="3" />
+        <raise_guard_chance type="add" always_random="false" min="0.3" max="0.3" />
+        <lower_guard_chance type="add" always_random="false" min="0.3" max="0.3" />
         <taunt_chance type="add" always_random="false" min="0.15" max="0.15" />
-        <dodge_melee_light_chance type="add" always_random="false" min="0.5" max="0.5" />
-        <dodge_melee_heavy_chance type="add" always_random="false" min="0.6" max="0.6" />
+        <dodge_melee_light_chance type="add" always_random="false" min="0" max="0" />
+        <dodge_melee_heavy_chance type="add" always_random="false" min="0" max="0" />
         <dodge_magic_chance type="add" always_random="false" min="0.0" max="0.0" />
         <dodge_projectile_chance type="add" always_random="false" min="0.15" max="0.15" />
         <dodge_bomb_chance type="add" always_random="false" min="0.0" max="0.0" />
@@ -775,18 +786,19 @@
         <stamina_cost_modifier type="mult" always_random="false" min="0" max="0" />
         <hits_to_roll_counter type="add" always_random="false" min="3" max="3" />
         <counter_chance type="add" always_random="false" min="0.15" max="0.15" />
-        <hits_to_raise_guard type="add" always_random="false" min="1" max="1" />
-        <raise_guard_chance type="add" always_random="false" min="0.2" max="0.3" />
-        <lower_guard_chance type="add" always_random="false" min="0.7" max="0.8" />
+        <hits_to_raise_guard type="add" always_random="false" min="3" max="3" />
+        <raise_guard_chance type="add" always_random="false" min="0.3" max="0.3" />
+        <lower_guard_chance type="add" always_random="false" min="0.3" max="0.3" />
         <taunt_chance type="add" always_random="false" min="0.15" max="0.15" />
-        <dodge_melee_light_chance type="add" always_random="false" min="0.6" max="0.6" />
-        <dodge_melee_heavy_chance type="add" always_random="false" min="0.7" max="0.7" />
+        <dodge_melee_light_chance type="add" always_random="false" min="0" max="0" />
+        <dodge_melee_heavy_chance type="add" always_random="false" min="0" max="0" />
         <dodge_magic_chance type="add" always_random="false" min="0.0" max="0.0" />
         <dodge_projectile_chance type="add" always_random="false" min="0.15" max="0.15" />
         <dodge_bomb_chance type="add" always_random="false" min="0.0" max="0.0" />
         <dodge_fear_chance type="add" always_random="false" min="0.15" max="0.15" />
       </ability>
       <ability name="SkillTwoHanded">
+	  <!--BCEv Edit-->
         <tags> "base" </tags>
         <experience type="add" always_random="false" min="0" max="0" />
         <threat_level type="add" always_random="false" min="2" max="2" />
@@ -794,18 +806,18 @@
         <heavy_action_stamina_cost type="base" always_random="false" min="0" max="0" />
 		<light_special_stamina_cost type="base" always_random="false" min="20" max="20" />
         <heavy_special_stamina_cost type="base" always_random="false" min="40" max="40" />
-        <parry_stamina_cost type="base" always_random="true" min="50" max="100" />
-        <counter_stamina_cost type="base" always_random="true" min="50" max="100" />
-        <dodge_stamina_cost type="base" always_random="false" min="100" max="100" />
+        <parry_stamina_cost type="base" always_random="false" min="50" max="50" />
+        <counter_stamina_cost type="base" always_random="false" min="50" max="50" />
+        <dodge_stamina_cost type="base" always_random="false" min="0" max="0" />
         <stamina_cost_modifier type="mult" always_random="false" min="0" max="0" />
         <hits_to_roll_counter type="add" always_random="false" min="9999" max="9999" />
-        <counter_chance type="add" always_random="false" min="0.7" max="0.7" />
+        <counter_chance type="add" always_random="false" min="1.0" max="1.0" />
         <hits_to_raise_guard type="add" always_random="false" min="1" max="1" />
-        <raise_guard_chance type="add" always_random="true" min="0.4" max="0.5" />
-        <lower_guard_chance type="add" always_random="true" min="0.5" max="0.6" />
-        <taunt_chance type="add" always_random="false" min="0.5" max="0.5" />
-        <dodge_melee_light_chance type="add" always_random="false" min="0.1" max="0.1" />
-        <dodge_melee_heavy_chance type="add" always_random="false" min="0.2" max="0.2" />
+        <raise_guard_chance type="add" always_random="false" min="1.0" max="1.0" />
+        <lower_guard_chance type="add" always_random="false" min="0.1" max="0.1" />
+        <taunt_chance type="add" always_random="false" min="0.25" max="0.25" />
+        <dodge_melee_light_chance type="add" always_random="false" min="0.25" max="0.25" />
+        <dodge_melee_heavy_chance type="add" always_random="false" min="0.25" max="0.25" />
         <dodge_magic_chance type="add" always_random="false" min="0.0" max="0.0" />
         <dodge_projectile_chance type="add" always_random="false" min="0.0" max="0.0" />
         <dodge_bomb_chance type="add" always_random="false" min="0.0" max="0.0" />
@@ -813,6 +825,7 @@
 		<force_resistance_perc type="add" always_random="false" min="0.35" max="0.35" />
       </ability>
       <ability name="SkillShield">
+	  <!--BCEv Edit-->
         <tags> "base" </tags>
         <experience type="add" always_random="false" min="0" max="0" />
         <threat_level type="add" always_random="false" min="1" max="1" />
@@ -820,24 +833,25 @@
         <heavy_action_stamina_cost type="base" always_random="false" min="0" max="0" />
 		<light_special_stamina_cost type="base" always_random="false" min="20" max="20" />
         <heavy_special_stamina_cost type="base" always_random="false" min="40" max="40" />
-        <parry_stamina_cost type="base" always_random="true" min="25" max="50" />
-        <counter_stamina_cost type="base" always_random="true" min="25" max="50" />
-        <dodge_stamina_cost type="base" always_random="false" min="75" max="75" />
+        <parry_stamina_cost type="base" always_random="false" min="15" max="15" />
+        <counter_stamina_cost type="base" always_random="false" min="0" max="0" />
+        <dodge_stamina_cost type="base" always_random="false" min="25" max="25" />
         <stamina_cost_modifier type="mult" always_random="false" min="0" max="0" />
-        <hits_to_roll_counter type="add" always_random="false" min="2" max="2" />
+        <hits_to_roll_counter type="add" always_random="false" min="1" max="1" />
         <counter_chance type="add" always_random="false" min="0.4" max="0.4" />
         <hits_to_raise_guard type="add" always_random="false" min="1" max="1" />
-        <raise_guard_chance type="add" always_random="false" min="0.5" max="0.5" />
-        <lower_guard_chance type="add" always_random="false" min="0.5" max="0.5" />
-        <taunt_chance type="add" always_random="false" min="0.5" max="0.5" />
-        <dodge_melee_light_chance type="add" always_random="false" min="0.2" max="0.2" />
-        <dodge_melee_heavy_chance type="add" always_random="false" min="0.3" max="0.3" />
+        <raise_guard_chance type="add" always_random="false" min="1" max="1" />
+        <lower_guard_chance type="add" always_random="false" min="0.55" max="0.55" />
+        <taunt_chance type="add" always_random="false" min="0.25" max="0.25" />
+        <dodge_melee_light_chance type="add" always_random="false" min="0.25" max="0.25" />
+        <dodge_melee_heavy_chance type="add" always_random="false" min="0.45" max="0.45" />
         <dodge_magic_chance type="add" always_random="false" min="0.0" max="0.0" />
         <dodge_projectile_chance type="add" always_random="false" min="0.0" max="0.0" />
         <dodge_bomb_chance type="add" always_random="false" min="0.0" max="0.0" />
         <dodge_fear_chance type="add" always_random="false" min="0.0" max="0.0" />
       </ability>
       <ability name="SkillShieldHard">
+	  <!--BCEv Edit-->
         <tags> "base" </tags>
         <experience type="add" always_random="false" min="0" max="0" />
         <threat_level type="add" always_random="false" min="1" max="1" />
@@ -845,18 +859,18 @@
         <heavy_action_stamina_cost type="base" always_random="false" min="0" max="0" />
 		<light_special_stamina_cost type="base" always_random="false" min="20" max="20" />
         <heavy_special_stamina_cost type="base" always_random="false" min="40" max="40" />
-        <parry_stamina_cost type="base" always_random="false" min="25" max="25" />
-        <counter_stamina_cost type="base" always_random="false" min="25" max="25" />
-        <dodge_stamina_cost type="base" always_random="false" min="50" max="50" />
+        <parry_stamina_cost type="base" always_random="false" min="15" max="15" />
+        <counter_stamina_cost type="base" always_random="false" min="0" max="0" />
+        <dodge_stamina_cost type="base" always_random="false" min="25" max="25" />
         <stamina_cost_modifier type="mult" always_random="false" min="0" max="0" />
         <hits_to_roll_counter type="add" always_random="false" min="1" max="1" />
-        <counter_chance type="add" always_random="false" min="0.6" max="0.6" />
+        <counter_chance type="add" always_random="false" min="1" max="1" />
         <hits_to_raise_guard type="add" always_random="false" min="1" max="1" />
-        <raise_guard_chance type="add" always_random="false" min="0.6" max="0.6" />
-        <lower_guard_chance type="add" always_random="false" min="0.4" max="0.4" />
+        <raise_guard_chance type="add" always_random="false" min="1" max="1" />
+        <lower_guard_chance type="add" always_random="false" min="0.35" max="0.35" />
         <taunt_chance type="add" always_random="false" min="0.15" max="0.15" />
-        <dodge_melee_light_chance type="add" always_random="false" min="0.3" max="0.3" />
-        <dodge_melee_heavy_chance type="add" always_random="false" min="0.4" max="0.4" />
+        <dodge_melee_light_chance type="add" always_random="false" min="0.45" max="0.45" />
+        <dodge_melee_heavy_chance type="add" always_random="false" min="0.65" max="0.65" />
         <dodge_magic_chance type="add" always_random="false" min="0.0" max="0.0" />
         <dodge_projectile_chance type="add" always_random="false" min="0.0" max="0.0" />
         <dodge_bomb_chance type="add" always_random="false" min="0.0" max="0.0" />
@@ -942,6 +956,7 @@
         <dodge_fear_chance type="add" always_random="false" min="0.0" max="0.0" />
       </ability>
       <ability name="SkillWitcher">
+	  <!--BCEv Edit-->
         <tags> "base" </tags>
         <experience type="add" always_random="false" min="0" max="0" />
         <threat_level type="add" always_random="false" min="1" max="1" />
@@ -957,12 +972,12 @@
         <stamina_cost_modifier type="mult" always_random="false" min="0" max="0" />
 		<!-- / -->
         <counter_chance type="add" always_random="false" min="0.6" max="0.6" />
-        <hits_to_raise_guard type="add" always_random="false" min="3" max="3" />
+        <hits_to_raise_guard type="add" always_random="false" min="2" max="2" />
         <raise_guard_chance type="add" always_random="false" min="0.6" max="0.6" />
         <lower_guard_chance type="add" always_random="false" min="0.2" max="0.2" />
         <taunt_chance type="add" always_random="false" min="0.3" max="0.3" />
-        <dodge_melee_light_chance type="add" always_random="false" min="0" max="0" />
-        <dodge_melee_heavy_chance type="add" always_random="false" min="0" max="0" />
+        <dodge_melee_light_chance type="add" always_random="false" min="0.75" max="0.75" />
+        <dodge_melee_heavy_chance type="add" always_random="false" min="0.75" max="0.75" />
         <dodge_magic_chance type="add" always_random="false" min="0.0" max="0.0" />
         <dodge_projectile_chance type="add" always_random="false" min="0.9" max="0.9" />
         <dodge_bomb_chance type="add" always_random="false" min="0" max="0" />
@@ -1019,6 +1034,7 @@
       </ability>
       <!-- ARMOR TYPES-->
       <!-- use not more than one armor ability per actor-->
+	  <!--BCEv Edit-->
 	  <ability name="NPC Leather Armor">
 		<tags></tags>
 		<armor type="base" always_random="false" min="8" max="8"/>
@@ -1028,9 +1044,15 @@
 		<bludgeoning_resistance_perc type="base" always_random="false" min="0.1" max="0.1"/>
 		<rending_resistance_perc type="base" always_random="false" min="0.1" max="0.1"/>
 		<elemental_resistance_perc type="base" always_random="false" min="0.1" max="0.1"/>
+		<vitality type="mult" always_random="false" min="-0.25" max="-0.25" />
+		<dodge_melee_light_chance type="add" always_random="false" min="-0.15" max="-0.15" />
+        <dodge_melee_heavy_chance type="add" always_random="false" min="-0.15" max="-0.15" />
+		<raise_guard_chance type="add" always_random="false" min="-0.65" max="-0.65" />
+        <lower_guard_chance type="add" always_random="false" min="0.2" max="0.2" />
 	  </ability>
 	  
 	  <ability name="NPC Heavy Leather Armor">
+	  <!--BCEv Edit-->
 		<tags></tags>
 		<armor type="base" always_random="false" min="20" max="20"/>
 		<physical_resistance_perc type="base" always_random="false" min="0.1" max="0.1" />
@@ -1039,9 +1061,15 @@
 		<bludgeoning_resistance_perc type="base" always_random="false" min="0.1" max="0.1"/>
 		<rending_resistance_perc type="base" always_random="false" min="0.1" max="0.1"/>
 		<elemental_resistance_perc type="base" always_random="false" min="0.1" max="0.1"/>
+		<vitality type="mult" always_random="false" min="-0.15" max="-0.15" />
+		<dodge_melee_light_chance type="add" always_random="false" min="-0.25" max="-0.25" />
+        <dodge_melee_heavy_chance type="add" always_random="false" min="-0.25" max="-0.25" />
+		<raise_guard_chance type="add" always_random="false" min="-0.45" max="-0.45" />
+        <lower_guard_chance type="add" always_random="false" min="0.2" max="0.2" />
 	  </ability>
 	  
 	  <ability name="NPC Chainmail Armor">	
+	  <!--BCEv Edit-->
 		<tags></tags>
 		<armor type="base" always_random="false" min="30" max="30"/>
 		<physical_resistance_perc type="base" always_random="false" min="0.13" max="0.13" />
@@ -1050,9 +1078,15 @@
 		<bludgeoning_resistance_perc type="base" always_random="false" min="0.13" max="0.13"/>
 		<rending_resistance_perc type="base" always_random="false" min="0.13" max="0.13"/>
 		<elemental_resistance_perc type="base" always_random="false" min="0.13" max="0.13"/>
+		<vitality type="mult" always_random="false" min="0.1" max="0.1" />
+		<dodge_melee_light_chance type="add" always_random="false" min="-0.45" max="-0.45" />
+        <dodge_melee_heavy_chance type="add" always_random="false" min="-0.45" max="-0.45" />
+		<raise_guard_chance type="add" always_random="false" min="-0.1" max="-0.1" />
+        <lower_guard_chance type="add" always_random="false" min="0.1" max="0.1" />
 	  </ability>
 	  
 	  <ability name="NPC Partial Plate Armor">
+	  <!--BCEv Edit-->
 		<tags></tags>
 		<armor type="base" always_random="false" min="40" max="40"/>
 		<physical_resistance_perc type="base" always_random="false" min="0.14" max="0.14" />
@@ -1061,9 +1095,15 @@
 		<bludgeoning_resistance_perc type="base" always_random="false" min="0.14" max="0.14"/>
 		<rending_resistance_perc type="base" always_random="false" min="0.14" max="0.14"/>
 		<elemental_resistance_perc type="base" always_random="false" min="0.14" max="0.14"/>
+		<vitality type="mult" always_random="false" min="0.15" max="0.15" />
+		<dodge_melee_light_chance type="add" always_random="false" min="-0.50" max="-0.50" />
+        <dodge_melee_heavy_chance type="add" always_random="false" min="-0.50" max="-0.50" />
+		<raise_guard_chance type="add" always_random="false" min="-0.05" max="-0.05" />
+        <lower_guard_chance type="add" always_random="false" min="0.05" max="0.05" />
 	  </ability>
 	  
 	  <ability name="NPC Full Plate Armor">
+	  <!--BCEv Edit-->
 		<tags></tags>
 		<armor type="base" always_random="false" min="50" max="50"/>
 		<physical_resistance_perc type="base" always_random="false" min="0.15" max="0.15" />
@@ -1072,18 +1112,24 @@
 		<bludgeoning_resistance_perc type="base" always_random="false" min="0.15" max="0.15"/>
 		<rending_resistance_perc type="base" always_random="false" min="0.15" max="0.15"/>
 		<elemental_resistance_perc type="base" always_random="false" min="0.15" max="0.15"/>
+		<vitality type="mult" always_random="false" min="0.25" max="0.25" />
+		<dodge_melee_light_chance type="add" always_random="false" min="-0.75" max="-0.75" />
+        <dodge_melee_heavy_chance type="add" always_random="false" min="-0.75" max="-0.75" />
+		<raise_guard_chance type="add" always_random="false" min="0.1" max="0.1" />
+        <lower_guard_chance type="add" always_random="false" min="-0.1" max="-0.1" />
 	  </ability>
 	  
 	  <!-- NPC armors -->
 	  <ability name="NPC_Wild_Hunt_Armor">
+	  <!--BCEv Edit-->
 		<tags></tags>
-		<armor type="add" min="45" max="45"/>
-		<physical_resistance_perc type="add" min="0.17" max="0.17" />
-		<slashing_resistance_perc type="add" min="0.17" max="0.17"/>
-		<piercing_resistance_perc type="add" min="0.17" max="0.17"/>
-		<bludgeoning_resistance_perc type="add" min="0.17" max="0.17"/>
-		<rending_resistance_perc type="add" min="0.17" max="0.17"/>
-		<elemental_resistance_perc type="add" min="0.17" max="0.17"/>
+		<armor type="add" min="65" max="65"/>
+		<physical_resistance_perc type="add" min="0.25" max="0.25" />
+		<slashing_resistance_perc type="add" min="0.25" max="0.25"/>
+		<piercing_resistance_perc type="add" min="0.25" max="0.25"/>
+		<bludgeoning_resistance_perc type="add" min="0.25" max="0.25"/>
+		<rending_resistance_perc type="add" min="0.25" max="0.25"/>
+		<elemental_resistance_perc type="add" min="0.25" max="0.25"/>
 	  </ability>
 	  
       <ability name="ArmorLeatherJacket_01">
@@ -1230,26 +1276,26 @@
 	  
 	  <ability name="HealthFistFightTutorial">
 		<tags> "base" </tags>
-		<vitality type="add" always_random="false" min="500" max="500" />
-		<attack_power type="mult" min="-0.75"	/>
+		<vitality type="add" always_random="false" min="750" max="750" />
+		<attack_power type="mult" min="0.5"	/>
 	  </ability>
 	  	  
 	  <ability name="HealthFistFightEasy">
 		<tags> "base" </tags>
 		<vitality type="add" always_random="false" min="1000" max="1000" />
-		<attack_power type="mult" min="-0.7"	/>
+		<attack_power type="mult" min="0.5"	/>
 	  </ability>
 	  	  
 	  <ability name="HealthFistFightMedium">
 		<tags> "base" </tags>
-		<vitality type="add" always_random="false" min="1250" max="1250" />
-		<attack_power type="mult" min="-0.6"	/>
+		<vitality type="add" always_random="false" min="1500" max="1500" />
+		<attack_power type="mult" min="0.5"	/>
 	  </ability>
 	  	  
 	  <ability name="HealthFistFightHard">
 		<tags> "base" </tags>
-		<vitality type="add" always_random="false" min="1500" max="1500" />
-		<attack_power type="mult" min="-0.5"	/>
+		<vitality type="add" always_random="false" min="2000" max="2000" />
+		<attack_power type="mult" min="0.5"	/>
 	  </ability>
 
 

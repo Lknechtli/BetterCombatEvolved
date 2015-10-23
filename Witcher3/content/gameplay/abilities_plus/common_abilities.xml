@@ -172,42 +172,42 @@
       <!-- difficulty levels -->
       <ability name="difficulty_CommonEasy">
         <tags>DifficultyModeAbility, Easy</tags>
-        <health_final_multiplier type="add" min="0.7" />
+        <health_final_multiplier type="add" min="0.3" />
         <damage_final_multiplier type="add" min="1.25" />
 		<root_ground_damage_area type="base" always_random="false" min="0" max="0" />
         <root_ground_damage_area type="mult" always_random="false" min="0" />
+		<burning_resistance_perc type="add" always_random="false" min="0.3" max="0.3" />
       </ability>
       <!--<ability name="difficulty_CommonEasy">
         <tags>DifficultyModeAbility, Medium</tags>
 		<root_ground_damage_area type="base" always_random="false" min="0" max="0" />
         <root_ground_damage_area type="mult" always_random="false" min="0" />
-		<burning_resistance_perc type="add" always_random="false" min="0.1" max="0.2" />
       </ability>-->
       <ability name="difficulty_CommonMedium">
         <tags>DifficultyModeAbility, Medium</tags>
-        <health_final_multiplier type="add" min="0.9" />
+        <health_final_multiplier type="add" min="0.5" />
         <damage_final_multiplier type="add" min="1.75" />
 		<root_ground_damage_area type="base" always_random="false" min="0" max="0" />
         <root_ground_damage_area type="mult" always_random="false" min="0" />
-		<burning_resistance_perc type="add" always_random="false" min="0.1" max="0.2" />
+		<burning_resistance_perc type="add" always_random="false" min="0.3" max="0.3" />
       </ability>
       <ability name="difficulty_CommonHard">
         <tags>DifficultyModeAbility, Hard</tags>
-		<health_final_multiplier type="add" min="1.0" />
-		<damage_final_multiplier type="add" min="2.0" />
+        <health_final_multiplier type="add" min="0.65" />
+        <damage_final_multiplier type="add" min="2.0" />
 		<root_ground_damage_area type="base" always_random="false" min="0" max="0" />
         <root_ground_damage_area type="mult" always_random="false" min="0" />
-		<burning_resistance_perc type="add" always_random="false" min="0.1" max="0.2" />
+		<burning_resistance_perc type="add" always_random="false" min="0.3" max="0.3" />
       </ability>
       <ability name="difficulty_CommonHardcore">
         <tags>DifficultyModeAbility, Hardcore</tags>
-		<health_final_multiplier type="add" min="1.1" />
+        <health_final_multiplier type="add" min="0.7" />
         <damage_final_multiplier type="add" min="2.6" />
         <staminaRegen type="mult" always_random="false" min="0.2" max="0.2" />
 		<root_ground_damage_area type="base" always_random="false" min="0" max="0" />
         <root_ground_damage_area type="mult" always_random="false" min="0" />
 		<force_resistance_perc type="add" always_random="false" min="0.1" max="0.1" />
-		<burning_resistance_perc type="add" always_random="false" min="0.1" max="0.2" />
+		<burning_resistance_perc type="add" always_random="false" min="0.3" max="0.3" />
 		<will_resistance_perc type="add" always_random="false" min="0.1" max="0.1" />
 		<shock_resistance_perc type="add" always_random="false" min="0.1" max="0.1" />
       </ability>
