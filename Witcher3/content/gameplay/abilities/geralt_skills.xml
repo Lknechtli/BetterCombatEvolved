@@ -366,16 +366,16 @@
         <trap_duration type="base" min="18" />
         <trap_duration type="mult" min="1" />
         <ShockDamage type="add" min="35" />
-		<damage_bonus_flat_after_1 type="add" min="70" />
-		<!-- range is set by using different trigger component in sign entity -->
+	<damage_bonus_flat_after_1 type="add" min="70" />
+	<!-- range is set by using different trigger component in sign entity -->
       </ability>
 	  
       <!-- Channeling (ult) -->
       <ability name="magic_s4">
         <tags>magic_s4</tags>
         <stamina_cost_per_sec type="add" always_random="false" min="35" max="35" />
-		<stamina_cost_reduction_after_1 type="mult" min="0.08" />
-		<shield_health_factor type="add" always_random="false" min="8" max="8" />
+	<stamina_cost_reduction_after_1 type="mult" min="0.25" />
+	<shield_health_factor type="add" always_random="false" min="8" max="8" />
       </ability>
 	  
       <!-- Guard Me! (ult) -->
@@ -385,11 +385,10 @@
         <stamina_cost_per_sec type="add" always_random="false" min="22.2" max="22.2" />
         <!-- duration modified by other skills, no mult as spell power covers that -->
         <duration type="base" min="3" />
-		<duration_animals type="base" min="18" />
-		<AxiiGuardMeEffect is_ability="true" />
-		
-		<!-- attack power bonus -->
-		<attack_power type="mult" min="0.1" />
+	<duration_animals type="base" min="18" />
+	<AxiiGuardMeEffect is_ability="true" />
+	<!-- attack power bonus -->
+	<attack_power type="mult" min="0.1" />
       </ability>
 	  
       <!-- Static Discharge -->
@@ -441,10 +440,9 @@
 	  <ability name="magic_s13">
         <tags>magic_s13</tags>
         <PhysicalDamage type="add" min="3" max="12"/>
-		<SilverDamage type="add" min="3" max="12"/>
-		
-		<!-- chance multiplier for knockdown -->
-		<chance_multiplier type="add" min="0.15" />
+	<SilverDamage type="add" min="3" max="12"/>
+	<!-- chance multiplier for knockdown -->
+	<chance_multiplier type="add" min="0.15" />
       </ability>	  
 	  
       <!-- Discharge -->
@@ -468,23 +466,23 @@
 	  
       <ability name="magic_s17">
         <tags>magic_s17,Axii</tags>
-		<!-- if player has this skill on lvl 3 then if Axii buff duration (including target resistances) is less than this value then Stagger will be applied instead -->
+	<!-- if player has this skill on lvl 3 then if Axii buff duration (including target resistances) is less than this value then Stagger will be applied instead -->
         <duration_to_force_stagger type="add" min="0.9" />
       </ability>
 	  	  
-	   <!-- Axii Powe -->
+      <!-- Axii Power -->
       <ability name="magic_s18">
         <tags>magic_s16,Axii</tags>
         <spell_power type="mult" min="0.04" />
       </ability>
 	  
-	  <!-- Axii Dominate -->
+      <!-- Axii Dominate -->
       <ability name="magic_s19">
         <tags>magic_s19</tags>
         <duration type="mult" min="0.15" />
       </ability>
 	  
-	  <!-- Aard Dispersion -->
+      <!-- Aard Dispersion -->
       <ability name="magic_s20">
         <tags>magic_s20</tags>
         <range type="add" min="1.25" />
@@ -495,7 +493,7 @@
         <tags></tags>
         <potion_duration type="add" always_random="false" min="0.05" max="0.05" />
       </ability>
-	  <!-- Unlockable Skills -->
+      <!-- Unlockable Skills -->
       <!-- Resistances -->
       <ability name="alchemy_s1">
         <tags>alchemy_s1</tags>
@@ -508,25 +506,25 @@
         <vitality_gain_perc type="add" min="0.03" />
       </ability>
 	  
-	  <!-- Delayed Recovery -->
+      <!-- Delayed Recovery -->
       <ability name="alchemy_s3">
         <tags>alchemy_s3</tags>
         <toxicity_threshold type="add" min="0.08" />
       </ability>
 	  
-	  <!-- Side Effect -->
+      <!-- Side Effect -->
       <ability name="alchemy_s4">
         <tags>alchemy_s4</tags>
         <apply_chance type="add" min="0.17" />
       </ability>
 	  
-	  <ability name="alchemy_s5">
+      <ability name="alchemy_s5">
         <tags>alchemy_s5</tags>
         <defence_bonus type="add" min="0.04" />
       </ability>
 	  
-	  <!-- Fixative formula -->
-	  <ability name="alchemy_s6">
+      <!-- Fixative formula -->
+      <ability name="alchemy_s6">
         <tags>alchemy_s6</tags>
         <ammo_bonus type="add" min="0.4" />
       </ability>
@@ -543,7 +541,7 @@
         <item_count type="add" min="1" />
       </ability>
 	  
-	  <ability name="alchemy_s9">
+      <ability name="alchemy_s9">
         <tags>alchemy_s9</tags>
         <slowdown_mod type="add" min="0.15"/>
       </ability>
@@ -567,8 +565,8 @@
       <ability name="alchemy_s12">
         <tags>alchemy_s12</tags>
         <PoisonEffect is_ability="true" />
-		<skill_chance type="add" min="0.03" />
-		<oil_level_chance type="add" min="0.08" />
+	<skill_chance type="add" min="0.03" />
+	<oil_level_chance type="add" min="0.08" />
       </ability>
 	  
       <!-- Transmutation -->
@@ -608,9 +606,9 @@
         <toxicity type="add" min="8" />
       </ability>
 	  
-	  <ability name="alchemy_s19">
+      <ability name="alchemy_s19">
         <tags>alchemy_s19</tags>
-		<synergy_bonus type="add" min="0.04" />
+	<synergy_bonus type="add" min="0.04" />
       </ability>
 	  
 	  <!--################################### Perks ####################################-->
