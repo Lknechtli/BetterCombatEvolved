@@ -374,7 +374,7 @@
       <ability name="magic_s4">
         <tags>magic_s4</tags>
         <stamina_cost_per_sec type="add" always_random="false" min="35" max="35" />
-		<stamina_cost_reduction_after_1 type="mult" min="0.08" />
+		<stamina_cost_reduction_after_1 type="mult" min="0.25" />
 		<shield_health_factor type="add" always_random="false" min="8" max="8" />
       </ability>
 	  
@@ -472,13 +472,13 @@
         <duration_to_force_stagger type="add" min="0.9" />
       </ability>
 	  	  
-	   <!-- Axii Powe -->
+	   <!-- Axii Power -->
       <ability name="magic_s18">
         <tags>magic_s16,Axii</tags>
         <spell_power type="mult" min="0.04" />
       </ability>
 	  
-	  <!-- Axii Dominate -->
+	<!-- Axii Dominate -->
       <ability name="magic_s19">
         <tags>magic_s19</tags>
         <duration type="mult" min="0.15" />
@@ -493,7 +493,7 @@
       <!--################################### Alchemy Path ####################################-->
       <ability name="alchemy_potionduration">
         <tags></tags>
-        <potion_duration type="add" always_random="false" min="0.01" max="0.01" />
+        <potion_duration type="add" always_random="false" min="0.05" max="0.05" />
       </ability>
 	  <!-- Unlockable Skills -->
       <!-- Resistances -->
@@ -574,7 +574,7 @@
       <!-- Transmutation -->
       <ability name="alchemy_s13">
         <tags>alchemy_s13</tags>
-        <vitality type="add" min="175" />
+        <vitality type="add" min="250" />
       </ability>
 	  
       <!-- Mutant -->

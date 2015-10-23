@@ -366,16 +366,16 @@
         <trap_duration type="base" min="18" />
         <trap_duration type="mult" min="1" />
         <ShockDamage type="add" min="35" />
-	<damage_bonus_flat_after_1 type="add" min="70" />
-	<!-- range is set by using different trigger component in sign entity -->
+		<damage_bonus_flat_after_1 type="add" min="70" />
+		<!-- range is set by using different trigger component in sign entity -->
       </ability>
 	  
       <!-- Channeling (ult) -->
       <ability name="magic_s4">
         <tags>magic_s4</tags>
         <stamina_cost_per_sec type="add" always_random="false" min="35" max="35" />
-	<stamina_cost_reduction_after_1 type="mult" min="0.25" />
-	<shield_health_factor type="add" always_random="false" min="8" max="8" />
+		<stamina_cost_reduction_after_1 type="mult" min="0.25" />
+		<shield_health_factor type="add" always_random="false" min="8" max="8" />
       </ability>
 	  
       <!-- Guard Me! (ult) -->
@@ -385,10 +385,10 @@
         <stamina_cost_per_sec type="add" always_random="false" min="22.2" max="22.2" />
         <!-- duration modified by other skills, no mult as spell power covers that -->
         <duration type="base" min="3" />
-	<duration_animals type="base" min="18" />
-	<AxiiGuardMeEffect is_ability="true" />
-	<!-- attack power bonus -->
-	<attack_power type="mult" min="0.1" />
+		<duration_animals type="base" min="18" />
+		<AxiiGuardMeEffect is_ability="true" />
+		<!-- attack power bonus -->
+		<attack_power type="mult" min="0.1" />
       </ability>
 	  
       <!-- Static Discharge -->
@@ -440,9 +440,9 @@
 	  <ability name="magic_s13">
         <tags>magic_s13</tags>
         <PhysicalDamage type="add" min="3" max="12"/>
-	<SilverDamage type="add" min="3" max="12"/>
-	<!-- chance multiplier for knockdown -->
-	<chance_multiplier type="add" min="0.15" />
+		<SilverDamage type="add" min="3" max="12"/>
+		<!-- chance multiplier for knockdown -->
+		<chance_multiplier type="add" min="0.15" />
       </ability>	  
 	  
       <!-- Discharge -->
@@ -466,7 +466,7 @@
 	  
       <ability name="magic_s17">
         <tags>magic_s17,Axii</tags>
-	<!-- if player has this skill on lvl 3 then if Axii buff duration (including target resistances) is less than this value then Stagger will be applied instead -->
+		<!-- if player has this skill on lvl 3 then if Axii buff duration (including target resistances) is less than this value then Stagger will be applied instead -->
         <duration_to_force_stagger type="add" min="0.9" />
       </ability>
 	  	  
@@ -476,13 +476,13 @@
         <spell_power type="mult" min="0.04" />
       </ability>
 	  
-      <!-- Axii Dominate -->
+    <!-- Axii Dominate -->
       <ability name="magic_s19">
         <tags>magic_s19</tags>
         <duration type="mult" min="0.15" />
       </ability>
 	  
-      <!-- Aard Dispersion -->
+    <!-- Aard Dispersion -->
       <ability name="magic_s20">
         <tags>magic_s20</tags>
         <range type="add" min="1.25" />
@@ -572,7 +572,7 @@
       <!-- Transmutation -->
       <ability name="alchemy_s13">
         <tags>alchemy_s13</tags>
-        <vitality type="add" min="175" />
+        <vitality type="add" min="250" />
       </ability>
 	  
       <!-- Mutant -->
