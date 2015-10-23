@@ -2951,7 +2951,7 @@ class W3PlayerAbilityManager extends W3AbilityManager
 		owner.RemoveAbilityAll('sword_adrenalinegain');
 		owner.RemoveAbilityAll('magic_staminaregen');
 		owner.RemoveAbilityAll('alchemy_potionduration');
-		SetStatPointMax(BCS_Toxicity, 100);
+		SetStatPointMax(BCS_Toxicity, 1000);
 		SetStatPointMax(BCS_Stamina, 100);
 	}
 	
