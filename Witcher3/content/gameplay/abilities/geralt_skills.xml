@@ -510,7 +510,7 @@
       <!-- Delayed Recovery -->
       <ability name="alchemy_s3">
         <tags>alchemy_s3</tags>
-        <toxicity_threshold type="add" min="0.08" />
+        <toxicity_threshold type="add" min="0.02" />
       </ability>
 	  
       <!-- Side Effect -->
@@ -579,7 +579,7 @@
       <!-- Mutant -->
       <ability name="alchemy_s14">
         <tags>alchemy_s14</tags>
-        <duration type="mult" min="0.01" />
+        <duration type="mult" min="0.03" />
       </ability>
 	  
       <!-- Condensation -->
