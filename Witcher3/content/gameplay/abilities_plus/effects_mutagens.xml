@@ -91,7 +91,7 @@
 			</ability>
 			
 			<ability name="Mutagen21Effect">
-				<healingRatio type="add" min="0.02"/>
+				<healingRatio type="add" min="0.015"/>
 			</ability>
 			
 			<ability name="Mutagen22Effect">
