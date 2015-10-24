@@ -740,7 +740,7 @@
         </base_abilities>
       </item>
 
-      <item name="Clearing Potion" category="edibles" price="1000" grid_size="1" ability_slots="0" stackable="1000" icon_path="icons/inventory/mutagen_potions/ico_mutagen-potion-20.png" localisation_key_name="item_name_potion_clearance" localisation_key_description="item_desc_potion_clearance">
+      <item name="Clearing Potion" category="edibles" price="300" grid_size="1" ability_slots="0" stackable="1000" icon_path="icons/inventory/mutagen_potions/ico_mutagen-potion-20.png" localisation_key_name="item_name_potion_clearance" localisation_key_description="item_desc_potion_clearance">
         <tags>Edibles, Potion, NoEquip</tags>
         <base_abilities>
           <a>ClearingPotion_stats</a>
