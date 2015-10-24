@@ -202,7 +202,7 @@
       <ability name="difficulty_CommonHardcore">
         <tags>DifficultyModeAbility, Hardcore</tags>
         <health_final_multiplier type="add" min="0.7" />
-        <damage_final_multiplier type="add" min="2.6" />
+        <damage_final_multiplier type="add" min="2.2" />
         <staminaRegen type="mult" always_random="false" min="0.2" max="0.2" />
 		<root_ground_damage_area type="base" always_random="false" min="0" max="0" />
         <root_ground_damage_area type="mult" always_random="false" min="0" />

@@ -37,7 +37,9 @@
 	  <attack_power type="mult" always_random="false" min="1.2" max="1.2" />
 	  </ability>
 
+
 	 <ability name="_q403Follower">
+
 	<vitality type="mult" always_randome="false" min="2.5" max="2.5" />
 	  <vitality type="base" always_randome="false" min="1200" max="1200" />
 	  </ability>
@@ -148,7 +150,7 @@
         <!-- man_base-->
         <tags> "base" </tags>
         <level type="add" always_random="false" min="1" max="1" />
-        <vitality type="base" always_random="false" min="11" max="11" />
+        <vitality type="base" always_random="false" min="19" max="19" />
         <essence type="base" always_random="false" min="0" max="0" />
         <stamina type="base" always_random="false" min="100" max="100" />
         <morale type="base" always_random="false" min="100" max="100" />
@@ -188,7 +190,7 @@
       <ability name="NPCLevelBonus">
         <tags> "base" </tags>
         <level type="add" always_random="false" min="1" max="1" />
-        <vitality type="base" always_random="false" min="23" max="23" />
+        <vitality type="base" always_random="false" min="37" max="37" />
 		<force_resistance_perc type="add" always_random="false" min="0.007" max="0.007" />
 		<burning_resistance_perc type="add" always_random="false" min="0.007" max="0.007" />
 		<will_resistance_perc type="add" always_random="false" min="0.007" max="0.007" />
@@ -200,6 +202,7 @@
 	  <ability name="NPCDoNotGainBoost">
         <tags> "base" </tags>
       </ability>
+
 
 	  <ability name="NPCDoNotGainNGPlusLevel">
         <tags> "base" </tags>
@@ -1193,6 +1196,7 @@
         <essence type="add" always_random="false" min="2200" max="2200" />
 		<essence type="mult" always_random="false" min="-0.9" max="-0.9" />
         <attack_power type="base" always_random="false" min="10" max="10" />
+
       </ability>
       <ability name="sq209_lugos_the_mad_vison_ghostly">
         <!-- lvl 13 mini boss-->
@@ -1201,6 +1205,7 @@
         <essence type="add" always_random="false" min="5060" max="5060" />
 		<essence type="mult" always_random="false" min="-0.9" max="-0.9" />
         <attack_power type="base" always_random="false" min="20" max="20" />
+
 		<force_resistance type="mult" min="1" />
       </ability>
       <ability name="sq209_eredin_vision_ghostly">
@@ -1208,6 +1213,8 @@
         <tags> "base" </tags>
         <vitality type="mult" always_random="false" min="-1" max="-1" />
         <essence type="add" always_random="false" min="4800" max="4800" />
+
+
         <attack_power type="base" always_random="false" min="55" max="55" />
       </ability>
       <ability name="sq308_martin_officer_ghostly">
@@ -1280,22 +1287,28 @@
 	  <ability name="HealthFistFightTutorial">
 		<tags> "base" </tags>
 		<vitality type="add" always_random="false" min="750" max="750" />
+
 	  </ability>
 	  	  
 	  <ability name="HealthFistFightEasy">
 		<tags> "base" </tags>
 		<vitality type="add" always_random="false" min="1000" max="1000" />
+
 	  </ability>
 	  	  
 	  <ability name="HealthFistFightMedium">
 		<tags> "base" </tags>
 		<vitality type="add" always_random="false" min="1500" max="1500" />
+
 	  </ability>
 	  	  
 	  <ability name="HealthFistFightHard">
 		<tags> "base" </tags>
 		<vitality type="add" always_random="false" min="2000" max="2000" />
+
 	  </ability>
+
+
 	  
 	  
 	  

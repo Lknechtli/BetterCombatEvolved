@@ -144,7 +144,7 @@
         <!-- man_base-->
         <tags> "base" </tags>
         <level type="add" always_random="false" min="1" max="1" />
-        <vitality type="base" always_random="false" min="11" max="11" />
+        <vitality type="base" always_random="false" min="19" max="11" />
         <essence type="base" always_random="false" min="0" max="0" />
         <stamina type="base" always_random="false" min="100" max="100" />
         <morale type="base" always_random="false" min="100" max="100" />
@@ -184,7 +184,7 @@
       <ability name="NPCLevelBonus">
         <tags> "base" </tags>
         <level type="add" always_random="false" min="1" max="1" />
-        <vitality type="base" always_random="false" min="23" max="23" />
+        <vitality type="base" always_random="false" min="37" max="23" />
 		<force_resistance_perc type="add" always_random="false" min="0.007" max="0.007" />
 		<burning_resistance_perc type="add" always_random="false" min="0.007" max="0.007" />
 		<will_resistance_perc type="add" always_random="false" min="0.007" max="0.007" />
