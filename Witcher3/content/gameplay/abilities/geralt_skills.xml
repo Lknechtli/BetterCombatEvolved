@@ -578,7 +578,7 @@
       <!-- Mutant -->
       <ability name="alchemy_s14">
         <tags>alchemy_s14</tags>
-        <duration type="mult" min="0.04" />
+        <duration type="mult" min="0.01" />
       </ability>
 	  
       <!-- Condensation -->
