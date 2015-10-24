@@ -179,7 +179,7 @@
 			<!-- WHITE RAFFARD DECOCTION -->
 			<ability name="WhiteRaffardDecoctionEffect_Level1">
 				<tags>passive</tags>
-				<vitality min="0.45" type="mult" />
+				<vitality min="0.35" type="mult" />
 				<duration min="0.01" type="add" />
 			</ability>
 			<ability name="WhiteRaffardDecoctionEffect_Level2">
@@ -189,7 +189,7 @@
 			</ability>
 			<ability name="WhiteRaffardDecoctionEffect_Level3">
 				<tags>passive</tags>
-				<vitality min="0.65" type="mult" />
+				<vitality min="0.7" type="mult" />
 				<duration min="0.01" type="add" />
 			</ability>
 			
