@@ -1,1 +1,2 @@
 *.xml filter=utf16
+*.ws filter=utf16
