@@ -33,6 +33,9 @@ statemachine class W3QuenEntity extends W3SignEntity
 	private var hitDoTEntities : array<W3VisualFx>;
 	public var showForceFinishedFX : bool;
 	
+	// Triangle
+	protected var prevInstanceWasActive : bool;
+	
 	default skillEnum = S_Magic_4;
 	default MIN_HIT_ENTITY_SPAWN_DELAY = 0.25f;
 	
@@ -61,7 +64,14 @@ statemachine class W3QuenEntity extends W3SignEntity
 			
 		oldQuen = (W3QuenEntity)prevInstance;
 		if(oldQuen)
+		{
+			// Triangle
+			if (oldQuen.IsAnyQuenActive() && oldQuen.GetCurrentStateName() == 'ShieldActive')
+				prevInstanceWasActive = true;
+			else
+				prevInstanceWasActive = false;
 			oldQuen.OnSignAborted(true);
+		}
 		
 		hitEntityTimestamps.Clear();
 		
@@ -445,7 +455,13 @@ state ShieldActive in W3QuenEntity extends Active
 
 		return parent.effects[0].lastingEffectUpgNone;
 	}
-	
+	// Kukassin start
+	event OnButtonPress (action : SInputAction)
+	{
+		if(IsPressed(action))
+			thePlayer.GainStat(BCS_Stamina, 1);
+	}
+	// Kukassin start
 	event OnEnterState( prevStateName : name )
 	{
 		var witcher : W3PlayerWitcher;
@@ -458,14 +474,16 @@ state ShieldActive in W3QuenEntity extends Active
 		if(witcher)
 			witcher.SetUsedQuenInCombat();
 		
-		caster.GetActor().PlayEffect(GetLastingFxName());
-		
-		parent.AddTimer( 'Expire', parent.shieldDuration, false, , , true );
-		
+		// Triangle
+		if (!(witcher && parent.prevInstanceWasActive))
+			caster.GetActor().PlayEffect(GetLastingFxName());
+
+		theInput.RegisterListener( this, 'OnButtonPress', 'CastSign' ); // Kukassin
+			
 		parent.AddBuffImmunities(false);
 		
 		player = caster.GetPlayer();
-		if(player == caster.GetActor() && player && player.CanUseSkill(S_Perk_09))
+		if(player == caster.GetActor() && player && player.CanUseSkill(S_Perk_09) && !parent.prevInstanceWasActive)
 		{
 			cost = player.GetStaminaActionCost(ESAT_Ability, SkillEnumToName( parent.skillEnum ), 0);
 			stamina = player.GetStat(BCS_Stamina, true);
@@ -475,8 +493,12 @@ state ShieldActive in W3QuenEntity extends Active
 			else
 				caster.GetActor().DrainStamina( ESAT_Ability, 0, 0, SkillEnumToName( parent.skillEnum ) );
 		}
-		else
+		else if (!parent.prevInstanceWasActive)
 			caster.GetActor().DrainStamina( ESAT_Ability, 0, 0, SkillEnumToName( parent.skillEnum ) );
+		
+		// Triangle
+		if (witcher)
+			witcher.PauseStaminaRegen('BasicQuen');
 		
 		//abort current DOT if any
 		witcher.CriticalEffectAnimationInterrupted("quen channeled");
@@ -484,6 +506,19 @@ state ShieldActive in W3QuenEntity extends Active
 		//hack for signs not being saved
 		witcher.AddTimer('HACK_QuenSaveStatus', 0, true);
 		parent.shieldStartTime = theGame.GetEngineTime();
+		
+		// Triangle
+		if (witcher && parent.prevInstanceWasActive)
+		{
+			if ( parent.owner.CanUseSkill(S_Magic_s13) )
+			{
+				witcher.PlayEffect( 'lasting_shield_impulse' );
+				parent.Impulse();
+			}
+			parent.prevInstanceWasActive = false;
+			parent.GotoState('Expired');
+		} else
+			parent.AddTimer( 'Expire', parent.shieldDuration, false, , , true );
 	}
 	
 	event OnLeaveState( nextStateName : name )
@@ -499,6 +534,10 @@ state ShieldActive in W3QuenEntity extends Active
 			witcher.StopEffect(parent.effects[0].lastingEffectUpg3);
 			witcher.StopEffect(parent.effects[0].lastingEffectUpgNone);
 		}
+	
+		// Triangle
+		if (witcher)
+			witcher.ResumeStaminaRegen('BasicQuen');
 	
 		parent.RemoveBuffImmunities(false);
 		

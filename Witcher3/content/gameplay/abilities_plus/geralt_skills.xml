@@ -309,12 +309,12 @@
       <!-- Quen -->
       <ability name="magic_4">
         <tags>magic_4</tags>
-        <stamina_cost type="add" always_random="false" min="40" max="40" />
-        <stamina_delay type="base" min="0.5" />
+        <stamina_cost type="add" always_random="false" min="0" max="0" />
+        <stamina_delay type="base" min="0.0" />
         <stamina_delay type="mult" min="1" />
-        <shield_duration type="base" min="6" />
+        <shield_duration type="base" min="60" />
         <shield_duration type="mult" min="1" />
-        <shield_health type="base" min="100" />
+        <shield_health type="base" min="200" />
         <shield_health type="mult" min="1" />
       </ability>
 	  
@@ -373,7 +373,8 @@
       <!-- Channeling (ult) -->
       <ability name="magic_s4">
         <tags>magic_s4</tags>
-        <stamina_cost_per_sec type="add" always_random="false" min="35" max="35" />
+		<stamina_cost type="add" always_random="false" min="20" max="20" />
+        <stamina_cost_per_sec type="add" always_random="false" min="30" max="30" />
 		<stamina_cost_reduction_after_1 type="mult" min="0.25" />
 		<shield_health_factor type="add" always_random="false" min="8" max="8" />
       </ability>
@@ -387,7 +388,6 @@
         <duration type="base" min="3" />
 		<duration_animals type="base" min="18" />
 		<AxiiGuardMeEffect is_ability="true" />
-		
 		<!-- attack power bonus -->
 		<attack_power type="mult" min="0.1" />
       </ability>
@@ -442,7 +442,6 @@
         <tags>magic_s13</tags>
         <PhysicalDamage type="add" min="3" max="12"/>
 		<SilverDamage type="add" min="3" max="12"/>
-		
 		<!-- chance multiplier for knockdown -->
 		<chance_multiplier type="add" min="0.15" />
       </ability>	  
@@ -472,19 +471,19 @@
         <duration_to_force_stagger type="add" min="0.9" />
       </ability>
 	  	  
-	   <!-- Axii Power -->
+    <!-- Axii Power -->
       <ability name="magic_s18">
         <tags>magic_s16,Axii</tags>
         <spell_power type="mult" min="0.04" />
       </ability>
 	  
-	<!-- Axii Dominate -->
+    <!-- Axii Dominate -->
       <ability name="magic_s19">
         <tags>magic_s19</tags>
         <duration type="mult" min="0.15" />
       </ability>
 	  
-	  <!-- Aard Dispersion -->
+    <!-- Aard Dispersion -->
       <ability name="magic_s20">
         <tags>magic_s20</tags>
         <range type="add" min="1.25" />
@@ -495,7 +494,7 @@
         <tags></tags>
         <potion_duration type="add" always_random="false" min="0.05" max="0.05" />
       </ability>
-	  <!-- Unlockable Skills -->
+      <!-- Unlockable Skills -->
       <!-- Resistances -->
       <ability name="alchemy_s1">
         <tags>alchemy_s1</tags>
@@ -508,25 +507,25 @@
         <vitality_gain_perc type="add" min="0.03" />
       </ability>
 	  
-	  <!-- Delayed Recovery -->
+      <!-- Delayed Recovery -->
       <ability name="alchemy_s3">
         <tags>alchemy_s3</tags>
         <toxicity_threshold type="add" min="0.08" />
       </ability>
 	  
-	  <!-- Side Effect -->
+      <!-- Side Effect -->
       <ability name="alchemy_s4">
         <tags>alchemy_s4</tags>
         <apply_chance type="add" min="0.17" />
       </ability>
 	  
-	  <ability name="alchemy_s5">
+      <ability name="alchemy_s5">
         <tags>alchemy_s5</tags>
         <defence_bonus type="add" min="0.04" />
       </ability>
 	  
-	  <!-- Fixative formula -->
-	  <ability name="alchemy_s6">
+      <!-- Fixative formula -->
+      <ability name="alchemy_s6">
         <tags>alchemy_s6</tags>
         <ammo_bonus type="add" min="0.4" />
       </ability>
