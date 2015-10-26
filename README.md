@@ -61,3 +61,9 @@ Before cloning this repository, add the following to your .gitconfig before:
 This is required because github doesn't understand UTF-16 encoded files, and The Witcher 3 must encoded its xml files in UTF16 in order to be read.
 iconv will force git to store the xml files encoded as utf-8, but convert them to utf-16 on your local machine.
 This means that we get the best of both worlds - git friendly files that we can use in the game.
+
+--------------------------------------------------------------------------------------------------
+Credits
+--------------------------------------------------------------------------------------------------
+[TriangleAuthority](https://github.com/TriangleAuthority) / [realultimatepower](http://www.nexusmods.com/witcher3/users/3176219) - Quen functionality 
+[Kukassin](http://www.nexusmods.com/witcher3/users/2397035/?tb=mods&pUp=1) - Miscellanious script fixes
