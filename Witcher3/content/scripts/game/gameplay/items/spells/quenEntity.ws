@@ -257,7 +257,7 @@ statemachine class W3QuenEntity extends W3SignEntity
 		}
 		
 		//find targets
-		FindGameplayEntitiesInSphere(ents, ownerActor.GetWorldPosition(), 3, 1000, '', FLAG_OnlyAliveActors+FLAG_ExcludeTarget+FLAG_Attitude_Hostile+FLAG_Attitude_Neutral+FLAG_TestLineOfSight, ownerActor);
+		FindGameplayEntitiesInSphere(ents, ownerActor.GetWorldPosition(), 3, 1000, '', FLAG_OnlyAliveActors+FLAG_ExcludeTarget+FLAG_Attitude_Hostile+FLAG_Attitude_Neutral, ownerActor);
 		
 		//apply effects
 		for(i=0; i<ents.Size(); i+=1)
@@ -503,11 +503,6 @@ state ShieldActive in W3QuenEntity extends Active
 		// Triangle
 		if (witcher && parent.prevInstanceWasActive)
 		{
-			if ( parent.owner.CanUseSkill(S_Magic_s13) )
-			{
-				witcher.PlayEffect( 'lasting_shield_impulse' );
-				parent.Impulse();
-			}
 			parent.prevInstanceWasActive = false;
 			parent.GotoState('Expired');
 		} else
