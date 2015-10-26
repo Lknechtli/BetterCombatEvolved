@@ -373,7 +373,7 @@
       <!-- Channeling (ult) -->
       <ability name="magic_s4">
         <tags>magic_s4</tags>
-		<stamina_cost type="add" always_random="false" min="20" max="20" />
+		<stamina_cost type="add" always_random="false" min="15" max="15" />
         <stamina_cost_per_sec type="add" always_random="false" min="30" max="30" />
 		<stamina_cost_reduction_after_1 type="mult" min="0.25" />
 		<shield_health_factor type="add" always_random="false" min="8" max="8" />

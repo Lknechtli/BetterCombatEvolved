@@ -455,13 +455,7 @@ state ShieldActive in W3QuenEntity extends Active
 
 		return parent.effects[0].lastingEffectUpgNone;
 	}
-	// Kukassin start
-	event OnButtonPress (action : SInputAction)
-	{
-		if(IsPressed(action))
-			thePlayer.GainStat(BCS_Stamina, 1);
-	}
-	// Kukassin start
+
 	event OnEnterState( prevStateName : name )
 	{
 		var witcher : W3PlayerWitcher;
@@ -478,7 +472,6 @@ state ShieldActive in W3QuenEntity extends Active
 		if (!(witcher && parent.prevInstanceWasActive))
 			caster.GetActor().PlayEffect(GetLastingFxName());
 
-		theInput.RegisterListener( this, 'OnButtonPress', 'CastSign' ); // Kukassin
 			
 		parent.AddBuffImmunities(false);
 		
