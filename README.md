@@ -65,5 +65,6 @@ This means that we get the best of both worlds - git friendly files that we can 
 --------------------------------------------------------------------------------------------------
 Credits
 --------------------------------------------------------------------------------------------------
-[TriangleAuthority](https://github.com/TriangleAuthority) / [realultimatepower](http://www.nexusmods.com/witcher3/users/3176219) - Quen functionality 
+[TriangleAuthority](https://github.com/TriangleAuthority) / [realultimatepower](http://www.nexusmods.com/witcher3/users/3176219) - Quen inspiration
+
 [Kukassin](http://www.nexusmods.com/witcher3/users/2397035/?tb=mods&pUp=1) - Miscellanious script fixes
