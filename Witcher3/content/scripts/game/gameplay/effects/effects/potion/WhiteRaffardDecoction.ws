@@ -19,21 +19,23 @@ class W3Potion_WhiteRaffardDecoction extends CBaseGameplayEffect
 		vitAtt = GetAttributeRandomizedValue(min, max);
 		vitality = target.GetStatMax(BCS_Vitality) * vitAtt.valueMultiplicative + vitAtt.valueAdditive;
 		target.GainStat(BCS_Vitality, vitality);
-		
-		//if(GetBuffLevel() == 3)
-		//{
+		/*
+		if(GetBuffLevel() == 3)
+		{
 			target.SetImmortalityMode(AIM_Invulnerable, AIC_WhiteRaffardsPotion);
-		//}
+		}
+		*/
 	}
 	
-	//event OnEffectRemoved()
-	//{
-		//super.OnEffectRemoved();
-		
-		//if(GetBuffLevel() == 3)
-		//{
+	event OnEffectRemoved()
+	{
+		super.OnEffectRemoved();
+		/*)
+		if(GetBuffLevel() == 3)
+		{
 			target.SetImmortalityMode(AIM_None, AIC_WhiteRaffardsPotion);
-		//}
-	//}
+		}
+		*/
+	}
 		
 }
