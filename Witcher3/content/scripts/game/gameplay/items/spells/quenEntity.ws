@@ -577,7 +577,7 @@ state ShieldActive in W3QuenEntity extends Active
 		// 
 		level = caster.GetSkillLevel(S_Magic_s15);
 		reducedDamage = MaxF(incomingDamage * (0.5 + level*0.05), 0);
-		GetWitcherPlayer().DisplayHudMessage("incomingDamage="+incomingDamage+", reduced="+reducedDamage);
+		//GetWitcherPlayer().DisplayHudMessage("incomingDamage="+incomingDamage+", reduced="+reducedDamage);
 		
 		//quen hit fx
 		if(!damageData.IsDoTDamage())
