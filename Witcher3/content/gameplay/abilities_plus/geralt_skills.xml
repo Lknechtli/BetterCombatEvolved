@@ -309,10 +309,10 @@
       <!-- Quen -->
       <ability name="magic_4">
         <tags>magic_4</tags>
-        <stamina_cost type="add" always_random="false" min="0" max="0" />
-        <stamina_delay type="base" min="0.0" />
+        <stamina_cost type="add" always_random="false" min="55" max="55" />
+        <stamina_delay type="base" min="1.0" />
         <stamina_delay type="mult" min="1" />
-        <shield_duration type="base" min="60" />
+        <shield_duration type="base" min="10" />
         <shield_duration type="mult" min="1" />
         <shield_health type="base" min="200" />
         <shield_health type="mult" min="1" />
@@ -373,7 +373,7 @@
       <!-- Channeling (ult) -->
       <ability name="magic_s4">
         <tags>magic_s4</tags>
-		<stamina_cost type="add" always_random="false" min="15" max="15" />
+		<stamina_cost type="add" always_random="false" min="0" max="0" />
         <stamina_cost_per_sec type="add" always_random="false" min="30" max="30" />
 		<stamina_cost_reduction_after_1 type="mult" min="0.25" />
 		<shield_health_factor type="add" always_random="false" min="8" max="8" />
@@ -449,7 +449,7 @@
       <!-- Discharge -->
       <ability name="magic_s14">
         <tags>magic_s14, magic_4, magic_s4</tags>
-        <discharge_percent type="add" min="0.05" />
+        <discharge_percent type="add" min="0.1" />
       </ability>
 	  
       <!-- Auen Power -->
@@ -542,7 +542,7 @@
         <item_count type="add" min="1" />
       </ability>
 	  
-	  <ability name="alchemy_s9">
+      <ability name="alchemy_s9">
         <tags>alchemy_s9</tags>
         <slowdown_mod type="add" min="0.15"/>
       </ability>
