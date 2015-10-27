@@ -1,3 +1,7 @@
+/*
+Copyright © CD Projekt RED 2015
+*/
+
 struct SQuenEffects
 {
 	editable var lastingEffectUpgNone	: name;
@@ -8,20 +12,12 @@ struct SQuenEffects
 	editable var cameraShakeStranth		: float;
 }
 
-/*
-	FX - alternate mode (bubble):
-		* quen_shield: bubble visible all the time as long as you have quen active
-	
-	FX - basic mode (passive 'ribbons'):
-		* quen_lasting_shield: 'ribbons' on Geralt while the shield is active
-*/
-
 statemachine class W3QuenEntity extends W3SignEntity
 {
 	editable var effects : array< SQuenEffects >;
 	editable var hitEntityTemplate : CEntityTemplate;
 		
-	//stats
+	
 	protected var shieldDuration	: float;
 	protected var shieldHealth		: float;
 	protected var dischargePercent	: float;
@@ -32,9 +28,6 @@ statemachine class W3QuenEntity extends W3SignEntity
 	private const var MIN_HIT_ENTITY_SPAWN_DELAY : float;
 	private var hitDoTEntities : array<W3VisualFx>;
 	public var showForceFinishedFX : bool;
-	
-	// Triangle
-	protected var prevInstanceWasActive : bool;
 	
 	default skillEnum = S_Magic_4;
 	default MIN_HIT_ENTITY_SPAWN_DELAY = 0.25f;
@@ -64,14 +57,7 @@ statemachine class W3QuenEntity extends W3SignEntity
 			
 		oldQuen = (W3QuenEntity)prevInstance;
 		if(oldQuen)
-		{
-			// Triangle
-			if (oldQuen.IsAnyQuenActive() && oldQuen.GetCurrentStateName() == 'ShieldActive')
-				prevInstanceWasActive = true;
-			else
-				prevInstanceWasActive = false;
 			oldQuen.OnSignAborted(true);
-		}
 		
 		hitEntityTimestamps.Clear();
 		
@@ -81,16 +67,47 @@ statemachine class W3QuenEntity extends W3SignEntity
 	event OnTargetHit( out damageData : W3DamageAction )
 	{
 		if(owner.GetActor() == thePlayer && !damageData.IsDoTDamage() && !damageData.WasDodged())
-			theGame.VibrateControllerHard();	//quen took hit
+			theGame.VibrateControllerHard();
 	}
 		
 	protected function GetSignStats()
 	{
+		var level : int;
+		var skillBonus : float;
+		var spellPower : SAbilityAttributeValue;
+		var ownerActor : CActor;
 		super.GetSignStats();
 		
-		shieldDuration = CalculateAttributeValue(owner.GetSkillAttributeValue(skillEnum, 'shield_duration', true, true));
-		shieldHealth = CalculateAttributeValue(owner.GetSkillAttributeValue(skillEnum, 'shield_health', false, true));
+		level = owner.GetSkillLevel(S_Magic_s15);
+		ownerActor = owner.GetActor();
 		
+		// Dazedy start
+		//shieldDuration = CalculateAttributeValue(owner.GetSkillAttributeValue(skillEnum, 'shield_duration', true, true));
+		//shieldHealth = CalculateAttributeValue(owner.GetSkillAttributeValue(skillEnum, 'shield_health', false, true));
+		
+		//shieldDuration = 10 + (spellpower/10)
+		shieldDuration = CalculateAttributeValue(owner.GetSkillAttributeValue(skillEnum, 'shield_duration', true, true));
+		spellPower = ownerActor.GetTotalSignSpellPower(S_Magic_4);
+		if( owner.CanUseSkill(S_Magic_s15)) {
+			skillBonus = CalculateAttributeValue( owner.GetSkillAttributeValue( S_Magic_s15, 'bonus', false, true ) );
+		} 
+		else {
+			skillBonus = 0;
+		}
+		//GetWitcherPlayer().DisplayHudMessage("spell power = " +((skillBonus + spellPower.valueMultiplicative-1)*10));
+		shieldDuration += ((skillBonus + spellPower.valueMultiplicative)-1)*10;
+		
+		//shieldHealth = 1 hit + 1 more at level 3 and level 5 of sign% skill
+		shieldHealth = 1;
+		if(owner.CanUseSkill(S_Magic_s15)){
+			if(level == 3 || level == 4) {
+				shieldHealth += 1;
+			}
+			else if(level == 5){
+				shieldHealth += 2;
+			}
+		}
+		// Dazedy end
 		if ( owner.CanUseSkill(S_Magic_s14))
 		{			
 			dischargePercent = CalculateAttributeValue(owner.GetSkillAttributeValue(S_Magic_s14, 'discharge_percent', false, true)) * owner.GetSkillLevel(S_Magic_s14);
@@ -105,37 +122,10 @@ statemachine class W3QuenEntity extends W3SignEntity
 	{
 		var actor : CActor;
 		var i : int;
-		//var dots : array<EEffectType>;
+		
 		var crits : array<CBaseGameplayEffect>;
 		
 		actor = owner.GetActor();
-		/*
-		dots.PushBack(EET_Bleeding);
-		dots.PushBack(EET_Burning);
-		dots.PushBack(EET_Poison);
-		dots.PushBack(EET_PoisonCritical);
-		dots.PushBack(EET_Swarm);
-		dots.PushBack(EET_Snowstorm);
-		dots.PushBack(EET_SnowstormQ403);
-		
-		//add resists against DoTs		
-		if(useDoTs)
-		{
-			for(i=0; i<dots.Size(); i+=1)
-			{
-				actor.AddBuffImmunity(dots[i], 'Quen', true );
-			}			
-		}		
-		
-		//add resists against criticals, non-dots
-		size = EnumGetMax('EEffectType')+1;
-		for(i=0; i<size; i+=1)
-		{
-			if(IsCriticalEffectType(i) && !dots.Contains(i))
-				actor.AddBuffImmunity(i, 'Quen', true);
-		}
-		*/
-		//new request - quen breaks ALL DoT buffs except Q403 snowstorm on cast
 		crits = actor.GetBuffs();	
 		for(i=0; i<crits.Size(); i+=1)
 		{
@@ -165,7 +155,8 @@ statemachine class W3QuenEntity extends W3SignEntity
 		dots.PushBack(EET_PoisonCritical);
 		dots.PushBack(EET_Swarm);
 		
-		//remove resists against DoTs		
+
+		
 		if(useDoTs)
 		{
 			for(i=0; i<dots.Size(); i+=1)
@@ -174,7 +165,8 @@ statemachine class W3QuenEntity extends W3SignEntity
 			}			
 		}		
 		
-		//resists against criticals, not dots
+
+		
 		size = EnumGetMax('EEffectType')+1;
 		for(i=0; i<size; i+=1)
 		{
@@ -192,7 +184,8 @@ statemachine class W3QuenEntity extends W3SignEntity
 		
 		if(isAlternate)
 		{
-			//custom attachment
+
+	
 			CreateAttachment( owner.GetActor(), 'quen_sphere' );
 			
 			if((CPlayer)owner.GetActor())
@@ -203,7 +196,8 @@ statemachine class W3QuenEntity extends W3SignEntity
 			super.OnStarted();
 		}
 		
-		//tutorial
+
+		
 		if(owner.GetActor() == thePlayer && ShouldProcessTutorial('TutorialSelectQuen'))
 		{
 			FactsAdd("tutorial_quen_cast");
@@ -224,8 +218,9 @@ statemachine class W3QuenEntity extends W3SignEntity
 			GotoState( 'QuenShield' );
 		}
 	}
+
 	
-	//processes impulse skill
+	
 	public function Impulse()
 	{
 		var level, i, j : int;
@@ -242,10 +237,8 @@ statemachine class W3QuenEntity extends W3SignEntity
 		dm = theGame.GetDefinitionsManager();
 		skillAbilityName = owner.GetPlayer().GetSkillAbilityName(S_Magic_s13);
 		ownerActor = owner.GetActor();
-		
 		if(level >= 2)
 		{
-			//load damage types
 			dm.GetAbilityAttributes(skillAbilityName, atts);
 			for(i=0; i<atts.Size(); i+=1)
 			{
@@ -257,7 +250,13 @@ statemachine class W3QuenEntity extends W3SignEntity
 		}
 		
 		//find targets
-		FindGameplayEntitiesInSphere(ents, ownerActor.GetWorldPosition(), 3, 1000, '', FLAG_OnlyAliveActors+FLAG_ExcludeTarget+FLAG_Attitude_Hostile+FLAG_Attitude_Neutral, ownerActor);
+		// alt cast has a larger explosion range.
+		if(IsAlternateCast()) {
+			FindGameplayEntitiesInSphere(ents, ownerActor.GetWorldPosition(), 6, 1000, '', FLAG_OnlyAliveActors+FLAG_ExcludeTarget+FLAG_Attitude_Hostile+FLAG_Attitude_Neutral, ownerActor);
+		}
+		else {
+			FindGameplayEntitiesInSphere(ents, ownerActor.GetWorldPosition(), 3, 1000, '', FLAG_OnlyAliveActors+FLAG_ExcludeTarget+FLAG_Attitude_Hostile+FLAG_Attitude_Neutral, ownerActor);
+		}
 		
 		//apply effects
 		for(i=0; i<ents.Size(); i+=1)
@@ -299,7 +298,6 @@ statemachine class W3QuenEntity extends W3SignEntity
 			delete action;
 		}
 		
-		//fx - all levels
 		if(IsAlternateCast())
 		{
 			PlayHitEffect('quen_impulse_explode', ownerActor.GetWorldRotation());
@@ -309,7 +307,6 @@ statemachine class W3QuenEntity extends W3SignEntity
 			ownerActor.PlayEffect('lasting_shield_impulse');
 		}
 		
-		//fx - alternate level 2+, non-alternate has it setup in damage action
 		if(IsAlternateCast() && level >= 2)
 		{
 			PlayHitEffect('quen_electric_explode', ownerActor.GetWorldRotation());
@@ -318,7 +315,6 @@ statemachine class W3QuenEntity extends W3SignEntity
 	
 	public final function IsAnyQuenActive() : bool
 	{
-		//active alternative quen
 		if(GetCurrentStateName() == 'QuenChanneled' || (GetCurrentStateName() == 'ShieldActive' && shieldHealth > 0) )
 		{
 			return true;
@@ -329,13 +325,6 @@ statemachine class W3QuenEntity extends W3SignEntity
 	
 	event OnSignAborted( optional force : bool ){}
 	
-	/*public function Cancel( optional force : bool )
-	{
-		OnSignAborted();
-		super.Cancel(force);
-	}*/
-	
-	//plays hit fx for quen sphere
 	public final function PlayHitEffect(fxName : name, rot : EulerAngles, optional isDoT : bool)
 	{
 		var hitEntity : W3VisualFx;
@@ -444,18 +433,25 @@ state ShieldActive in W3QuenEntity extends Active
 		
 		if(caster.CanUseSkill(S_Magic_s15))
 		{
+			//Dazedy start
+			//show 1 particle per hit charge
 			level = caster.GetSkillLevel(S_Magic_s15);
 			if(level == 1)
-				return parent.effects[0].lastingEffectUpg1;
+				return parent.effects[0].lastingEffectUpgNone;
 			else if(level == 2)
-				return parent.effects[0].lastingEffectUpg2;
+				return parent.effects[0].lastingEffectUpgNone;
 			else if(level == 3)
-				return parent.effects[0].lastingEffectUpg3;
+				return parent.effects[0].lastingEffectUpg1;
+			else if(level == 4)
+				return parent.effects[0].lastingEffectUpg1;
+			else if(level == 5)
+				return parent.effects[0].lastingEffectUpg2;
+			//Dazedy end
 		}
 
 		return parent.effects[0].lastingEffectUpgNone;
 	}
-
+	
 	event OnEnterState( prevStateName : name )
 	{
 		var witcher : W3PlayerWitcher;
@@ -468,15 +464,14 @@ state ShieldActive in W3QuenEntity extends Active
 		if(witcher)
 			witcher.SetUsedQuenInCombat();
 		
-		// Triangle
-		if (!(witcher && parent.prevInstanceWasActive))
-			caster.GetActor().PlayEffect(GetLastingFxName());
-
-			
+		caster.GetActor().PlayEffect(GetLastingFxName());
+		
+		parent.AddTimer( 'Expire', parent.shieldDuration, false, , , true );
+		
 		parent.AddBuffImmunities(false);
 		
 		player = caster.GetPlayer();
-		if(player == caster.GetActor() && player && player.CanUseSkill(S_Perk_09) && !parent.prevInstanceWasActive)
+		if(player == caster.GetActor() && player && player.CanUseSkill(S_Perk_09))
 		{
 			cost = player.GetStaminaActionCost(ESAT_Ability, SkillEnumToName( parent.skillEnum ), 0);
 			stamina = player.GetStat(BCS_Stamina, true);
@@ -486,27 +481,14 @@ state ShieldActive in W3QuenEntity extends Active
 			else
 				caster.GetActor().DrainStamina( ESAT_Ability, 0, 0, SkillEnumToName( parent.skillEnum ) );
 		}
-		else if (!parent.prevInstanceWasActive)
+		else
 			caster.GetActor().DrainStamina( ESAT_Ability, 0, 0, SkillEnumToName( parent.skillEnum ) );
 		
-		// Triangle
-		if (witcher)
-			witcher.PauseStaminaRegen('BasicQuen');
-		
-		//abort current DOT if any
 		witcher.CriticalEffectAnimationInterrupted("quen channeled");
 		
 		//hack for signs not being saved
 		witcher.AddTimer('HACK_QuenSaveStatus', 0, true);
 		parent.shieldStartTime = theGame.GetEngineTime();
-		
-		// Triangle
-		if (witcher && parent.prevInstanceWasActive)
-		{
-			parent.prevInstanceWasActive = false;
-			parent.GotoState('Expired');
-		} else
-			parent.AddTimer( 'Expire', parent.shieldDuration, false, , , true );
 	}
 	
 	event OnLeaveState( nextStateName : name )
@@ -522,10 +504,6 @@ state ShieldActive in W3QuenEntity extends Active
 			witcher.StopEffect(parent.effects[0].lastingEffectUpg3);
 			witcher.StopEffect(parent.effects[0].lastingEffectUpgNone);
 		}
-	
-		// Triangle
-		if (witcher)
-			witcher.ResumeStaminaRegen('BasicQuen');
 	
 		parent.RemoveBuffImmunities(false);
 		
@@ -556,6 +534,7 @@ state ShieldActive in W3QuenEntity extends Active
 		var damageTypes : array<SRawDamage>;
 		var i : int;
 		var isBleeding : bool;
+		var level : int;
 		
 		if( damageData.WasDodged() ||
 			damageData.GetHitReactionType() == EHRT_Reflect )
@@ -565,29 +544,6 @@ state ShieldActive in W3QuenEntity extends Active
 		
 		parent.OnTargetHit(damageData);
 		
-		//#Quen hack
-		/*
-		if(damageData.IsDoTDamage())
-		{
-			damageData.SetAllProcessedDamageAs(0);
-			return true;
-		}
-		*/
-			
-		//all damage from DOTs is blocked
-		/*
-		if(damageData.IsDoTDamage())
-		{	
-			if(theGame.CanLog())
-			{
-				LogDMHits("QuenShieldActive.OnTargetHit: all DOT's damage is reduced to 0", damageData);
-			}
-			damageData.processedDmg.vitalityDamage = 0;
-			parent.SetBlockedAllDamage(true);
-			return true;
-		}*/
-			
-		//skip if parried or countered
 		inAttackAction = (W3Action_Attack)damageData;
 		if(inAttackAction && inAttackAction.CanBeParried() && (inAttackAction.IsParried() || inAttackAction.IsCountered()) )
 			return true;
@@ -618,16 +574,15 @@ state ShieldActive in W3QuenEntity extends Active
 			incomingDamage = MaxF(0, damageData.processedDmg.vitalityDamage - directDamage);
 		}
 		
-		if(incomingDamage < parent.shieldHealth)
-			reducedDamage = incomingDamage;
-		else
-			reducedDamage = MaxF(incomingDamage, parent.shieldHealth);
+		// 
+		level = caster.GetSkillLevel(S_Magic_s15);
+		reducedDamage = MaxF(incomingDamage * (0.5 + level*0.05), 0);
+		GetWitcherPlayer().DisplayHudMessage("incomingDamage="+incomingDamage+", reduced="+reducedDamage);
 		
 		//quen hit fx
 		if(!damageData.IsDoTDamage())
 		{
 			casterActor.PlayEffect( 'quen_lasting_shield_hit' );	//hack!
-			//damageData.SetHitEffect( 'quen_lasting_shield_hit', false, true );  hit fx is disabled few lines lower so this makes no sense anyway
 			GCameraShake( parent.effects[parent.fireMode].cameraShakeStranth, true, parent.GetWorldPosition(), 30.0f );
 		}
 		
@@ -649,9 +604,9 @@ state ShieldActive in W3QuenEntity extends Active
 				skillBonus = CalculateAttributeValue( caster.GetSkillAttributeValue( S_Magic_s15, 'bonus', false, true ) );
 			else
 				skillBonus = 0;
-				
-			drainedHealth = reducedDamage / (skillBonus + spellPower.valueMultiplicative);			
-			parent.shieldHealth -= drainedHealth;
+			// Dazedy
+			// Shield has up to 3 health (hits), each hit takes one away
+			parent.shieldHealth -= 1;
 			
 				
 			damageData.processedDmg.vitalityDamage -= reducedDamage;
@@ -661,12 +616,12 @@ state ShieldActive in W3QuenEntity extends Active
 				casterActor.RaiseForceEvent( 'StrongHitTest' );
 				
 			//discharge effect's damage
-			if (!damageData.IsDoTDamage() && casterActor == thePlayer && damageData.attacker != casterActor && GetWitcherPlayer().CanUseSkill(S_Magic_s14) && parent.dischargePercent > 0 && !damageData.IsActionRanged() && VecDistanceSquared( casterActor.GetWorldPosition(), damageData.attacker.GetWorldPosition() ) <= 13 ) //~3.5^2
+			if (casterActor == thePlayer && damageData.attacker != casterActor && GetWitcherPlayer().CanUseSkill(S_Magic_s14) && parent.dischargePercent > 0 && !damageData.IsActionRanged() && VecDistanceSquared( casterActor.GetWorldPosition(), damageData.attacker.GetWorldPosition() ) <= 13 ) 
 			{
 				action = new W3DamageAction in theGame.damageMgr;
 				action.Initialize( casterActor, damageData.attacker, parent, 'quen', EHRT_Light, CPS_SpellPower, false, false, true, false, 'hit_shock' );
 				parent.InitSignDataForDamageAction( action );		
-				action.AddDamage( theGame.params.DAMAGE_NAME_SHOCK, parent.dischargePercent * incomingDamage );
+				action.AddDamage( theGame.params.DAMAGE_NAME_SHOCK, parent.dischargePercent * damageData.processedDmg.vitalityDamage );
 				action.SetCanPlayHitParticle(true);
 				action.SetHitEffect('hit_electric_quen');
 				action.SetHitEffect('hit_electric_quen', true);
@@ -676,16 +631,19 @@ state ShieldActive in W3QuenEntity extends Active
 				theGame.damageMgr.ProcessAction( action );		
 				delete action;
 				
-				//fx
 				casterActor.PlayEffect('quen_force_discharge');
 			}			
 		}
 		
 		//if quen blocked all damage (at this point damageData's damage is modified by quen, so DealsAnyDamage() checks if there is some damage AFTER quen processing
+		/*	Dazedy
+			always let % of damage through 
 		if(reducedDamage > 0 && (!damageData.DealsAnyDamage() || (isBleeding && reducedDamage >= directDamage)) )
 			parent.SetBlockedAllDamage(true);
 		else
 			parent.SetBlockedAllDamage(false);
+		*/
+		parent.SetBlockedAllDamage(false);
 		
 		//break shield if all shield's health is used up
 		if( parent.shieldHealth <= 0 )
@@ -781,6 +739,7 @@ state QuenChanneled in W3QuenEntity extends Channeling
 	
 	//WHY THE FUCK IS THIS CALLED WHEN YOU CAST THE SIGN!?!?!
 	//set isEnd if the spell acutally ends
+	// - note: is probably in case you have quen already active
 	event OnEnded(optional isEnd : bool)
 	{
 		var casterActor : CActor;
@@ -797,9 +756,11 @@ state QuenChanneled in W3QuenEntity extends Channeling
 		parent.StopAllEffects();
 		
 		parent.RemoveHitDoTEntities();
-		
+		/*  Dazedy
+			Only explode when shield is broken, not released.
 		if(isEnd && caster.CanUseSkill(S_Magic_s13))
 			parent.Impulse();
+		*/
 	}
 	
 	event OnSignAborted( optional force : bool )
@@ -926,8 +887,10 @@ state QuenChanneled in W3QuenEntity extends Channeling
 		var attackerVictimEuler : EulerAngles;
 		var action : W3DamageAction;		
 		var shieldHP : float;
+		
 
 		parent.OnTargetHit(damageData);
+		parent.SetBlockedAllDamage(true); //Dazedy
 		
 		casterActor = caster.GetActor();
 		directDamage = damageData.GetDamageValue(theGame.params.DAMAGE_NAME_DIRECT);
@@ -993,30 +956,13 @@ state QuenChanneled in W3QuenEntity extends Channeling
 				GCameraShake( parent.effects[parent.fireMode].cameraShakeStranth, true, parent.GetWorldPosition(), 30.0f );
 			
 			damageData.SetHitAnimationPlayType( EAHA_ForceNo );			
-			damageData.processedDmg.vitalityDamage -= reducedDamage;
+			damageData.processedDmg.vitalityDamage = 0;
 			damageData.SetCanPlayHitParticle(false);
 						
 			//discharge effect's damage
-			if (casterActor == thePlayer && GetWitcherPlayer().CanUseSkill(S_Magic_s14) && parent.dischargePercent > 0 && !damageData.IsActionRanged() && VecDistanceSquared( casterActor.GetWorldPosition(), damageData.attacker.GetWorldPosition() ) <= 13 ) //~3.5^2
-			{
-				action = new W3DamageAction in theGame.damageMgr;
-				action.Initialize( casterActor, damageData.attacker, parent, 'quen', EHRT_Light, CPS_SpellPower, false, false, true, false, 'hit_shock' );
-				parent.InitSignDataForDamageAction( action );		
-				action.AddDamage( theGame.params.DAMAGE_NAME_SHOCK, parent.dischargePercent * reducibleDamage );
-				action.SetCanPlayHitParticle(true);
-				action.SetHitEffect('hit_electric_quen');
-				action.SetHitEffect('hit_electric_quen', true);
-				action.SetHitEffect('hit_electric_quen', false, true);
-				action.SetHitEffect('hit_electric_quen', true, true);
-				
-				theGame.damageMgr.ProcessAction( action );		
-				delete action;
-				
-				//fx
-				parent.PlayHitEffect('discharge', attackerVictimEuler);				
-			}
+			// no discharge effect because discharge should only happen when YOU take damage.
 		}		
-		parent.SetBlockedAllDamage( !damageData.DealsAnyDamage() );
+		parent.SetBlockedAllDamage( true );//!damageData.DealsAnyDamage() );
 		
 		//drain stamina
 		if(!drainAllStamina)
@@ -1030,7 +976,10 @@ state QuenChanneled in W3QuenEntity extends Channeling
 		}
 		
 		//heal
-		caster.GetActor().Heal(reducedDamage * HEALING_FACTOR);
+		//Dazedy start
+		spellPower = casterActor.GetTotalSignSpellPower(S_Magic_4);
+		caster.GetActor().Heal(MinF(reducedDamage * .25, (casterActor.GetStatMax(BCS_Vitality) * ((skillBonus+spellPower.valueMultiplicative-1)/20))));
+		// Dazedy end
 		
 		//check quen finish
 		if( casterActor.GetStat( BCS_Stamina ) <= 0 )
