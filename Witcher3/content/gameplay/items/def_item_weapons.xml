@@ -26,8 +26,10 @@
 	</ability>
 	
 	<ability name="Geralt Fistfight Fists _Stats">
-		<BludgeoningDamage				type="base"	min="150"				/>
+		<BludgeoningDamage				type="base"	min="175"				/>
 		<SilverDamage					type="base"	min="1"					/>
+		<bludgeoning_resistance_perc	type="base" min="0.5"				/>
+		<elemental_resistance_perc		type="base" min="0.35"				/>
 	</ability>
 	
 	<ability name="Lightning fists _Stats">

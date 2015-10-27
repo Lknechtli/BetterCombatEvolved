@@ -401,7 +401,7 @@
       <!-- Igni Power -->
       <ability name="magic_s7">
         <tags>magic_s7,Igni</tags>
-        <spell_power type="mult" min="0.04" />
+        <spell_power type="mult" min="0.05" />
       </ability>
 	  
       <!-- Melt Armor -->
@@ -434,7 +434,7 @@
       <!-- aard passive spell power bonus -->
       <ability name="magic_s12">
         <tags>magic_s12,Aard</tags>
-        <spell_power min="0.04" type="mult" />
+        <spell_power min="0.05" type="mult" />
       </ability>
 	  
 	  <!-- quen impulse -->
@@ -462,7 +462,7 @@
       <!-- Yrden Power -->
       <ability name="magic_s16">
         <tags>magic_s16,Yrden</tags>
-        <spell_power type="mult" min="0.04" />
+        <spell_power type="mult" min="0.05" />
       </ability>
 	  
       <ability name="magic_s17">
@@ -474,7 +474,7 @@
     <!-- Axii Power -->
       <ability name="magic_s18">
         <tags>magic_s16,Axii</tags>
-        <spell_power type="mult" min="0.04" />
+        <spell_power type="mult" min="0.05" />
       </ability>
 	  
     <!-- Axii Dominate -->
@@ -510,13 +510,13 @@
       <!-- Delayed Recovery -->
       <ability name="alchemy_s3">
         <tags>alchemy_s3</tags>
-        <toxicity_threshold type="add" min="0.02" />
+        <toxicity_threshold type="add" min="0.0333" />
       </ability>
 	  
       <!-- Side Effect -->
       <ability name="alchemy_s4">
         <tags>alchemy_s4</tags>
-        <apply_chance type="add" min="0.17" />
+        <apply_chance type="add" min="0.15" />
       </ability>
 	  
       <ability name="alchemy_s5">
@@ -533,7 +533,7 @@
       <!-- Application -->
       <ability name="alchemy_s7">
         <tags>alchemy_s7</tags>
-        <critical_hit_damage_bonus type="add" min="0.12" />
+        <critical_hit_damage_bonus type="add" min="0.1" />
       </ability>
 	  
       <!-- Efficiency -->
@@ -579,13 +579,13 @@
       <!-- Mutant -->
       <ability name="alchemy_s14">
         <tags>alchemy_s14</tags>
-        <duration type="mult" min="0.03" />
+        <duration type="mult" min="0.0333" />
       </ability>
 	  
       <!-- Condensation -->
       <ability name="alchemy_s15">
         <tags>alchemy_s15</tags>
-        <toxicityRegen type="add" min="-2" />
+        <toxicityRegen type="add" min="-3" />
       </ability>
 	  
       <!-- Frenzy -->
@@ -604,7 +604,7 @@
       <!-- Taster -->
       <ability name="alchemy_s18">
         <tags>alchemy_s18</tags>
-        <toxicity type="add" min="8" />
+        <toxicity type="add" min="6" />
       </ability>
 	  
 	  <ability name="alchemy_s19">

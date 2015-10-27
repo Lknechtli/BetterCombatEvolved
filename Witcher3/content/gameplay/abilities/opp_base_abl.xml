@@ -212,8 +212,8 @@
       <ability name="NPCLevelBonusLow">
 	  <!--BCEv Edit-->
         <tags> "base" </tags>
-        <vitality type="mult" always_random="false" min="0.25" max="0.25" />
-        <attack_power type="mult" always_random="false" min="0.25" max="0.25" />
+        <vitality type="mult" always_random="false" min="0.0" max="0.0" />
+        <attack_power type="mult" always_random="false" min="0.0" max="0.0" />
       </ability>
 	  
 	  <ability name="NPCLevelModFistFightLower">
@@ -231,15 +231,15 @@
       <ability name="NPCLevelBonusHigh">
 	  <!--BCEv Edit-->
         <tags> "base" </tags>
-        <vitality type="mult" always_random="false" min="-0.08" max="-0.08" />
-        <attack_power type="mult" always_random="false" min="-0.15" max="-0.15" />
+        <vitality type="mult" always_random="false" min="0.0" max="0.0" />
+        <attack_power type="mult" always_random="false" min="0.0" max="0.0" />
       </ability>
 	  
       <ability name="NPCLevelBonusDeadly">
 	  <!--BCEv Edit-->
         <tags> "base" </tags>
-        <vitality type="mult" always_random="false" min="-0.15" max="-0.15" />
-        <attack_power type="mult" always_random="false" min="-0.20" max="-0.20" />
+        <vitality type="mult" always_random="false" min="0.0" max="0.0" />
+        <attack_power type="mult" always_random="false" min="0.0" max="0.0" />
       </ability>
 	  
       <ability name="MiniBoss">
