@@ -220,7 +220,7 @@
         <attack_light is_ability="true" />
         <attack_heavy is_ability="true" />
         <!-- critical hit -->
-        <critical_hit_chance type="base" min="0.15" />
+        <critical_hit_chance type="base" min="0.05" />
         <critical_hit_chance type="mult" min="1" />
         <critical_hit_damage_bonus type="add" min="0.5" />
       </ability>

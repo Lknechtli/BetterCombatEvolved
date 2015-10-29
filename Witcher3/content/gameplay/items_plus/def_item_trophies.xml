@@ -8,257 +8,200 @@
 			</ability>
 		
 			<ability name="cave_troll_trophy_stats">
-				<attack_power type="mult" min="0.15" />
-				<armor type="mult" min="0.1" />
-				<critical_hit_chance type="add" min="-0.2" />
-				<spell_power type="mult" min="-0.15" />
-				<weight type="base" min="15"/>
+				<attack_power type="mult" min="0.25" />
+				<spell_power type="mult" min="-0.5" />
 			</ability>
 			
 			<ability name="nekkers_trophy_stats">
-			<spell_power_aard type="mult" min="0.10" />
-			<critical_hit_chance type="add" min="0.03" />
-			<spell_power_quen type="mult" min="-0.08" />
-			<attack_power type="mult" min="-0.02" />
+			<critical_hit_chance type="add" min="0.1" />
+			<armor type="mult" min="-0.2" />
 			</ability>
 			
 			<ability name="nekker_warrior_trophy_stats">
-			<spell_power_aard type="mult" min="0.15" />
-			<critical_hit_chance type="add" min="0.06" />
-			<armor type="mult" min="0.02" />
-			<spell_power_quen type="mult" min="-0.12" />
-			<attack_power type="mult" min="-0.04" />
+			<critical_hit_chance type="add" min="0.15" />
+			<armor type="mult" min="-0.30" />
 			</ability>
 			
 			<ability name="drowned_dead_trophy_stats">
-				<spell_power type="mult" min="0.02" />
-				<attack_power type="mult" min="0.02" />
-				<critical_hit_chance type="add" min="0.02" />
-				<armor type="mult" min="-0.03" />
-				<spell_power_igni type="mult" min="-0.12" />
-				
+				<spell_power_igni type="mult" min="1.25" />
+				<spell_power type="mult" min="-0.5" />
 			</ability>
 			
 			<ability name="minion_trophy_stats">
-				<elemental_resistance_perc type="add" min="0.1"/>
-				<bleeding_resistance_perc type="add" min="0.1"/>
-				<vitality type="mult" min="0.05" />
-				<armor type="mult" min="-0.15" />
+				<elemental_resistance_perc type="add" min="0.5"/>
+				<armor type="mult" min="-0.5" />
 			</ability>
 			
 			<ability name="leshy_trophy_stats">
-				<vitality type="mult" min="0.02" />
-				<spell_power type="mult" min="0.1" />
-				<poison_resistance_perc type="add" min="0.1"/>
-       			<bleeding_resistance_perc type="add" min="0.1"/>
-				<spell_power_igni type="mult" min="-0.2" />
-				<elemental_resistance_perc type="add" min="-0.1"/>
+				<poison_resistance_perc type="add" min="1"/>
+       			<bleeding_resistance_perc type="add" min="1"/>
+				<elemental_resistance_perc type="add" min="-0.5"/>
+				<armor type="mult" min="-0.5" />
 			</ability>
 
 			<ability name="leshy_mh302_trophy_stats">
-				<vitality type="mult" min="0.05" />
-				<spell_power type="mult" min="0.15" />
-				<poison_resistance_perc type="add" min="0.15"/>
-       			<bleeding_resistance_perc type="add" min="0.15"/>
-				<spell_power_igni type="mult" min="-0.25" />
-				<elemental_resistance_perc type="add" min="-0.15"/>
+				<poison_resistance_perc type="add" min="1"/>
+       			<bleeding_resistance_perc type="add" min="1"/>
+				<elemental_resistance_perc type="add" min="-0.4"/>
+				<armor type="mult" min="-0.4" />
 			</ability>			
 		
 			<ability name="forktail_trophy_stats">
-				<attack_power type="mult" min="0.04" />
-				<spell_power type="mult" min="0.04" />
-				<critical_hit_chance type="add" min="0.02" />
-				<elemental_resistance_perc type="add" min="-0.05"/>
-				<armor type="mult" min="-0.05" />
+				<elemental_resistance_perc type="add" min="0.25"/>
+				<armor type="mult" min="0.25" />
+				<attack_power type="mult" min="-0.25" />
+				<spell_power type="mult" min="-0.25" />
 			</ability>	
 			
 			<ability name="wyvern_trophy_stats">
-				<spell_power_igni type="mult" min="0.2" />
-				<attack_power type="mult" min="0.02" />
-				<vitality type="mult" min="0.03" />
-				<spell_power type="mult" min="-0.1" />
-				<critical_hit_chance type="add" min="-0.03" />
+				<attack_power type="mult" min="0.2" />
+				<spell_power type="mult" min="0.2" />
+				<critical_hit_chance type="add" min="-1" />
 				
 			</ability>
 			
 			<ability name="wyvern_mq1051_trophy_stats">
-				<spell_power_igni type="mult" min="0.3" />
-				<attack_power type="mult" min="0.03" />
-				<vitality type="mult" min="0.05" />
-				<spell_power type="mult" min="-0.15" />
-				<critical_hit_chance type="add" min="-0.05" />
+				<attack_power type="mult" min="0.22" />
+				<spell_power type="mult" min="0.22" />
+				<critical_hit_chance type="add" min="-0.8" />
 			</ability>
 			
 			<ability name="gravehag_trophy_stats">
-				<spell_power type="mult" min="0.03" />
-				<vitality type="mult" min="0.03" />
-				<elemental_resistance_perc type="mult" min="0.05"/>
-				<poison_resistance_perc type="add" min="0.15"/>
-				<critical_hit_chance type="add" min="-0.03" />
-				<attack_power type="mult" min="-0.05" />
-				
+				<spell_power type="mult" min="0.6" />
+				<armor type="mult" min="-0.5" />
+				<elemental_resistance_perc type="mult" min="-0.5"/>			
 			</ability>	
 
 			<ability name="fogling_trophy_stats">
-				<critical_hit_chance type="add" min="0.15" />
-				<elemental_resistance_perc type="mult" min="0.1"/>
-				<attack_power type="mult" min="-0.12" />
-				<vitality type="mult" min="-0.12" />
+				<critical_hit_damage_bonus type="add" min="0.75" />
+				<critical_hit_chance type="add" min="-0.2" />
 			</ability>	
 		
 			<ability name="fiend_trophy_stats">
-				<vitality type="mult" min="0.15" />
-				<attack_power type="mult" min="0.05" />
-				<elemental_resistance_perc type="mult" min="-0.15"/>
-				<critical_hit_chance type="add" min="-0.05" />				
+				<vitality type="mult" min="0.25" />
+				<spell_power_quen type="mult" min="0.5" />
+				<critical_hit_chance type="add" min="-0.95" />
+				<attack_power type="mult" min="-0.35" />
 			</ability>	
 			
 			<ability name="czart_trophy_stats">
-				<vitality type="mult" min="0.05" />
-				<critical_hit_chance type="add" min="0.03" />
-				<critical_hit_damage_bonus type="add" min="0.15" />
-				<attack_power type="mult" min="-0.15" />
-				<elemental_resistance_perc type="mult" min="-0.25"/>
+				<vitality type="mult" min="0.35" />
+				<spell_power_quen type="mult" min="1" />
+				<critical_hit_chance type="add" min="-1" />
+				<attack_power type="mult" min="-0.45" />
+				<spell_power type="mult" min="-0.45" />
 				
 			</ability>	
 			
 			<ability name="wraith_trophy_stats">
-				<critical_hit_chance type="add" min="0.05" />
-				<critical_hit_damage_bonus type="add" min="0.15" />
-				<spell_power_yrden type="mult" min="-0.20" />
-				<spell_power_quen type="mult" min="-0.15" />
-				<armor type="mult" min="-0.1" />
+				<spell_power_yrden type="mult" min="1.25" />
+				<spell_power type="mult" min="-0.5" />
 			</ability>				
 
 			<ability name="lamia_trophy_stats">
-				<spell_power_axii type="mult" min="0.15" />
-				<spell_power_aard type="mult" min="0.1" />
-				<armor type="mult" min="-0.15" />
-				<bleeding_resistance_perc type="add" min="-0.15"/>
-				
+				<spell_power_axii type="mult" min="1.25" />
+				<spell_power type="mult" min="-0.5" />
 			</ability>
 
 			<ability name="bies_trophy_stats">
-				<critical_hit_chance type="add" min="0.3" />
-				<critical_hit_damage_bonus type="add" min="0.05" />
-				<vitality type="mult" min="-0.35" />
+				<critical_hit_chance type="add" min="0.25" />
+				<critical_hit_damage_bonus type="add" min="0.25" />
+				<armor type="mult" min="-0.75" />
 			</ability>
 
 			<ability name="erynie_trophy_stats">
-				<spell_power type="mult" min="0.05" />
-				<critical_hit_damage_bonus type="add" min="0.15" />
-				<spell_power_yrden type="mult" min="0.1" />
-				<bleeding_resistance_perc type="add" min="-0.15"/>
-				<poison_resistance_perc type="add" min="-0.15"/>
-				<elemental_resistance_perc type="add" min="-0.1"/>
-				
-			</ability>		
+				<spell_power_quen type="mult" min="1.25" />
+				<spell_power type="mult" min="-0.5" />
+			</ability>	
 			
 			<ability name="water_hag_trophy_stats">
-				<vitality type="mult" min="0.15" />
-				<spell_power_axii type="mult" min="0.20" />
-				<attack_power type="mult" min="-0.1" />
+				<spell_power type="mult" min="0.75" />
+				<attack_power type="mult" min="-0.75" />
 			</ability>		
 
 			<ability name="cockatrice_trophy_stats">
-				<spell_power_igni type="mult" min="0.20" />
-				<attack_power type="mult" min="0.05" />
-				<spell_power type="mult" min="-0.10" />
-				<vitality type="mult" min="-0.1" />
+				<spell_power_igni type="mult" min="0.95" />
+				<spell_power_aard type="mult" min="0.95" />
+				<spell_power type="mult" min="-0.5" />
 			</ability>
 
 			<ability name="nightwraith_trophy_stats">
-				<poison_resistance_perc type="add" min="0.25"/>
-				<bleeding_resistance_perc type="add" min="0.25"/>
-				<spell_power_quen type="mult" min="0.15" />
-				<vitality type="mult" min="-0.15" />
+				<poison_resistance_perc type="add" min="1"/>
+				<bleeding_resistance_perc type="add" min="1"/>
+				<armor type="mult" min="0.25" />
+				<spell_power type="mult" min="-0.8" />
 				
 			</ability>
 			
 			<ability name="ekimma_trophy_stats">
-				<attack_power type="mult" min="0.03" />
-				<critical_hit_chance type="add" min="0.1" />
-				<armor type="mult" min="-0.15" />
-				<spell_power_igni type="mult" min="-0.1" />
+				<critical_hit_chance type="add" min="0.99" />
+				<armor type="mult" min="-0.99" />
+				<elemental_resistance_perc type="add" min="-0.99"/>
 			</ability>
 			
 			<ability name="arachas_trophy_stats">
-				<armor type="mult" min="0.1" />
-				<elemental_resistance_perc type="add" min="0.05"/>
-				<poison_resistance_perc type="add" min="0.10"/>
-       			<bleeding_resistance_perc type="add" min="0.10"/>
-				<critical_hit_chance type="add" min="-0.1" />
-				<bonus_herb_chance type="add" min="0.35"/>
+				<elemental_resistance_perc type="add" min="0.15"/>
+				<poison_resistance_perc type="add" min="0.25"/>
+       			<bleeding_resistance_perc type="add" min="0.25"/>
+				<bonus_herb_chance type="add" min="0.75"/>
 			</ability>
 			
 			<ability name="gryphon_trophy_stats">
-				<attack_power type="mult" min="0.03" />
-				<spell_power type="mult" min="0.07" />
-				<bleeding_resistance_perc type="add" min="0.08"/>
-				<spell_power_aard type="mult" min="-0.18" />
+				<spell_power_aard type="mult" min="1.25" />
+				<spell_power type="mult" min="-0.5" />
 			</ability>
 			
 			<ability name="gryphon_mh301_trophy_stats">
-				<vitality type="mult" min="0.05" />
-				<attack_power type="mult" min="0.04" />
-				<spell_power type="mult" min="0.1" />
-				<bleeding_resistance_perc type="add" min="0.1"/>
-				<spell_power_aard type="mult" min="-0.20" />
+				<spell_power_aard type="mult" min="1" />
+				<armor type="mult" min="0.1" />
+				<spell_power type="mult" min="-0.5" />
+				<elemental_resistance_perc type="add" min="-0.2"/>
 			</ability>
 			
 			<ability name="gryphon_sq108_trophy_stats">
-				<vitality type="mult" min="0.05" />
-				<attack_power type="mult" min="0.05" />
-				<spell_power type="mult" min="0.12" />
-				<bleeding_resistance_perc type="add" min="0.15"/>
-				<spell_power_aard type="mult" min="-0.25" />
+				<spell_power_aard type="mult" min="1.25" />
+				<armor type="mult" min="0.2" />
+				<spell_power type="mult" min="-0.5" />
+				<elemental_resistance_perc type="add" min="-0.3"/>
 			</ability>
 			
 			<ability name="succubus_trophy_stats">
-				<spell_power_axii type="mult" min="0.25" />
-				<critical_hit_chance type="add" min="0.05" />
-				<critical_hit_damage_bonus type="add" min="-0.03" />
-				<bonus_money type="add" min="0.25"/>
+				<spell_power_axii type="mult" min="0.75" />
+				<bonus_money type="add" min="0.5"/>
 			</ability>
 
 			<ability name="katakan_trophy_stats">
-				<attack_power type="mult" min="0.02" />
-				<critical_hit_chance type="add" min="0.1" />
-				<bleeding_resistance_perc type="add" min="0.05"/>
-				<critical_hit_damage_bonus type="add" min="-0.1" />
-				<dismember_chance_mult type="add" min="0.50" />
+				<spell_power type="mult" min="0.75" />
+				<spell_power_quen type="mult" min="-1" />
+				<spell_power_igni type="mult" min="-1" />
 			</ability>		
 
 			<ability name="dao_trophy_stats">
-				<vitality type="mult" min="0.2" />
-				<armor type="mult" min="0.20" />
-				<spell_power_quen type="mult" min="0.25" />
-				<attack_power type="mult" min="-0.35" />
-				<critical_hit_chance type="add" min="-0.2" />
+				<armor type="mult" min="0.75" />
+				<elemental_resistance_perc type="add" min="0.75"/>
+				<attack_power type="mult" min="-0.5" />
+				<spell_power_quen type="mult" min="-0.8" />
 			</ability>	
 
 			<ability name="doppler_trophy_stats">
 				<attack_power type="mult" min="0.03" />
 				<spell_power type="mult" min="0.03" />
-				<armor type="mult" min="0.03" />
-				<elemental_resistance_perc type="add" min="0.03"/>
-				<critical_hit_damage_bonus type="add" min="-0.15" />
-				<nonhuman_exp_bonus_when_fatal type="add" min="0.25"/>
+				<human_exp_bonus_when_fatal type="add" min="1"/>
 			</ability>				
 
 			<ability name="noonwraith_trophy_stats">
-				<spell_power_igni type="mult" min="0.2" />
-				<critical_hit_damage_bonus type="add" min="0.1" />
-				<spell_power type="mult" min="-0.07" />
-				<human_exp_bonus_when_fatal type="add" min="0.15"/>
+				<spell_power_igni type="mult" min="0.75" />
+				<spell_power_yrden type="mult" min="0.75" />
+				<spell_power type="mult" min="-0.45" />
+				<nonhuman_exp_bonus_when_fatal type="add" min="0.75"/>
 			</ability>	
 			
 			<ability name="noonwraith_mh308_trophy_stats">
-				<spell_power_igni type="mult" min="0.25" />
-				<critical_hit_damage_bonus type="add" min="0.15" />
-				<spell_power type="mult" min="-0.10" />
-				<human_exp_bonus_when_fatal type="add" min="0.25"/>
-			</ability>
+				<spell_power_igni type="mult" min="0.75" />
+				<spell_power_yrden type="mult" min="0.75" />
+				<spell_power type="mult" min="-0.5" />
+				<nonhuman_exp_bonus_when_fatal type="add" min="0.5"/>
+			</ability>	
 			<!--
 			<ability name="werewolf_trophy_stats">
 				<vitality type="mult" min="0.1" />
