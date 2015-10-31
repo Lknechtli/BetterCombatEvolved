@@ -193,29 +193,29 @@
         <super_heavy_attack_focus_drain type="add" min="0.3" />
         <!-- Prices group -->
         <crow_perch_price_mult type="base" always_random="false" min="0.85" max="0.85" />
-        <crow_perch_price_mult type="mult" always_random="false" min="1" />
+        <crow_perch_price_mult type="mult" always_random="false" min="1.35" />
         <spitfire_bluff_price_mult type="base" always_random="false" min="0.85" max="0.85" />
-        <spitfire_bluff_price_mult type="mult" always_random="false" min="1" />
+        <spitfire_bluff_price_mult type="mult" always_random="false" min="1.35" />
         <the_mire_price_mult type="base" always_random="false" min="0.85" max="0.85" />
-        <the_mire_price_mult type="mult" always_random="false" min="1" />
+        <the_mire_price_mult type="mult" always_random="false" min="1.35" />
         <mudplough_price_mult type="base" always_random="false" min="0.85" max="0.85" />
-        <mudplough_price_mult type="mult" always_random="false" min="1" />
+        <mudplough_price_mult type="mult" always_random="false" min="1.35" />
         <grayrocks_price_mult type="base" always_random="false" min="0.85" max="0.85" />
-        <grayrocks_price_mult type="mult" always_random="false" min="1" />
+        <grayrocks_price_mult type="mult" always_random="false" min="1.35" />
         <the_descent_price_mult type="base" always_random="false" min="0.85" max="0.85" />
-        <the_descent_price_mult type="mult" always_random="false" min="1" />
+        <the_descent_price_mult type="mult" always_random="false" min="1.35" />
         <crookback_bog_price_mult type="base" always_random="false" min="0.85" max="0.85" />
-        <crookback_bog_price_mult type="mult" always_random="false" min="1" />
+        <crookback_bog_price_mult type="mult" always_random="false" min="1.35" />
         <bald_mountain_price_mult type="base" always_random="false" min="0.85" max="0.85" />
-        <bald_mountain_price_mult type="mult" always_random="false" min="1" />
+        <bald_mountain_price_mult type="mult" always_random="false" min="1.35" />
         <novigrad_price_mult type="base" always_random="false" min="1.3" max="1.3" />
-        <novigrad_price_mult type="mult" always_random="false" min="1" />
+        <novigrad_price_mult type="mult" always_random="false" min="1.35" />
         <homestead_price_mult type="base" always_random="false" min="1.3" max="1.3" />
-        <homestead_price_mult type="mult" always_random="false" min="1" />
+        <homestead_price_mult type="mult" always_random="false" min="1.35" />
         <gustfields_price_mult type="base" always_random="false" min="1.3" max="1.3" />
-        <gustfields_price_mult type="mult" always_random="false" min="1" />
+        <gustfields_price_mult type="mult" always_random="false" min="1.35" />
         <oxenfurt_price_mult type="base" always_random="false" min="1.3" max="1.3" />
-        <oxenfurt_price_mult type="mult" always_random="false" min="1" />
+        <oxenfurt_price_mult type="mult" always_random="false" min="1.35" />
         <!-- basic attacks -->
         <attack_light is_ability="true" />
         <attack_heavy is_ability="true" />
