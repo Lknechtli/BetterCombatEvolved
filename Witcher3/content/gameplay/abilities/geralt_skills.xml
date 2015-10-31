@@ -290,7 +290,7 @@
         <stamina_cost type="add" always_random="false" min="65" max="65" />		
         <stamina_delay type="base" min="0.5" />
         <stamina_delay type="mult" min="1" />
-        <FireDamage type="add" always_random="false" min="50" max="50" />
+        <FireDamage type="add" always_random="false" min="125" max="125" />
       </ability>
 	  
       <!-- Yrden -->
@@ -366,7 +366,7 @@
         <trap_duration type="base" min="18" />
         <trap_duration type="mult" min="1" />
         <ShockDamage type="add" min="35" />
-		<damage_bonus_flat_after_1 type="add" min="70" />
+		<damage_bonus_flat_after_1 type="add" min="90" />
 		<!-- range is set by using different trigger component in sign entity -->
       </ability>
 	  
