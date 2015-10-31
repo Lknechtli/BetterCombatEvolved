@@ -585,7 +585,7 @@
       <!-- Condensation -->
       <ability name="alchemy_s15">
         <tags>alchemy_s15</tags>
-        <toxicityRegen type="add" min="-3" />
+        <toxicityRegen type="add" min="-2" />
       </ability>
 	  
       <!-- Frenzy -->
