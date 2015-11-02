@@ -144,9 +144,9 @@
         <!-- man_base-->
         <tags> "base" </tags>
         <level type="add" always_random="false" min="1" max="1" />
-        <vitality type="base" always_random="false" min="19" max="19" />
+        <vitality type="base" always_random="false" min="24" max="24" />
         <essence type="base" always_random="false" min="0" max="0" />
-        <stamina type="base" always_random="false" min="100" max="100" />
+        <stamina type="base" always_random="false" min="200" max="200" />
         <morale type="base" always_random="false" min="100" max="100" />
         <camera_weight type="add" always_random="false" min="0" max="0" />
         <humanoid type="add" always_random="false" min="1.0" max="1.0" />
@@ -154,9 +154,9 @@
         <essenceRegen type="mult" always_random="false" min="0" max="0" />
         <staminaRegen type="mult" always_random="false" min="0.75" max="0.75" />
         <moraleRegen type="mult" always_random="false" min="0.08" max="0.12" />
-        <light_attack_damage_vitality type="base" always_random="false" min="135" max="135" />
+       <light_attack_damage_vitality type="base" always_random="false" min="108" max="108" />
         <light_attack_damage_essence type="base" always_random="false" min="0" max="0" />
-        <heavy_attack_damage_vitality type="base" always_random="false" min="145" max="145" />
+        <heavy_attack_damage_vitality type="base" always_random="false" min="115" max="115" />
         <heavy_attack_damage_vitality type="mult" always_random="false" min="0.0" max="0.0" />
         <heavy_attack_damage_essence type="base" always_random="false" min="0" max="0" />
         <physical_resistance type="add" always_random="false" min="0" max="0" />
@@ -184,13 +184,13 @@
       <ability name="NPCLevelBonus">
         <tags> "base" </tags>
         <level type="add" always_random="false" min="1" max="1" />
-        <vitality type="base" always_random="false" min="33" max="33" />
+        <vitality type="base" always_random="false" min="41" max="41" />
 		<force_resistance_perc type="add" always_random="false" min="0.007" max="0.007" />
 		<burning_resistance_perc type="add" always_random="false" min="0.007" max="0.007" />
 		<will_resistance_perc type="add" always_random="false" min="0.007" max="0.007" />
 		<shock_resistance_perc type="add" always_random="false" min="0.007" max="0.007" />
-        <light_attack_damage_vitality type="base" always_random="false" min="35" max="35" />
-        <heavy_attack_damage_vitality type="base" always_random="false" min="35" max="35" />
+        <light_attack_damage_vitality type="base" always_random="false" min="28" max="28" />
+        <heavy_attack_damage_vitality type="base" always_random="false" min="32" max="32" />
       </ability>
 	  
 	  <ability name="NPCDoNotGainBoost">
@@ -1292,25 +1292,25 @@
 	  <ability name="HealthFistFightTutorial">
 		<tags> "base" </tags>
 		<vitality type="add" always_random="false" min="750" max="750" />
-		<attack_power type="mult" min="0.5"	/>
+		<attack_power type="mult" min="0.3"	/>
 	  </ability>
 	  	  
 	  <ability name="HealthFistFightEasy">
 		<tags> "base" </tags>
 		<vitality type="add" always_random="false" min="1000" max="1000" />
-		<attack_power type="mult" min="0.5"	/>
+		<attack_power type="mult" min="0.35"	/>
 	  </ability>
 	  	  
 	  <ability name="HealthFistFightMedium">
 		<tags> "base" </tags>
 		<vitality type="add" always_random="false" min="1500" max="1500" />
-		<attack_power type="mult" min="0.5"	/>
+		<attack_power type="mult" min="0.385"	/>
 	  </ability>
 	  	  
 	  <ability name="HealthFistFightHard">
 		<tags> "base" </tags>
 		<vitality type="add" always_random="false" min="2000" max="2000" />
-		<attack_power type="mult" min="0.5"	/>
+		<attack_power type="mult" min="0.4"	/>
 	  </ability>
 
 
