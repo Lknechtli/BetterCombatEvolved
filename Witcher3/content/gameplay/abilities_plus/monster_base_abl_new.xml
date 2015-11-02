@@ -92,6 +92,7 @@
   	<level type="add" always_random="false" min="1" max="1" />
         <threat_level type="add" always_random="false" min="2" max="2" />
         <essence type="base" always_random="false" min="100" max="100" />
+		<stamina type="add" always_random="false" min="100" max="100" />
 		<staminaRegen type="mult" always_random="false" min="0.75" max="0.75" />
         <raise_guard_chance type="add" always_random="false" min="0.65" max="0.65" />
         <dodge_melee_light_chance type="add" always_random="false" min="0.75" max="0.75" />
@@ -101,6 +102,7 @@
   	<level type="add" always_random="false" min="1" max="1" />
         <threat_level type="add" always_random="false" min="2" max="2" />
         <essence type="base" always_random="false" min="100" max="100" />
+		<stamina type="add" always_random="false" min="100" max="100" />
 		<staminaRegen type="mult" always_random="false" min="0.75" max="0.75" />
         <raise_guard_chance type="add" always_random="false" min="1.0" max="1.0" />
         <lower_guard_chance type="add" always_random="false" min="0.15" max="0.15" />
