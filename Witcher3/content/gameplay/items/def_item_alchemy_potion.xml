@@ -17,7 +17,8 @@
       <!-- Return damage -->
       <ability name="BlackBlood_1">
         <toxicity min="375" max="375" type="add" />
-        <duration min="30" max="30" type="add" />
+		<toxicityRegen type="add" min="2" />
+        <duration min="300" max="300" type="add" />
         <ammo type="add" min="3" />
         <BlackBloodEffect_Level1 is_ability="true" />
 		<quality type="add" min="2" max="2"/>
@@ -25,7 +26,8 @@
       </ability>
       <ability name="BlackBlood_2">
         <toxicity min="375" max="375" type="add" />
-        <duration min="45" max="45" type="add" />
+		<toxicityRegen type="add" min="2" />
+        <duration min="450" max="450" type="add" />
         <ammo type="add" min="4" />
         <BlackBloodEffect_Level2 is_ability="true" />
         <BlackBlood_3 is_ability="true" />
@@ -34,7 +36,8 @@
       </ability>
       <ability name="BlackBlood_3">
         <toxicity min="375" max="375" type="add" />
-        <duration min="60" max="60" type="add" />
+		<toxicityRegen type="add" min="2" />
+        <duration min="600" max="600" type="add" />
         <ammo type="add" min="5" />
         <BlackBloodEffect_Level3 is_ability="true" />
         <BlackBlood_2 is_ability="true" />
@@ -45,7 +48,8 @@
       <!-- Slo-Mo-->
       <ability name="Blizzard_1">
         <toxicity min="375" max="375" type="add" />
-        <duration min="15" type="add" />
+		<toxicityRegen type="add" min="2" />
+        <duration min="20" type="add" />
         <ammo type="add" min="2" />
         <BlizzardEffect_Level1 is_ability="true" />	
 		<quality type="add" min="2" max="2"/>
@@ -53,7 +57,8 @@
       </ability>
       <ability name="Blizzard_2">
         <toxicity min="375" max="375" type="add" />
-        <duration min="20" type="add" />
+		<toxicityRegen type="add" min="2" />
+        <duration min="30" type="add" />
         <ammo type="add" min="3" />
         <BlizzardEffect_Level2 is_ability="true" />
         <Blizzard_3 is_ability="true" />
@@ -62,7 +67,8 @@
       </ability>
       <ability name="Blizzard_3">
         <toxicity min="375" max="375" type="add" />
-        <duration min="30" type="add" />
+		<toxicityRegen type="add" min="2" />
+        <duration min="40" type="add" />
         <ammo type="add" min="4" />
         <BlizzardEffect_Level3 is_ability="true" />
         <Blizzard_2 is_ability="true" />
@@ -73,6 +79,7 @@
       <!-- Heightened Senses-->
       <ability name="Cat_1">
         <toxicity min="375" max="375" type="add" />
+		<toxicityRegen type="add" min="2" />
         <duration min="240" type="add" />
         <ammo type="add" min="3" />
         <CatEffect_Level1 is_ability="true" />
@@ -81,6 +88,7 @@
       </ability>
       <ability name="Cat_2">
         <toxicity min="375" max="375" type="add" />
+		<toxicityRegen type="add" min="2" />
         <duration min="480" type="add" />
         <ammo type="add" min="4" />
         <CatEffect_Level2 is_ability="true" />
@@ -90,6 +98,7 @@
       </ability>
       <ability name="Cat_3">
 		<toxicity min="375" max="375" type="add" />
+		<toxicityRegen type="add" min="2" />
         <duration min="720" type="add" />
         <ammo type="add" min="5" />
         <CatEffect_Level3 is_ability="true" />
@@ -101,7 +110,8 @@
       <!-- Vitality Pool Bonus-->
       <ability name="FullMoon_1">
         <toxicity min="375" max="375" type="add" />
-        <duration min="60" max="60" type="add" />
+		<toxicityRegen type="add" min="2" />
+        <duration min="300" max="300" type="add" />
         <ammo type="add" min="3" />
         <FullMoonEffect_Level1 is_ability="true" />
 		<quality type="add" min="2" max="2"/>
@@ -109,7 +119,8 @@
       </ability>
       <ability name="FullMoon_2">
         <toxicity min="375" max="375" type="add" />
-        <duration min="90" max="90" type="add" />
+		<toxicityRegen type="add" min="2" />
+        <duration min="450" max="450" type="add" />
         <ammo type="add" min="4" />
         <FullMoonEffect_Level2 is_ability="true" />
         <FullMoon_3 is_ability="true" />
@@ -118,7 +129,8 @@
       </ability>
       <ability name="FullMoon_3">
         <toxicity min="375" max="375" type="add" />
-        <duration min="180" max="180" type="add" />
+		<toxicityRegen type="add" min="2" />
+        <duration min="600" max="600" type="add" />
         <ammo type="add" min="5" />
         <FullMoonEffect_Level3 is_ability="true" />
         <FullMoon_2 is_ability="true" />
@@ -129,7 +141,8 @@
       <!-- Non-physical Resistances Bonus-->
       <ability name="GoldenOriole_1">
         <toxicity min="375" max="375" type="add" />
-        <duration min="60" max="60" type="add" />
+		<toxicityRegen type="add" min="2" />
+        <duration min="120" max="120" type="add" />
         <ammo type="add" min="3" />
         <GoldenOrioleEffect_Level1 is_ability="true" />
 		<quality type="add" min="2" max="2"/>
@@ -137,7 +150,8 @@
       </ability>
       <ability name="GoldenOriole_2">
         <toxicity min="375" max="375" type="add" />
-        <duration min="120" max="120" type="add" />
+		<toxicityRegen type="add" min="2" />
+        <duration min="240" max="240" type="add" />
         <ammo type="add" min="4" />
         <GoldenOrioleEffect_Level2 is_ability="true" />
         <GoldenOriole_3 is_ability="true" />
@@ -146,7 +160,8 @@
       </ability>
       <ability name="GoldenOriole_3">
         <toxicity min="375" max="375" type="add" />
-        <duration min="180" max="180" type="add" />
+		<toxicityRegen type="add" min="2" />
+        <duration min="360" max="360" type="add" />
         <ammo type="add" min="5" />
         <GoldenOrioleEffect_Level3 is_ability="true" />
         <GoldenOriole_2 is_ability="true" />
@@ -157,6 +172,7 @@
       <!-- Oxygen & underwater vision bonus -->
       <ability name="KillerWhale_1">
         <toxicity min="375" max="375" type="add" />
+		<toxicityRegen type="add" min="2" />
         <duration min="180" type="add" />
         <ammo type="add" min="3" />
         <KillerWhaleEffect_Level1 is_ability="true" />
@@ -167,7 +183,8 @@
       <!-- Stamina Pool Bonus-->
       <ability name="MariborForest_1">
         <toxicity min="375" max="375" type="add" />
-        <duration min="30" max="30" type="add" />
+		<toxicityRegen type="add" min="2" />
+        <duration min="300" max="300" type="add" />
         <ammo type="add" min="3" />
         <MariborForestEffect_Level1 is_ability="true" />
 		<quality type="add" min="2" max="2"/>
@@ -175,7 +192,8 @@
       </ability>
       <ability name="MariborForest_2">
         <toxicity min="375" max="375" type="add" />
-        <duration min="60" max="60" type="add" />
+		<toxicityRegen type="add" min="2" />
+        <duration min="450" max="450" type="add" />
         <ammo type="add" min="4" />
         <MariborForestEffect_Level2 is_ability="true" />
         <MariborForest_3 is_ability="true" />
@@ -184,7 +202,8 @@
       </ability>
       <ability name="MariborForest_3">
         <toxicity min="375" max="375" type="add" />
-        <duration min="90" max="90" type="add" />
+		<toxicityRegen type="add" min="2" />
+        <duration min="600" max="600" type="add" />
         <ammo type="add" min="5" />
         <MariborForestEffect_Level3 is_ability="true" />
         <MariborForest_2 is_ability="true" />
@@ -195,7 +214,8 @@
       <!-- Spell Power Bonus-->
       <ability name="PetriPhiltre_1">
         <toxicity min="375" max="375" type="add" />
-        <duration min="30" max="30" type="add" />
+		<toxicityRegen type="add" min="2" />
+        <duration min="300" max="300" type="add" />
         <ammo type="add" min="3" />
         <PetriPhiltreEffect_Level1 is_ability="true" />
 		<quality type="add" min="2" max="2"/>
@@ -203,7 +223,8 @@
       </ability>
       <ability name="PetriPhiltre_2">
         <toxicity min="375" max="375" type="add" />
-        <duration min="60" max="60" type="add" />
+		<toxicityRegen type="add" min="2" />
+        <duration min="450" max="450" type="add" />
         <ammo type="add" min="4" />
         <PetriPhiltreEffect_Level2 is_ability="true" />
         <PetriPhiltre_3 is_ability="true" />
@@ -212,7 +233,8 @@
       </ability>
       <ability name="PetriPhiltre_3">
         <toxicity min="375" max="375" type="add" />
-        <duration min="90" max="90" type="add" />
+		<toxicityRegen type="add" min="2" />
+        <duration min="600" max="600" type="add" />
         <ammo type="add" min="5" />
         <PetriPhiltreEffect_Level3 is_ability="true" />
         <PetriPhiltre_2 is_ability="true" />
@@ -223,7 +245,8 @@
       <!-- Swallow-->
       <ability name="Swallow_1">
         <toxicity always_random="true" min="375" max="375" type="add" />
-        <duration min="20" max="20" type="add" />        
+		<toxicityRegen type="add" min="2" />
+        <duration min="300" max="300" type="add" />        
         <ammo type="add" min="3" />
         <SwallowEffect_Level1 is_ability="true" />
 		<quality type="add" min="2" max="2"/>
@@ -231,7 +254,8 @@
       </ability>
       <ability name="Swallow_2">
         <toxicity always_random="true" min="375" max="375" type="add" />
-        <duration min="20" max="20" type="add" />       
+		<toxicityRegen type="add" min="2" />
+        <duration min="450" max="450" type="add" />       
         <ammo type="add" min="4" />
         <SwallowEffect_Level2 is_ability="true" />
         <Swallow_3 is_ability="true" />
@@ -240,7 +264,8 @@
       </ability>
       <ability name="Swallow_3">
         <toxicity always_random="true" min="375" max="375" type="add" />
-        <duration min="20" max="20" type="add" />       
+		<toxicityRegen type="add" min="2" />
+        <duration min="600" max="600" type="add" />       
         <ammo type="add" min="5" />
         <SwallowEffect_Level3 is_ability="true" />
         <Swallow_2 is_ability="true" />
@@ -251,7 +276,8 @@
       <!-- Stamina Regen-->
       <ability name="TawnyOwl_1">
         <toxicity min="375" max="375" type="add" />
-        <duration min="30" max="30" type="add" />
+		<toxicityRegen type="add" min="2" />
+        <duration min="300" max="300" type="add" />
         <ammo type="add" min="3" />
         <TawnyOwlEffect_Level1 is_ability="true" />
 		<quality type="add" min="2" max="2"/>
@@ -259,7 +285,8 @@
       </ability>
       <ability name="TawnyOwl_2">
         <toxicity min="375" max="375" type="add" />
-        <duration min="45" max="45" type="add" />
+		<toxicityRegen type="add" min="2" />
+        <duration min="450" max="450" type="add" />
         <ammo type="add" min="4" />
         <TawnyOwlEffect_Level2 is_ability="true" />
         <TawnyOwl_3 is_ability="true" />
@@ -268,7 +295,8 @@
       </ability>
       <ability name="TawnyOwl_3">
         <toxicity min="375" max="375" type="add" />
-        <duration min="60" max="60" type="add" />
+		<toxicityRegen type="add" min="2" />
+        <duration min="600" max="600" type="add" />
         <ammo type="add" min="5" />
         <TawnyOwlEffect_Level3 is_ability="true" />
         <TawnyOwl_2 is_ability="true" />
@@ -279,7 +307,8 @@
       <!-- Attack Power Buff-->
       <ability name="Thunderbolt_1">
         <toxicity min="375" max="375" type="add" />
-        <duration min="30" max="30" type="add" />
+		<toxicityRegen type="add" min="2" />
+        <duration min="300" max="300" type="add" />
         <ammo type="add" min="3" />
         <ThunderboltEffect_Level1 is_ability="true" />
 		<quality type="add" min="2" max="2"/>
@@ -287,7 +316,8 @@
       </ability>
       <ability name="Thunderbolt_2">
         <toxicity min="375" max="375" type="add" />
-        <duration min="60" max="60" type="add" />
+		<toxicityRegen type="add" min="2" />
+        <duration min="450" max="450" type="add" />
         <ammo type="add" min="4" />
         <ThunderboltEffect_Level2 is_ability="true" />
         <Thunderbolt_3 is_ability="true" />
@@ -296,7 +326,8 @@
       </ability>
       <ability name="Thunderbolt_3">
         <toxicity min="375" max="375" type="add" />
-        <duration min="90" max="90" type="add" />
+		<toxicityRegen type="add" min="2" />
+        <duration min="600" max="600" type="add" />
         <ammo type="add" min="5" />
         <ThunderboltEffect_Level3 is_ability="true" />
         <Thunderbolt_2 is_ability="true" />
@@ -379,6 +410,7 @@
       <!-- Pheromones -->
       <ability name="PheromonePotionNekker_1">
         <toxicity min="150" max="150" type="add" />
+		<toxicityRegen type="add" min="2" />
         <duration min="90" max="90" type="add" />
         <ammo type="add" min="2" />
         <PheromoneEffectNekker is_ability="true" />
@@ -388,6 +420,7 @@
      	  
       <ability name="PheromonePotionDrowner_1">
         <toxicity min="150" max="150" type="add" />
+		<toxicityRegen type="add" min="2" />
         <duration min="90" max="90" type="add" />
         <ammo type="add" min="2" />
         <PheromoneEffectDrowner is_ability="true" />
@@ -397,7 +430,8 @@
      	  
       <ability name="PheromonePotionBear_1">
         <toxicity min="150" max="150" type="add" />
-        <duration min="90" max="90" type="add" />
+		<toxicityRegen type="add" min="2" />
+        <duration min="120" max="120" type="add" />
         <ammo type="add" min="2" />
         <PheromoneEffectBear is_ability="true" />
 		<quality type="add" min="4" max="4"/>
@@ -407,7 +441,8 @@
       <!-- Quest Potions -->
       <ability name="VillagePosion">
         <toxicity min="200" max="200" type="add" />
-        <duration min="30" max="30" type="add" />
+		<toxicityRegen type="add" min="2" />
+        <duration min="120" max="120" type="add" />
         <ammo type="add" min="3" />
         <BlackBloodEffect_Level1 is_ability="true" />
 		<quality type="add" min="4" max="4"/>
@@ -415,6 +450,7 @@
 	  
       <ability name="PopsImmunity">
         <toxicity min="250" max="300" type="add" />
+		<toxicityRegen type="add" min="2" />
         <duration min="360" max="360" type="add" />
         <ammo type="add" min="3" />
         <FactPotion is_ability="true" />
