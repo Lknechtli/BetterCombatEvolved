@@ -132,9 +132,9 @@
       <!-- Whirl (ult) -->
       <ability name="sword_s1">
         <tags>sword_s1,attack_light</tags>
-        <stamina_cost_per_sec type="add" min="50" />
+        <stamina_cost_per_sec type="add" min="35" />
 		<focus_cost_per_sec_initial type="add" min="1" />
-		<cost_reduction type="mult" min="0.08" />
+		<cost_reduction type="mult" min="0.1" />
         <stamina_delay type="add" min="2" />
       </ability>
 	  
@@ -290,7 +290,9 @@
         <stamina_cost type="add" always_random="false" min="65" max="65" />		
         <stamina_delay type="base" min="0.5" />
         <stamina_delay type="mult" min="1" />
-        <FireDamage type="add" always_random="false" min="125" max="125" />
+        <FireDamage type="add" always_random="false" min="90" max="90" />
+		<burn_threshold type="add" always_random="false" min="1.5" max="1.5" />
+		<BurningEffect is_ability="true" />
       </ability>
 	  
       <!-- Yrden -->
@@ -492,7 +494,7 @@
       <!--################################### Alchemy Path ####################################-->
       <ability name="alchemy_potionduration">
         <tags></tags>
-        <potion_duration type="add" always_random="false" min="0.05" max="0.05" />
+        <potion_duration type="add" always_random="false" min="0.1" max="0.1" />
       </ability>
       <!-- Unlockable Skills -->
       <!-- Resistances -->
@@ -510,7 +512,7 @@
       <!-- Delayed Recovery -->
       <ability name="alchemy_s3">
         <tags>alchemy_s3</tags>
-        <toxicity_threshold type="add" min="0.0333" />
+        <toxicity_threshold type="add" min="0.08" />
       </ability>
 	  
       <!-- Side Effect -->
@@ -527,7 +529,7 @@
       <!-- Fixative formula -->
       <ability name="alchemy_s6">
         <tags>alchemy_s6</tags>
-        <ammo_bonus type="add" min="0.4" />
+        <ammo_bonus type="add" min="0.6" />
       </ability>
 	  
       <!-- Application -->
@@ -585,7 +587,7 @@
       <!-- Condensation -->
       <ability name="alchemy_s15">
         <tags>alchemy_s15</tags>
-        <toxicityRegen type="add" min="-3" />
+        <toxicityRegen type="add" min="-2" />
       </ability>
 	  
       <!-- Frenzy -->
@@ -644,26 +646,33 @@
 		</ability>
 		<ability name="perk_5">
 			<tags>perk_5</tags>
-			<critical_hit_chance_fast_style type="add" min="0.04" />
-			<attack_power_fast_style type="mult" min="0.04" />
-			<staminaRegen type="mult" min="0.03" />
-			<spell_power type="mult" min="0.01" />
+			<light_action_stamina_cost type="add" always_random="false" min="1" max="1" />
+			<heavy_action_stamina_cost type="add" always_random="false" min="1" max="1" />
+			<counter_stamina_cost type="add" always_random="false" min="1" max="1" />
+			<roll_stamina_cost type="add" min="1" />
+			<swimming_stamina_cost_per_sec type="add" always_random="false" min="1" max="1" />
+			<sprint_stamina_cost_per_sec type="add" always_random="false" min="1" max="1" />
+			<jump_stamina_cost type="add" always_random="false" min="1" max="1" />
 		</ability>
 		<ability name="perk_6">
 			<tags>perk_6</tags>
-			<vitality type="mult" min="0.01" />
-			<spell_power type="mult" min="0.02" />
-			<staminaRegen type="mult" min="0.01" />
-			<critical_hit_chance_fast_style type="add" min="0.01" />
-			<critical_hit_chance_heavy_style type="add" min="0.01" />
+			<light_action_stamina_cost type="add" always_random="false" min="2" max="2" />
+			<heavy_action_stamina_cost type="add" always_random="false" min="2" max="2" />
+			<counter_stamina_cost type="add" always_random="false" min="2" max="2" />
+			<roll_stamina_cost type="add" min="2" />
+			<swimming_stamina_cost_per_sec type="add" always_random="false" min="2" max="2" />
+			<sprint_stamina_cost_per_sec type="add" always_random="false" min="2" max="2" />
+			<jump_stamina_cost type="add" always_random="false" min="2" max="2" />
 		</ability>
 		<ability name="perk_7">
 			<tags>perk_7</tags>
-			<vitality type="mult" min="0.04" />
-			<attack_power_heavy_style type="mult" min="0.04" />
-			<critical_hit_chance_heavy_style type="add" min="0.04" />
-			<staminaRegen type="mult" min="-0.02" />
-			<spell_power type="mult" min="0.01" />
+			<light_action_stamina_cost type="add" always_random="false" min="3" max="3" />
+			<heavy_action_stamina_cost type="add" always_random="false" min="3" max="3" />
+			<counter_stamina_cost type="add" always_random="false" min="3" max="3" />
+			<roll_stamina_cost type="add" min="3" />
+			<swimming_stamina_cost_per_sec type="add" always_random="false" min="3" max="3" />
+			<sprint_stamina_cost_per_sec type="add" always_random="false" min="3" max="3" />
+			<jump_stamina_cost type="add" always_random="false" min="3" max="3" />
 		</ability>
 		<ability name="perk_10">
 			<tags>perk_10, GlobalPassiveBonus</tags>
