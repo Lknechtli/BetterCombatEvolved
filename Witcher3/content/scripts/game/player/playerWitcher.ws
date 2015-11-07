@@ -5097,7 +5097,9 @@ statemachine class W3PlayerWitcher extends CR4Player
 				//list of potions to pick from
 				randomPotions.PushBack(EET_BlackBlood);
 				randomPotions.PushBack(EET_Blizzard);
-				randomPotions.PushBack(EET_Cat);
+				//Chicken no cat start
+				//randomPotions.PushBack(EET_Cat);
+				//Chicken no cat end
 				randomPotions.PushBack(EET_FullMoon);
 				randomPotions.PushBack(EET_GoldenOriole);
 				randomPotions.PushBack(EET_KillerWhale);
