@@ -6961,6 +6961,7 @@ statemachine class W3PlayerWitcher extends CR4Player
 		}
 	}
 	
+	//BCEv Clearing Potion by Kukassin Start
 	public function Debug_ClearCharacterDevelopment(optional keepInv : bool)
 	{
 		var template : CEntityTemplate;
@@ -6973,6 +6974,27 @@ statemachine class W3PlayerWitcher extends CR4Player
 		var currentLevel : int;
 		var totalSkillPoints : int;
 		var skillPointDifference : int;
+		//Chicken Start
+		var eqweapon, eqarmor : array<SItemUniqueId>;
+		
+		eqweapon = inv.GetHeldWeapons();
+		eqarmor = GetEquippedItems();
+
+		HorseUnequipItem(EES_HorseTrophy);
+		
+		for(i=0; i<eqweapon.Size(); i+=1)
+		{
+			UnequipItem(eqweapon[i]);
+			EquipItem(eqweapon[i]);
+		}
+		
+		for(i=0; i<eqarmor.Size(); i+=1)
+		{
+			UnequipItem(eqarmor[i]);
+			EquipItem(eqarmor[i]);
+		}
+		//Chicken end
+
 		
 		inv.GetAllItems(items);
 		for(i=0; i<items.Size(); i+=1)
@@ -7030,6 +7052,7 @@ statemachine class W3PlayerWitcher extends CR4Player
 		
 		abilityManager.PostInit();						//called after other managers are ready	
 	}
+	//BCEv Clearing Potion by Kukassin End
 	
 	final function Debug_HAX_UnlockSkillSlot(slotIndex : int) : bool
 	{

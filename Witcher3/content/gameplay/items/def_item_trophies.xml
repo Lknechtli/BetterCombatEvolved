@@ -149,6 +149,7 @@
 			<ability name="gryphon_trophy_stats">
 				<spell_power_aard type="mult" min="1.25" />
 				<spell_power type="mult" min="-0.5" />
+				<potion_duration type="add" always_random="false" min="1" max="1" />
 			</ability>
 			
 			<ability name="gryphon_mh301_trophy_stats">

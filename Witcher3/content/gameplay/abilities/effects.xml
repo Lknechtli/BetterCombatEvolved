@@ -218,7 +218,7 @@
       </ability>
       <ability name="IgnorePainEffect">
         <duration type="add" min="-1" />
-		<vitality type="mult" min="0.04" />
+		<vitality type="mult" min="0.03" />
       </ability>
       <ability name="ImmobilizedEffect">
         <duration type="add" min="3" max="3" />
@@ -348,7 +348,7 @@
         <hp_regen_reduction_duration type="add" min="5" />
       </ability>
       <ability name="ToxicityEffect">
-        <toxicityRegen type="add" min="3.75" />
+        <toxicityRegen type="add" min="0.25" />
         <DirectDamage type="mult" min="0.005" max="0.005" />
         <duration type="add" min="-1" max="-1" />
       </ability>
