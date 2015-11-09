@@ -14,6 +14,16 @@
 		 <shock_resistance_perc type="add" always_random="false" min="0.01" max="0.01" />
       </ability>	  
 	  
+	  <ability name="MonsterDelevelBonusArmored">
+        <tags> "base" </tags>
+         <essence type="mult" always_random="false" min="-0.11" max="-0.11" />
+         <attack_power type="mult" always_random="false" min="-0.11" max="-0.11" /> 
+		 <force_resistance_perc type="mult" always_random="false" min="-0.06" max="-0.06" />
+		 <burning_resistance_perc type="mult" always_random="false" min="-0.06" max="-0.06" />
+		 <will_resistance_perc type="mult" always_random="false" min="-0.06" max="-0.06" />
+		 <shock_resistance_perc type="mult" always_random="false" min="-0.06" max="-0.06" />
+      </ability>
+	  
       <ability name="MonsterLevelBonusGroupArmored">
         <tags> "base" </tags>
          <level type="add" always_random="false" min="1" max="1" />
@@ -25,6 +35,16 @@
 		 <will_resistance_perc type="add" always_random="false" min="0.01" max="0.01" />
 		 <shock_resistance_perc type="add" always_random="false" min="0.01" max="0.01" />
       </ability>	  
+	  
+	  <ability name="MonsterDelevelBonusGroupArmored">
+        <tags> "base" </tags>
+         <essence type="mult" always_random="false" min="-0.11" max="-0.11" />
+         <attack_power type="mult" always_random="false" min="-0.11" max="-0.11" /> 
+		 <force_resistance_perc type="mult" always_random="false" min="-0.06" max="-0.06" />
+		 <burning_resistance_perc type="mult" always_random="false" min="-0.06" max="-0.06" />
+		 <will_resistance_perc type="mult" always_random="false" min="-0.06" max="-0.06" />
+		 <shock_resistance_perc type="mult" always_random="false" min="-0.06" max="-0.06" />
+      </ability>	   
 	  
 	
       <ability name="MonsterLevelBonusGroup">
@@ -41,6 +61,16 @@
         <swarm_attack_damage_essence type="add" always_random="false" min="10" max="10" /> 
       </ability>	  
 	  
+	  <ability name="MonsterDelevelBonusGroup">
+        <tags> "base" </tags>
+         <essence type="mult" always_random="false" min="-0.11" max="-0.11" />
+         <attack_power type="mult" always_random="false" min="-0.11" max="-0.11" /> 
+		 <force_resistance_perc type="mult" always_random="false" min="-0.06" max="-0.06" />
+		 <burning_resistance_perc type="mult" always_random="false" min="-0.06" max="-0.06" />
+		 <will_resistance_perc type="mult" always_random="false" min="-0.06" max="-0.06" />
+		 <shock_resistance_perc type="mult" always_random="false" min="-0.06" max="-0.06" />
+      </ability>	
+	  
       <ability name="MonsterLevelBonus">
         <tags> "base" </tags>	
         <level type="add" always_random="false" min="1" max="1" />
@@ -54,6 +84,16 @@
 		<swarm_attack_damage_vitality type="add" always_random="false" min="20" max="20" /> 
         <swarm_attack_damage_essence type="add" always_random="false" min="20" max="20" /> 
       </ability>	  
+	  
+	  <ability name="MonsterDelevelBonus">
+        <tags> "base" </tags>	
+        <essence type="mult" always_random="false" min="-0.11" max="-0.11" />
+        <attack_power type="mult" always_random="false" min="-0.11" max="-0.11" /> 
+		<force_resistance_perc type="mult" always_random="false" min="-0.06" max="-0.06" />
+		<burning_resistance_perc type="mult" always_random="false" min="-0.06" max="-0.06" />
+		<will_resistance_perc type="mult" always_random="false" min="-0.06" max="-0.06" />
+		<shock_resistance_perc type="mult" always_random="false" min="-0.06" max="-0.06" />
+      </ability>
 	  
       <ability name="MonsterMHBoss">
         <tags> "base" </tags>	

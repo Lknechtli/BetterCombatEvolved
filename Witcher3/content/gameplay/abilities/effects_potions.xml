@@ -4,13 +4,13 @@
 		<abilities>		
 			<!-- BLACK BLOOD -->
 			<ability name="BlackBloodEffect_Level1">
-				<return_damage min="0.15" type="mult"/>									
+				<return_damage min="0.10" type="mult"/>									
 			</ability>
 			<ability name="BlackBloodEffect_Level2">
-				<return_damage min="0.2" type="mult"/>									
+				<return_damage min="0.16" type="mult"/>									
 			</ability>
 			<ability name="BlackBloodEffect_Level3">
-				<return_damage min="0.3" type="mult"/>									
+				<return_damage min="0.23" type="mult"/>									
 			</ability>
 			
 			<!-- BLIZZARD -->
@@ -89,30 +89,30 @@
 			<!-- MARIBOR FOREST -->
 			<ability name="MariborForestEffect_Level1">
 				<tags>passive</tags>
-				<focus_gain type="add" min="0.15" max="0.15"/>
+				<focus_gain type="add" min="0.12" max="0.12"/>
 			</ability>
 			<ability name="MariborForestEffect_Level2">
 				<tags>passive</tags>
-				<focus_gain type="add" min="0.15" max="0.15"/>
+				<focus_gain type="add" min="0.12" max="0.12"/>
 			</ability>
 			<ability name="MariborForestEffect_Level3">
 				<tags>passive</tags>
-				<focus_gain type="add" min="0.15" max="0.15"/>
+				<focus_gain type="add" min="0.12" max="0.12"/>
 				<focus_on_drink type="add" min="1" />
 			</ability>
 			
 			<!-- PETRI PHILTRE -->
 			<ability name="PetriPhiltreEffect_Level1">
 				<tags>passive</tags>
-				<spell_power type="mult" min="0.15" max="0.15"/>
+				<spell_power type="mult" min="0.10" max="0.10"/>
 			</ability>
 			<ability name="PetriPhiltreEffect_Level2">
 				<tags>passive</tags>
-				<spell_power type="mult" min="0.2" max="0.2"/>
+				<spell_power type="mult" min="0.16" max="0.16"/>
 			</ability>
 			<ability name="PetriPhiltreEffect_Level3">
 				<tags>passive</tags>
-				<spell_power type="mult" min="0.25" max="0.25"/>
+				<spell_power type="mult" min="0.22" max="0.22"/>
 			</ability>
 			
 			<!-- PHEROMONES -->
@@ -123,46 +123,46 @@
 			<!-- SWALLOW -->
 			<ability name="SwallowEffect_Level1">
 				<tags>passive</tags>
-				<vitalityRegen type="add" max="40" min="40" always_random="false"/>
-				<vitalityCombatRegen type="add" min="40" max="40"/>
+				<vitalityRegen type="add" max="8" min="8" always_random="false"/>
+				<vitalityCombatRegen type="add" min="18" max="18"/>
 			</ability>
 			<ability name="SwallowEffect_Level2">
 				<tags>passive</tags>
-				<vitalityRegen type="add" max="65" min="65" always_random="false"/>
-				<vitalityCombatRegen type="add" min="65" max="65"/>
+				<vitalityRegen type="add" max="10" min="10" always_random="false"/>
+				<vitalityCombatRegen type="add" min="30" max="30"/>
 			</ability>
 			<ability name="SwallowEffect_Level3">
 				<tags>passive</tags>
-				<vitalityRegen type="add" max="80" min="80" always_random="false"/>
-				<vitalityCombatRegen type="add" min="80" max="80"/>
+				<vitalityRegen type="add" max="12" min="12" always_random="false"/>
+				<vitalityCombatRegen type="add" min="40" max="40"/>
 			</ability>
 			
 			<!-- TAWNY OWL -->
 			<ability name="TawnyOwlEffect_Level1">
 				<tags>passive</tags>
-				<staminaRegen min="0.05" type="mult"/>
+				<staminaRegen min="0.04" type="mult"/>
 			</ability>
 			<ability name="TawnyOwlEffect_Level2">
 				<tags>passive</tags>
-				<staminaRegen min="0.08" type="mult"/>
+				<staminaRegen min="0.07" type="mult"/>
 			</ability>
 			<ability name="TawnyOwlEffect_Level3">
 				<tags>passive</tags>
-				<staminaRegen min="0.10" type="mult"/>
+				<staminaRegen min="0.1" type="mult"/>
 			</ability>
 			
 			<!-- THUNDERBOLT -->
 			<ability name="ThunderboltEffect_Level1">
 				<tags>passive</tags>
-				<attack_power type="mult" min="0.3"/>
+				<attack_power type="mult" min="0.12"/>
 			</ability>
 			<ability name="ThunderboltEffect_Level2">
 				<tags>passive</tags>
-				<attack_power type="mult" min="0.3"/>
+				<attack_power type="mult" min="0.16"/>
 			</ability>
 			<ability name="ThunderboltEffect_Level3">
 				<tags>passive</tags>
-				<attack_power type="mult" min="0.35"/>
+				<attack_power type="mult" min="0.2"/>
 			</ability>
 			
 			<!-- WHITE HONEY -->

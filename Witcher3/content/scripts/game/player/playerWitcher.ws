@@ -1,6 +1,6 @@
-﻿/***********************************************************************/
 /***********************************************************************/
-/** Copyright © 2009-2014
+/***********************************************************************/
+/** Copyright � 2009-2014
 /** Author : collective mind of the CDP
 /***********************************************************************/
 
@@ -3153,8 +3153,8 @@ statemachine class W3PlayerWitcher extends CR4Player
 		UnequipItemFromSlot(EES_SkillMutagen3);
 		UnequipItemFromSlot(EES_SkillMutagen4);
 		
-		levelManager.ResetCharacterDev();
-		((W3PlayerAbilityManager)abilityManager).ResetCharacterDev();		
+		Debug_ClearCharacterDevelopment();
+		levelManager.ResetCharacterDev();	
 	}
 	
 	public function ConsumeItem( itemId : SItemUniqueId ) : bool
@@ -5097,9 +5097,9 @@ statemachine class W3PlayerWitcher extends CR4Player
 				//list of potions to pick from
 				randomPotions.PushBack(EET_BlackBlood);
 				randomPotions.PushBack(EET_Blizzard);
-				//BCEvolved 2 No Cat Start
+				//Chicken no cat start
 				//randomPotions.PushBack(EET_Cat);
-				//BCEvolved 2 No Cat End
+				//Chicken no cat end
 				randomPotions.PushBack(EET_FullMoon);
 				randomPotions.PushBack(EET_GoldenOriole);
 				randomPotions.PushBack(EET_KillerWhale);
@@ -6961,6 +6961,7 @@ statemachine class W3PlayerWitcher extends CR4Player
 		}
 	}
 	
+	//BCEv Clearing Potion by Kukassin Start
 	public function Debug_ClearCharacterDevelopment(optional keepInv : bool)
 	{
 		var template : CEntityTemplate;
@@ -6969,10 +6970,38 @@ statemachine class W3PlayerWitcher extends CR4Player
 		var i : int;
 		var items : array<SItemUniqueId>;
 		var abs : array<name>;
-	
-		delete abilityManager;
-		delete levelManager;
-		delete effectManager;
+		var totalExp : int;
+		var currentLevel : int;
+		var totalSkillPoints : int;
+		var skillPointDifference : int;
+		//Chicken Start
+		var eqweapon, eqarmor : array<SItemUniqueId>;
+		
+		eqweapon = inv.GetHeldWeapons();
+		eqarmor = GetEquippedItems();
+
+		HorseUnequipItem(EES_HorseTrophy);
+		
+		for(i=0; i<eqweapon.Size(); i+=1)
+		{
+			UnequipItem(eqweapon[i]);
+			EquipItem(eqweapon[i]);
+		}
+		
+		for(i=0; i<eqarmor.Size(); i+=1)
+		{
+			UnequipItem(eqarmor[i]);
+			EquipItem(eqarmor[i]);
+		}
+		//Chicken end
+
+		
+		inv.GetAllItems(items);
+		for(i=0; i<items.Size(); i+=1)
+		{
+			if(inv.ItemHasTag(items[i], 'MutagenIngredient'))	
+				UnequipItem(items[i]);
+		}
 		
 		//remove old abilities
 		abs = GetAbilities(false);
@@ -6985,47 +7014,45 @@ statemachine class W3PlayerWitcher extends CR4Player
 		for(i=0; i<abs.Size(); i+=1)
 			AddAbility(abs[i]);
 					
+		// Triangle save character data before clearing
+		totalExp = levelManager.GetPointsTotal(EExperiencePoint);
+		currentLevel = levelManager.GetLevel();
+		totalSkillPoints = levelManager.GetPointsTotal(ESkillPoint);
+		
 		//leveling
+		delete levelManager;
 		levelManager = new W3LevelManager in this;			
 		levelManager.Initialize();
 		levelManager.PostInit(this, false);		
+
+		// Triangle re-level and re-point
+		levelManager.AddPoints(EExperiencePoint, totalExp, true, true);
+		/* Note that the following doesn't account for all edge cases wrt custom leveling and places of power.
+		 * example: if you are level 8 with 12 total skill points (8 from level, 4 from PoP) and you switch to a mod that gives 2 points per level,
+		 * you'll have 16 after cleardevelop instead of 20 like you should. You lose the PoP skill points. Will fix this later
+		 */
+		if ( theGame.GetInGameConfigWrapper().IsGroupVisible('SCOptionLB') )		
+				skillPointDifference = totalSkillPoints - (levelManager.GetPointsTotal(ESkillPoint)/StringToInt(theGame.GetInGameConfigWrapper().GetVarValue('SCOptionLB', 'SPG')));
+			else
+				skillPointDifference = totalSkillPoints - levelManager.GetPointsTotal(ESkillPoint);
+
+		if (skillPointDifference > 0)
+		{
+			levelManager.AddPoints(ESkillPoint, skillPointDifference, true);
+		}
 						
 		//skills, perks etc., exp, buffs
-		AddAbility('GeraltSkills_Testing');
+		delete abilityManager;
+		//AddAbility('GeraltSkills_Testing');
 		SetAbilityManager();		//defined in inheriting classes but must be called before setting any other managers - sets skills and stats
 		abilityManager.Init(this, GetCharacterStats(), false, theGame.GetDifficultyMode());
 		
+		delete effectManager;
 		SetEffectManager();
 		
 		abilityManager.PostInit();						//called after other managers are ready	
-		
-		//Debug_EquipTestingSkills(false);
-		
-		//--------------------------------------  ITEMS		
-		//remove items
-		if(!keepInv)
-		{
-			inv.RemoveAllItems();
-		}		
-		
-		//add default items
-		template = (CEntityTemplate)LoadResource("geralt_inventory_release");
-		entity = theGame.CreateEntity(template, Vector(0,0,0));
-		invTesting = (CInventoryComponent)entity.GetComponentByClassName('CInventoryComponent');
-		invTesting.GiveAllItemsTo(inv, true);
-		entity.Destroy();
-		
-		//equip items
-		inv.GetAllItems(items);
-		for(i=0; i<items.Size(); i+=1)
-		{
-			if(!inv.ItemHasTag(items[i], 'NoDrop'))			//skip body parts
-				EquipItem(items[i]);
-		}
-			
-		//items from testing inventory entity
-		Debug_GiveTestingItems(0);
 	}
+	//BCEv Clearing Potion by Kukassin End
 	
 	final function Debug_HAX_UnlockSkillSlot(slotIndex : int) : bool
 	{

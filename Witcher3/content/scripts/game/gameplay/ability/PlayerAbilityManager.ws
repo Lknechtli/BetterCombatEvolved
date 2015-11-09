@@ -2928,29 +2928,18 @@ class W3PlayerAbilityManager extends W3AbilityManager
 		for(i=0; i<skills.Size(); i+=1)
 		{			
 			skillType = skills[i].skillType;
-			
-			if(IsCoreSkill(skillType))
-				continue;
 			// Dazedy start
 			if(IsDefaultSkill(skillType)){
 				skills[i].level=1;
 				continue;
 			}
 			// Dazedy end
-			if(IsSkillEquipped(skillType))
-				UnequipSkill(GetSkillSlotID(skillType));
-				
-			skills[i].level = 0;
 		}
 		
 		for(i=0; i<pathPointsSpent.Size(); i+=1)
 		{
 			pathPointsSpent[i] = 30;
 		}
-		
-		owner.RemoveAbilityAll('sword_adrenalinegain');
-		owner.RemoveAbilityAll('magic_staminaregen');
-		owner.RemoveAbilityAll('alchemy_potionduration');
 		SetStatPointMax(BCS_Toxicity, 1000);
 		SetStatPointMax(BCS_Stamina, 100);
 	}

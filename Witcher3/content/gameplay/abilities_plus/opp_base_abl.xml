@@ -193,6 +193,41 @@
         <heavy_attack_damage_vitality type="base" always_random="false" min="32" max="32" />
       </ability>
 	  
+	  <ability name="NPCDelevelBonus">
+        <tags> "base" </tags>
+        <vitality type="mult" always_random="false" min="-0.11" max="-0.11" />
+		<force_resistance_perc type="mult" always_random="false" min="-0.06" max="-0.06" />
+		<burning_resistance_perc type="mult" always_random="false" min="-0.06" max="-0.06" />
+		<will_resistance_perc type="mult" always_random="false" min="-0.06" max="-0.06" />
+		<shock_resistance_perc type="mult" always_random="false" min="-0.06" max="-0.06" />
+        <light_attack_damage_vitality type="mult" always_random="false" min="-0.11" max="-0.11" />
+        <heavy_attack_damage_vitality type="mult" always_random="false" min="-0.11" max="-0.11" />
+	</ability>
+
+      <ability name="NPCLevelBonusGroup">
+        <tags> "base" </tags>
+         <level type="add" always_random="false" min="1" max="1" />
+         <vitality type="base" always_random="false" min="20" max="20" />
+         <experience type="base" always_random="false" min="2" max="2" />
+		 <force_resistance_perc type="add" always_random="false" min="0.01" max="0.01" />
+		 <burning_resistance_perc type="add" always_random="false" min="0.01" max="0.01" />
+		 <will_resistance_perc type="add" always_random="false" min="0.01" max="0.01" />
+		 <shock_resistance_perc type="add" always_random="false" min="0.01" max="0.01" />
+         <light_attack_damage_vitality type="base" always_random="false" min="8" max="8" />
+         <heavy_attack_damage_vitality type="base" always_random="false" min="8" max="8" />
+	 </ability>	  
+	  
+      <ability name="NPCDelevelBonusGroup">
+        <tags> "base" </tags>
+         <vitality type="mult" always_random="false" min="-0.11" max="-0.11" />
+		 <force_resistance_perc type="mult" always_random="false" min="-0.06" max="-0.06" />
+		 <burning_resistance_perc type="mult" always_random="false" min="-0.06" max="-0.06" />
+		 <will_resistance_perc type="mult" always_random="false" min="-0.06" max="-0.06" />
+		 <shock_resistance_perc type="mult" always_random="false" min="-0.06" max="-0.06" />
+         <light_attack_damage_vitality type="mult" always_random="false" min="-0.11" max="-0.11" />
+         <heavy_attack_damage_vitality type="mult" always_random="false" min="-0.11" max="-0.11" />
+	 </ability>
+	  
 	  <ability name="NPCDoNotGainBoost">
         <tags> "base" </tags>
       </ability>
