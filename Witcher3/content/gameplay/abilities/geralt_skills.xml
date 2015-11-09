@@ -11,13 +11,13 @@
       </ability>
       <!-- prices -->
       <ability name="area_nml">
-		<nomansland_price_mult type="add" min="0.5" max="0.5"/>
+		<nomansland_price_mult type="add" min="1" max="1"/>
       </ability>
       <ability name="area_skellige">
-		<skellige_price_mult type="add" min="0.5" max="0.5"/>
+		<skellige_price_mult type="add" min="1" max="1"/>
       </ability>
       <ability name="area_novigrad">
-		<novigrad_price_mult type="add" min="0.5" max="0.5"/>
+		<novigrad_price_mult type="add" min="1" max="1"/>
       </ability>
 	  <!-- hacks -->	  
 	  <ability name="TutorialStaminaRegenHack">
@@ -311,10 +311,10 @@
       <!-- Quen -->
       <ability name="magic_4">
         <tags>magic_4</tags>
-        <stamina_cost type="add" always_random="false" min="40" max="40" />
+        <stamina_cost type="add" always_random="false" min="50" max="50" />
         <stamina_delay type="base" min="6.0" />
         <stamina_delay type="mult" min="1" />
-        <shield_duration type="base" min="12" />
+        <shield_duration type="base" min="6" />
         <shield_duration type="mult" min="1" />
         <shield_health type="base" min="200" />
         <shield_health type="mult" min="1" />
@@ -385,13 +385,13 @@
       <ability name="magic_s5">
         <tags>magic_s5</tags>
         <stamina_cost type="add" always_random="false" min="0" max="0" />
-        <stamina_cost_per_sec type="add" always_random="false" min="22.2" max="22.2" />
+        <stamina_cost_per_sec type="add" always_random="false" min="55" max="55" />
         <!-- duration modified by other skills, no mult as spell power covers that -->
         <duration type="base" min="3" />
 		<duration_animals type="base" min="18" />
 		<AxiiGuardMeEffect is_ability="true" />
 		<!-- attack power bonus -->
-		<attack_power type="mult" min="0.1" />
+		<attack_power type="mult" min="-0.1" />
       </ability>
 	  
       <!-- Static Discharge -->
@@ -458,7 +458,7 @@
       <ability name="magic_s15">
         <tags>magic_s15,Quen</tags>
         <!-- take a look at how it's used in scripts before modifying it -->
-        <spell_power type="mult" min="0.05" />
+        <spell_power type="mult" min="0.02" />
       </ability>
 	  
       <!-- Yrden Power -->
@@ -633,7 +633,7 @@
 		
 		<ability name="perk_2">
 			<tags>perk_2</tags>
-			<attack_power type="mult" min="0.2" />
+			<attack_power type="mult" min="1" />
 		</ability>
 		<ability name="perk_3">
 			<tags>perk_3</tags>
@@ -642,7 +642,7 @@
 		</ability>
 		<ability name="perk_4">
 			<tags>perk_4, GlobalPassiveBonus</tags>
-			<vitality type="base" min="200" />
+			<vitality type="base" min="750" />
 		</ability>
 		<ability name="perk_5">
 			<tags>perk_5</tags>
@@ -655,11 +655,13 @@
 			<swimming_stamina_cost_per_sec type="add" always_random="false" min="1" max="1" />
 			<sprint_stamina_cost_per_sec type="add" always_random="false" min="1" max="1" />
 			<jump_stamina_cost type="add" always_random="false" min="1" max="1" />
+			<dodge_stamina_cost type="add" always_random="false" min="1" max="1" />
+			<evade_stamina_cost type="add" always_random="false" min="1" max="1" />
 		</ability>
 		<ability name="perk_6">
 			<tags>perk_6</tags>
 			<attack_power type="mult" min="0.015" />
-			<vitality type="mult" min="0.01" />
+			<vitality type="mult" min="0.035" />
 			<light_action_stamina_cost type="add" always_random="false" min="3" max="3" />
 			<heavy_action_stamina_cost type="add" always_random="false" min="3" max="3" />
 			<counter_stamina_cost type="add" always_random="false" min="3" max="3" />
@@ -667,10 +669,12 @@
 			<swimming_stamina_cost_per_sec type="add" always_random="false" min="3" max="3" />
 			<sprint_stamina_cost_per_sec type="add" always_random="false" min="3" max="3" />
 			<jump_stamina_cost type="add" always_random="false" min="3" max="3" />
+			<dodge_stamina_cost type="add" always_random="false" min="2" max="2" />
+			<evade_stamina_cost type="add" always_random="false" min="2" max="2" />
 		</ability>
 		<ability name="perk_7">
 			<tags>perk_7</tags>
-			<vitality type="mult" min="0.04" />
+			<vitality type="mult" min="0.06" />
 			<attack_power_heavy_style type="mult" min="0.05" />
 			<light_action_stamina_cost type="add" always_random="false" min="5" max="5" />
 			<heavy_action_stamina_cost type="add" always_random="false" min="5" max="5" />
@@ -679,6 +683,8 @@
 			<swimming_stamina_cost_per_sec type="add" always_random="false" min="5" max="5" />
 			<sprint_stamina_cost_per_sec type="add" always_random="false" min="5" max="5" />
 			<jump_stamina_cost type="add" always_random="false" min="5" max="5" />
+			<dodge_stamina_cost type="add" always_random="false" min="3" max="3" />
+			<evade_stamina_cost type="add" always_random="false" min="3" max="3" />
 		</ability>
 		<ability name="perk_10">
 			<tags>perk_10, GlobalPassiveBonus</tags>
@@ -690,7 +696,7 @@
 		</ability>
 		<ability name="perk_12">
 			<tags>perk_12, GlobalPassiveBonus</tags>
-			<toxicity type="base" min="75" />
+			<toxicity type="base" min="500" />
 		</ability>
     </abilities>
   </definitions>
@@ -856,7 +862,7 @@
 		<!-- Channeling -->
         <skill skill_name="magic_s4"  requiredPointsSpent="0" maxLevel="3" priority="20" guiPositionID="5" localisationName="skill_name_magic_s4"  localisationDescriptionNotAcquired="skill_desc_prev_magic_s4"  localisationDescription="skill_desc_magic_s4"  localisationDescriptionLevel2="skill_desc_magic_s4_2"  localisationDescriptionLevel3="skill_desc_magic_s4_3"  cost="1" pathType_name="Signs" subpathType_name="Signs_Quen" iconPath="icons\Skills\Signs\magic_s4.png"  linkVertical="blue" linkLeft="blue" linkRight="blue" />
 		<!-- Spell Power (Resilience) -->
-        <skill skill_name="magic_s15" requiredPointsSpent="0" maxLevel="5" priority="20" guiPositionID="15" localisationName="skill_name_magic_s15" localisationDescriptionNotAcquired="skill_desc_prev_magic_s15" localisationDescription="skill_desc_magic_s15" localisationDescriptionLevel2="skill_desc_magic_s15" localisationDescriptionLevel3="skill_desc_magic_s15" cost="1" pathType_name="Signs" subpathType_name="Signs_Quen" iconPath="icons\Skills\Signs\magic_s13.png" linkVertical="blue" linkLeft="blue" linkRight="blue" />
+        <skill skill_name="magic_s15" requiredPointsSpent="0" maxLevel="10" priority="20" guiPositionID="15" localisationName="skill_name_magic_s15" localisationDescriptionNotAcquired="skill_desc_prev_magic_s15" localisationDescription="skill_desc_magic_s15" localisationDescriptionLevel2="skill_desc_magic_s15" localisationDescriptionLevel3="skill_desc_magic_s15" cost="1" pathType_name="Signs" subpathType_name="Signs_Quen" iconPath="icons\Skills\Signs\magic_s13.png" linkVertical="blue" linkLeft="blue" linkRight="blue" />
 		<!-- Discharge -->
         <skill skill_name="magic_s14" requiredPointsSpent="0" maxLevel="10" priority="20" guiPositionID="20"  localisationName="skill_name_magic_s14" localisationDescriptionNotAcquired="skill_desc_prev_magic_s14" localisationDescription="skill_desc_magic_s14" localisationDescriptionLevel2="skill_desc_magic_s14" localisationDescriptionLevel3="skill_desc_magic_s14" cost="1" pathType_name="Signs" subpathType_name="Signs_Quen" iconPath="icons\Skills\Signs\magic_s15.png" linkVertical="blue" linkLeft="blue" linkRight="blue" />		
 		
@@ -926,12 +932,12 @@
         <skill skill_name="perk_1" requiredPointsSpent="0" maxLevel="1" priority="0" guiPositionID="99" localisationName="skill_name_perk_1" localisationDescription="skill_desc_perk_1" cost="1" pathType_name="Perks" subpathType_name="Perks_col1" iconPath="icons\Perks\s_perk_32.png" linkVertical="yellow" linkLeft="yellow" linkRight="yellow" />
 		
 		<!-- Steady Shot -->
-        <skill skill_name="perk_2" requiredPointsSpent="0" maxLevel="5" priority="0" guiPositionID="99" localisationName="skill_name_perk_2" localisationDescription="skill_desc_perk_2" localisationDescriptionLevel2="skill_desc_perk_2" localisationDescriptionLevel3="skill_desc_perk_2" cost="1" pathType_name="Perks" subpathType_name="Perks_col1" iconPath="icons\Perks\s_perk_18.png" linkVertical="yellow" linkLeft="yellow" linkRight="yellow" />
+        <skill skill_name="perk_2" requiredPointsSpent="0" maxLevel="1" priority="0" guiPositionID="99" localisationName="skill_name_perk_2" localisationDescription="skill_desc_perk_2" localisationDescriptionLevel2="skill_desc_perk_2" localisationDescriptionLevel3="skill_desc_perk_2" cost="1" pathType_name="Perks" subpathType_name="Perks_col1" iconPath="icons\Perks\s_perk_18.png" linkVertical="yellow" linkLeft="yellow" linkRight="yellow" />
 		<!-- Hot Hacker 
         <skill skill_name="perk_3" requiredPointsSpent="0" maxLevel="1" priority="0" guiPositionID="99" localisationName="skill_name_perk_3" localisationDescription="skill_desc_perk_3" cost="1" pathType_name="Perks" subpathType_name="Perks_col3" iconPath="icons\Perks\s_perk_3.png" linkVertical="" linkLeft="" linkRight="" />
 		-->
 		<!-- To Your Health -->
-        <skill skill_name="perk_4" requiredPointsSpent="0" maxLevel="5" priority="0" guiPositionID="99" localisationName="skill_name_perk_4" localisationDescription="skill_desc_perk_4" cost="1" pathType_name="Perks" subpathType_name="Perks_col2" iconPath="icons\Perks\s_perk_33.png" linkVertical="yellow" linkLeft="yellow" linkRight="yellow" />
+        <skill skill_name="perk_4" requiredPointsSpent="0" maxLevel="1" priority="0" guiPositionID="99" localisationName="skill_name_perk_4" localisationDescription="skill_desc_perk_4" cost="1" pathType_name="Perks" subpathType_name="Perks_col2" iconPath="icons\Perks\s_perk_33.png" linkVertical="yellow" linkLeft="yellow" linkRight="yellow" />
 		<!-- Cat's Claw -->
         <skill skill_name="perk_5" requiredPointsSpent="0" maxLevel="1" priority="0" guiPositionID="99" localisationName="skill_name_perk_5" localisationDescription="skill_desc_perk_5" cost="1" pathType_name="Perks" subpathType_name="Perks_col3" iconPath="icons\Perks\s_perk_7.png" linkVertical="yellow" linkLeft="yellow" linkRight="yellow" />
 		<!-- Griffon's Gift -->
@@ -948,7 +954,7 @@
 		<!-- Blood Into Fire -->
         <skill skill_name="perk_11" requiredPointsSpent="0" maxLevel="1" priority="0" guiPositionID="99" localisationName="skill_name_perk_11" localisationDescription="skill_desc_perk_11" cost="1" pathType_name="Perks" subpathType_name="Perks_col4" iconPath="icons\Perks\s_perk_16.png" linkVertical="yellow" linkLeft="yellow" linkRight="yellow" />
 		<!-- Toxic Block -->
-        <skill skill_name="perk_12" requiredPointsSpent="0" maxLevel="5" priority="0" guiPositionID="99" localisationName="skill_name_perk_12" localisationDescription="skill_desc_perk_12" cost="1" pathType_name="Perks" subpathType_name="Perks_col5" iconPath="icons\Perks\s_perk_30.png" linkVertical="yellow" linkLeft="yellow" linkRight="yellow" />
+        <skill skill_name="perk_12" requiredPointsSpent="0" maxLevel="1" priority="0" guiPositionID="99" localisationName="skill_name_perk_12" localisationDescription="skill_desc_perk_12" cost="1" pathType_name="Perks" subpathType_name="Perks_col5" iconPath="icons\Perks\s_perk_30.png" linkVertical="yellow" linkLeft="yellow" linkRight="yellow" />
       </definitions>
     </skills>
     <skill_slots>

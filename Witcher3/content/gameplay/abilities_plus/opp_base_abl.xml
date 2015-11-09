@@ -1084,14 +1084,10 @@
 		<rending_resistance_perc type="base" always_random="false" min="0.1" max="0.1"/>
 		<elemental_resistance_perc type="base" always_random="false" min="0.1" max="0.1"/>
 		<vitality type="mult" always_random="false" min="0.25" max="0.25" />
-
 		<dodge_melee_light_chance type="add" always_random="false" min="0.45" max="0.45" />
         <dodge_melee_heavy_chance type="add" always_random="false" min="0.15" max="0.15" />
 		<raise_guard_chance type="add" always_random="false" min="-0.1" max="-0.1" />
         <lower_guard_chance type="add" always_random="false" min="0.05" max="0.05" />
-
-
-
 	  </ability>
 	  
 	  <ability name="NPC Heavy Leather Armor">
@@ -1108,7 +1104,6 @@
 		<dodge_melee_light_chance type="add" always_random="false" min="0.35" max="0.35" />
         <dodge_melee_heavy_chance type="add" always_random="false" min="0.15" max="0.15" />
 		<raise_guard_chance type="add" always_random="false" min="-0.05" max="-0.05" />
-
         <lower_guard_chance type="add" always_random="false" min="0.03" max="0.03" />
 	  </ability>
 	  
@@ -1122,11 +1117,12 @@
 		<bludgeoning_resistance_perc type="base" always_random="false" min="0.13" max="0.13"/>
 		<rending_resistance_perc type="base" always_random="false" min="0.13" max="0.13"/>
 		<elemental_resistance_perc type="base" always_random="false" min="0.13" max="0.13"/>
+		<burning_resistance_perc type="base" min="-0.13" max="-0.13" />
+		<fire_resistance_perc type="base" min="-0.13" max="-0.13" />
 		<vitality type="mult" always_random="false" min="0.33" max="0.33" />
 		<dodge_melee_light_chance type="add" always_random="false" min="0.0" max="0.0" />
         <dodge_melee_heavy_chance type="add" always_random="false" min="0.0" max="0.0" />
 		<raise_guard_chance type="add" always_random="false" min="0.05" max="0.05" />
-
         <lower_guard_chance type="add" always_random="false" min="0.0" max="0.0" />
 	  </ability>
 	  
@@ -1134,46 +1130,45 @@
 	  <!--BCEv Edit-->
 		<tags></tags>
 		<armor type="base" always_random="false" min="40" max="40"/>
-		<physical_resistance_perc type="base" always_random="false" min="0.14" max="0.14" />
-		<slashing_resistance_perc type="base" always_random="false" min="0.14" max="0.14"/>
-		<piercing_resistance_perc type="base" always_random="false" min="0.14" max="0.14"/>
-		<bludgeoning_resistance_perc type="base" always_random="false" min="0.14" max="0.14"/>
-		<rending_resistance_perc type="base" always_random="false" min="0.14" max="0.14"/>
+		<physical_resistance_perc type="base" always_random="false" min="0.2" max="0.2" />
+		<slashing_resistance_perc type="base" always_random="false" min="0.2" max="0.2"/>
+		<piercing_resistance_perc type="base" always_random="false" min="0.2" max="0.2"/>
+		<bludgeoning_resistance_perc type="base" always_random="false" min="0.2" max="0.2"/>
+		<rending_resistance_perc type="base" always_random="false" min="0.2" max="0.2"/>
 		<elemental_resistance_perc type="base" always_random="false" min="0.14" max="0.14"/>
+		<burning_resistance_perc type="base" min="-0.2" max="-0.2" />
+		<fire_resistance_perc type="base" min="-0.2" max="-0.2" />
 		<vitality type="mult" always_random="false" min="0.36" max="0.36" />
 		<dodge_melee_light_chance type="add" always_random="false" min="-0.1" max="-0.1" />
         <dodge_melee_heavy_chance type="add" always_random="false" min="-0.05" max="-0.05" />
 		<raise_guard_chance type="add" always_random="false" min="0.2" max="0.2" />
         <lower_guard_chance type="add" always_random="false" min="-0.1" max="-0.1" />
-
-
 	  </ability>
 	  
 	  <ability name="NPC Full Plate Armor">
 	  <!--BCEv Edit-->
 		<tags></tags>
 		<armor type="base" always_random="false" min="50" max="50"/>
-		<physical_resistance_perc type="base" always_random="false" min="0.15" max="0.15" />
-		<slashing_resistance_perc type="base" always_random="false" min="0.15" max="0.15"/>
-		<piercing_resistance_perc type="base" always_random="false" min="0.15" max="0.15"/>
-		<bludgeoning_resistance_perc type="base" always_random="false" min="0.15" max="0.15"/>
-		<rending_resistance_perc type="base" always_random="false" min="0.15" max="0.15"/>
+		<physical_resistance_perc type="base" always_random="false" min="0.3" max="0.3" />
+		<slashing_resistance_perc type="base" always_random="false" min="0.3" max="0.3"/>
+		<piercing_resistance_perc type="base" always_random="false" min="0.3" max="0.3"/>
+		<bludgeoning_resistance_perc type="base" always_random="false" min="0.3" max="0.3"/>
+		<rending_resistance_perc type="base" always_random="false" min="0.3" max="0.3"/>
 		<elemental_resistance_perc type="base" always_random="false" min="0.15" max="0.15"/>
+		<burning_resistance_perc type="base" min="-0.3" max="-0.3" />
+		<fire_resistance_perc type="base" min="-0.3" max="-0.3" />
 		<vitality type="mult" always_random="false" min="0.4" max="0.4" />
-
 		<dodge_melee_light_chance type="add" always_random="false" min="-0.2" max="-0.2" />
         <dodge_melee_heavy_chance type="add" always_random="false" min="-0.15" max="-0.15" />
-
 		<raise_guard_chance type="add" always_random="false" min="0.35" max="0.35" />
         <lower_guard_chance type="add" always_random="false" min="-0.2" max="-0.2" />
-
 	  </ability>
 	  
 	  <!-- NPC armors -->
 	  <ability name="NPC_Wild_Hunt_Armor">
 	  <!--BCEv Edit-->
 		<tags></tags>
-		<armor type="add" min="65" max="65"/>
+		<armor type="add" min="95" max="95"/>
 		<physical_resistance_perc type="add" min="0.25" max="0.25" />
 		<slashing_resistance_perc type="add" min="0.25" max="0.25"/>
 		<piercing_resistance_perc type="add" min="0.25" max="0.25"/>

@@ -3,14 +3,14 @@
     <reward name="q001_1_after_dream" 								         	experience="200" 	gold="0" 	achievement="0" 	script="" comment="" />
     <reward name="q001_2_after_bandits" 							         	experience="200" 	gold="0" 	achievement="0" 	script="" comment="" />
 	<reward name="q001_found_yen_skull" 							         	experience="50" 	gold="0" 	achievement="0" 	script="" comment="" />
-    <reward name="q001_griffin_merchant_reward" 					         	experience="0"	 	gold="200" 	achievement="0" 	script="" comment="" />
-    <reward name="q002_1_helped_herbalist" 							         	experience="200" 	gold="100" 	achievement="0" 	script="" comment="" >        <items>            <item name="Venom extract" amount="2" />            <item name="Recipe for Cursed Oil 1" amount="1" />            <item name="Specters vol 1" amount="1" />        </items>    </reward>
+    <reward name="q001_griffin_merchant_reward" 					         	experience="0"	 	gold="100" 	achievement="0" 	script="" comment="" />
+    <reward name="q002_1_helped_herbalist" 							         	experience="200" 	gold="50" 	achievement="0" 	script="" comment="" >        <items>            <item name="Venom extract" amount="2" />            <item name="Recipe for Cursed Oil 1" amount="1" />            <item name="Specters vol 1" amount="1" />        </items>    </reward>
     <reward name="q002_4_killed_bandits" 							         	experience="200" 	gold="0" 	achievement="0" 	script="" comment="" />
     <reward name="q002_5_after_emhyr" 								         	experience="150" 	gold="0" 	achievement="1" 	script="" comment="" />
     <reward name="q002_1_helped_hunter" 							         	experience="200" 	gold="0" 	achievement="0" 	script="" comment="" />
     <reward name="q002_2_level_up" 									         	experience="200" 	gold="0" 	achievement="0" 	script="" comment="" />
     <reward name="q002_3_griffin_dead_reward_nomoney" 				         	experience="200" 	gold="0" 	achievement="0" 	script="" comment="" />  
-	<reward name="q002_3_griffin_dead_reward" 						         	experience="100" 	gold="800" 	achievement="0" 	script="" comment="" />
+	<reward name="q002_3_griffin_dead_reward" 						         	experience="100" 	gold="400" 	achievement="0" 	script="" comment="" />
 	<reward name="q101_found_hendrik_notes" 						         	experience="100" 	gold="0" 	achievement="0" 	script="" comment=""/>
 	<reward name="q103_01_baron_met" 								         	experience="100" 	gold="0" 	achievement="0" 	script="" comment="" />
     <reward name="q103_02_rooms_checked" 							         	experience="150" 	gold="0" 	achievement="0" 	script="" comment="" />
@@ -19,12 +19,12 @@
     <reward name="q103_15i_ritual_end" 								         	experience="100" 	gold="0" 	achievement="0" 	script="" comment="" />
     <reward name="q103_04_after_fistfight" 							         	experience="50" 	gold="0" 	achievement="0" 	script="" comment="" />
     <reward name="q103_05_learnt_about_daughter" 					         	experience="200" 	gold="0" 	achievement="0" 	script="" comment="" />
-    <reward name="q103_06_find_daughter" 							         	experience="0" 		gold="200" 	achievement="0" 	script="" comment="" />
+    <reward name="q103_06_find_daughter" 							         	experience="0" 		gold="100" 	achievement="0" 	script="" comment="" />
     <reward name="q103_06_visited_daughter" 						         	experience="150" 	gold="0" 	achievement="0" 	script="" comment="" />
     <reward name="q103_07_learnt_about_ciri" 						         	experience="200" 	gold="0" 	achievement="0" 	script="" comment="" />
     <reward name="q103_08_completed" 								         	experience="200" 	gold="0" 	achievement="4" 	script="" comment="" />
-    <reward name="q103_09_stablemaster_reward" 						         	experience="0" 		gold="100" 	achievement="0" 	script="" comment="" />
-    <reward name="q103_06_visit_oxenfurt" 							         	experience="0" 		gold="200" 	achievement="0" 	script="" comment="" />
+    <reward name="q103_09_stablemaster_reward" 						         	experience="0" 		gold="50" 	achievement="0" 	script="" comment="" />
+    <reward name="q103_06_visit_oxenfurt" 							         	experience="0" 		gold="100" 	achievement="0" 	script="" comment="" />
 	<reward name="q103_10_botchling_buried" 						         	experience="150" 	gold="0" 	achievement="0" 	script="" comment="" />
    	<reward name="q104_1_met_keira" 								         	experience="100" 	gold="0" 	achievement="0" 	script="" comment="" />
 	<reward name="q104_1_aarded_rat_nest" 							         	experience="100" 	gold="0" 	achievement="0" 	script="" comment="" />
@@ -54,7 +54,7 @@
 	<reward name="q107_5_helped_treasure" 							         	experience="15" 	gold="0" 	achievement="0" 	script="" comment="" />
 	<reward name="q107_6_helped_raped" 								         	experience="15" 	gold="0" 	achievement="0" 	script="" comment="" />
 	<reward name="q108_01_eve_ended" 								         	experience="200" 	gold="0" 	achievement="0" 	script="" comment="" />
-    <reward name="q108_02_guslar_father_buried" 					         	experience="50" 	gold="200" 	achievement="0" 	script="" comment="" />
+    <reward name="q108_02_guslar_father_buried" 					         	experience="50" 	gold="100" 	achievement="0" 	script="" comment="" />
     <reward name="q109_01_find_keira" 								         	experience="50" 	gold="0" 	achievement="0" 	script="" comment="" />
     <reward name="q109_02_kill_keira" 								         	experience="200" 	gold="0" 	achievement="0" 	script="" comment="" />
     <reward name="q109_02_persuade_keira" 							         	experience="100" 	gold="0" 	achievement="0" 	script="" comment="" />
@@ -107,8 +107,8 @@
 	<reward name="q302_01_met_big_four" 							         	experience="150" 	gold="0" 	achievement="0" 	script="" comment="" />
     <reward name="q302_02_investigated_ring" 						         	experience="150" 	gold="0" 	achievement="0" 	script="" comment="" />
     <reward name="q302_02_investigated_casino" 						         	experience="150" 	gold="0" 	achievement="0" 	script="" comment="" />
-    <reward name="q302_02_cleaver_reward" 							         	experience="50" gold="600" achievement="0" script="" comment=""/>
-	<reward name="q302_02_cleaver_reward_half" 						         	experience="50" gold="300" achievement="0" script="" comment=""/>
+    <reward name="q302_02_cleaver_reward" 							         	experience="50" gold="300" achievement="0" script="" comment=""/>
+	<reward name="q302_02_cleaver_reward_half" 						         	experience="50" gold="150" achievement="0" script="" comment=""/>
 	<reward name="q302_02_cleaver_reward_nogold" 					         	experience="200" gold="0" achievement="0" script="" comment=""/>
 	<reward name="q302_02_cleaver_reward_beggarking"	 			         	experience="100" gold="0" achievement="0" script="" comment=""> 				<items> 			<item name="Silver sword 4" amount="1" /> 											<item name="Light armor 09" amount="1" /> </items> </reward>
     <reward name="q302_03_roche_camp_visited" 						         	experience="150" 	gold="0" 	achievement="0" 	script="" comment="" />
@@ -308,69 +308,69 @@
 				<item name="gwint_card_isengrim" amount="1" />
 			</items>
 	</reward>
-    <reward name="sq310_coins" 										         	experience="80" 	gold="500" 	achievement="0" 	script="" comment="" />
+    <reward name="sq310_coins" 										         	experience="80" 	gold="300" 	achievement="0" 	script="" comment="" />
     <reward name="sq312_ves_assisted" 								         	experience="50" 	gold="0" 	achievement="0" 	script="" comment="" />
     <reward name="sq312_ves_died" 									         	experience="75" 	gold="0" 	achievement="0" 	script="" comment="" />
     <reward name="sq313_1_ruse_complete" 							         	experience="50" 	gold="0" 	achievement="0" 	script="" comment="" />
     <reward name="sq315_finished" 									         	experience="25" 	gold="0" 	achievement="0" 	script="" comment="" />
     <reward name="mh101_investigation" 								         	experience="25" 	gold="0" 	achievement="0" 	script="" comment="" />
-    <reward name="mh101_final_reward" 								         	experience="200" 	gold="500" 	achievement="0" 	script="" comment="" />
+    <reward name="mh101_final_reward" 								         	experience="200" 	gold="300" 	achievement="0" 	script="" comment="" />
     <reward name="mh101_final_reward_no_gold" 						         	experience="200"	gold="0" 	achievement="0" 	script="" comment="" />
-    <reward name="mh102_final_reward" 								         	experience="200" 	gold="500" 	achievement="0" 	script="" comment="" />
+    <reward name="mh102_final_reward" 								         	experience="200" 	gold="300" 	achievement="0" 	script="" comment="" />
     <reward name="mh102_final_reward_no_gold" 						         	experience="200" 	gold="0" 	achievement="0" 	script="" comment="" />
     <reward name="mh102_investigation" 								         	experience="25" 	gold="0" 	achievement="0" 	script="" comment="" />
 	<reward name="mh103_investigation" 								         	experience="25" 	gold="0" 	achievement="0" 	script="" comment="" />
-    <reward name="mh103_final_reward" 								         	experience="200" 	gold="500" 	achievement="0" 	script="" comment="" />
+    <reward name="mh103_final_reward" 								         	experience="200" 	gold="300" 	achievement="0" 	script="" comment="" />
 	<reward name="mh104_investigation_done" 						         	experience="25" 	gold="0" 	achievement="0" 	script="" comment="" />
-    <reward name="mh104_father_reward" 								         	experience="25" 	gold="500" 	achievement="0" 	script="" comment="" />
-    <reward name="mh104_final_reward" 								         	experience="200"	gold="500" 	achievement="0" 	script="" comment="" />
+    <reward name="mh104_father_reward" 								         	experience="25" 	gold="300" 	achievement="0" 	script="" comment="" />
+    <reward name="mh104_final_reward" 								         	experience="200"	gold="300" 	achievement="0" 	script="" comment="" />
 	<reward name="mh105_villagers_found" 							         	experience="30" 	gold="0" 	achievement="0" 	script="" comment="" />
     <reward name="mh105_investigation" 								         	experience="25" 	gold="0" 	achievement="0" 	script="" comment="" />
-    <reward name="mh105_final" 										         	experience="200"	gold="500" 	achievement="0" 	script="" comment="" />
-    <reward name="mh106_final_reward" 								         	experience="200" 	gold="500" 	achievement="0" 	script="" comment="" />
+    <reward name="mh105_final" 										         	experience="200"	gold="300" 	achievement="0" 	script="" comment="" />
+    <reward name="mh106_final_reward" 								         	experience="200" 	gold="300" 	achievement="0" 	script="" comment="" />
     <reward name="mh106_investigation" 								         	experience="10" 	gold="0" 	achievement="0" 	script="" comment="" />
 	<reward name="mh107_investigation" 								         	experience="25" 	gold="0" 	achievement="0" 	script="" comment="" />
-    <reward name="mh107_final_reward" 								         	experience="200" 	gold="500" 	achievement="0" 	script="" comment="" />
+    <reward name="mh107_final_reward" 								         	experience="200" 	gold="300" 	achievement="0" 	script="" comment="" />
 	<reward name="mh108_investigation" 								         	experience="25" 	gold="0" 	achievement="0" 	script="" comment="" />
-    <reward name="mh108_final_reward" 								         	experience="200" 	gold="500" 	achievement="0" 	script="" comment="" />
+    <reward name="mh108_final_reward" 								         	experience="200" 	gold="300" 	achievement="0" 	script="" comment="" />
     <reward name="mh202_1_investigation" 							         	experience="25" 	gold="0" 	achievement="0" 	script="" comment="" />
-    <reward name="mh202_2_final_reward" 							         	experience="200" 	gold="500" 	achievement="0" 	script="" comment="" />
+    <reward name="mh202_2_final_reward" 							         	experience="200" 	gold="300" 	achievement="0" 	script="" comment="" />
     <reward name="mh203_01_witness_interrogated" 					         	experience="25" 	gold="0" 	achievement="0" 	script="" comment="" />
     <reward name="mh203_02_lair_found" 								         	experience="25" 	gold="0" 	achievement="0" 	script="" comment="" />
-    <reward name="mh203_03_completed" 								         	experience="200" 	gold="500" 	achievement="0" 	script="" comment="" />
+    <reward name="mh203_03_completed" 								         	experience="200" 	gold="300" 	achievement="0" 	script="" comment="" />
 	<reward name="mh206_arena" 										         	experience="15" 	gold="0" 	achievement="0" 	script="" comment="" />
     <reward name="mh206_lair" 										         	experience="25" 	gold="0" 	achievement="0" 	script="" comment="" />
-    <reward name="mh206_final" 										         	experience="200" 	gold="500" 	achievement="0" 	script="" comment="" />
+    <reward name="mh206_final" 										         	experience="200" 	gold="300" 	achievement="0" 	script="" comment="" />
     <reward name="mh207_mikkjal_found" 								         	experience="25" 	gold="0" 	achievement="0" 	script="" comment="" />
     <reward name="mh207_investigation" 								         	experience="25" 	gold="0" 	achievement="0" 	script="" comment="" />
-    <reward name="mh207_final" 										         	experience="200" 	gold="500" 	achievement="0" 	script="" comment="" />
+    <reward name="mh207_final" 										         	experience="200" 	gold="300" 	achievement="0" 	script="" comment="" />
 	<reward name="mh208_investigation" 								         	experience="25" 	gold="0" 	achievement="0" 	script="" comment="" />
-    <reward name="mh208_final" 										         	experience="200" 	gold="500" 	achievement="0" 	script="" comment="" />
-    <reward name="mh208_final_bigger" 								         	experience="40" 	gold="500" 	achievement="0" 	script="" comment="" />
+    <reward name="mh208_final" 										         	experience="200" 	gold="300" 	achievement="0" 	script="" comment="" />
+    <reward name="mh208_final_bigger" 								         	experience="40" 	gold="300" 	achievement="0" 	script="" comment="" />
     <reward name="mh208_final_reward_smaller" 						         	experience="90" 	gold="175" 	achievement="0" 	script="" comment="" />
     <reward name="mh210_investigation" 								         	experience="25" 	gold="0" 	achievement="0" 	script="" comment="" />
-    <reward name="mh210_final" 										         	experience="200" 	gold="500" 	achievement="0" 	script="" comment="" />
+    <reward name="mh210_final" 										         	experience="200" 	gold="300" 	achievement="0" 	script="" comment="" />
     <reward name="mh210_britt" 										         	experience="25" 	gold="0" 	achievement="0" 	script="" comment="" />
     <reward name="mh210_britt_gold" 								         	experience="20" 	gold="100" 	achievement="0" 	script="" comment="" />
-	<reward name="mh301_reward" 									         	experience="200" 	gold="500" 	achievement="0" 	script="" comment="" />
+	<reward name="mh301_reward" 									         	experience="200" 	gold="300" 	achievement="0" 	script="" comment="" />
     <reward name="mh301_investigation" 								         	experience="25" 	gold="0" 	achievement="0" 	script="" comment="" />
     <reward name="mh302_investigation" 								         	experience="25" 	gold="0" 	achievement="0" 	script="" comment="" />
-    <reward name="mh302_final" 										         	experience="200" 	gold="500" 	achievement="0" 	script="" comment="" />
+    <reward name="mh302_final" 										         	experience="200" 	gold="300" 	achievement="0" 	script="" comment="" />
 	<reward name="mh303_investigation" 								         	experience="25" 	gold="0" 	achievement="0" 	script="" comment="" />
     <reward name="mh303_succubus" 									         	experience="0"	 	gold="0" 	achievement="0" 	script="" comment="" >	    <items>            <item name="Aerondight" amount="1" />        </items>    </reward>
-    <reward name="mh303_final" 										         	experience="200" 	gold="500" 	achievement="0" 	script="" comment="" />
+    <reward name="mh303_final" 										         	experience="200" 	gold="300" 	achievement="0" 	script="" comment="" />
 	<reward name="mh304_investigation" 								         	experience="25" 	gold="0" 	achievement="0" 	script="" comment="" />
-    <reward name="mh304_final" 										         	experience="200" 	gold="500" 	achievement="0" 	script="" comment="" />
+    <reward name="mh304_final" 										         	experience="200" 	gold="300" 	achievement="0" 	script="" comment="" />
     <reward name="mh305_investigation" 								         	experience="25" 	gold="0" 	achievement="0" 	script="" comment="" />
-    <reward name="mh305_final" 										         	experience="200" 	gold="500" 	achievement="0" 	script="" comment="" />
-    <reward name="mh305_doppler_reward" 							         	experience="25" 	gold="500" 	achievement="0" 	script="" comment="">        <items>            <item name="Gnomish sword 1 schematic" amount="1" />        </items>    </reward>
+    <reward name="mh305_final" 										         	experience="200" 	gold="300" 	achievement="0" 	script="" comment="" />
+    <reward name="mh305_doppler_reward" 							         	experience="25" 	gold="300" 	achievement="0" 	script="" comment="">        <items>            <item name="Gnomish sword 1 schematic" amount="1" />        </items>    </reward>
 	<reward name="mh306_investigation" 								         	experience="25" 	gold="0" 	achievement="0" 	script="" comment="" />
-    <reward name="mh306_final" 										         	experience="200" 	gold="500" 	achievement="0" 	script="" comment="" />
+    <reward name="mh306_final" 										         	experience="200" 	gold="300" 	achievement="0" 	script="" comment="" />
     <reward name="mh307_01_lair_located" 							         	experience="25" 	gold="0" 	achievement="0" 	script="" comment="" />
     <reward name="mh307_02_minion_fleed_completed" 					         	experience="125" 	gold="240" 	achievement="0" 	script="" comment="" />
     <reward name="mh307_02_minion_killed_completed" 				         	experience="200" 	gold="300" 	achievement="0" 	script="" comment="" />
     <reward name="mh308_investigation" 								         	experience="25" 	gold="0" 	achievement="0" 	script="" comment="" />
-    <reward name="mh308_final" 										         	experience="200" 	gold="500" 	achievement="0" 	script="" comment="" />
+    <reward name="mh308_final" 										         	experience="200" 	gold="300" 	achievement="0" 	script="" comment="" />
 	<reward name="mq0001_01_reunite_brothers" 						         	experience="25" 	gold="0" 	achievement="0" 	script="" comment="" />
 	<reward name="mq0002_01_returned_chest" 						         	experience="25" 	gold="175" 	achievement="0" 	script="" comment="" />
     <reward name="mq0002_01_deal_with_merchant" 					         	experience="10" 	gold="175" 	achievement="0" 	script="" comment="" />

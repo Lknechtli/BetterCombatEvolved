@@ -123,7 +123,7 @@
       <ability name="ConGeralt">
         <tags> "base" </tags>
         <!-- Resources group -->
-        <vitality type="base" always_random="false" min="3500" max="3500" />
+        <vitality type="base" always_random="false" min="3000" max="3000" />
         <stamina type="base" always_random="false" min="100" max="100" />
         <air type="base" always_random="false" min="100" max="100" />
         <swimmingStamina type="base" always_random="false" min="100" max="100" />
@@ -159,8 +159,8 @@
         <frost_resistance_perc type="base" min="0" max="0" />
         <force_resistance_perc type="base" min="0" max="0" />
         <shock_resistance_perc type="base" min="0" max="0" />
-        <poison_resistance_perc type="base" min="0.25" max="0.25" />
-        <bleeding_resistance_perc type="base" min="0.25" max="0.25" />
+        <poison_resistance_perc type="base" min="0" max="0" />
+        <bleeding_resistance_perc type="base" min="0" max="0" />
         <will_resistance_perc type="base" min="0" max="0" />
         <burning_resistance_perc type="base" min="0" max="0" />
         <flying_swarm_resistance type="base" always_random="false" min="1.0" max="1.0" />
@@ -169,8 +169,8 @@
         <heavy_action_stamina_cost type="base" always_random="false" min="8" max="8" />
         <parry_stamina_cost type="base" always_random="false" min="0" max="0" />
         <counter_stamina_cost type="base" always_random="false" min="8" max="8" />
-        <dodge_stamina_cost type="base" always_random="false" min="0" max="0" />
-        <evade_stamina_cost type="base" always_random="false" min="0" max="0" />
+        <dodge_stamina_cost type="base" always_random="false" min="3" max="3" />
+        <evade_stamina_cost type="base" always_random="false" min="3" max="3" />
 		<roll_stamina_cost type="base" min="6" />
         <swimming_stamina_cost_per_sec type="base" always_random="false" min="7" max="7" />
         <sprint_stamina_cost_per_sec type="base" always_random="false" min="5" max="5" />
@@ -192,29 +192,29 @@
         <heavy_attack_focus_drain type="add" min="0.1" />
         <super_heavy_attack_focus_drain type="add" min="0.3" />
         <!-- Prices group -->
-        <crow_perch_price_mult type="base" always_random="false" min="0.85" max="0.85" />
+        <crow_perch_price_mult type="base" always_random="false" min="1.5" max="1.5" />
         <crow_perch_price_mult type="mult" always_random="false" min="1.35" />
-        <spitfire_bluff_price_mult type="base" always_random="false" min="0.85" max="0.85" />
+        <spitfire_bluff_price_mult type="base" always_random="false" min="1.5" max="1.5" />
         <spitfire_bluff_price_mult type="mult" always_random="false" min="1.35" />
-        <the_mire_price_mult type="base" always_random="false" min="0.85" max="0.85" />
+        <the_mire_price_mult type="base" always_random="false" min="1.5" max="1.5" />
         <the_mire_price_mult type="mult" always_random="false" min="1.35" />
-        <mudplough_price_mult type="base" always_random="false" min="0.85" max="0.85" />
+        <mudplough_price_mult type="base" always_random="false" min="1.5" max="1.5" />
         <mudplough_price_mult type="mult" always_random="false" min="1.35" />
-        <grayrocks_price_mult type="base" always_random="false" min="0.85" max="0.85" />
+        <grayrocks_price_mult type="base" always_random="false" min="1.5" max="1.5" />
         <grayrocks_price_mult type="mult" always_random="false" min="1.35" />
-        <the_descent_price_mult type="base" always_random="false" min="0.85" max="0.85" />
+        <the_descent_price_mult type="base" always_random="false" min="1.5" max="1.5" />
         <the_descent_price_mult type="mult" always_random="false" min="1.35" />
-        <crookback_bog_price_mult type="base" always_random="false" min="0.85" max="0.85" />
+        <crookback_bog_price_mult type="base" always_random="false" min="1.5" max="1.5" />
         <crookback_bog_price_mult type="mult" always_random="false" min="1.35" />
-        <bald_mountain_price_mult type="base" always_random="false" min="0.85" max="0.85" />
+        <bald_mountain_price_mult type="base" always_random="false" min="1.5" max="1.5" />
         <bald_mountain_price_mult type="mult" always_random="false" min="1.35" />
-        <novigrad_price_mult type="base" always_random="false" min="1.3" max="1.3" />
+        <novigrad_price_mult type="base" always_random="false" min="1.75" max="1.75" />
         <novigrad_price_mult type="mult" always_random="false" min="1.35" />
-        <homestead_price_mult type="base" always_random="false" min="1.3" max="1.3" />
+        <homestead_price_mult type="base" always_random="false" min="1.75" max="1.75" />
         <homestead_price_mult type="mult" always_random="false" min="1.35" />
-        <gustfields_price_mult type="base" always_random="false" min="1.3" max="1.3" />
+        <gustfields_price_mult type="base" always_random="false" min="1.75" max="1.75" />
         <gustfields_price_mult type="mult" always_random="false" min="1.35" />
-        <oxenfurt_price_mult type="base" always_random="false" min="1.3" max="1.3" />
+        <oxenfurt_price_mult type="base" always_random="false" min="1.75" max="1.75" />
         <oxenfurt_price_mult type="mult" always_random="false" min="1.35" />
         <!-- basic attacks -->
         <attack_light is_ability="true" />

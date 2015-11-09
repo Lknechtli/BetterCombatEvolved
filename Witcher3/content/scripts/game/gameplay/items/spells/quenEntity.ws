@@ -100,10 +100,10 @@ statemachine class W3QuenEntity extends W3SignEntity
 		//shieldHealth = 1 hit + 1 more at level 3 and level 5 of sign% skill
 		shieldHealth = 1;
 		if(owner.CanUseSkill(S_Magic_s15)){
-			if(level == 3 || level == 4) {
+			if(level == 5 || level == 6 || level == 7 || level == 8 || level == 9) {
 				shieldHealth += 1;
 			}
-			else if(level == 5){
+			else if(level == 10){
 				shieldHealth += 2;
 			}
 		}
