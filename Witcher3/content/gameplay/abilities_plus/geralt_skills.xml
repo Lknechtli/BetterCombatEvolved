@@ -161,7 +161,7 @@
       <!-- Crushing Blows -->
       <ability name="sword_s4">
         <tags>sword_s4,attack_heavy</tags>
-		<attack_power type="mult" min="0.02" />
+		<attack_power type="mult" min="0.035" />
       </ability>
 	  
       <!-- Crippling Strikes -->
@@ -187,7 +187,7 @@
 	  <ability name="sword_s8"> 
         <tags>sword_s8</tags>
 		<critical_hit_chance type="add" min="0.01" />
-		<critical_hit_damage_bonus type="add" min="0.02" />
+		<critical_hit_damage_bonus type="add" min="0.035" />
       </ability>
 	  
 	  <!-- Fleet Footed -->
@@ -238,7 +238,7 @@
       <ability name="sword_s17">
         <tags>sword_s17,attack_light</tags>
 		<critical_hit_chance type="add" min="0.01" />
-		<critical_hit_damage_bonus type="add" min="0.02" />
+		<critical_hit_damage_bonus type="add" min="0.035" />
       </ability>
 	  
 	  <!-- Undying -->
@@ -264,7 +264,7 @@
       <!-- Fiery Dancer -->
       <ability name="sword_s21">
         <tags>sword_s21,attack_light</tags>
-		<attack_power type="mult" min="0.02" />
+		<attack_power type="mult" min="0.035" />
       </ability>
 	  
       <!--#################################### Signs Path #####################################-->
@@ -391,7 +391,8 @@
 		<duration_animals type="base" min="18" />
 		<AxiiGuardMeEffect is_ability="true" />
 		<!-- attack power bonus -->
-		<attack_power type="mult" min="-0.1" />
+		<attack_power type="mult" min="0.05" />
+		<damage_reduction type="add" min="0.5" />
       </ability>
 	  
       <!-- Static Discharge -->
@@ -403,7 +404,7 @@
       <!-- Igni Power -->
       <ability name="magic_s7">
         <tags>magic_s7,Igni</tags>
-        <spell_power type="mult" min="0.03" />
+        <spell_power type="mult" min="0.035" />
       </ability>
 	  
       <!-- Melt Armor -->
@@ -416,7 +417,7 @@
 	   <!-- Combustible -->
       <ability name="magic_s9">
         <tags>magic_s9</tags>
-        <chance_bonus type="add" min="0.05" />
+        <chance_bonus type="add" min="0.1" />
       </ability>
 	  
       <!-- Glyph Sustenance -->
@@ -436,7 +437,7 @@
       <!-- aard passive spell power bonus -->
       <ability name="magic_s12">
         <tags>magic_s12,Aard</tags>
-        <spell_power min="0.03" type="mult" />
+        <spell_power min="0.035" type="mult" />
       </ability>
 	  
 	  <!-- quen impulse -->
@@ -464,7 +465,7 @@
       <!-- Yrden Power -->
       <ability name="magic_s16">
         <tags>magic_s16,Yrden</tags>
-        <spell_power type="mult" min="0.03" />
+        <spell_power type="mult" min="0.035" />
       </ability>
 	  
       <ability name="magic_s17">
@@ -611,7 +612,7 @@
 	  
 	  <ability name="alchemy_s19">
         <tags>alchemy_s19</tags>
-		<synergy_bonus type="add" min="0.03" />
+		<synergy_bonus type="add" min="0.035" />
       </ability>
 	  
 	  <!--################################### Perks ####################################-->

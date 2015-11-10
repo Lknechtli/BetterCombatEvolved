@@ -7026,7 +7026,12 @@ statemachine class W3PlayerWitcher extends CR4Player
 		levelManager.PostInit(this, false);		
 
 		// Triangle re-level and re-point
-		levelManager.AddPoints(EExperiencePoint, totalExp, true, true);
+		//Chicken Start
+		if (FactsQuerySum("NewGamePlus") < 1)
+				levelManager.AddPoints(EExperiencePoint, totalExp, true, true);
+			else
+				levelManager.AddPoints(EExperiencePoint, totalExp/2, true, true);
+		//Chicken End
 		/* Note that the following doesn't account for all edge cases wrt custom leveling and places of power.
 		 * example: if you are level 8 with 12 total skill points (8 from level, 4 from PoP) and you switch to a mod that gives 2 points per level,
 		 * you'll have 16 after cleardevelop instead of 20 like you should. You lose the PoP skill points. Will fix this later
