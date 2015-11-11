@@ -4201,11 +4201,11 @@
 		craftsmanType_name				="Smith"
 		price							="79"
 	>
-		<ingredients>					<ingredient	quantity="2"	item_name="Hardened timber"					/>
-										<ingredient	quantity="1"	item_name="Monstrous bone"					/>
-										<ingredient	quantity="1"	item_name="Monstrous hair"					/>
-										<ingredient	quantity="1"	item_name="Wax"								/>
-										<ingredient	quantity="1"	item_name="Dark iron ore"					/>
+		<ingredients>					<ingredient	quantity="5"	item_name="Hardened timber"					/>
+										<ingredient	quantity="4"	item_name="Monstrous bone"					/>
+										<ingredient	quantity="4"	item_name="Monstrous hair"					/>
+										<ingredient	quantity="4"	item_name="Wax"								/>
+										<ingredient	quantity="4"	item_name="Dark iron ore"					/>
 		</ingredients>
 	</schematic>
 
@@ -4216,11 +4216,11 @@
 		craftsmanType_name				="Smith"
 		price							="94"
 	>
-		<ingredients>					<ingredient	quantity="2"	item_name="Hardened timber"					/>
-										<ingredient	quantity="1"	item_name="Monstrous bone"					/>
-										<ingredient	quantity="2"	item_name="Monstrous hair"					/>
-										<ingredient	quantity="1"	item_name="Resin"							/>
-										<ingredient	quantity="1"	item_name="Dark iron ore"					/>
+		<ingredients>					<ingredient	quantity="5"	item_name="Hardened timber"					/>
+										<ingredient	quantity="4"	item_name="Monstrous bone"					/>
+										<ingredient	quantity="5"	item_name="Monstrous hair"					/>
+										<ingredient	quantity="4"	item_name="Resin"							/>
+										<ingredient	quantity="4"	item_name="Dark iron ore"					/>
 		</ingredients>
 	</schematic>
 
@@ -4233,8 +4233,8 @@
 		craftsmanType_name				="Smith"
 		price							="16"
 	>
-		<ingredients>					<ingredient	quantity="1"	item_name="Leather squares"					/>
-										<ingredient	quantity="2"	item_name="Iron ingot"						/>
+		<ingredients>					<ingredient	quantity="4"	item_name="Leather squares"					/>
+										<ingredient	quantity="5"	item_name="Iron ingot"						/>
 		</ingredients>
 	</schematic>
 	
@@ -4245,8 +4245,8 @@
 		craftsmanType_name				="Smith"
 		price							="10"
 	>
-		<ingredients>					<ingredient	quantity="1"	item_name="Leather straps"					/>
-										<ingredient	quantity="2"	item_name="Iron ingot"						/>
+		<ingredients>					<ingredient	quantity="4"	item_name="Leather straps"					/>
+										<ingredient	quantity="5"	item_name="Iron ingot"						/>
 		</ingredients>
 	</schematic>
 	
@@ -4257,8 +4257,8 @@
 		craftsmanType_name				="Smith"
 		price							="10"
 	>
-		<ingredients>					<ingredient	quantity="1"	item_name="Leather straps"					/>
-										<ingredient	quantity="2"	item_name="Iron ingot"						/>
+		<ingredients>					<ingredient	quantity="4"	item_name="Leather straps"					/>
+										<ingredient	quantity="5"	item_name="Iron ingot"						/>
 		</ingredients>
 	</schematic>
 	
@@ -4269,8 +4269,8 @@
 		craftsmanType_name				="Smith"
 		price							="12"
 	>
-		<ingredients>					<ingredient	quantity="2"	item_name="Leather straps"					/>
-										<ingredient	quantity="2"	item_name="Iron ingot"						/>
+		<ingredients>					<ingredient	quantity="5"	item_name="Leather straps"					/>
+										<ingredient	quantity="5"	item_name="Iron ingot"						/>
 		</ingredients>
 	</schematic>
 	
@@ -4281,8 +4281,8 @@
 		craftsmanType_name				="Smith"
 		price							="16"
 	>
-		<ingredients>					<ingredient	quantity="2"	item_name="Leather straps"					/>
-										<ingredient	quantity="2"	item_name="Steel ingot"						/>
+		<ingredients>					<ingredient	quantity="5"	item_name="Leather straps"					/>
+										<ingredient	quantity="5"	item_name="Steel ingot"						/>
 		</ingredients>
 	</schematic>
 	
@@ -4293,8 +4293,8 @@
 		craftsmanType_name				="Smith"
 		price							="16"
 	>
-		<ingredients>					<ingredient	quantity="2"	item_name="Leather straps"					/>
-										<ingredient	quantity="2"	item_name="Steel ingot"						/>
+		<ingredients>					<ingredient	quantity="5"	item_name="Leather straps"					/>
+										<ingredient	quantity="5"	item_name="Steel ingot"						/>
 		</ingredients>
 	</schematic>
 
@@ -4305,8 +4305,8 @@
 		craftsmanType_name				="Smith"
 		price							="24"
 	>
-		<ingredients>					<ingredient	quantity="1"	item_name="Leather squares"					/>
-										<ingredient	quantity="4"	item_name="Iron ingot"						/>
+		<ingredients>					<ingredient	quantity="4"	item_name="Leather squares"					/>
+										<ingredient	quantity="7"	item_name="Iron ingot"						/>
 		</ingredients>
 	</schematic>
 
@@ -4317,8 +4317,8 @@
 		craftsmanType_name				="Smith"
 		price							="108"
 	>
-		<ingredients>					<ingredient	quantity="2"	item_name="Leather straps"					/>
-										<ingredient	quantity="2"	item_name="Dark steel ingot"				/>
+		<ingredients>					<ingredient	quantity="5"	item_name="Leather straps"					/>
+										<ingredient	quantity="5"	item_name="Dark steel ingot"				/>
 		</ingredients>
 	</schematic>
 
@@ -4329,8 +4329,8 @@
 		craftsmanType_name				="Smith"
 		price							="20"
 	>
-		<ingredients>					<ingredient	quantity="1"	item_name="Leather squares"					/>
-										<ingredient	quantity="3"	item_name="Iron ingot"						/>
+		<ingredients>					<ingredient	quantity="4"	item_name="Leather squares"					/>
+										<ingredient	quantity="6"	item_name="Iron ingot"						/>
 		</ingredients>
 	</schematic>
 
@@ -4341,8 +4341,8 @@
 		craftsmanType_name				="Smith"
 		price							="120"
 	>
-		<ingredients>					<ingredient	quantity="2"	item_name="Leather squares"					/>
-										<ingredient	quantity="2"	item_name="Dark steel ingot"				/>
+		<ingredients>					<ingredient	quantity="5"	item_name="Leather squares"					/>
+										<ingredient	quantity="5"	item_name="Dark steel ingot"				/>
 		</ingredients>
 	</schematic>
 
@@ -4353,8 +4353,8 @@
 		craftsmanType_name				="Smith"
 		price							="108"
 	>
-		<ingredients>					<ingredient	quantity="2"	item_name="Leather straps"					/>
-										<ingredient	quantity="2"	item_name="Dark steel ingot"				/>
+		<ingredients>					<ingredient	quantity="5"	item_name="Leather straps"					/>
+										<ingredient	quantity="5"	item_name="Dark steel ingot"				/>
 		</ingredients>
 	</schematic>
 
@@ -4365,8 +4365,8 @@
 		craftsmanType_name				="Smith"
 		price							="108"
 	>
-		<ingredients>					<ingredient	quantity="2"	item_name="Leather straps"					/>
-										<ingredient	quantity="2"	item_name="Dark steel ingot"				/>
+		<ingredients>					<ingredient	quantity="5"	item_name="Leather straps"					/>
+										<ingredient	quantity="5"	item_name="Dark steel ingot"				/>
 		</ingredients>
 	</schematic>
 
@@ -4377,9 +4377,9 @@
 		craftsmanType_name				="Smith"
 		price							="89"
 	>
-		<ingredients>					<ingredient	quantity="1"	item_name="Leather"							/>
-										<ingredient	quantity="3"	item_name="Iron ingot"						/>
-										<ingredient	quantity="3"	item_name="Monstrous blood"					/>
+		<ingredients>					<ingredient	quantity="4"	item_name="Leather"							/>
+										<ingredient	quantity="6"	item_name="Iron ingot"						/>
+										<ingredient	quantity="6"	item_name="Monstrous blood"					/>
 		</ingredients>
 	</schematic>
 
@@ -4390,9 +4390,9 @@
 		craftsmanType_name				="Smith"
 		price							="89"
 	>
-		<ingredients>					<ingredient	quantity="1"	item_name="Hardened leather"				/>
-										<ingredient	quantity="2"	item_name="Steel ingot"						/>
-										<ingredient	quantity="3"	item_name="Monstrous blood"					/>
+		<ingredients>					<ingredient	quantity="4"	item_name="Hardened leather"				/>
+										<ingredient	quantity="5"	item_name="Steel ingot"						/>
+										<ingredient	quantity="6"	item_name="Monstrous blood"					/>
 		</ingredients>
 	</schematic>
 
@@ -4403,9 +4403,9 @@
 		craftsmanType_name				="Smith"
 		price							="140"
 	>
-		<ingredients>					<ingredient	quantity="2"	item_name="Leather straps"					/>
-										<ingredient	quantity="2"	item_name="Dark steel ingot"				/>
-										<ingredient	quantity="1"	item_name="Silk"							/>
+		<ingredients>					<ingredient	quantity="5"	item_name="Leather straps"					/>
+										<ingredient	quantity="5"	item_name="Dark steel ingot"				/>
+										<ingredient	quantity="4"	item_name="Silk"							/>
 		</ingredients>
 	</schematic>
 
@@ -4416,9 +4416,9 @@
 		craftsmanType_name				="Smith"
 		price							="140"
 	>
-		<ingredients>					<ingredient	quantity="2"	item_name="Leather straps"					/>
-										<ingredient	quantity="2"	item_name="Dark steel ingot"				/>
-										<ingredient	quantity="1"	item_name="Silk"							/>
+		<ingredients>					<ingredient	quantity="5"	item_name="Leather straps"					/>
+										<ingredient	quantity="5"	item_name="Dark steel ingot"				/>
+										<ingredient	quantity="4"	item_name="Silk"							/>
 		</ingredients>
 	</schematic>
 
@@ -4429,9 +4429,9 @@
 		craftsmanType_name				="Smith"
 		price							="181"
 	>
-		<ingredients>					<ingredient	quantity="1"	item_name="Leather"							/>
-										<ingredient	quantity="2"	item_name="Dark steel ingot"				/>
-										<ingredient	quantity="3"	item_name="Monstrous blood"					/>
+		<ingredients>					<ingredient	quantity="4"	item_name="Leather"							/>
+										<ingredient	quantity="5"	item_name="Dark steel ingot"				/>
+										<ingredient	quantity="6"	item_name="Monstrous blood"					/>
 		</ingredients>
 	</schematic>
 
@@ -4442,9 +4442,9 @@
 		craftsmanType_name				="Smith"
 		price							="725"
 	>
-		<ingredients>					<ingredient	quantity="1"	item_name="Leather"							/>
-										<ingredient	quantity="2"	item_name="Dwimeryte ingot"					/>
-										<ingredient	quantity="3"	item_name="Monstrous blood"					/>
+		<ingredients>					<ingredient	quantity="4"	item_name="Leather"							/>
+										<ingredient	quantity="5"	item_name="Dwimeryte ingot"					/>
+										<ingredient	quantity="6"	item_name="Monstrous blood"					/>
 		</ingredients>
 	</schematic>
 
@@ -4455,9 +4455,9 @@
 		craftsmanType_name				="Smith"
 		price							="710"
 	>
-		<ingredients>					<ingredient	quantity="1"	item_name="Leather"							/>
-										<ingredient	quantity="2"	item_name="Dwimeryte ingot"					/>
-										<ingredient	quantity="2"	item_name="Monstrous blood"					/>
+		<ingredients>					<ingredient	quantity="4"	item_name="Leather"							/>
+										<ingredient	quantity="5"	item_name="Dwimeryte ingot"					/>
+										<ingredient	quantity="5"	item_name="Monstrous blood"					/>
 		</ingredients>
 	</schematic>
 
@@ -4468,11 +4468,11 @@
 		craftsmanType_name				="Smith"
 		price							="925"
 	>
-		<ingredients>					<ingredient	quantity="1"	item_name="Leather"							/>
-										<ingredient	quantity="2"	item_name="Dwimeryte ingot"					/>
-										<ingredient	quantity="2"	item_name="Ruby dust"						/>
-										<ingredient	quantity="2"	item_name="Monstrous blood"					/>
-										<ingredient	quantity="1"	item_name="Monstrous claw"					/>
+		<ingredients>					<ingredient	quantity="4"	item_name="Leather"							/>
+										<ingredient	quantity="5"	item_name="Dwimeryte ingot"					/>
+										<ingredient	quantity="5"	item_name="Ruby dust"						/>
+										<ingredient	quantity="5"	item_name="Monstrous blood"					/>
+										<ingredient	quantity="4"	item_name="Monstrous claw"					/>
 		</ingredients>
 	</schematic>
 
@@ -4485,11 +4485,11 @@
 		craftsmanType_name				="Smith"
 		price							="185"
 	>
-		<ingredients>					<ingredient	quantity="1"	item_name="Leather squares"					/>
-										<ingredient	quantity="2"	item_name="Steel ingot"						/>
-										<ingredient	quantity="1"	item_name="Amethyst"						/>
-										<ingredient	quantity="2"	item_name="Monstrous blood"					/>
-										<ingredient	quantity="1"	item_name="Monstrous claw"					/>
+		<ingredients>					<ingredient	quantity="4"	item_name="Leather squares"					/>
+										<ingredient	quantity="5"	item_name="Steel ingot"						/>
+										<ingredient	quantity="4"	item_name="Amethyst"						/>
+										<ingredient	quantity="5"	item_name="Monstrous blood"					/>
+										<ingredient	quantity="4"	item_name="Monstrous claw"					/>
 		</ingredients>
 	</schematic>
 
@@ -4500,11 +4500,11 @@
 		craftsmanType_name				="Smith"
 		price							="217"
 	>
-		<ingredients>					<ingredient	quantity="1"	item_name="Monstrous feather"				/>
-										<ingredient	quantity="1"	item_name="Dark steel ingot"				/>
-										<ingredient	quantity="1"	item_name="Monstrous claw"					/>
-										<ingredient	quantity="1"	item_name="Monstrous brain"					/>
-										<ingredient	quantity="1"	item_name="Amethyst"						/>
+		<ingredients>					<ingredient	quantity="4"	item_name="Monstrous feather"				/>
+										<ingredient	quantity="4"	item_name="Dark steel ingot"				/>
+										<ingredient	quantity="4"	item_name="Monstrous claw"					/>
+										<ingredient	quantity="4"	item_name="Monstrous brain"					/>
+										<ingredient	quantity="4"	item_name="Amethyst"						/>
 		</ingredients>
 	</schematic>
 
@@ -4515,11 +4515,11 @@
 		craftsmanType_name				="Smith"
 		price							="913"
 	>
-		<ingredients>					<ingredient	quantity="1"	item_name="Monstrous feather"				/>
-										<ingredient	quantity="2"	item_name="Dwimeryte ingot"					/>
-										<ingredient	quantity="1"	item_name="Monstrous bone"					/>
-										<ingredient	quantity="1"	item_name="Monstrous brain"					/>
-										<ingredient	quantity="1"	item_name="Sapphire"						/>
+		<ingredients>					<ingredient	quantity="4"	item_name="Monstrous feather"				/>
+										<ingredient	quantity="5"	item_name="Dwimeryte ingot"					/>
+										<ingredient	quantity="4"	item_name="Monstrous bone"					/>
+										<ingredient	quantity="4"	item_name="Monstrous brain"					/>
+										<ingredient	quantity="4"	item_name="Sapphire"						/>
 		</ingredients>
 	</schematic>
 	
@@ -4530,11 +4530,11 @@
 		craftsmanType_name				="Smith"
 		price							="1091"
 	>
-		<ingredients>					<ingredient	quantity="1"	item_name="Leather squares"					/>
-										<ingredient	quantity="2"	item_name="Dwimeryte ingot"					/>
-										<ingredient	quantity="2"	item_name="Ruby dust"						/>
-										<ingredient	quantity="1"	item_name="Monstrous saliva"				/>
-										<ingredient	quantity="2"	item_name="Sapphire dust"					/>
+		<ingredients>					<ingredient	quantity="4"	item_name="Leather squares"					/>
+										<ingredient	quantity="5"	item_name="Dwimeryte ingot"					/>
+										<ingredient	quantity="5"	item_name="Ruby dust"						/>
+										<ingredient	quantity="4"	item_name="Monstrous saliva"				/>
+										<ingredient	quantity="5"	item_name="Sapphire dust"					/>
 		</ingredients>
 	</schematic>
 
@@ -4547,10 +4547,10 @@
 		craftsmanType_name				="Smith"
 		price							="150"
 	>
-		<ingredients>					<ingredient	quantity="1"	item_name="Leather straps"					/>
-										<ingredient	quantity="1"	item_name="Iron ingot"						/>
-										<ingredient	quantity="1"	item_name="Emerald dust"					/>
-										<ingredient	quantity="1"	item_name="Venom extract"					/>
+		<ingredients>					<ingredient	quantity="4"	item_name="Leather straps"					/>
+										<ingredient	quantity="4"	item_name="Iron ingot"						/>
+										<ingredient	quantity="4"	item_name="Emerald dust"					/>
+										<ingredient	quantity="4"	item_name="Venom extract"					/>
 		</ingredients>
 	</schematic>
 
@@ -4561,10 +4561,10 @@
 		craftsmanType_name				="Smith"
 		price							="133"
 	>
-		<ingredients>					<ingredient	quantity="1"	item_name="Leather straps"					/>
-										<ingredient	quantity="4"	item_name="Iron ingot"						/>
-										<ingredient	quantity="1"	item_name="Ruby dust"						/>
-										<ingredient	quantity="1"	item_name="Monstrous saliva"				/>
+		<ingredients>					<ingredient	quantity="4"	item_name="Leather straps"					/>
+										<ingredient	quantity="7"	item_name="Iron ingot"						/>
+										<ingredient	quantity="4"	item_name="Ruby dust"						/>
+										<ingredient	quantity="4"	item_name="Monstrous saliva"				/>
 		</ingredients>
 	</schematic>
 
@@ -4576,10 +4576,10 @@
 		price							="223"
 	>
 		<ingredients>					<ingredient	quantity="1"	item_name="Lynx School steel sword"			/>
-										<ingredient	quantity="2"	item_name="Leather straps"					/>
-										<ingredient	quantity="2"	item_name="Dark steel ingot"				/>
-										<ingredient	quantity="1"	item_name="Ruby dust"						/>
-										<ingredient	quantity="1"	item_name="Monstrous claw"					/>
+										<ingredient	quantity="5"	item_name="Leather straps"					/>
+										<ingredient	quantity="5"	item_name="Dark steel ingot"				/>
+										<ingredient	quantity="4"	item_name="Ruby dust"						/>
+										<ingredient	quantity="4"	item_name="Monstrous claw"					/>
 		</ingredients>
 	</schematic>
 
@@ -4591,10 +4591,10 @@
 		price							="379"
 	>
 		<ingredients>					<ingredient	quantity="1"	item_name="Lynx School steel sword 1"		/>
-										<ingredient	quantity="1"	item_name="Leather squares"					/>
-										<ingredient	quantity="3"	item_name="Dark steel ingot"				/>
-										<ingredient	quantity="1"	item_name="Ruby"							/>
-										<ingredient	quantity="1"	item_name="Monstrous tooth"					/>
+										<ingredient	quantity="4"	item_name="Leather squares"					/>
+										<ingredient	quantity="6"	item_name="Dark steel ingot"				/>
+										<ingredient	quantity="4"	item_name="Ruby"							/>
+										<ingredient	quantity="4"	item_name="Monstrous tooth"					/>
 		</ingredients>
 	</schematic>
 
@@ -4606,10 +4606,10 @@
 		price							="1079"
 	>
 		<ingredients>					<ingredient	quantity="1"	item_name="Lynx School steel sword 2"		/>
-										<ingredient	quantity="2"	item_name="Leather squares"					/>
-										<ingredient	quantity="2"	item_name="Dwimeryte ingot"					/>
-										<ingredient	quantity="1"	item_name="Ruby flawless"					/>
-										<ingredient	quantity="1"	item_name="Monstrous bone"					/>
+										<ingredient	quantity="5"	item_name="Leather squares"					/>
+										<ingredient	quantity="5"	item_name="Dwimeryte ingot"					/>
+										<ingredient	quantity="4"	item_name="Ruby flawless"					/>
+										<ingredient	quantity="4"	item_name="Monstrous bone"					/>
 		</ingredients>
 	</schematic>
 
@@ -4620,10 +4620,10 @@
 		craftsmanType_name				="Smith"
 		price							="50"
 	>
-		<ingredients>					<ingredient	quantity="1"	item_name="Leather squares"					/>
-										<ingredient	quantity="2"	item_name="Steel ingot"						/>
-										<ingredient	quantity="1"	item_name="Monstrous brain"					/>
-										<ingredient	quantity="1"	item_name="Monstrous eye"					/>
+		<ingredients>					<ingredient	quantity="4"	item_name="Leather squares"					/>
+										<ingredient	quantity="5"	item_name="Steel ingot"						/>
+										<ingredient	quantity="4"	item_name="Monstrous brain"					/>
+										<ingredient	quantity="4"	item_name="Monstrous eye"					/>
 		</ingredients>
 	</schematic>
 	
@@ -4635,10 +4635,10 @@
 		price							="142"
 	>
 		<ingredients>					<ingredient	quantity="1"	item_name="Gryphon School steel sword"		/>
-										<ingredient	quantity="1"	item_name="Leather squares"					/>
-										<ingredient	quantity="2"	item_name="Dark steel ingot"				/>
-										<ingredient	quantity="1"	item_name="Monstrous dust"					/>
-										<ingredient	quantity="1"	item_name="Monstrous claw"					/>
+										<ingredient	quantity="4"	item_name="Leather squares"					/>
+										<ingredient	quantity="5"	item_name="Dark steel ingot"				/>
+										<ingredient	quantity="4"	item_name="Monstrous dust"					/>
+										<ingredient	quantity="4"	item_name="Monstrous claw"					/>
 		</ingredients>
 	</schematic>
 
@@ -4650,10 +4650,10 @@
 		price							="194"
 	>
 		<ingredients>					<ingredient	quantity="1"	item_name="Gryphon School steel sword 1"	/>
-										<ingredient	quantity="1"	item_name="Leather squares"					/>
-										<ingredient	quantity="3"	item_name="Dark steel ingot"				/>
-										<ingredient	quantity="1"	item_name="Monstrous blood"					/>
-										<ingredient	quantity="1"	item_name="Monstrous feather"				/>
+										<ingredient	quantity="4"	item_name="Leather squares"					/>
+										<ingredient	quantity="6"	item_name="Dark steel ingot"				/>
+										<ingredient	quantity="4"	item_name="Monstrous blood"					/>
+										<ingredient	quantity="4"	item_name="Monstrous feather"				/>
 		</ingredients>
 	</schematic>
 
@@ -4665,10 +4665,10 @@
 		price							="709"
 	>
 		<ingredients>					<ingredient	quantity="1"	item_name="Gryphon School steel sword 2"	/>
-										<ingredient	quantity="2"	item_name="Leather squares"					/>
-										<ingredient	quantity="2"	item_name="Dwimeryte ingot"					/>
-										<ingredient	quantity="1"	item_name="Monstrous egg"					/>
-										<ingredient	quantity="1"	item_name="Siren vocal cords"				/>
+										<ingredient	quantity="5"	item_name="Leather squares"					/>
+										<ingredient	quantity="5"	item_name="Dwimeryte ingot"					/>
+										<ingredient	quantity="4"	item_name="Monstrous egg"					/>
+										<ingredient	quantity="4"	item_name="Siren vocal cords"				/>
 		</ingredients>
 	</schematic>
 
@@ -4679,10 +4679,10 @@
 		craftsmanType_name				="Smith"
 		price							="46"
 	>
-		<ingredients>					<ingredient	quantity="2"	item_name="Leather straps"					/>
-										<ingredient	quantity="2"	item_name="Steel ingot"						/>
-										<ingredient	quantity="1"	item_name="Monstrous essence"				/>
-										<ingredient	quantity="1"	item_name="Monstrous tongue"				/>
+		<ingredients>					<ingredient	quantity="5"	item_name="Leather straps"					/>
+										<ingredient	quantity="5"	item_name="Steel ingot"						/>
+										<ingredient	quantity="4"	item_name="Monstrous essence"				/>
+										<ingredient	quantity="4"	item_name="Monstrous tongue"				/>
 		</ingredients>
 	</schematic>
 
@@ -4694,10 +4694,10 @@
 		price							="150"
 	>
 		<ingredients>					<ingredient	quantity="1"	item_name="Bear School steel sword"			/>
-										<ingredient	quantity="2"	item_name="Leather squares"					/>
-										<ingredient	quantity="2"	item_name="Dark steel ingot"				/>
-										<ingredient	quantity="1"	item_name="Monstrous hair"					/>
-										<ingredient	quantity="1"	item_name="Monstrous bone"					/>
+										<ingredient	quantity="5"	item_name="Leather squares"					/>
+										<ingredient	quantity="5"	item_name="Dark steel ingot"				/>
+										<ingredient	quantity="4"	item_name="Monstrous hair"					/>
+										<ingredient	quantity="4"	item_name="Monstrous bone"					/>
 		</ingredients>
 	</schematic>
 
@@ -4709,10 +4709,10 @@
 		price							="362"
 	>
 		<ingredients>					<ingredient	quantity="1"	item_name="Bear School steel sword 1"		/>
-										<ingredient	quantity="1"	item_name="Leather squares"					/>
-										<ingredient	quantity="1"	item_name="Dwimeryte ingot"					/>
-										<ingredient	quantity="1"	item_name="Monstrous blood"					/>
-										<ingredient	quantity="1"	item_name="Monstrous claw"					/>
+										<ingredient	quantity="4"	item_name="Leather squares"					/>
+										<ingredient	quantity="4"	item_name="Dwimeryte ingot"					/>
+										<ingredient	quantity="4"	item_name="Monstrous blood"					/>
+										<ingredient	quantity="4"	item_name="Monstrous claw"					/>
 		</ingredients>
 	</schematic>
 
@@ -4724,10 +4724,10 @@
 		price							="694"
 	>
 		<ingredients>					<ingredient	quantity="1"	item_name="Bear School steel sword 2"		/>
-										<ingredient	quantity="2"	item_name="Leather squares"					/>
-										<ingredient	quantity="2"	item_name="Dwimeryte ingot"					/>
-										<ingredient	quantity="1"	item_name="Monstrous saliva"				/>
-										<ingredient	quantity="1"	item_name="Monstrous tooth"					/>
+										<ingredient	quantity="5"	item_name="Leather squares"					/>
+										<ingredient	quantity="5"	item_name="Dwimeryte ingot"					/>
+										<ingredient	quantity="4"	item_name="Monstrous saliva"				/>
+										<ingredient	quantity="4"	item_name="Monstrous tooth"					/>
 		</ingredients>
 	</schematic>
 
@@ -4740,8 +4740,8 @@
 		craftsmanType_name				="Smith"
 		price							="152"
 	>
-		<ingredients>					<ingredient	quantity="1"	item_name="Leather straps"					/>
-										<ingredient	quantity="3"	item_name="Silver ingot"					/>
+		<ingredients>					<ingredient	quantity="4"	item_name="Leather straps"					/>
+										<ingredient	quantity="6"	item_name="Silver ingot"					/>
 		</ingredients>
 	</schematic>
 
@@ -4752,8 +4752,8 @@
 		craftsmanType_name				="Smith"
 		price							="152"
 	>
-		<ingredients>					<ingredient	quantity="1"	item_name="Leather straps"					/>
-										<ingredient	quantity="3"	item_name="Silver ingot"					/>
+		<ingredients>					<ingredient	quantity="4"	item_name="Leather straps"					/>
+										<ingredient	quantity="6"	item_name="Silver ingot"					/>
 		</ingredients>
 	</schematic>
 
@@ -4764,8 +4764,8 @@
 		craftsmanType_name				="Smith"
 		price							="154"
 	>
-		<ingredients>					<ingredient	quantity="2"	item_name="Leather straps"					/>
-										<ingredient	quantity="3"	item_name="Silver ingot"					/>
+		<ingredients>					<ingredient	quantity="5"	item_name="Leather straps"					/>
+										<ingredient	quantity="6"	item_name="Silver ingot"					/>
 		</ingredients>
 	</schematic>
 
@@ -4776,8 +4776,8 @@
 		craftsmanType_name				="Smith"
 		price							="152"
 	>
-		<ingredients>					<ingredient	quantity="1"	item_name="Leather straps"					/>
-										<ingredient	quantity="3"	item_name="Silver ingot"					/>
+		<ingredients>					<ingredient	quantity="4"	item_name="Leather straps"					/>
+										<ingredient	quantity="6"	item_name="Silver ingot"					/>
 		</ingredients>
 	</schematic>
 
@@ -4788,9 +4788,9 @@
 		craftsmanType_name				="Smith"
 		price							="258"
 	>
-		<ingredients>					<ingredient	quantity="1"	item_name="Leather squares"					/>
-										<ingredient	quantity="2"	item_name="Meteorite silver ingot"			/>
-										<ingredient	quantity="2"	item_name="Monstrous blood"					/>
+		<ingredients>					<ingredient	quantity="4"	item_name="Leather squares"					/>
+										<ingredient	quantity="5"	item_name="Meteorite silver ingot"			/>
+										<ingredient	quantity="5"	item_name="Monstrous blood"					/>
 		</ingredients>
 	</schematic>
 
@@ -4801,11 +4801,11 @@
 		craftsmanType_name				="Smith"
 		price							="312"
 	>
-		<ingredients>					<ingredient	quantity="1"	item_name="Leather"							/>
-										<ingredient	quantity="2"	item_name="Meteorite silver ingot"			/>
-										<ingredient	quantity="2"	item_name="Monstrous blood"					/>
-										<ingredient	quantity="2"	item_name="Monstrous claw"					/>
-										<ingredient	quantity="2"	item_name="Monstrous feather"				/>
+		<ingredients>					<ingredient	quantity="4"	item_name="Leather"							/>
+										<ingredient	quantity="5"	item_name="Meteorite silver ingot"			/>
+										<ingredient	quantity="5"	item_name="Monstrous blood"					/>
+										<ingredient	quantity="5"	item_name="Monstrous claw"					/>
+										<ingredient	quantity="5"	item_name="Monstrous feather"				/>
 		</ingredients>
 	</schematic>
 	
@@ -4816,9 +4816,9 @@
 		craftsmanType_name				="Smith"
 		price							="266"
 	>
-		<ingredients>					<ingredient	quantity="2"	item_name="Leather squares"					/>
-										<ingredient	quantity="2"	item_name="Meteorite silver ingot"			/>
-										<ingredient	quantity="2"	item_name="Monstrous blood"					/>
+		<ingredients>					<ingredient	quantity="5"	item_name="Leather squares"					/>
+										<ingredient	quantity="5"	item_name="Meteorite silver ingot"			/>
+										<ingredient	quantity="5"	item_name="Monstrous blood"					/>
 		</ingredients>
 	</schematic>
 	
@@ -4829,9 +4829,9 @@
 		craftsmanType_name				="Smith"
 		price							="251"
 	>
-		<ingredients>					<ingredient	quantity="2"	item_name="Leather squares"					/>
-										<ingredient	quantity="2"	item_name="Meteorite silver ingot"			/>
-										<ingredient	quantity="1"	item_name="Monstrous blood"					/>
+		<ingredients>					<ingredient	quantity="5"	item_name="Leather squares"					/>
+										<ingredient	quantity="5"	item_name="Meteorite silver ingot"			/>
+										<ingredient	quantity="4"	item_name="Monstrous blood"					/>
 		</ingredients>
 	</schematic>
 
@@ -4842,9 +4842,9 @@
 		craftsmanType_name				="Smith"
 		price							="251"
 	>
-		<ingredients>					<ingredient	quantity="2"	item_name="Leather squares"					/>
-										<ingredient	quantity="2"	item_name="Meteorite silver ingot"			/>
-										<ingredient	quantity="1"	item_name="Monstrous blood"					/>
+		<ingredients>					<ingredient	quantity="5"	item_name="Leather squares"					/>
+										<ingredient	quantity="5"	item_name="Meteorite silver ingot"			/>
+										<ingredient	quantity="4"	item_name="Monstrous blood"					/>
 		</ingredients>
 	</schematic>
 
@@ -4855,9 +4855,9 @@
 		craftsmanType_name				="Smith"
 		price							="297"
 	>
-		<ingredients>					<ingredient	quantity="1"	item_name="Leather"							/>
-										<ingredient	quantity="2"	item_name="Meteorite silver ingot"			/>
-										<ingredient	quantity="3"	item_name="Monstrous blood"					/>
+		<ingredients>					<ingredient	quantity="4"	item_name="Leather"							/>
+										<ingredient	quantity="5"	item_name="Meteorite silver ingot"			/>
+										<ingredient	quantity="6"	item_name="Monstrous blood"					/>
 		</ingredients>
 	</schematic>
 
@@ -4868,9 +4868,9 @@
 		craftsmanType_name				="Smith"
 		price							="725"
 	>
-		<ingredients>					<ingredient	quantity="1"	item_name="Leather"							/>
-										<ingredient	quantity="2"	item_name="Dwimeryte ingot"					/>
-										<ingredient	quantity="3"	item_name="Monstrous blood"					/>
+		<ingredients>					<ingredient	quantity="4"	item_name="Leather"							/>
+										<ingredient	quantity="5"	item_name="Dwimeryte ingot"					/>
+										<ingredient	quantity="6"	item_name="Monstrous blood"					/>
 		</ingredients>
 	</schematic>
 
@@ -4881,9 +4881,9 @@
 		craftsmanType_name				="Smith"
 		price							="243"
 	>
-		<ingredients>					<ingredient	quantity="1"	item_name="Leather squares"					/>
-										<ingredient	quantity="2"	item_name="Meteorite silver ingot"			/>
-										<ingredient	quantity="1"	item_name="Monstrous blood"					/>
+		<ingredients>					<ingredient	quantity="4"	item_name="Leather squares"					/>
+										<ingredient	quantity="5"	item_name="Meteorite silver ingot"			/>
+										<ingredient	quantity="4"	item_name="Monstrous blood"					/>
 		</ingredients>
 	</schematic>
 
@@ -4894,9 +4894,9 @@
 		craftsmanType_name				="Smith"
 		price							="680"
 	>
-		<ingredients>					<ingredient	quantity="1"	item_name="Leather straps"					/>
-										<ingredient	quantity="2"	item_name="Dwimeryte ingot"					/>
-										<ingredient	quantity="2"	item_name="Monstrous blood"					/>
+		<ingredients>					<ingredient	quantity="4"	item_name="Leather straps"					/>
+										<ingredient	quantity="5"	item_name="Dwimeryte ingot"					/>
+										<ingredient	quantity="5"	item_name="Monstrous blood"					/>
 		</ingredients>
 	</schematic>
 
@@ -4909,10 +4909,10 @@
 		craftsmanType_name				="Smith"
 		price							="886"
 	>
-		<ingredients>					<ingredient	quantity="1"	item_name="Leather squares"					/>
-										<ingredient	quantity="2"	item_name="Dwimeryte ingot"					/>
-										<ingredient	quantity="1"	item_name="Ruby"							/>
-										<ingredient	quantity="2"	item_name="Monstrous saliva"				/>
+		<ingredients>					<ingredient	quantity="4"	item_name="Leather squares"					/>
+										<ingredient	quantity="5"	item_name="Dwimeryte ingot"					/>
+										<ingredient	quantity="4"	item_name="Ruby"							/>
+										<ingredient	quantity="5"	item_name="Monstrous saliva"				/>
 		</ingredients>
 	</schematic>
 
@@ -4923,11 +4923,11 @@
 		craftsmanType_name				="Smith"
 		price							="1010"
 	>
-		<ingredients>					<ingredient	quantity="1"	item_name="Leather"							/>
-										<ingredient	quantity="2"	item_name="Dwimeryte ingot"					/>
-										<ingredient	quantity="2"	item_name="Diamond dust"					/>
-										<ingredient	quantity="1"	item_name="Monstrous eye"					/>
-										<ingredient	quantity="1"	item_name="Monstrous feather"				/>
+		<ingredients>					<ingredient	quantity="4"	item_name="Leather"							/>
+										<ingredient	quantity="5"	item_name="Dwimeryte ingot"					/>
+										<ingredient	quantity="5"	item_name="Diamond dust"					/>
+										<ingredient	quantity="4"	item_name="Monstrous eye"					/>
+										<ingredient	quantity="4"	item_name="Monstrous feather"				/>
 		</ingredients>
 	</schematic>
 		
@@ -4938,11 +4938,11 @@
 		craftsmanType_name				="Smith"
 		price							="755"
 	>
-		<ingredients>					<ingredient	quantity="1"	item_name="Leather"							/>
-										<ingredient	quantity="2"	item_name="Dwimeryte ingot"					/>
-										<ingredient	quantity="3"	item_name="Monstrous blood"					/>
-										<ingredient	quantity="1"	item_name="Monstrous claw"					/>
-										<ingredient	quantity="1"	item_name="Monstrous brain"					/>
+		<ingredients>					<ingredient	quantity="4"	item_name="Leather"							/>
+										<ingredient	quantity="5"	item_name="Dwimeryte ingot"					/>
+										<ingredient	quantity="6"	item_name="Monstrous blood"					/>
+										<ingredient	quantity="4"	item_name="Monstrous claw"					/>
+										<ingredient	quantity="4"	item_name="Monstrous brain"					/>
 		</ingredients>
 	</schematic>
 
@@ -4955,10 +4955,10 @@
 		craftsmanType_name				="Smith"
 		price							="242"
 	>
-		<ingredients>					<ingredient	quantity="1"	item_name="Leather straps"					/>
-										<ingredient	quantity="2"	item_name="Silver ingot"					/>
-										<ingredient	quantity="1"	item_name="Emerald dust"					/>
-										<ingredient	quantity="1"	item_name="Venom extract"					/>
+		<ingredients>					<ingredient	quantity="4"	item_name="Leather straps"					/>
+										<ingredient	quantity="5"	item_name="Silver ingot"					/>
+										<ingredient	quantity="4"	item_name="Emerald dust"					/>
+										<ingredient	quantity="4"	item_name="Venom extract"					/>
 		</ingredients>
 	</schematic>
 
@@ -4969,10 +4969,10 @@
 		craftsmanType_name				="Smith"
 		price							="219"
 	>
-		<ingredients>					<ingredient	quantity="2"	item_name="Leather straps"					/>
-										<ingredient	quantity="2"	item_name="Silver ingot"					/>
-										<ingredient	quantity="1"	item_name="Ruby dust"						/>
-										<ingredient	quantity="1"	item_name="Monstrous eye"					/>
+		<ingredients>					<ingredient	quantity="5"	item_name="Leather straps"					/>
+										<ingredient	quantity="5"	item_name="Silver ingot"					/>
+										<ingredient	quantity="4"	item_name="Ruby dust"						/>
+										<ingredient	quantity="4"	item_name="Monstrous eye"					/>
 		</ingredients>
 	</schematic>
 
@@ -4984,10 +4984,10 @@
 		price							="343"
 	>
 		<ingredients>					<ingredient	quantity="1"	item_name="Lynx School silver sword"		/>
-										<ingredient	quantity="1"	item_name="Leather squares"					/>
-										<ingredient	quantity="2"	item_name="Meteorite silver ingot"			/>
-										<ingredient	quantity="1"	item_name="Ruby dust"						/>
-										<ingredient	quantity="1"	item_name="Monstrous hair"					/>
+										<ingredient	quantity="4"	item_name="Leather squares"					/>
+										<ingredient	quantity="5"	item_name="Meteorite silver ingot"			/>
+										<ingredient	quantity="4"	item_name="Ruby dust"						/>
+										<ingredient	quantity="4"	item_name="Monstrous hair"					/>
 		</ingredients>
 	</schematic>
 
@@ -4999,10 +4999,10 @@
 		price							="547"
 	>
 		<ingredients>					<ingredient	quantity="1"	item_name="Lynx School silver sword 1"		/>
-										<ingredient	quantity="1"	item_name="Leather squares"					/>
-										<ingredient	quantity="1"	item_name="Dwimeryte ingot"					/>
-										<ingredient	quantity="1"	item_name="Ruby"							/>
-										<ingredient	quantity="1"	item_name="Monstrous heart"					/>
+										<ingredient	quantity="4"	item_name="Leather squares"					/>
+										<ingredient	quantity="4"	item_name="Dwimeryte ingot"					/>
+										<ingredient	quantity="4"	item_name="Ruby"							/>
+										<ingredient	quantity="4"	item_name="Monstrous heart"					/>
 		</ingredients>
 	</schematic>
 
@@ -5014,10 +5014,10 @@
 		price							="1127"
 	>
 		<ingredients>					<ingredient	quantity="1"	item_name="Lynx School silver sword 2"		/>
-										<ingredient	quantity="2"	item_name="Leather"							/>
-										<ingredient	quantity="2"	item_name="Dwimeryte ingot"					/>
-										<ingredient	quantity="1"	item_name="Ruby flawless"					/>
-										<ingredient	quantity="1"	item_name="Monstrous dust"					/>
+										<ingredient	quantity="5"	item_name="Leather"							/>
+										<ingredient	quantity="5"	item_name="Dwimeryte ingot"					/>
+										<ingredient	quantity="4"	item_name="Ruby flawless"					/>
+										<ingredient	quantity="4"	item_name="Monstrous dust"					/>
 		</ingredients>
 	</schematic>
 
@@ -5028,10 +5028,10 @@
 		craftsmanType_name				="Smith"
 		price							="233"
 	>
-		<ingredients>					<ingredient	quantity="1"	item_name="Leather squares"					/>
-										<ingredient	quantity="3"	item_name="Silver ingot"					/>
-										<ingredient	quantity="1"	item_name="Fifth essence"					/>
-										<ingredient	quantity="1"	item_name="Monstrous brain"					/>
+		<ingredients>					<ingredient	quantity="4"	item_name="Leather squares"					/>
+										<ingredient	quantity="6"	item_name="Silver ingot"					/>
+										<ingredient	quantity="4"	item_name="Fifth essence"					/>
+										<ingredient	quantity="4"	item_name="Monstrous brain"					/>
 		</ingredients>
 	</schematic>
 
@@ -5043,10 +5043,10 @@
 		price							="254"
 	>
 		<ingredients>					<ingredient	quantity="1"	item_name="Gryphon School silver sword"		/>
-										<ingredient	quantity="2"	item_name="Leather straps"					/>
-										<ingredient	quantity="2"	item_name="Meteorite silver ingot"			/>
-										<ingredient	quantity="1"	item_name="Monstrous egg"					/>
-										<ingredient	quantity="1"	item_name="Monstrous tongue"				/>
+										<ingredient	quantity="5"	item_name="Leather straps"					/>
+										<ingredient	quantity="5"	item_name="Meteorite silver ingot"			/>
+										<ingredient	quantity="4"	item_name="Monstrous egg"					/>
+										<ingredient	quantity="4"	item_name="Monstrous tongue"				/>
 		</ingredients>
 	</schematic>
 
@@ -5058,10 +5058,10 @@
 		price							="370"
 	>
 		<ingredients>					<ingredient	quantity="1"	item_name="Gryphon School silver sword 1"	/>
-										<ingredient	quantity="2"	item_name="Leather squares"					/>
-										<ingredient	quantity="1"	item_name="Dwimeryte ingot"					/>
-										<ingredient	quantity="1"	item_name="Monstrous blood"					/>
-										<ingredient	quantity="1"	item_name="Monstrous dust"					/>
+										<ingredient	quantity="5"	item_name="Leather squares"					/>
+										<ingredient	quantity="4"	item_name="Dwimeryte ingot"					/>
+										<ingredient	quantity="4"	item_name="Monstrous blood"					/>
+										<ingredient	quantity="4"	item_name="Monstrous dust"					/>
 		</ingredients>
 	</schematic>
 
@@ -5073,10 +5073,10 @@
 		price							="694"
 	>
 		<ingredients>					<ingredient	quantity="1"	item_name="Gryphon School silver sword 2"	/>
-										<ingredient	quantity="2"	item_name="Leather squares"					/>
-										<ingredient	quantity="2"	item_name="Dwimeryte ingot"					/>
-										<ingredient	quantity="1"	item_name="Monstrous feather"				/>
-										<ingredient	quantity="1"	item_name="Monstrous heart"					/>
+										<ingredient	quantity="5"	item_name="Leather squares"					/>
+										<ingredient	quantity="5"	item_name="Dwimeryte ingot"					/>
+										<ingredient	quantity="4"	item_name="Monstrous feather"				/>
+										<ingredient	quantity="4"	item_name="Monstrous heart"					/>
 		</ingredients>
 	</schematic>
 
@@ -5087,10 +5087,10 @@
 		craftsmanType_name				="Smith"
 		price							="182"
 	>
-		<ingredients>					<ingredient	quantity="1"	item_name="Leather straps"					/>
-										<ingredient	quantity="3"	item_name="Silver ingot"					/>
-										<ingredient	quantity="1"	item_name="Monstrous brain"					/>
-										<ingredient	quantity="1"	item_name="Monstrous dust"					/>
+		<ingredients>					<ingredient	quantity="4"	item_name="Leather straps"					/>
+										<ingredient	quantity="6"	item_name="Silver ingot"					/>
+										<ingredient	quantity="4"	item_name="Monstrous brain"					/>
+										<ingredient	quantity="4"	item_name="Monstrous dust"					/>
 		</ingredients>
 	</schematic>
 
@@ -5102,10 +5102,10 @@
 		price							="266"
 	>
 		<ingredients>					<ingredient	quantity="1"	item_name="Bear School silver sword"		/>
-										<ingredient	quantity="2"	item_name="Leather squares"					/>
-										<ingredient	quantity="2"	item_name="Meteorite silver ingot"			/>
-										<ingredient	quantity="1"	item_name="Nigredo"							/>
-										<ingredient	quantity="1"	item_name="Monstrous saliva"				/>
+										<ingredient	quantity="5"	item_name="Leather squares"					/>
+										<ingredient	quantity="5"	item_name="Meteorite silver ingot"			/>
+										<ingredient	quantity="4"	item_name="Nigredo"							/>
+										<ingredient	quantity="4"	item_name="Monstrous saliva"				/>
 		</ingredients>
 	</schematic>
 
@@ -5117,10 +5117,10 @@
 		price							="368"
 	>
 		<ingredients>					<ingredient	quantity="1"	item_name="Bear School silver sword 1"		/>
-										<ingredient	quantity="2"	item_name="Leather squares"					/>
-										<ingredient	quantity="1"	item_name="Dwimeryte ingot"					/>
-										<ingredient	quantity="1"	item_name="Albedo"							/>
-										<ingredient	quantity="1"	item_name="Monstrous hair"					/>
+										<ingredient	quantity="5"	item_name="Leather squares"					/>
+										<ingredient	quantity="4"	item_name="Dwimeryte ingot"					/>
+										<ingredient	quantity="4"	item_name="Albedo"							/>
+										<ingredient	quantity="4"	item_name="Monstrous hair"					/>
 		</ingredients>
 	</schematic>
 
@@ -5132,10 +5132,10 @@
 		price							="729"
 	>
 		<ingredients>					<ingredient	quantity="1"	item_name="Bear School silver sword 2"		/>
-										<ingredient	quantity="2"	item_name="Leather squares"					/>
-										<ingredient	quantity="2"	item_name="Dwimeryte ingot"					/>
-										<ingredient	quantity="1"	item_name="Rebis"							/>
-										<ingredient	quantity="1"	item_name="Monstrous essence"				/>
+										<ingredient	quantity="5"	item_name="Leather squares"					/>
+										<ingredient	quantity="5"	item_name="Dwimeryte ingot"					/>
+										<ingredient	quantity="4"	item_name="Rebis"							/>
+										<ingredient	quantity="4"	item_name="Monstrous essence"				/>
 		</ingredients>
 	</schematic>
 
@@ -5149,10 +5149,10 @@
 		price							="732"
 	>
 		<ingredients>					<ingredient	quantity="1"	item_name="Starting Armor"					/>
-										<ingredient	quantity="2"	item_name="Hardened leather"				/>
-										<ingredient	quantity="1"	item_name="Meteorite silver plate"			/>
-										<ingredient	quantity="5"	item_name="Leather straps"					/>
-										<ingredient	quantity="2"	item_name="Monstrous eye"							/>
+										<ingredient	quantity="5"	item_name="Hardened leather"				/>
+										<ingredient	quantity="4"	item_name="Meteorite silver plate"			/>
+										<ingredient	quantity="8"	item_name="Leather straps"					/>
+										<ingredient	quantity="5"	item_name="Monstrous eye"							/>
 		</ingredients>
 	</schematic>
 
@@ -5164,10 +5164,10 @@
 		price							="1564"
 	>
 		<ingredients>					<ingredient	quantity="1"	item_name="Starting Armor 1"					/>
-										<ingredient	quantity="3"	item_name="Hardened leather"				/>
-										<ingredient	quantity="1"	item_name="Meteorite silver plate"			/>
-										<ingredient	quantity="4"	item_name="Linen"							/>
-										<ingredient	quantity="5"	item_name="Monstrous feather"							/>
+										<ingredient	quantity="6"	item_name="Hardened leather"				/>
+										<ingredient	quantity="4"	item_name="Meteorite silver plate"			/>
+										<ingredient	quantity="7"	item_name="Linen"							/>
+										<ingredient	quantity="8"	item_name="Monstrous feather"							/>
 		</ingredients>
 	</schematic>
 
@@ -5179,10 +5179,10 @@
 		price							="2028"
 	>
 		<ingredients>					<ingredient	quantity="1"	item_name="Starting Armor 2"					/>
-										<ingredient	quantity="2"	item_name="Draconide leather"				/>
-										<ingredient	quantity="3"	item_name="Dwimeryte plate"					/>
-										<ingredient	quantity="1"	item_name="Fifth essence"					/>
-										<ingredient	quantity="1"	item_name="Monstrous brain"							/>
+										<ingredient	quantity="5"	item_name="Draconide leather"				/>
+										<ingredient	quantity="6"	item_name="Dwimeryte plate"					/>
+										<ingredient	quantity="4"	item_name="Fifth essence"					/>
+										<ingredient	quantity="4"	item_name="Monstrous brain"							/>
 		</ingredients>
 	</schematic>
 
@@ -5194,10 +5194,10 @@
 		price							="263"
 	>
 		<ingredients>					<ingredient	quantity="1"	item_name="Starting Pants"					/>
-										<ingredient	quantity="1"	item_name="Leather"							/>
-										<ingredient	quantity="1"	item_name="Hardened timber"					/>
-										<ingredient	quantity="4"	item_name="Leather squares"					/>
-										<ingredient	quantity="1"	item_name="Monstrous brain"							/>
+										<ingredient	quantity="4"	item_name="Leather"							/>
+										<ingredient	quantity="4"	item_name="Hardened timber"					/>
+										<ingredient	quantity="7"	item_name="Leather squares"					/>
+										<ingredient	quantity="4"	item_name="Monstrous brain"							/>
 		</ingredients>
 	</schematic>
 
@@ -5209,11 +5209,10 @@
 		price							="108"
 	>
 		<ingredients>					<ingredient	quantity="1"	item_name="Starting Pants 1"					/>
-										<ingredient	quantity="2"	item_name="Silk"							/>
-										<ingredient	quantity="1"	item_name="Leather"							/>
-										<ingredient	quantity="1"	item_name="Hardened timber"					/>
-										<ingredient	quantity="4"	item_name="Leather squares"					/>
-										<ingredient	quantity="1"	item_name="Monstrous brain"							/>
+										<ingredient	quantity="5"	item_name="Silk"							/>
+										<ingredient	quantity="4"	item_name="Leather"							/>
+										<ingredient	quantity="7"	item_name="Leather squares"					/>
+										<ingredient	quantity="4"	item_name="Monstrous brain"							/>
 		</ingredients>
 	</schematic>
 
@@ -5225,10 +5224,10 @@
 		price							="108"
 	>
 		<ingredients>					<ingredient	quantity="1"	item_name="Starting Pants 2"					/>
-										<ingredient	quantity="2"	item_name="Silk"							/>
-										<ingredient	quantity="1"	item_name="Dark steel ingot"				/>
-										<ingredient	quantity="2"	item_name="Hardened timber"					/>
-										<ingredient	quantity="1"	item_name="Monstrous heart"							/>
+										<ingredient	quantity="5"	item_name="Silk"							/>
+										<ingredient	quantity="4"	item_name="Dark steel ingot"				/>
+										<ingredient	quantity="5"	item_name="Hardened timber"					/>
+										<ingredient	quantity="4"	item_name="Monstrous heart"							/>
 		</ingredients>
 	</schematic>
 
@@ -5240,10 +5239,10 @@
 		price							="133"
 	>
 		<ingredients>					<ingredient	quantity="1"	item_name="Starting Boots"							/>
-										<ingredient	quantity="1"	item_name="Meteorite ore"					/>
-										<ingredient	quantity="3"	item_name="Thread"							/>
-										<ingredient	quantity="4"	item_name="Leather squares"					/>
-										<ingredient	quantity="1"	item_name="Monstrous essence"				/>
+										<ingredient	quantity="4"	item_name="Meteorite ore"					/>
+										<ingredient	quantity="6"	item_name="Thread"							/>
+										<ingredient	quantity="7"	item_name="Leather squares"					/>
+										<ingredient	quantity="4"	item_name="Monstrous essence"				/>
 		</ingredients>
 	</schematic>
 
@@ -5255,10 +5254,10 @@
 		price							="133"
 	>
 		<ingredients>					<ingredient	quantity="1"	item_name="Starting Boots 1"							/>
-										<ingredient	quantity="2"	item_name="Hardened leather"				/>
-										<ingredient	quantity="1"	item_name="Meteorite silver ingot"			/>
-										<ingredient	quantity="2"	item_name="String"							/>
-										<ingredient	quantity="2"	item_name="Monstrous claw"					/>
+										<ingredient	quantity="5"	item_name="Hardened leather"				/>
+										<ingredient	quantity="4"	item_name="Meteorite silver ingot"			/>
+										<ingredient	quantity="5"	item_name="String"							/>
+										<ingredient	quantity="5"	item_name="Monstrous claw"					/>
 		</ingredients>
 	</schematic>
 
@@ -5270,10 +5269,10 @@
 		price							="133"
 	>
 		<ingredients>					<ingredient	quantity="1"	item_name="Starting Boots 2"							/>
-										<ingredient	quantity="2"	item_name="Hardened leather"				/>
-										<ingredient	quantity="1"	item_name="Meteorite silver ingot"			/>
-										<ingredient	quantity="2"	item_name="String"							/>
-										<ingredient	quantity="2"	item_name="Monstrous claw"					/>
+										<ingredient	quantity="5"	item_name="Hardened leather"				/>
+										<ingredient	quantity="4"	item_name="Meteorite silver ingot"			/>
+										<ingredient	quantity="5"	item_name="String"							/>
+										<ingredient	quantity="5"	item_name="Monstrous claw"					/>
 		</ingredients>
 	</schematic>
 
@@ -5285,11 +5284,10 @@
 		price							="160"
 	>
 		<ingredients>					<ingredient	quantity="1"	item_name="Starting Gloves"					/>
-										<ingredient	quantity="2"	item_name="Leather"							/>
-										<ingredient	quantity="1"	item_name="Dark iron ore"					/>
-										<ingredient	quantity="2"	item_name="Nails"							/>
-										<ingredient	quantity="1"	item_name="Hardened timber"					/>
-										<ingredient	quantity="2"	item_name="Monstrous tooth"					/>
+										<ingredient	quantity="5"	item_name="Leather"							/>
+										<ingredient	quantity="4"	item_name="Dark iron ore"					/>
+										<ingredient	quantity="5"	item_name="Nails"							/>
+										<ingredient	quantity="5"	item_name="Monstrous tooth"					/>
 		</ingredients>
 	</schematic>
 	
@@ -5301,10 +5299,10 @@
 		price							="160"
 	>
 		<ingredients>					<ingredient	quantity="1"	item_name="Starting Gloves 1"					/>
-										<ingredient	quantity="1"	item_name="Hardened leather"				/>
-										<ingredient	quantity="1"	item_name="Dark steel ingot"				/>
-										<ingredient	quantity="4"	item_name="Leather straps"					/>
-										<ingredient	quantity="4"	item_name="Monstrous claw"					/>
+										<ingredient	quantity="4"	item_name="Hardened leather"				/>
+										<ingredient	quantity="4"	item_name="Dark steel ingot"				/>
+										<ingredient	quantity="7"	item_name="Leather straps"					/>
+										<ingredient	quantity="7"	item_name="Monstrous claw"					/>
 		</ingredients>
 	</schematic>
 	
@@ -5316,10 +5314,10 @@
 		price							="160"
 	>
 		<ingredients>					<ingredient	quantity="1"	item_name="Starting Gloves 2"					/>
-										<ingredient	quantity="1"	item_name="Hardened leather"				/>
-										<ingredient	quantity="1"	item_name="Dark steel ingot"				/>
-										<ingredient	quantity="4"	item_name="Leather straps"					/>
-										<ingredient	quantity="4"	item_name="Monstrous claw"					/>
+										<ingredient	quantity="4"	item_name="Hardened leather"				/>
+										<ingredient	quantity="4"	item_name="Dark steel ingot"				/>
+										<ingredient	quantity="7"	item_name="Leather straps"					/>
+										<ingredient	quantity="7"	item_name="Monstrous claw"					/>
 		</ingredients>
 	</schematic>
 
@@ -5330,10 +5328,10 @@
 		craftsmanType_name				="Armorer"
 		price							="108"
 	>
-		<ingredients>					<ingredient	quantity="4"	item_name="Linen"							/>
-										<ingredient	quantity="1"	item_name="Leather"							/>
-										<ingredient	quantity="2"	item_name="Leather straps"					/>
-										<ingredient	quantity="2"	item_name="Thread"							/>
+		<ingredients>					<ingredient	quantity="7"	item_name="Linen"							/>
+										<ingredient	quantity="4"	item_name="Leather"							/>
+										<ingredient	quantity="5"	item_name="Leather straps"					/>
+										<ingredient	quantity="5"	item_name="Thread"							/>
 		</ingredients>
 	</schematic>
 
@@ -5344,11 +5342,11 @@
 		craftsmanType_name				="Armorer"
 		price							="142"
 	>
-		<ingredients>					<ingredient	quantity="4"	item_name="Linen"							/>
-										<ingredient	quantity="1"	item_name="Leather"							/>
-										<ingredient	quantity="3"	item_name="Leather straps"					/>
-										<ingredient	quantity="2"	item_name="Thread"							/>
-										<ingredient	quantity="1"	item_name="Silk"							/>
+		<ingredients>					<ingredient	quantity="7"	item_name="Linen"							/>
+										<ingredient	quantity="4"	item_name="Leather"							/>
+										<ingredient	quantity="6"	item_name="Leather straps"					/>
+										<ingredient	quantity="5"	item_name="Thread"							/>
+										<ingredient	quantity="4"	item_name="Silk"							/>
 		</ingredients>
 	</schematic>
 
@@ -5359,11 +5357,11 @@
 		craftsmanType_name				="Armorer"
 		price							="184"
 	>
-		<ingredients>					<ingredient	quantity="4"	item_name="Linen"							/>
-										<ingredient	quantity="3"	item_name="Leather"							/>
-										<ingredient	quantity="2"	item_name="Leather straps"					/>
-										<ingredient	quantity="3"	item_name="Thread"							/>
-										<ingredient	quantity="1"	item_name="Leather squares"					/>
+		<ingredients>					<ingredient	quantity="7"	item_name="Linen"							/>
+										<ingredient	quantity="6"	item_name="Leather"							/>
+										<ingredient	quantity="5"	item_name="Leather straps"					/>
+										<ingredient	quantity="6"	item_name="Thread"							/>
+										<ingredient	quantity="4"	item_name="Leather squares"					/>
 		</ingredients>
 	</schematic>
 
@@ -5374,11 +5372,11 @@
 		craftsmanType_name				="Armorer"
 		price							="212"
 	>
-		<ingredients>					<ingredient	quantity="5"	item_name="Linen"							/>
-										<ingredient	quantity="3"	item_name="Leather"							/>
-										<ingredient	quantity="2"	item_name="Leather straps"					/>
-										<ingredient	quantity="2"	item_name="Thread"							/>
-										<ingredient	quantity="3"	item_name="String"							/>
+		<ingredients>					<ingredient	quantity="8"	item_name="Linen"							/>
+										<ingredient	quantity="6"	item_name="Leather"							/>
+										<ingredient	quantity="5"	item_name="Leather straps"					/>
+										<ingredient	quantity="5"	item_name="Thread"							/>
+										<ingredient	quantity="6"	item_name="String"							/>
 		</ingredients>
 	</schematic>
 
@@ -5389,11 +5387,11 @@
 		craftsmanType_name				="Armorer"
 		price							="1282"
 	>
-		<ingredients>					<ingredient	quantity="5"	item_name="Linen"							/>
-										<ingredient	quantity="2"	item_name="Draconide leather"				/>
-										<ingredient	quantity="3"	item_name="Meteorite silver plate"			/>
-										<ingredient	quantity="1"	item_name="Silk"							/>
-										<ingredient	quantity="2"	item_name="Amber dust"						/>
+		<ingredients>					<ingredient	quantity="8"	item_name="Linen"							/>
+										<ingredient	quantity="5"	item_name="Draconide leather"				/>
+										<ingredient	quantity="6"	item_name="Meteorite silver plate"			/>
+										<ingredient	quantity="4"	item_name="Silk"							/>
+										<ingredient	quantity="5"	item_name="Amber dust"						/>
 		</ingredients>
 	</schematic>
 
@@ -5404,11 +5402,11 @@
 		craftsmanType_name				="Armorer"
 		price							="230"
 	>
-		<ingredients>					<ingredient	quantity="5"	item_name="Linen"							/>
-										<ingredient	quantity="3"	item_name="Leather"							/>
-										<ingredient	quantity="5"	item_name="Leather straps"					/>
-										<ingredient	quantity="3"	item_name="Thread"							/>
-										<ingredient	quantity="1"	item_name="Silk"							/>
+		<ingredients>					<ingredient	quantity="8"	item_name="Linen"							/>
+										<ingredient	quantity="6"	item_name="Leather"							/>
+										<ingredient	quantity="8"	item_name="Leather straps"					/>
+										<ingredient	quantity="6"	item_name="Thread"							/>
+										<ingredient	quantity="4"	item_name="Silk"							/>
 		</ingredients>
 	</schematic>
 
@@ -5419,11 +5417,11 @@
 		craftsmanType_name				="Armorer"
 		price							="238"
 	>
-		<ingredients>					<ingredient	quantity="5"	item_name="Linen"							/>
-										<ingredient	quantity="4"	item_name="Leather"							/>
-										<ingredient	quantity="3"	item_name="Leather straps"					/>
-										<ingredient	quantity="4"	item_name="Thread"							/>
-										<ingredient	quantity="1"	item_name="Leather squares"					/>
+		<ingredients>					<ingredient	quantity="8"	item_name="Linen"							/>
+										<ingredient	quantity="7"	item_name="Leather"							/>
+										<ingredient	quantity="6"	item_name="Leather straps"					/>
+										<ingredient	quantity="7"	item_name="Thread"							/>
+										<ingredient	quantity="4"	item_name="Leather squares"					/>
 		</ingredients>
 	</schematic>
 
@@ -5434,11 +5432,11 @@
 		craftsmanType_name				="Armorer"
 		price							="236"
 	>
-		<ingredients>					<ingredient	quantity="5"	item_name="Linen"							/>
-										<ingredient	quantity="2"	item_name="Hardened leather"				/>
-										<ingredient	quantity="2"	item_name="Leather squares"					/>
-										<ingredient	quantity="2"	item_name="Rope"							/>
-										<ingredient	quantity="1"	item_name="String"							/>
+		<ingredients>					<ingredient	quantity="8"	item_name="Linen"							/>
+										<ingredient	quantity="5"	item_name="Hardened leather"				/>
+										<ingredient	quantity="5"	item_name="Leather squares"					/>
+										<ingredient	quantity="5"	item_name="Rope"							/>
+										<ingredient	quantity="4"	item_name="String"							/>
 		</ingredients>
 	</schematic>
 
@@ -5449,11 +5447,11 @@
 		craftsmanType_name				="Armorer"
 		price							="198"
 	>
-		<ingredients>					<ingredient	quantity="5"	item_name="Linen"							/>
-										<ingredient	quantity="2"	item_name="Hardened leather"				/>
-										<ingredient	quantity="2"	item_name="Leather straps"					/>
-										<ingredient	quantity="5"	item_name="Nails"							/>
-										<ingredient	quantity="2"	item_name="Steel plate"						/>
+		<ingredients>					<ingredient	quantity="8"	item_name="Linen"							/>
+										<ingredient	quantity="5"	item_name="Hardened leather"				/>
+										<ingredient	quantity="5"	item_name="Leather straps"					/>
+										<ingredient	quantity="8"	item_name="Nails"							/>
+										<ingredient	quantity="5"	item_name="Steel plate"						/>
 		</ingredients>
 	</schematic>
 
@@ -5464,11 +5462,11 @@
 		craftsmanType_name				="Armorer"
 		price							="266"
 	>
-		<ingredients>					<ingredient	quantity="4"	item_name="Linen"							/>
-										<ingredient	quantity="3"	item_name="Hardened leather"				/>
-										<ingredient	quantity="5"	item_name="Leather straps"					/>
-										<ingredient	quantity="3"	item_name="Leather squares"					/>
-										<ingredient	quantity="4"	item_name="Steel plate"						/>
+		<ingredients>					<ingredient	quantity="7"	item_name="Linen"							/>
+										<ingredient	quantity="6"	item_name="Hardened leather"				/>
+										<ingredient	quantity="8"	item_name="Leather straps"					/>
+										<ingredient	quantity="6"	item_name="Leather squares"					/>
+										<ingredient	quantity="7"	item_name="Steel plate"						/>
 		</ingredients>
 	</schematic>
 
@@ -5479,11 +5477,11 @@
 		craftsmanType_name				="Armorer"
 		price							="306"
 	>
-		<ingredients>					<ingredient	quantity="6"	item_name="Linen"							/>
-										<ingredient	quantity="3"	item_name="Hardened leather"				/>
-										<ingredient	quantity="5"	item_name="Leather straps"					/>
-										<ingredient	quantity="4"	item_name="Leather squares"					/>
-										<ingredient	quantity="4"	item_name="Steel plate"						/>
+		<ingredients>					<ingredient	quantity="9"	item_name="Linen"							/>
+										<ingredient	quantity="6"	item_name="Hardened leather"				/>
+										<ingredient	quantity="8"	item_name="Leather straps"					/>
+										<ingredient	quantity="7"	item_name="Leather squares"					/>
+										<ingredient	quantity="7"	item_name="Steel plate"						/>
 		</ingredients>
 	</schematic>
 
@@ -5494,11 +5492,11 @@
 		craftsmanType_name				="Armorer"
 		price							="428"
 	>
-		<ingredients>					<ingredient	quantity="4"	item_name="Linen"							/>
-										<ingredient	quantity="3"	item_name="Hardened leather"				/>
-										<ingredient	quantity="3"	item_name="Leather straps"					/>
-										<ingredient	quantity="1"	item_name="Meteorite ore"					/>
-										<ingredient	quantity="2"	item_name="Dark steel plate"				/>
+		<ingredients>					<ingredient	quantity="7"	item_name="Linen"							/>
+										<ingredient	quantity="6"	item_name="Hardened leather"				/>
+										<ingredient	quantity="6"	item_name="Leather straps"					/>
+										<ingredient	quantity="4"	item_name="Meteorite ore"					/>
+										<ingredient	quantity="5"	item_name="Dark steel plate"				/>
 		</ingredients>
 	</schematic>
 
@@ -5509,11 +5507,11 @@
 		craftsmanType_name				="Armorer"
 		price							="736"
 	>
-		<ingredients>					<ingredient	quantity="4"	item_name="Leather"							/>
-										<ingredient	quantity="2"	item_name="Draconide leather"				/>
-										<ingredient	quantity="5"	item_name="Leather straps"					/>
-										<ingredient	quantity="5"	item_name="Wire"							/>
-										<ingredient	quantity="2"	item_name="Dark steel plate"				/>
+		<ingredients>					<ingredient	quantity="7"	item_name="Leather"							/>
+										<ingredient	quantity="5"	item_name="Draconide leather"				/>
+										<ingredient	quantity="8"	item_name="Leather straps"					/>
+										<ingredient	quantity="8"	item_name="Wire"							/>
+										<ingredient	quantity="5"	item_name="Dark steel plate"				/>
 		</ingredients>
 	</schematic>
 
@@ -5524,11 +5522,11 @@
 		craftsmanType_name				="Armorer"
 		price							="852"
 	>
-		<ingredients>					<ingredient	quantity="5"	item_name="Silk"							/>
-										<ingredient	quantity="2"	item_name="Draconide leather"				/>
-										<ingredient	quantity="4"	item_name="Leather straps"					/>
-										<ingredient	quantity="1"	item_name="Steel plate"						/>
-										<ingredient	quantity="3"	item_name="Dark steel plate"				/>
+		<ingredients>					<ingredient	quantity="8"	item_name="Silk"							/>
+										<ingredient	quantity="5"	item_name="Draconide leather"				/>
+										<ingredient	quantity="7"	item_name="Leather straps"					/>
+										<ingredient	quantity="4"	item_name="Steel plate"						/>
+										<ingredient	quantity="6"	item_name="Dark steel plate"				/>
 		</ingredients>
 	</schematic>
 
@@ -5539,11 +5537,11 @@
 		craftsmanType_name				="Armorer"
 		price							="928"
 	>
-		<ingredients>					<ingredient	quantity="2"	item_name="Hardened leather"				/>
-										<ingredient	quantity="2"	item_name="Draconide leather"				/>
-										<ingredient	quantity="5"	item_name="Leather squares"					/>
-										<ingredient	quantity="1"	item_name="Silk"							/>
-										<ingredient	quantity="4"	item_name="Dark steel plate"				/>
+		<ingredients>					<ingredient	quantity="5"	item_name="Hardened leather"				/>
+										<ingredient	quantity="5"	item_name="Draconide leather"				/>
+										<ingredient	quantity="8"	item_name="Leather squares"					/>
+										<ingredient	quantity="4"	item_name="Silk"							/>
+										<ingredient	quantity="7"	item_name="Dark steel plate"				/>
 		</ingredients>
 	</schematic>
 
@@ -5554,11 +5552,11 @@
 		craftsmanType_name				="Armorer"
 		price							="932"
 	>
-		<ingredients>					<ingredient	quantity="2"	item_name="Hardened leather"				/>
-										<ingredient	quantity="2"	item_name="Draconide leather"				/>
-										<ingredient	quantity="5"	item_name="Leather squares"					/>
-										<ingredient	quantity="6"	item_name="Wire"							/>
-										<ingredient	quantity="4"	item_name="Dark steel plate"				/>
+		<ingredients>					<ingredient	quantity="5"	item_name="Hardened leather"				/>
+										<ingredient	quantity="5"	item_name="Draconide leather"				/>
+										<ingredient	quantity="8"	item_name="Leather squares"					/>
+										<ingredient	quantity="9"	item_name="Wire"							/>
+										<ingredient	quantity="7"	item_name="Dark steel plate"				/>
 		</ingredients>
 	</schematic>
 
@@ -5569,11 +5567,11 @@
 		craftsmanType_name				="Armorer"
 		price							="1076"
 	>
-		<ingredients>					<ingredient	quantity="2"	item_name="Hardened leather"				/>
-										<ingredient	quantity="2"	item_name="Draconide leather"				/>
-										<ingredient	quantity="2"	item_name="Meteorite ingot"					/>
-										<ingredient	quantity="1"	item_name="Ruby dust"						/>
-										<ingredient	quantity="4"	item_name="Dark steel plate"				/>
+		<ingredients>					<ingredient	quantity="5"	item_name="Hardened leather"				/>
+										<ingredient	quantity="5"	item_name="Draconide leather"				/>
+										<ingredient	quantity="5"	item_name="Meteorite ingot"					/>
+										<ingredient	quantity="4"	item_name="Ruby dust"						/>
+										<ingredient	quantity="7"	item_name="Dark steel plate"				/>
 		</ingredients>
 	</schematic>
 
@@ -5584,11 +5582,11 @@
 		craftsmanType_name				="Armorer"
 		price							="1360"
 	>
-		<ingredients>					<ingredient	quantity="4"	item_name="Silk"							/>
-										<ingredient	quantity="2"	item_name="Draconide leather"				/>
-										<ingredient	quantity="2"	item_name="Leather straps"					/>
-										<ingredient	quantity="2"	item_name="Sapphire dust"					/>
-										<ingredient	quantity="1"	item_name="Dwimeryte plate"					/>
+		<ingredients>					<ingredient	quantity="7"	item_name="Silk"							/>
+										<ingredient	quantity="5"	item_name="Draconide leather"				/>
+										<ingredient	quantity="5"	item_name="Leather straps"					/>
+										<ingredient	quantity="5"	item_name="Sapphire dust"					/>
+										<ingredient	quantity="4"	item_name="Dwimeryte plate"					/>
 		</ingredients>
 	</schematic>
 
@@ -5602,10 +5600,10 @@
 		price							="399"
 	>
 		<ingredients>					<ingredient	quantity="1"	item_name="Geralt Shirt"					/>
-										<ingredient	quantity="2"	item_name="Hardened leather"				/>
-										<ingredient	quantity="2"	item_name="Dark steel plate"				/>
-										<ingredient	quantity="2"	item_name="Hardened timber"					/>
-										<ingredient	quantity="1"	item_name="Monstrous dust"					/>
+										<ingredient	quantity="5"	item_name="Hardened leather"				/>
+										<ingredient	quantity="5"	item_name="Dark steel plate"				/>
+										<ingredient	quantity="5"	item_name="Hardened timber"					/>
+										<ingredient	quantity="4"	item_name="Monstrous dust"					/>
 		</ingredients>
 	</schematic>
 
@@ -5617,10 +5615,10 @@
 		price							="478"
 	>
 		<ingredients>					<ingredient	quantity="1"	item_name="Lynx Armor"						/>
-										<ingredient	quantity="4"	item_name="Hardened leather"				/>
-										<ingredient	quantity="2"	item_name="Dark steel plate"				/>
-										<ingredient	quantity="2"	item_name="Lunar shards"					/>
-										<ingredient	quantity="2"	item_name="Monstrous blood"					/>
+										<ingredient	quantity="7"	item_name="Hardened leather"				/>
+										<ingredient	quantity="5"	item_name="Dark steel plate"				/>
+										<ingredient	quantity="5"	item_name="Lunar shards"					/>
+										<ingredient	quantity="5"	item_name="Monstrous blood"					/>
 		</ingredients>
 	</schematic>
 
@@ -5632,10 +5630,10 @@
 		price							="1866"
 	>
 		<ingredients>					<ingredient	quantity="1"	item_name="Lynx Armor 1"					/>
-										<ingredient	quantity="2"	item_name="Draconide leather"				/>
-										<ingredient	quantity="2"	item_name="Dwimeryte plate"					/>
-										<ingredient	quantity="3"	item_name="Quicksilver solution"			/>
-										<ingredient	quantity="4"	item_name="Monstrous hair"					/>
+										<ingredient	quantity="5"	item_name="Draconide leather"				/>
+										<ingredient	quantity="5"	item_name="Dwimeryte plate"					/>
+										<ingredient	quantity="6"	item_name="Quicksilver solution"			/>
+										<ingredient	quantity="7"	item_name="Monstrous hair"					/>
 		</ingredients>
 	</schematic>
 
@@ -5647,10 +5645,10 @@
 		price							="1961"
 	>
 		<ingredients>					<ingredient	quantity="1"	item_name="Lynx Armor 2"					/>
-										<ingredient	quantity="3"	item_name="Draconide leather"				/>
-										<ingredient	quantity="2"	item_name="Dwimeryte plate"					/>
-										<ingredient	quantity="2"	item_name="Monstrous tongue"				/>
-										<ingredient	quantity="1"	item_name="Monstrous hide"					/>
+										<ingredient	quantity="6"	item_name="Draconide leather"				/>
+										<ingredient	quantity="5"	item_name="Dwimeryte plate"					/>
+										<ingredient	quantity="5"	item_name="Monstrous tongue"				/>
+										<ingredient	quantity="4"	item_name="Monstrous hide"					/>
 		</ingredients>
 	</schematic>
 
@@ -5661,11 +5659,11 @@
 		craftsmanType_name				="Armorer"
 		price							="133"
 	>
-		<ingredients>					<ingredient	quantity="2"	item_name="Leather"							/>
-										<ingredient	quantity="1"	item_name="Dark iron ore"					/>
-										<ingredient	quantity="2"	item_name="Nails"							/>
-										<ingredient	quantity="1"	item_name="Hardened timber"					/>
-										<ingredient	quantity="2"	item_name="Monstrous tooth"					/>
+		<ingredients>					<ingredient	quantity="5"	item_name="Leather"							/>
+										<ingredient	quantity="4"	item_name="Dark iron ore"					/>
+										<ingredient	quantity="5"	item_name="Nails"							/>
+										<ingredient	quantity="4"	item_name="Hardened timber"					/>
+										<ingredient	quantity="5"	item_name="Monstrous tooth"					/>
 		</ingredients>
 	</schematic>
 
@@ -5677,11 +5675,11 @@
 		price							="160"
 	>
 		<ingredients>					<ingredient	quantity="1"	item_name="Lynx Gloves 1"					/>
-										<ingredient	quantity="2"	item_name="Leather"							/>
-										<ingredient	quantity="1"	item_name="Dark iron ore"					/>
-										<ingredient	quantity="2"	item_name="Nails"							/>
-										<ingredient	quantity="1"	item_name="Hardened timber"					/>
-										<ingredient	quantity="2"	item_name="Monstrous tooth"					/>
+										<ingredient	quantity="5"	item_name="Leather"							/>
+										<ingredient	quantity="4"	item_name="Dark iron ore"					/>
+										<ingredient	quantity="5"	item_name="Nails"							/>
+										<ingredient	quantity="4"	item_name="Hardened timber"					/>
+										<ingredient	quantity="5"	item_name="Monstrous tooth"					/>
 		</ingredients>
 	</schematic>
 	
@@ -5693,10 +5691,10 @@
 		price							="160"
 	>
 		<ingredients>					<ingredient	quantity="1"	item_name="Lynx Gloves 2"					/>
-										<ingredient	quantity="1"	item_name="Hardened leather"				/>
-										<ingredient	quantity="1"	item_name="Dark steel ingot"				/>
-										<ingredient	quantity="4"	item_name="Leather straps"					/>
-										<ingredient	quantity="4"	item_name="Monstrous claw"					/>
+										<ingredient	quantity="4"	item_name="Hardened leather"				/>
+										<ingredient	quantity="4"	item_name="Dark steel ingot"				/>
+										<ingredient	quantity="7"	item_name="Leather straps"					/>
+										<ingredient	quantity="7"	item_name="Monstrous claw"					/>
 		</ingredients>
 	</schematic>
 	
@@ -5708,10 +5706,10 @@
 		price							="160"
 	>
 		<ingredients>					<ingredient	quantity="1"	item_name="Lynx Gloves 3"					/>
-										<ingredient	quantity="1"	item_name="Hardened leather"				/>
-										<ingredient	quantity="1"	item_name="Dark steel ingot"				/>
-										<ingredient	quantity="4"	item_name="Leather straps"					/>
-										<ingredient	quantity="4"	item_name="Monstrous claw"					/>
+										<ingredient	quantity="4"	item_name="Hardened leather"				/>
+										<ingredient	quantity="4"	item_name="Dark steel ingot"				/>
+										<ingredient	quantity="7"	item_name="Leather straps"					/>
+										<ingredient	quantity="7"	item_name="Monstrous claw"					/>
 		</ingredients>
 	</schematic>
 
@@ -5722,11 +5720,11 @@
 		craftsmanType_name				="Armorer"
 		price							="155"
 	>
-		<ingredients>					<ingredient	quantity="2"	item_name="Silk"							/>
-										<ingredient	quantity="1"	item_name="Leather"							/>
-										<ingredient	quantity="1"	item_name="Hardened timber"					/>
-										<ingredient	quantity="4"	item_name="Leather squares"					/>
-										<ingredient	quantity="1"	item_name="Monstrous brain"					/>
+		<ingredients>					<ingredient	quantity="5"	item_name="Silk"							/>
+										<ingredient	quantity="4"	item_name="Leather"							/>
+										<ingredient	quantity="4"	item_name="Hardened timber"					/>
+										<ingredient	quantity="7"	item_name="Leather squares"					/>
+										<ingredient	quantity="4"	item_name="Monstrous brain"					/>
 		</ingredients>
 	</schematic>
 
@@ -5738,11 +5736,11 @@
 		price							="155"
 	>
 		<ingredients>					<ingredient	quantity="1"	item_name="Lynx Pants 1"					/>
-										<ingredient	quantity="2"	item_name="Silk"							/>
-										<ingredient	quantity="1"	item_name="Leather"							/>
-										<ingredient	quantity="1"	item_name="Hardened timber"					/>
-										<ingredient	quantity="4"	item_name="Leather squares"					/>
-										<ingredient	quantity="1"	item_name="Monstrous brain"					/>
+										<ingredient	quantity="5"	item_name="Silk"							/>
+										<ingredient	quantity="4"	item_name="Leather"							/>
+										<ingredient	quantity="4"	item_name="Hardened timber"					/>
+										<ingredient	quantity="7"	item_name="Leather squares"					/>
+										<ingredient	quantity="4"	item_name="Monstrous brain"					/>
 		</ingredients>
 	</schematic>
 	
@@ -5754,10 +5752,10 @@
 		price							="155"
 	>
 		<ingredients>					<ingredient	quantity="1"	item_name="Lynx Pants 2"					/>
-										<ingredient	quantity="2"	item_name="Silk"							/>
-										<ingredient	quantity="1"	item_name="Dark steel ingot"				/>
-										<ingredient	quantity="2"	item_name="Hardened timber"					/>
-										<ingredient	quantity="1"	item_name="Monstrous heart"					/>
+										<ingredient	quantity="5"	item_name="Silk"							/>
+										<ingredient	quantity="4"	item_name="Dark steel ingot"				/>
+										<ingredient	quantity="5"	item_name="Hardened timber"					/>
+										<ingredient	quantity="4"	item_name="Monstrous heart"					/>
 		</ingredients>
 	</schematic>
 	
@@ -5769,10 +5767,10 @@
 		price							="155"
 	>
 		<ingredients>					<ingredient	quantity="1"	item_name="Lynx Pants 3"					/>
-										<ingredient	quantity="2"	item_name="Silk"							/>
-										<ingredient	quantity="1"	item_name="Dark steel ingot"				/>
-										<ingredient	quantity="2"	item_name="Hardened timber"					/>
-										<ingredient	quantity="1"	item_name="Monstrous heart"					/>
+										<ingredient	quantity="5"	item_name="Silk"							/>
+										<ingredient	quantity="4"	item_name="Dark steel ingot"				/>
+										<ingredient	quantity="5"	item_name="Hardened timber"					/>
+										<ingredient	quantity="4"	item_name="Monstrous heart"					/>
 		</ingredients>
 	</schematic>
 
@@ -5783,11 +5781,11 @@
 		craftsmanType_name				="Armorer"
 		price							="149"
 	>
-		<ingredients>					<ingredient	quantity="2"	item_name="Hardened leather"				/>
-										<ingredient	quantity="1"	item_name="Dark iron ore"					/>
-										<ingredient	quantity="2"	item_name="Leather straps"					/>
-										<ingredient	quantity="1"	item_name="Hardened timber"					/>
-										<ingredient	quantity="2"	item_name="Monstrous eye"					/>
+		<ingredients>					<ingredient	quantity="5"	item_name="Hardened leather"				/>
+										<ingredient	quantity="4"	item_name="Dark iron ore"					/>
+										<ingredient	quantity="5"	item_name="Leather straps"					/>
+										<ingredient	quantity="4"	item_name="Hardened timber"					/>
+										<ingredient	quantity="5"	item_name="Monstrous eye"					/>
 		</ingredients>
 	</schematic>
 
@@ -5799,11 +5797,11 @@
 		price							="151"
 	>
 		<ingredients>					<ingredient	quantity="1"	item_name="Lynx Boots 1"					/>
-										<ingredient	quantity="2"	item_name="Hardened leather"				/>
-										<ingredient	quantity="1"	item_name="Dark iron ore"					/>
-										<ingredient	quantity="2"	item_name="Leather straps"					/>
-										<ingredient	quantity="1"	item_name="Hardened timber"					/>
-										<ingredient	quantity="2"	item_name="Monstrous eye"					/>
+										<ingredient	quantity="5"	item_name="Hardened leather"				/>
+										<ingredient	quantity="4"	item_name="Dark iron ore"					/>
+										<ingredient	quantity="5"	item_name="Leather straps"					/>
+										<ingredient	quantity="4"	item_name="Hardened timber"					/>
+										<ingredient	quantity="5"	item_name="Monstrous eye"					/>
 		</ingredients>
 	</schematic>
 	
@@ -5815,10 +5813,10 @@
 		price							="151"
 	>
 		<ingredients>					<ingredient	quantity="1"	item_name="Lynx Boots 2"					/>
-										<ingredient	quantity="2"	item_name="Hardened leather"				/>
-										<ingredient	quantity="1"	item_name="Dark steel ingot"				/>
-										<ingredient	quantity="2"	item_name="Leather straps"					/>
-										<ingredient	quantity="1"	item_name="Monstrous bone"					/>
+										<ingredient	quantity="5"	item_name="Hardened leather"				/>
+										<ingredient	quantity="4"	item_name="Dark steel ingot"				/>
+										<ingredient	quantity="5"	item_name="Leather straps"					/>
+										<ingredient	quantity="4"	item_name="Monstrous bone"					/>
 		</ingredients>
 	</schematic>
 	
@@ -5830,10 +5828,10 @@
 		price							="151"
 	>
 		<ingredients>					<ingredient	quantity="1"	item_name="Lynx Boots 3"					/>
-										<ingredient	quantity="2"	item_name="Hardened leather"				/>
-										<ingredient	quantity="1"	item_name="Dark steel ingot"				/>
-										<ingredient	quantity="2"	item_name="Leather straps"					/>
-										<ingredient	quantity="1"	item_name="Monstrous bone"					/>
+										<ingredient	quantity="5"	item_name="Hardened leather"				/>
+										<ingredient	quantity="4"	item_name="Dark steel ingot"				/>
+										<ingredient	quantity="5"	item_name="Leather straps"					/>
+										<ingredient	quantity="4"	item_name="Monstrous bone"					/>
 		</ingredients>
 	</schematic>
 
@@ -5845,10 +5843,10 @@
 		price							="412"
 	>
 		<ingredients>					<ingredient	quantity="1"	item_name="Geralt Shirt"					/>
-										<ingredient	quantity="2"	item_name="Hardened leather"				/>
-										<ingredient	quantity="1"	item_name="Meteorite silver plate"			/>
-										<ingredient	quantity="5"	item_name="Leather straps"					/>
-										<ingredient	quantity="2"	item_name="Monstrous eye"					/>
+										<ingredient	quantity="5"	item_name="Hardened leather"				/>
+										<ingredient	quantity="4"	item_name="Meteorite silver plate"			/>
+										<ingredient	quantity="8"	item_name="Leather straps"					/>
+										<ingredient	quantity="5"	item_name="Monstrous eye"					/>
 		</ingredients>
 	</schematic>
 
@@ -5860,10 +5858,10 @@
 		price							="479"
 	>
 		<ingredients>					<ingredient	quantity="1"	item_name="Gryphon Armor"					/>
-										<ingredient	quantity="3"	item_name="Hardened leather"				/>
-										<ingredient	quantity="1"	item_name="Meteorite silver plate"			/>
-										<ingredient	quantity="4"	item_name="Linen"							/>
-										<ingredient	quantity="5"	item_name="Monstrous feather"				/>
+										<ingredient	quantity="6"	item_name="Hardened leather"				/>
+										<ingredient	quantity="4"	item_name="Meteorite silver plate"			/>
+										<ingredient	quantity="7"	item_name="Linen"							/>
+										<ingredient	quantity="8"	item_name="Monstrous feather"				/>
 		</ingredients>
 	</schematic>
 
@@ -5875,10 +5873,10 @@
 		price							="1961"
 	>
 		<ingredients>					<ingredient	quantity="1"	item_name="Gryphon Armor 1"					/>
-										<ingredient	quantity="3"	item_name="Draconide leather"				/>
-										<ingredient	quantity="2"	item_name="Dwimeryte plate"					/>
-										<ingredient	quantity="1"	item_name="Monstrous hide"					/>
-										<ingredient	quantity="2"	item_name="Monstrous heart"					/>
+										<ingredient	quantity="6"	item_name="Draconide leather"				/>
+										<ingredient	quantity="5"	item_name="Dwimeryte plate"					/>
+										<ingredient	quantity="4"	item_name="Monstrous hide"					/>
+										<ingredient	quantity="5"	item_name="Monstrous heart"					/>
 		</ingredients>
 	</schematic>
 	
@@ -5890,10 +5888,10 @@
 		price							="2379"
 	>
 		<ingredients>					<ingredient	quantity="1"	item_name="Gryphon Armor 2"					/>
-										<ingredient	quantity="2"	item_name="Draconide leather"				/>
-										<ingredient	quantity="3"	item_name="Dwimeryte plate"					/>
-										<ingredient	quantity="1"	item_name="Fifth essence"					/>
-										<ingredient	quantity="1"	item_name="Monstrous brain"					/>
+										<ingredient	quantity="5"	item_name="Draconide leather"				/>
+										<ingredient	quantity="6"	item_name="Dwimeryte plate"					/>
+										<ingredient	quantity="4"	item_name="Fifth essence"					/>
+										<ingredient	quantity="4"	item_name="Monstrous brain"					/>
 		</ingredients>
 	</schematic>
 
@@ -5904,11 +5902,11 @@
 		craftsmanType_name				="Armorer"
 		price							="134"
 	>
-		<ingredients>					<ingredient	quantity="4"	item_name="Leather squares"					/>
-										<ingredient	quantity="1"	item_name="Meteorite ore"					/>
-										<ingredient	quantity="2"	item_name="Leather straps"					/>
-										<ingredient	quantity="2"	item_name="Thread"							/>
-										<ingredient	quantity="4"	item_name="Monstrous dust"					/>
+		<ingredients>					<ingredient	quantity="7"	item_name="Leather squares"					/>
+										<ingredient	quantity="4"	item_name="Meteorite ore"					/>
+										<ingredient	quantity="5"	item_name="Leather straps"					/>
+										<ingredient	quantity="5"	item_name="Thread"							/>
+										<ingredient	quantity="7"	item_name="Monstrous dust"					/>
 		</ingredients>
 	</schematic>
 
@@ -5920,11 +5918,11 @@
 		price							="188"
 	>
 		<ingredients>					<ingredient	quantity="1"	item_name="Gryphon Gloves 1"				/>
-										<ingredient	quantity="4"	item_name="Leather squares"					/>
-										<ingredient	quantity="1"	item_name="Meteorite ore"					/>
-										<ingredient	quantity="2"	item_name="Leather straps"					/>
-										<ingredient	quantity="2"	item_name="Thread"							/>
-										<ingredient	quantity="4"	item_name="Monstrous dust"					/>
+										<ingredient	quantity="7"	item_name="Leather squares"					/>
+										<ingredient	quantity="4"	item_name="Meteorite ore"					/>
+										<ingredient	quantity="5"	item_name="Leather straps"					/>
+										<ingredient	quantity="5"	item_name="Thread"							/>
+										<ingredient	quantity="7"	item_name="Monstrous dust"					/>
 		</ingredients>
 	</schematic>
 	
@@ -5936,10 +5934,10 @@
 		price							="188"
 	>
 		<ingredients>					<ingredient	quantity="1"	item_name="Gryphon Gloves 2"				/>
-										<ingredient	quantity="1"	item_name="Leather"							/>
-										<ingredient	quantity="1"	item_name="Meteorite silver plate"			/>
-										<ingredient	quantity="2"	item_name="String"							/>
-										<ingredient	quantity="2"	item_name="Monstrous tongue"				/>
+										<ingredient	quantity="4"	item_name="Leather"							/>
+										<ingredient	quantity="4"	item_name="Meteorite silver plate"			/>
+										<ingredient	quantity="5"	item_name="String"							/>
+										<ingredient	quantity="5"	item_name="Monstrous tongue"				/>
 		</ingredients>
 	</schematic>
 	
@@ -5951,10 +5949,10 @@
 		price							="188"
 	>
 		<ingredients>					<ingredient	quantity="1"	item_name="Gryphon Gloves 3"				/>
-										<ingredient	quantity="1"	item_name="Leather"							/>
-										<ingredient	quantity="1"	item_name="Meteorite silver plate"			/>
-										<ingredient	quantity="2"	item_name="String"							/>
-										<ingredient	quantity="2"	item_name="Monstrous tongue"				/>
+										<ingredient	quantity="4"	item_name="Leather"							/>
+										<ingredient	quantity="4"	item_name="Meteorite silver plate"			/>
+										<ingredient	quantity="5"	item_name="String"							/>
+										<ingredient	quantity="5"	item_name="Monstrous tongue"				/>
 		</ingredients>
 	</schematic>
 
@@ -5965,11 +5963,11 @@
 		craftsmanType_name				="Armorer"
 		price							="173"
 	>
-		<ingredients>					<ingredient	quantity="2"	item_name="Silk"							/>
-										<ingredient	quantity="1"	item_name="Leather"							/>
-										<ingredient	quantity="1"	item_name="Meteorite ore"					/>
-										<ingredient	quantity="4"	item_name="Leather squares"					/>
-										<ingredient	quantity="1"	item_name="Monstrous blood"					/>
+		<ingredients>					<ingredient	quantity="5"	item_name="Silk"							/>
+										<ingredient	quantity="4"	item_name="Leather"							/>
+										<ingredient	quantity="4"	item_name="Meteorite ore"					/>
+										<ingredient	quantity="7"	item_name="Leather squares"					/>
+										<ingredient	quantity="4"	item_name="Monstrous blood"					/>
 		</ingredients>
 	</schematic>
 	
@@ -5981,11 +5979,11 @@
 		price							="191"
 	>
 		<ingredients>					<ingredient	quantity="1"	item_name="Gryphon Pants 1"					/>
-										<ingredient	quantity="2"	item_name="Silk"							/>
-										<ingredient	quantity="1"	item_name="Leather"							/>
-										<ingredient	quantity="1"	item_name="Meteorite ore"					/>
-										<ingredient	quantity="4"	item_name="Leather squares"					/>
-										<ingredient	quantity="1"	item_name="Monstrous blood"					/>
+										<ingredient	quantity="5"	item_name="Silk"							/>
+										<ingredient	quantity="4"	item_name="Leather"							/>
+										<ingredient	quantity="4"	item_name="Meteorite ore"					/>
+										<ingredient	quantity="7"	item_name="Leather squares"					/>
+										<ingredient	quantity="4"	item_name="Monstrous blood"					/>
 		</ingredients>
 	</schematic>
 	
@@ -5997,10 +5995,10 @@
 		price							="191"
 	>
 		<ingredients>					<ingredient	quantity="1"	item_name="Gryphon Pants 2"					/>
-										<ingredient	quantity="2"	item_name="Silk"							/>
-										<ingredient	quantity="1"	item_name="Leather straps"					/>
-										<ingredient	quantity="1"	item_name="Meteorite silver ingot"			/>
-										<ingredient	quantity="1"	item_name="Monstrous egg"					/>
+										<ingredient	quantity="5"	item_name="Silk"							/>
+										<ingredient	quantity="4"	item_name="Leather straps"					/>
+										<ingredient	quantity="4"	item_name="Meteorite silver ingot"			/>
+										<ingredient	quantity="4"	item_name="Monstrous egg"					/>
 		</ingredients>
 	</schematic>
 	
@@ -6012,10 +6010,10 @@
 		price							="191"
 	>
 		<ingredients>					<ingredient	quantity="1"	item_name="Gryphon Pants 3"					/>
-										<ingredient	quantity="2"	item_name="Silk"							/>
-										<ingredient	quantity="1"	item_name="Leather straps"					/>
-										<ingredient	quantity="1"	item_name="Meteorite silver ingot"			/>
-										<ingredient	quantity="1"	item_name="Monstrous egg"					/>
+										<ingredient	quantity="5"	item_name="Silk"							/>
+										<ingredient	quantity="4"	item_name="Leather straps"					/>
+										<ingredient	quantity="4"	item_name="Meteorite silver ingot"			/>
+										<ingredient	quantity="4"	item_name="Monstrous egg"					/>
 		</ingredients>
 	</schematic>
 
@@ -6026,11 +6024,11 @@
 		craftsmanType_name				="Armorer"
 		price							="129"
 	>
-		<ingredients>					<ingredient	quantity="1"	item_name="Hardened leather"				/>
-										<ingredient	quantity="1"	item_name="Meteorite ore"					/>
-										<ingredient	quantity="3"	item_name="Thread"							/>
-										<ingredient	quantity="4"	item_name="Leather squares"					/>
-										<ingredient	quantity="1"	item_name="Monstrous essence"				/>
+		<ingredients>					<ingredient	quantity="4"	item_name="Hardened leather"				/>
+										<ingredient	quantity="4"	item_name="Meteorite ore"					/>
+										<ingredient	quantity="6"	item_name="Thread"							/>
+										<ingredient	quantity="7"	item_name="Leather squares"					/>
+										<ingredient	quantity="4"	item_name="Monstrous essence"				/>
 		</ingredients>
 	</schematic>
 
@@ -6042,11 +6040,11 @@
 		price							="236"
 	>
 		<ingredients>					<ingredient	quantity="1"	item_name="Gryphon Boots 1"					/>
-										<ingredient	quantity="1"	item_name="Hardened leather"				/>
-										<ingredient	quantity="1"	item_name="Meteorite ore"					/>
-										<ingredient	quantity="3"	item_name="Thread"							/>
-										<ingredient	quantity="4"	item_name="Leather squares"					/>
-										<ingredient	quantity="1"	item_name="Monstrous essence"				/>
+										<ingredient	quantity="4"	item_name="Hardened leather"				/>
+										<ingredient	quantity="4"	item_name="Meteorite ore"					/>
+										<ingredient	quantity="6"	item_name="Thread"							/>
+										<ingredient	quantity="7"	item_name="Leather squares"					/>
+										<ingredient	quantity="4"	item_name="Monstrous essence"				/>
 		</ingredients>
 	</schematic>
 	
@@ -6058,10 +6056,10 @@
 		price							="236"
 	>
 		<ingredients>					<ingredient	quantity="1"	item_name="Gryphon Boots 2"					/>
-										<ingredient	quantity="2"	item_name="Hardened leather"				/>
-										<ingredient	quantity="1"	item_name="Meteorite silver ingot"			/>
-										<ingredient	quantity="2"	item_name="String"							/>
-										<ingredient	quantity="2"	item_name="Monstrous claw"					/>
+										<ingredient	quantity="5"	item_name="Hardened leather"				/>
+										<ingredient	quantity="4"	item_name="Meteorite silver ingot"			/>
+										<ingredient	quantity="5"	item_name="String"							/>
+										<ingredient	quantity="5"	item_name="Monstrous claw"					/>
 		</ingredients>
 	</schematic>
 	
@@ -6072,11 +6070,11 @@
 		craftsmanType_name				="Armorer"
 		price							="236"
 	>
-		<ingredients>					<ingredient	quantity="1"	item_name="Gryphon Boots 3"					/>
-										<ingredient	quantity="2"	item_name="Hardened leather"				/>
-										<ingredient	quantity="1"	item_name="Meteorite silver ingot"			/>
-										<ingredient	quantity="2"	item_name="String"							/>
-										<ingredient	quantity="2"	item_name="Monstrous claw"					/>
+		<ingredients>					<ingredient	quantity="4"	item_name="Gryphon Boots 3"					/>
+										<ingredient	quantity="5"	item_name="Hardened leather"				/>
+										<ingredient	quantity="4"	item_name="Meteorite silver ingot"			/>
+										<ingredient	quantity="5"	item_name="String"							/>
+										<ingredient	quantity="5"	item_name="Monstrous claw"					/>
 		</ingredients>
 	</schematic>
 
@@ -6088,10 +6086,10 @@
 		price							="335"
 	>
 		<ingredients>					<ingredient	quantity="1"	item_name="Geralt Shirt"					/>
-										<ingredient	quantity="2"	item_name="Hardened leather"				/>
-										<ingredient	quantity="1"	item_name="Dark steel plate"				/>
-										<ingredient	quantity="4"	item_name="Linen"							/>
-										<ingredient	quantity="1"	item_name="Monstrous bone"					/>
+										<ingredient	quantity="5"	item_name="Hardened leather"				/>
+										<ingredient	quantity="4"	item_name="Dark steel plate"				/>
+										<ingredient	quantity="7"	item_name="Linen"							/>
+										<ingredient	quantity="4"	item_name="Monstrous bone"					/>
 		</ingredients>
 	</schematic>
 
@@ -6103,10 +6101,10 @@
 		price							="455"
 	>
 		<ingredients>					<ingredient	quantity="1"	item_name="Bear Armor"						/>
-										<ingredient	quantity="3"	item_name="Hardened leather"				/>
-										<ingredient	quantity="1"	item_name="Meteorite silver plate"			/>
-										<ingredient	quantity="5"	item_name="String"							/>
-										<ingredient	quantity="5"	item_name="Monstrous hair"					/>
+										<ingredient	quantity="6"	item_name="Hardened leather"				/>
+										<ingredient	quantity="4"	item_name="Meteorite silver plate"			/>
+										<ingredient	quantity="8"	item_name="String"							/>
+										<ingredient	quantity="8"	item_name="Monstrous hair"					/>
 		</ingredients>
 	</schematic>
 
@@ -6118,10 +6116,10 @@
 		price							="1946"
 	>
 		<ingredients>					<ingredient	quantity="1"	item_name="Bear Armor 1"					/>
-										<ingredient	quantity="3"	item_name="Draconide leather"				/>
-										<ingredient	quantity="2"	item_name="Dwimeryte plate"					/>
-										<ingredient	quantity="1"	item_name="Monstrous essence"				/>
-										<ingredient	quantity="1"	item_name="Monstrous hide"					/>
+										<ingredient	quantity="6"	item_name="Draconide leather"				/>
+										<ingredient	quantity="5"	item_name="Dwimeryte plate"					/>
+										<ingredient	quantity="4"	item_name="Monstrous essence"				/>
+										<ingredient	quantity="4"	item_name="Monstrous hide"					/>
 		</ingredients>
 	</schematic>
 	
@@ -6133,10 +6131,10 @@
 		price							="2594"
 	>
 		<ingredients>					<ingredient	quantity="1"	item_name="Bear Armor 2"					/>
-										<ingredient	quantity="1"	item_name="Draconide leather"				/>
-										<ingredient	quantity="3"	item_name="Dwimeryte plate"					/>
-										<ingredient	quantity="1"	item_name="Optima mater"					/>
-										<ingredient	quantity="1"	item_name="Monstrous plate"					/>
+										<ingredient	quantity="4"	item_name="Draconide leather"				/>
+										<ingredient	quantity="6"	item_name="Dwimeryte plate"					/>
+										<ingredient	quantity="4"	item_name="Optima mater"					/>
+										<ingredient	quantity="4"	item_name="Monstrous plate"					/>
 		</ingredients>
 	</schematic>
 
@@ -6147,11 +6145,11 @@
 		craftsmanType_name				="Armorer"
 		price							="136"
 	>
-		<ingredients>					<ingredient	quantity="2"	item_name="Leather"							/>
-										<ingredient	quantity="1"	item_name="Dark iron ore"					/>
-										<ingredient	quantity="3"	item_name="Silver mineral"					/>
-										<ingredient	quantity="2"	item_name="Leather straps"					/>
-										<ingredient	quantity="2"	item_name="Monstrous tongue"				/>
+		<ingredients>					<ingredient	quantity="5"	item_name="Leather"							/>
+										<ingredient	quantity="4"	item_name="Dark iron ore"					/>
+										<ingredient	quantity="6"	item_name="Silver mineral"					/>
+										<ingredient	quantity="5"	item_name="Leather straps"					/>
+										<ingredient	quantity="5"	item_name="Monstrous tongue"				/>
 		</ingredients>
 	</schematic>
 
@@ -6163,11 +6161,11 @@
 		price							="190"
 	>
 		<ingredients>					<ingredient	quantity="1"	item_name="Bear Gloves 1"					/>
-										<ingredient	quantity="2"	item_name="Leather"							/>
-										<ingredient	quantity="1"	item_name="Dark iron ore"					/>
-										<ingredient	quantity="3"	item_name="Silver mineral"					/>
-										<ingredient	quantity="2"	item_name="Leather straps"					/>
-										<ingredient	quantity="2"	item_name="Monstrous tongue"				/>
+										<ingredient	quantity="5"	item_name="Leather"							/>
+										<ingredient	quantity="4"	item_name="Dark iron ore"					/>
+										<ingredient	quantity="6"	item_name="Silver mineral"					/>
+										<ingredient	quantity="5"	item_name="Leather straps"					/>
+										<ingredient	quantity="5"	item_name="Monstrous tongue"				/>
 		</ingredients>
 	</schematic>
 	
@@ -6179,10 +6177,10 @@
 		price							="190"
 	>
 		<ingredients>					<ingredient	quantity="1"	item_name="Bear Gloves 2"					/>
-										<ingredient	quantity="6"	item_name="Leather squares"					/>
-										<ingredient	quantity="1"	item_name="Dark steel ingot"				/>
-										<ingredient	quantity="1"	item_name="Meteorite ore"					/>
-										<ingredient	quantity="4"	item_name="Monstrous tooth"					/>
+										<ingredient	quantity="9"	item_name="Leather squares"					/>
+										<ingredient	quantity="4"	item_name="Dark steel ingot"				/>
+										<ingredient	quantity="4"	item_name="Meteorite ore"					/>
+										<ingredient	quantity="7"	item_name="Monstrous tooth"					/>
 		</ingredients>
 	</schematic>
 	
@@ -6194,10 +6192,10 @@
 		price							="190"
 	>
 		<ingredients>					<ingredient	quantity="1"	item_name="Bear Gloves 3"					/>
-										<ingredient	quantity="6"	item_name="Leather squares"					/>
-										<ingredient	quantity="1"	item_name="Dark steel ingot"				/>
-										<ingredient	quantity="1"	item_name="Meteorite ore"					/>
-										<ingredient	quantity="4"	item_name="Monstrous tooth"					/>
+										<ingredient	quantity="9"	item_name="Leather squares"					/>
+										<ingredient	quantity="4"	item_name="Dark steel ingot"				/>
+										<ingredient	quantity="4"	item_name="Meteorite ore"					/>
+										<ingredient	quantity="7"	item_name="Monstrous tooth"					/>
 		</ingredients>
 	</schematic>
 
@@ -6208,11 +6206,11 @@
 		craftsmanType_name				="Armorer"
 		price							="152"
 	>
-		<ingredients>					<ingredient	quantity="2"	item_name="Silk"							/>
-										<ingredient	quantity="1"	item_name="Leather"							/>
-										<ingredient	quantity="5"	item_name="Silver mineral"					/>
-										<ingredient	quantity="2"	item_name="Leather squares"					/>
-										<ingredient	quantity="1"	item_name="Monstrous liver"					/>
+		<ingredients>					<ingredient	quantity="5"	item_name="Silk"							/>
+										<ingredient	quantity="4"	item_name="Leather"							/>
+										<ingredient	quantity="8"	item_name="Silver mineral"					/>
+										<ingredient	quantity="5"	item_name="Leather squares"					/>
+										<ingredient	quantity="4"	item_name="Monstrous liver"					/>
 		</ingredients>
 	</schematic>
 
@@ -6224,11 +6222,11 @@
 		price							="171"
 	>
 		<ingredients>					<ingredient	quantity="1"	item_name="Bear Pants 1"					/>
-										<ingredient	quantity="2"	item_name="Silk"							/>
-										<ingredient	quantity="1"	item_name="Leather"							/>
-										<ingredient	quantity="5"	item_name="Silver mineral"					/>
-										<ingredient	quantity="2"	item_name="Leather squares"					/>
-										<ingredient	quantity="1"	item_name="Monstrous liver"					/>
+										<ingredient	quantity="5"	item_name="Silk"							/>
+										<ingredient	quantity="4"	item_name="Leather"							/>
+										<ingredient	quantity="8"	item_name="Silver mineral"					/>
+										<ingredient	quantity="5"	item_name="Leather squares"					/>
+										<ingredient	quantity="4"	item_name="Monstrous liver"					/>
 		</ingredients>
 	</schematic>
 	
@@ -6240,10 +6238,10 @@
 		price							="171"
 	>
 		<ingredients>					<ingredient	quantity="1"	item_name="Bear Pants 2"					/>
-										<ingredient	quantity="2"	item_name="Silk"							/>
-										<ingredient	quantity="1"	item_name="Hardened leather"				/>
-										<ingredient	quantity="1"	item_name="Dark steel ingot"				/>
-										<ingredient	quantity="1"	item_name="Monstrous brain"					/>
+										<ingredient	quantity="5"	item_name="Silk"							/>
+										<ingredient	quantity="4"	item_name="Hardened leather"				/>
+										<ingredient	quantity="4"	item_name="Dark steel ingot"				/>
+										<ingredient	quantity="4"	item_name="Monstrous brain"					/>
 		</ingredients>
 	</schematic>
 	
@@ -6255,10 +6253,10 @@
 		price							="171"
 	>
 		<ingredients>					<ingredient	quantity="1"	item_name="Bear Pants 3"					/>
-										<ingredient	quantity="2"	item_name="Silk"							/>
-										<ingredient	quantity="1"	item_name="Hardened leather"				/>
-										<ingredient	quantity="1"	item_name="Dark steel ingot"				/>
-										<ingredient	quantity="1"	item_name="Monstrous brain"					/>
+										<ingredient	quantity="5"	item_name="Silk"							/>
+										<ingredient	quantity="4"	item_name="Hardened leather"				/>
+										<ingredient	quantity="4"	item_name="Dark steel ingot"				/>
+										<ingredient	quantity="4"	item_name="Monstrous brain"					/>
 		</ingredients>
 	</schematic>
 
@@ -6269,11 +6267,11 @@
 		craftsmanType_name				="Armorer"
 		price							="150"
 	>
-		<ingredients>					<ingredient	quantity="2"	item_name="Hardened leather"				/>
-										<ingredient	quantity="1"	item_name="Dark iron ore"					/>
-										<ingredient	quantity="2"	item_name="String"							/>
-										<ingredient	quantity="1"	item_name="Fur square"						/>
-										<ingredient	quantity="1"	item_name="Monstrous blood"					/>
+		<ingredients>					<ingredient	quantity="5"	item_name="Hardened leather"				/>
+										<ingredient	quantity="4"	item_name="Dark iron ore"					/>
+										<ingredient	quantity="5"	item_name="String"							/>
+										<ingredient	quantity="4"	item_name="Fur square"						/>
+										<ingredient	quantity="4"	item_name="Monstrous blood"					/>
 		</ingredients>
 	</schematic>
 
@@ -6285,11 +6283,11 @@
 		price							="190"
 	>
 		<ingredients>					<ingredient	quantity="1"	item_name="Bear Boots 1"					/>
-										<ingredient	quantity="2"	item_name="Hardened leather"				/>
-										<ingredient	quantity="1"	item_name="Dark iron ore"					/>
-										<ingredient	quantity="2"	item_name="String"							/>
-										<ingredient	quantity="1"	item_name="Fur square"						/>
-										<ingredient	quantity="1"	item_name="Monstrous blood"					/>
+										<ingredient	quantity="5"	item_name="Hardened leather"				/>
+										<ingredient	quantity="4"	item_name="Dark iron ore"					/>
+										<ingredient	quantity="5"	item_name="String"							/>
+										<ingredient	quantity="4"	item_name="Fur square"						/>
+										<ingredient	quantity="4"	item_name="Monstrous blood"					/>
 		</ingredients>
 	</schematic>
 	
@@ -6301,10 +6299,10 @@
 		price							="190"
 	>
 		<ingredients>					<ingredient	quantity="1"	item_name="Bear Boots 2"					/>
-										<ingredient	quantity="1"	item_name="Hardened leather"				/>
-										<ingredient	quantity="1"	item_name="Dark steel plate"				/>
-										<ingredient	quantity="2"	item_name="Leather squares"					/>
-										<ingredient	quantity="2"	item_name="Monstrous claw"					/>
+										<ingredient	quantity="4"	item_name="Hardened leather"				/>
+										<ingredient	quantity="4"	item_name="Dark steel plate"				/>
+										<ingredient	quantity="5"	item_name="Leather squares"					/>
+										<ingredient	quantity="5"	item_name="Monstrous claw"					/>
 		</ingredients>
 	</schematic>
 	
@@ -6316,10 +6314,10 @@
 		price							="190"
 	>
 		<ingredients>					<ingredient	quantity="1"	item_name="Bear Boots 3"					/>
-										<ingredient	quantity="1"	item_name="Hardened leather"				/>
-										<ingredient	quantity="1"	item_name="Dark steel plate"				/>
-										<ingredient	quantity="2"	item_name="Leather squares"					/>
-										<ingredient	quantity="2"	item_name="Monstrous claw"					/>
+										<ingredient	quantity="4"	item_name="Hardened leather"				/>
+										<ingredient	quantity="4"	item_name="Dark steel plate"				/>
+										<ingredient	quantity="5"	item_name="Leather squares"					/>
+										<ingredient	quantity="5"	item_name="Monstrous claw"					/>
 		</ingredients>
 	</schematic>
 
@@ -6332,9 +6330,9 @@
 		craftsmanType_name				="Armorer"
 		price							="60"
 	>
-		<ingredients>					<ingredient	quantity="2"	item_name="Leather squares"					/>
-										<ingredient	quantity="1"	item_name="Leather"							/>
-										<ingredient	quantity="3"	item_name="Thread"							/>
+		<ingredients>					<ingredient	quantity="5"	item_name="Leather squares"					/>
+										<ingredient	quantity="4"	item_name="Leather"							/>
+										<ingredient	quantity="6"	item_name="Thread"							/>
 		</ingredients>
 	</schematic>
 
@@ -6345,9 +6343,9 @@
 		craftsmanType_name				="Armorer"
 		price							="76"
 	>
-		<ingredients>					<ingredient	quantity="4"	item_name="Leather squares"					/>
-										<ingredient	quantity="1"	item_name="Leather"							/>
-										<ingredient	quantity="3"	item_name="Thread"							/>
+		<ingredients>					<ingredient	quantity="7"	item_name="Leather squares"					/>
+										<ingredient	quantity="4"	item_name="Leather"							/>
+										<ingredient	quantity="6"	item_name="Thread"							/>
 		</ingredients>
 	</schematic>
 
@@ -6358,9 +6356,9 @@
 		craftsmanType_name				="Armorer"
 		price							="100"
 	>
-		<ingredients>					<ingredient	quantity="3"	item_name="Leather squares"					/>
-										<ingredient	quantity="2"	item_name="Leather"							/>
-										<ingredient	quantity="3"	item_name="Thread"							/>
+		<ingredients>					<ingredient	quantity="6"	item_name="Leather squares"					/>
+										<ingredient	quantity="5"	item_name="Leather"							/>
+										<ingredient	quantity="6"	item_name="Thread"							/>
 		</ingredients>
 	</schematic>
 	
@@ -6371,9 +6369,9 @@
 		craftsmanType_name				="Armorer"
 		price							="84"
 	>
-		<ingredients>					<ingredient	quantity="4"	item_name="Leather squares"					/>
-										<ingredient	quantity="1"	item_name="Hardened leather"				/>
-										<ingredient	quantity="3"	item_name="Thread"							/>
+		<ingredients>					<ingredient	quantity="7"	item_name="Leather squares"					/>
+										<ingredient	quantity="4"	item_name="Hardened leather"				/>
+										<ingredient	quantity="6"	item_name="Thread"							/>
 		</ingredients>
 	</schematic>
 
@@ -6384,9 +6382,9 @@
 		craftsmanType_name				="Armorer"
 		price							="80"
 	>
-		<ingredients>					<ingredient	quantity="2"	item_name="Leather"							/>
-										<ingredient	quantity="2"	item_name="Steel ingot"						/>
-										<ingredient	quantity="1"	item_name="Thread"							/>
+		<ingredients>					<ingredient	quantity="5"	item_name="Leather"							/>
+										<ingredient	quantity="5"	item_name="Steel ingot"						/>
+										<ingredient	quantity="4"	item_name="Thread"							/>
 		</ingredients>
 	</schematic>
 	
@@ -6397,10 +6395,10 @@
 		craftsmanType_name				="Armorer"
 		price							="107"
 	>
-		<ingredients>					<ingredient	quantity="2"	item_name="Leather"							/>
-										<ingredient	quantity="2"	item_name="Steel ingot"						/>
-										<ingredient	quantity="2"	item_name="Thread"							/>
-										<ingredient	quantity="1"	item_name="Dark iron ore"					/>
+		<ingredients>					<ingredient	quantity="5"	item_name="Leather"							/>
+										<ingredient	quantity="5"	item_name="Steel ingot"						/>
+										<ingredient	quantity="5"	item_name="Thread"							/>
+										<ingredient	quantity="4"	item_name="Dark iron ore"					/>
 		</ingredients>
 	</schematic>
 	
@@ -6411,10 +6409,10 @@
 		craftsmanType_name				="Armorer"
 		price							="134"
 	>
-		<ingredients>					<ingredient	quantity="2"	item_name="Leather"							/>
-										<ingredient	quantity="2"	item_name="Steel ingot"						/>
-										<ingredient	quantity="3"	item_name="Thread"							/>
-										<ingredient	quantity="2"	item_name="Dark iron ore"					/>
+		<ingredients>					<ingredient	quantity="5"	item_name="Leather"							/>
+										<ingredient	quantity="5"	item_name="Steel ingot"						/>
+										<ingredient	quantity="6"	item_name="Thread"							/>
+										<ingredient	quantity="5"	item_name="Dark iron ore"					/>
 		</ingredients>
 	</schematic>
 	
@@ -6425,9 +6423,9 @@
 		craftsmanType_name				="Armorer"
 		price							="144"
 	>
-		<ingredients>					<ingredient	quantity="1"	item_name="Leather"							/>
-										<ingredient	quantity="2"	item_name="Dark steel ingot"				/>
-										<ingredient	quantity="1"	item_name="String"							/>
+		<ingredients>					<ingredient	quantity="4"	item_name="Leather"							/>
+										<ingredient	quantity="5"	item_name="Dark steel ingot"				/>
+										<ingredient	quantity="4"	item_name="String"							/>
 		</ingredients>
 	</schematic>
 
@@ -6440,10 +6438,10 @@
 		craftsmanType_name				="Armorer"
 		price							="60"
 	>
-		<ingredients>					<ingredient	quantity="2"	item_name="Linen"							/>
-										<ingredient	quantity="1"	item_name="Leather squares"					/>
-										<ingredient	quantity="3"	item_name="Thread"							/>
-										<ingredient	quantity="1"	item_name="String"							/>
+		<ingredients>					<ingredient	quantity="5"	item_name="Linen"							/>
+										<ingredient	quantity="4"	item_name="Leather squares"					/>
+										<ingredient	quantity="6"	item_name="Thread"							/>
+										<ingredient	quantity="4"	item_name="String"							/>
 		</ingredients>
 	</schematic>
 	
@@ -6454,10 +6452,10 @@
 		craftsmanType_name				="Armorer"
 		price							="64"
 	>
-		<ingredients>					<ingredient	quantity="2"	item_name="Linen"							/>
-										<ingredient	quantity="2"	item_name="Leather straps"					/>
-										<ingredient	quantity="4"	item_name="Thread"							/>
-										<ingredient	quantity="1"	item_name="Twine"							/>
+		<ingredients>					<ingredient	quantity="5"	item_name="Linen"							/>
+										<ingredient	quantity="5"	item_name="Leather straps"					/>
+										<ingredient	quantity="7"	item_name="Thread"							/>
+										<ingredient	quantity="4"	item_name="Twine"							/>
 		</ingredients>
 	</schematic>
 	
@@ -6468,11 +6466,11 @@
 		craftsmanType_name				="Armorer"
 		price							="78"
 	>
-		<ingredients>					<ingredient	quantity="3"	item_name="Linen"							/>
-										<ingredient	quantity="1"	item_name="Leather squares"					/>
-										<ingredient	quantity="2"	item_name="Timber"							/>
-										<ingredient	quantity="2"	item_name="Leather straps"					/>
-										<ingredient	quantity="1"	item_name="String"							/>
+		<ingredients>					<ingredient	quantity="6"	item_name="Linen"							/>
+										<ingredient	quantity="4"	item_name="Leather squares"					/>
+										<ingredient	quantity="5"	item_name="Timber"							/>
+										<ingredient	quantity="5"	item_name="Leather straps"					/>
+										<ingredient	quantity="4"	item_name="String"							/>
 		</ingredients>
 	</schematic>
 
@@ -6483,10 +6481,10 @@
 		craftsmanType_name				="Armorer"
 		price							="80"
 	>
-		<ingredients>					<ingredient	quantity="2"	item_name="Linen"							/>
-										<ingredient	quantity="1"	item_name="Leather"							/>
-										<ingredient	quantity="4"	item_name="Leather straps"					/>
-										<ingredient	quantity="1"	item_name="String"							/>
+		<ingredients>					<ingredient	quantity="5"	item_name="Linen"							/>
+										<ingredient	quantity="4"	item_name="Leather"							/>
+										<ingredient	quantity="7"	item_name="Leather straps"					/>
+										<ingredient	quantity="4"	item_name="String"							/>
 		</ingredients>
 	</schematic>
 
@@ -6497,11 +6495,11 @@
 		craftsmanType_name				="Armorer"
 		price							="102"
 	>
-		<ingredients>					<ingredient	quantity="2"	item_name="Linen"							/>
-										<ingredient	quantity="1"	item_name="Steel plate"						/>
-										<ingredient	quantity="1"	item_name="Dark iron ingot"					/>
-										<ingredient	quantity="2"	item_name="Leather straps"					/>
-										<ingredient	quantity="1"	item_name="String"							/>
+		<ingredients>					<ingredient	quantity="5"	item_name="Linen"							/>
+										<ingredient	quantity="4"	item_name="Steel plate"						/>
+										<ingredient	quantity="4"	item_name="Dark iron ingot"					/>
+										<ingredient	quantity="5"	item_name="Leather straps"					/>
+										<ingredient	quantity="4"	item_name="String"							/>
 		</ingredients>
 	</schematic>
 	
@@ -6512,9 +6510,9 @@
 		craftsmanType_name				="Armorer"
 		price							="136"
 	>
-		<ingredients>					<ingredient	quantity="2"	item_name="Linen"							/>
-										<ingredient	quantity="2"	item_name="Dark iron ingot"					/>
-										<ingredient	quantity="2"	item_name="Leather straps"					/>
+		<ingredients>					<ingredient	quantity="5"	item_name="Linen"							/>
+										<ingredient	quantity="5"	item_name="Dark iron ingot"					/>
+										<ingredient	quantity="5"	item_name="Leather straps"					/>
 		</ingredients>
 	</schematic>
 	
@@ -6525,9 +6523,9 @@
 		craftsmanType_name				="Armorer"
 		price							="176"
 	>
-		<ingredients>					<ingredient	quantity="2"	item_name="Linen"							/>
-										<ingredient	quantity="3"	item_name="Dark iron ingot"					/>
-										<ingredient	quantity="3"	item_name="Leather straps"					/>
+		<ingredients>					<ingredient	quantity="5"	item_name="Linen"							/>
+										<ingredient	quantity="6"	item_name="Dark iron ingot"					/>
+										<ingredient	quantity="6"	item_name="Leather straps"					/>
 		</ingredients>
 	</schematic>
 	
@@ -6538,10 +6536,10 @@
 		craftsmanType_name				="Armorer"
 		price							="198"
 	>
-		<ingredients>					<ingredient	quantity="3"	item_name="Linen"							/>
-										<ingredient	quantity="1"	item_name="Hardened leather"				/>
-										<ingredient	quantity="1"	item_name="Dark steel plate"				/>
-										<ingredient	quantity="3"	item_name="Leather straps"					/>
+		<ingredients>					<ingredient	quantity="6"	item_name="Linen"							/>
+										<ingredient	quantity="4"	item_name="Hardened leather"				/>
+										<ingredient	quantity="4"	item_name="Dark steel plate"				/>
+										<ingredient	quantity="6"	item_name="Leather straps"					/>
 		</ingredients>
 	</schematic>
 
@@ -6554,10 +6552,10 @@
 		craftsmanType_name				="Armorer"
 		price							="76"
 	>
-		<ingredients>					<ingredient	quantity="1"	item_name="Linen"							/>
-										<ingredient	quantity="4"	item_name="Leather squares"					/>
-										<ingredient	quantity="3"	item_name="Thread"							/>
-										<ingredient	quantity="2"	item_name="String"							/>
+		<ingredients>					<ingredient	quantity="4"	item_name="Linen"							/>
+										<ingredient	quantity="7"	item_name="Leather squares"					/>
+										<ingredient	quantity="6"	item_name="Thread"							/>
+										<ingredient	quantity="5"	item_name="String"							/>
 		</ingredients>
 	</schematic>
 
@@ -6568,9 +6566,9 @@
 		craftsmanType_name				="Armorer"
 		price							="60"
 	>
-		<ingredients>					<ingredient	quantity="1"	item_name="Leather"							/>
-										<ingredient	quantity="2"	item_name="Leather squares"					/>
-										<ingredient	quantity="3"	item_name="Thread"							/>
+		<ingredients>					<ingredient	quantity="4"	item_name="Leather"							/>
+										<ingredient	quantity="5"	item_name="Leather squares"					/>
+										<ingredient	quantity="6"	item_name="Thread"							/>
 		</ingredients>
 	</schematic>
 
@@ -6581,9 +6579,9 @@
 		craftsmanType_name				="Armorer"
 		price							="72"
 	>
-		<ingredients>					<ingredient	quantity="1"	item_name="Leather"							/>
-										<ingredient	quantity="3"	item_name="Leather squares"					/>
-										<ingredient	quantity="4"	item_name="Thread"							/>
+		<ingredients>					<ingredient	quantity="4"	item_name="Leather"							/>
+										<ingredient	quantity="6"	item_name="Leather squares"					/>
+										<ingredient	quantity="7"	item_name="Thread"							/>
 		</ingredients>
 	</schematic>
 
@@ -6594,10 +6592,10 @@
 		craftsmanType_name				="Armorer"
 		price							="92"
 	>
-		<ingredients>					<ingredient	quantity="1"	item_name="Leather"							/>
-										<ingredient	quantity="4"	item_name="Leather squares"					/>
-										<ingredient	quantity="3"	item_name="Thread"							/>
-										<ingredient	quantity="2"	item_name="String"							/>
+		<ingredients>					<ingredient	quantity="4"	item_name="Leather"							/>
+										<ingredient	quantity="7"	item_name="Leather squares"					/>
+										<ingredient	quantity="6"	item_name="Thread"							/>
+										<ingredient	quantity="5"	item_name="String"							/>
 		</ingredients>
 	</schematic>
 
@@ -6608,11 +6606,11 @@
 		craftsmanType_name				="Armorer"
 		price							="156"
 	>
-		<ingredients>					<ingredient	quantity="2"	item_name="Leather"							/>
-										<ingredient	quantity="2"	item_name="Meteorite ore"					/>
-										<ingredient	quantity="3"	item_name="Thread"							/>
-										<ingredient	quantity="2"	item_name="String"							/>
-										<ingredient	quantity="2"	item_name="Oil"								/>
+		<ingredients>					<ingredient	quantity="5"	item_name="Leather"							/>
+										<ingredient	quantity="5"	item_name="Meteorite ore"					/>
+										<ingredient	quantity="6"	item_name="Thread"							/>
+										<ingredient	quantity="5"	item_name="String"							/>
+										<ingredient	quantity="5"	item_name="Oil"								/>
 		</ingredients>
 	</schematic>
 	
@@ -6623,10 +6621,10 @@
 		craftsmanType_name				="Armorer"
 		price							="106"
 	>
-		<ingredients>					<ingredient	quantity="2"	item_name="Leather"							/>
-										<ingredient	quantity="3"	item_name="Leather squares"					/>
-										<ingredient	quantity="4"	item_name="Thread"							/>
-										<ingredient	quantity="1"	item_name="Oil"								/>
+		<ingredients>					<ingredient	quantity="5"	item_name="Leather"							/>
+										<ingredient	quantity="6"	item_name="Leather squares"					/>
+										<ingredient	quantity="7"	item_name="Thread"							/>
+										<ingredient	quantity="4"	item_name="Oil"								/>
 		</ingredients>
 	</schematic>
 
@@ -6637,10 +6635,10 @@
 		craftsmanType_name				="Armorer"
 		price							="86"
 	>
-		<ingredients>					<ingredient	quantity="1"	item_name="Hardened leather"				/>
-										<ingredient	quantity="3"	item_name="Leather squares"					/>
-										<ingredient	quantity="4"	item_name="Thread"							/>
-										<ingredient	quantity="1"	item_name="Steel ingot"						/>
+		<ingredients>					<ingredient	quantity="4"	item_name="Hardened leather"				/>
+										<ingredient	quantity="6"	item_name="Leather squares"					/>
+										<ingredient	quantity="7"	item_name="Thread"							/>
+										<ingredient	quantity="4"	item_name="Steel ingot"						/>
 		</ingredients>
 	</schematic>
 	
@@ -6651,10 +6649,10 @@
 		craftsmanType_name				="Armorer"
 		price							="90"
 	>
-		<ingredients>					<ingredient	quantity="1"	item_name="Hardened leather"				/>
-										<ingredient	quantity="4"	item_name="Leather squares"					/>
-										<ingredient	quantity="4"	item_name="Thread"							/>
-										<ingredient	quantity="1"	item_name="Oil"								/>
+		<ingredients>					<ingredient	quantity="4"	item_name="Hardened leather"				/>
+										<ingredient	quantity="7"	item_name="Leather squares"					/>
+										<ingredient	quantity="7"	item_name="Thread"							/>
+										<ingredient	quantity="4"	item_name="Oil"								/>
 		</ingredients>
 	</schematic>
 	
@@ -6665,10 +6663,10 @@
 		craftsmanType_name				="Armorer"
 		price							="150"
 	>
-		<ingredients>					<ingredient	quantity="4"	item_name="Leather squares"					/>
-										<ingredient	quantity="3"	item_name="Thread"							/>
-										<ingredient	quantity="1"	item_name="Dark steel plate"				/>
-										<ingredient	quantity="1"	item_name="Oil"								/>
+		<ingredients>					<ingredient	quantity="7"	item_name="Leather squares"					/>
+										<ingredient	quantity="6"	item_name="Thread"							/>
+										<ingredient	quantity="4"	item_name="Dark steel plate"				/>
+										<ingredient	quantity="4"	item_name="Oil"								/>
 		</ingredients>
 	</schematic>
 
@@ -6679,10 +6677,10 @@
 		craftsmanType_name				="Armorer"
 		price							="140"
 	>
-		<ingredients>					<ingredient	quantity="1"	item_name="Hardened leather"				/>
-										<ingredient	quantity="4"	item_name="Leather squares"					/>
-										<ingredient	quantity="4"	item_name="Thread"							/>
-										<ingredient	quantity="1"	item_name="Dark steel ingot"				/>
+		<ingredients>					<ingredient	quantity="4"	item_name="Hardened leather"				/>
+										<ingredient	quantity="7"	item_name="Leather squares"					/>
+										<ingredient	quantity="7"	item_name="Thread"							/>
+										<ingredient	quantity="4"	item_name="Dark steel ingot"				/>
 		</ingredients>
 	</schematic>
 	
@@ -6693,11 +6691,11 @@
 		craftsmanType_name				="Armorer"
 		price							="206"
 	>
-		<ingredients>					<ingredient	quantity="1"	item_name="Leather"							/>
-										<ingredient	quantity="1"	item_name="Leather squares"					/>
-										<ingredient	quantity="2"	item_name="Thread"							/>
-										<ingredient	quantity="3"	item_name="Dark steel ingot"				/>
-										<ingredient	quantity="1"	item_name="Leather straps"					/>
+		<ingredients>					<ingredient	quantity="4"	item_name="Leather"							/>
+										<ingredient	quantity="4"	item_name="Leather squares"					/>
+										<ingredient	quantity="5"	item_name="Thread"							/>
+										<ingredient	quantity="6"	item_name="Dark steel ingot"				/>
+										<ingredient	quantity="4"	item_name="Leather straps"					/>
 		</ingredients>
 	</schematic>
 
@@ -6710,7 +6708,7 @@
 		craftsmanType_name				="Crafter"
 		price							="4"
 	>
-		<ingredients>					<ingredient	quantity="2"	item_name="Cotton"							/>
+		<ingredients>					<ingredient	quantity="5"	item_name="Cotton"							/>
 		</ingredients>
 	</schematic>
 
@@ -6721,7 +6719,7 @@
 		craftsmanType_name				="Crafter"
 		price							="8"
 	>
-		<ingredients>					<ingredient	quantity="2"	item_name="Thread"							/>
+		<ingredients>					<ingredient	quantity="5"	item_name="Thread"							/>
 		</ingredients>
 	</schematic>
 
@@ -6732,7 +6730,7 @@
 		craftsmanType_name				="Crafter"
 		price							="16"
 	>
-		<ingredients>					<ingredient	quantity="4"	item_name="Thread"							/>
+		<ingredients>					<ingredient	quantity="7"	item_name="Thread"							/>
 		</ingredients>
 	</schematic>
 
@@ -6743,7 +6741,7 @@
 		craftsmanType_name				="Crafter"
 		price							="32"
 	>
-		<ingredients>					<ingredient	quantity="2"	item_name="Linen"							/>
+		<ingredients>					<ingredient	quantity="5"	item_name="Linen"							/>
 		</ingredients>
 	</schematic>
 
@@ -6754,7 +6752,7 @@
 		craftsmanType_name				="Crafter"
 		price							="2"
 	>
-		<ingredients>					<ingredient	quantity="2"	item_name="Sap"								/>
+		<ingredients>					<ingredient	quantity="5"	item_name="Sap"								/>
 		</ingredients>
 	</schematic>
 
@@ -6765,8 +6763,8 @@
 		craftsmanType_name				="Crafter"
 		price							="12"
 	>
-		<ingredients>					<ingredient	quantity="2"	item_name="Timber"							/>
-										<ingredient	quantity="1"	item_name="Resin"							/>
+		<ingredients>					<ingredient	quantity="5"	item_name="Timber"							/>
+										<ingredient	quantity="4"	item_name="Resin"							/>
 		</ingredients>
 	</schematic>
 
@@ -6777,7 +6775,7 @@
 		craftsmanType_name				="Crafter"
 		price							="12"
 	>
-		<ingredients>					<ingredient	quantity="1"	item_name="Hardened timber"					/>
+		<ingredients>					<ingredient	quantity="4"	item_name="Hardened timber"					/>
 		</ingredients>
 	</schematic>
 
@@ -6788,7 +6786,7 @@
 		craftsmanType_name				="Crafter"
 		price							="8"
 	>
-		<ingredients>					<ingredient	quantity="4"	item_name="Leather straps"					/>
+		<ingredients>					<ingredient	quantity="7"	item_name="Leather straps"					/>
 		</ingredients>
 	</schematic>
 
@@ -6799,7 +6797,7 @@
 		craftsmanType_name				="Crafter"
 		price							="32"
 	>
-		<ingredients>					<ingredient	quantity="4"	item_name="Leather squares"					/>
+		<ingredients>					<ingredient	quantity="7"	item_name="Leather squares"					/>
 		</ingredients>
 	</schematic>
 
@@ -6810,8 +6808,8 @@
 		craftsmanType_name				="Crafter"
 		price							="40"
 	>
-		<ingredients>					<ingredient	quantity="1"	item_name="Leather"							/>
-										<ingredient	quantity="4"	item_name="Wax"								/>
+		<ingredients>					<ingredient	quantity="4"	item_name="Leather"							/>
+										<ingredient	quantity="7"	item_name="Wax"								/>
 		</ingredients>
 	</schematic>
 
@@ -6822,8 +6820,8 @@
 		craftsmanType_name				="Crafter"
 		price							="180"
 	>
-		<ingredients>					<ingredient	quantity="2"	item_name="Hardened leather"				/>
-										<ingredient	quantity="5"	item_name="Chitin scale"					/>
+		<ingredients>					<ingredient	quantity="5"	item_name="Hardened leather"				/>
+										<ingredient	quantity="8"	item_name="Chitin scale"					/>
 		</ingredients>
 	</schematic>
 
@@ -6834,9 +6832,9 @@
 		craftsmanType_name				="Crafter"
 		price							="62"
 	>
-		<ingredients>					<ingredient	quantity="1"	item_name="Sulfur"							/>
-										<ingredient	quantity="1"	item_name="Coal"							/>
-										<ingredient	quantity="5"	item_name="Saltpetre"						/>
+		<ingredients>					<ingredient	quantity="4"	item_name="Sulfur"							/>
+										<ingredient	quantity="4"	item_name="Coal"							/>
+										<ingredient	quantity="8"	item_name="Saltpetre"						/>
 		</ingredients>
 	</schematic>
 
@@ -6847,7 +6845,7 @@
 		craftsmanType_name				="Crafter"
 		price							="4"
 	>
-		<ingredients>					<ingredient	quantity="2"	item_name="Iron ore"						/>
+		<ingredients>					<ingredient	quantity="5"	item_name="Iron ore"						/>
 		</ingredients>
 	</schematic>
 
@@ -6858,8 +6856,8 @@
 		craftsmanType_name				="Crafter"
 		price							="6"
 	>
-		<ingredients>					<ingredient	quantity="2"	item_name="Iron ore"						/>
-										<ingredient	quantity="1"	item_name="Coal"							/>
+		<ingredients>					<ingredient	quantity="5"	item_name="Iron ore"						/>
+										<ingredient	quantity="4"	item_name="Coal"							/>
 		</ingredients>
 	</schematic>
 
@@ -6870,8 +6868,8 @@
 		craftsmanType_name				="Crafter"
 		price							="6"
 	>
-		<ingredients>					<ingredient	quantity="1"	item_name="Iron ingot"						/>
-										<ingredient	quantity="1"	item_name="Coal"							/>
+		<ingredients>					<ingredient	quantity="4"	item_name="Iron ingot"						/>
+										<ingredient	quantity="4"	item_name="Coal"							/>
 		</ingredients>
 	</schematic>
 
@@ -6882,7 +6880,7 @@
 		craftsmanType_name				="Crafter"
 		price							="12"
 	>
-		<ingredients>					<ingredient	quantity="2"	item_name="Steel ingot"						/>
+		<ingredients>					<ingredient	quantity="5"	item_name="Steel ingot"						/>
 		</ingredients>
 	</schematic>
 
@@ -6893,7 +6891,7 @@
 		craftsmanType_name				="Crafter"
 		price							="46"
 	>
-		<ingredients>					<ingredient	quantity="2"	item_name="Dark iron ore"					/>
+		<ingredients>					<ingredient	quantity="5"	item_name="Dark iron ore"					/>
 		</ingredients>
 	</schematic>
 
@@ -6905,7 +6903,7 @@
 		craftsmanType_name				="Crafter"
 		price							="92"
 	>
-		<ingredients>					<ingredient	quantity="2"	item_name="Dark iron ingot"					/>
+		<ingredients>					<ingredient	quantity="5"	item_name="Dark iron ingot"					/>
 		</ingredients>
 	</schematic>
 -->
@@ -6917,8 +6915,8 @@
 		craftsmanType_name				="Crafter"
 		price							="52"
 	>
-		<ingredients>					<ingredient	quantity="2"	item_name="Dark iron ore"					/>
-										<ingredient	quantity="1"	item_name="Steel ingot"						/>
+		<ingredients>					<ingredient	quantity="5"	item_name="Dark iron ore"					/>
+										<ingredient	quantity="4"	item_name="Steel ingot"						/>
 		</ingredients>
 	</schematic>
 
@@ -6929,8 +6927,8 @@
 		craftsmanType_name				="Crafter"
 		price							="52"
 	>
-		<ingredients>					<ingredient	quantity="1"	item_name="Dark iron ingot"					/>
-										<ingredient	quantity="1"	item_name="Steel ingot"						/>
+		<ingredients>					<ingredient	quantity="4"	item_name="Dark iron ingot"					/>
+										<ingredient	quantity="4"	item_name="Steel ingot"						/>
 		</ingredients>
 	</schematic>
 
@@ -6941,7 +6939,7 @@
 		craftsmanType_name				="Crafter"
 		price							="104"
 	>
-		<ingredients>					<ingredient	quantity="2"	item_name="Dark steel ingot"				/>
+		<ingredients>					<ingredient	quantity="5"	item_name="Dark steel ingot"				/>
 		</ingredients>
 	</schematic>
 
@@ -6952,7 +6950,7 @@
 		craftsmanType_name				="Crafter"
 		price							="25"
 	>
-		<ingredients>					<ingredient	quantity="5"	item_name="Silver mineral"					/>
+		<ingredients>					<ingredient	quantity="8"	item_name="Silver mineral"					/>
 		</ingredients>
 	</schematic>
 
@@ -6963,7 +6961,7 @@
 		craftsmanType_name				="Crafter"
 		price							="50"
 	>
-		<ingredients>					<ingredient	quantity="10"	item_name="Silver mineral"					/>
+		<ingredients>					<ingredient	quantity="15"	item_name="Silver mineral"					/>
 		</ingredients>
 	</schematic>
 
@@ -6974,7 +6972,7 @@
 		craftsmanType_name				="Crafter"
 		price							="50"
 	>
-		<ingredients>					<ingredient	quantity="2"	item_name="Silver ore"						/>
+		<ingredients>					<ingredient	quantity="5"	item_name="Silver ore"						/>
 		</ingredients>
 	</schematic>
 
@@ -6985,7 +6983,7 @@
 		craftsmanType_name				="Crafter"
 		price							="100"
 	>
-		<ingredients>					<ingredient	quantity="2"	item_name="Silver ingot"					/>
+		<ingredients>					<ingredient	quantity="5"	item_name="Silver ingot"					/>
 		</ingredients>
 	</schematic>
 
@@ -6996,7 +6994,7 @@
 		craftsmanType_name				="Crafter"
 		price							="60"
 	>
-		<ingredients>					<ingredient	quantity="2"	item_name="Meteorite ore"					/>
+		<ingredients>					<ingredient	quantity="5"	item_name="Meteorite ore"					/>
 		</ingredients>
 	</schematic>
 
@@ -7007,8 +7005,8 @@
 		craftsmanType_name				="Crafter"
 		price							="110"
 	>
-		<ingredients>					<ingredient	quantity="1"	item_name="Meteorite ingot"					/>
-										<ingredient	quantity="1"	item_name="Silver ingot"					/>
+		<ingredients>					<ingredient	quantity="4"	item_name="Meteorite ingot"					/>
+										<ingredient	quantity="4"	item_name="Silver ingot"					/>
 		</ingredients>
 	</schematic>
 
@@ -7019,7 +7017,7 @@
 		craftsmanType_name				="Crafter"
 		price							="220"
 	>
-		<ingredients>					<ingredient	quantity="2"	item_name="Meteorite silver ingot"			/>
+		<ingredients>					<ingredient	quantity="5"	item_name="Meteorite silver ingot"			/>
 		</ingredients>
 	</schematic>
 
@@ -7030,7 +7028,7 @@
 		craftsmanType_name				="Crafter"
 		price							="162"
 	>
-		<ingredients>					<ingredient	quantity="2"	item_name="Glowing ore"						/>
+		<ingredients>					<ingredient	quantity="5"	item_name="Glowing ore"						/>
 		</ingredients>
 	</schematic>
 
@@ -7041,8 +7039,8 @@
 		craftsmanType_name				="Crafter"
 		price							="162"
 	>
-		<ingredients>					<ingredient	quantity="1"	item_name="Dark steel ingot"				/>
-										<ingredient	quantity="1"	item_name="Meteorite silver ingot"			/>
+		<ingredients>					<ingredient	quantity="4"	item_name="Dark steel ingot"				/>
+										<ingredient	quantity="4"	item_name="Meteorite silver ingot"			/>
 		</ingredients>
 	</schematic>
 
@@ -7053,8 +7051,8 @@
 		craftsmanType_name				="Crafter"
 		price							="324"
 	>
-		<ingredients>					<ingredient	quantity="1"	item_name="Dwimeryte ore"					/>
-										<ingredient	quantity="1"	item_name="Glowing ingot"					/>
+		<ingredients>					<ingredient	quantity="4"	item_name="Dwimeryte ore"					/>
+										<ingredient	quantity="4"	item_name="Glowing ingot"					/>
 		</ingredients>
 	</schematic>
 
@@ -7065,7 +7063,7 @@
 		craftsmanType_name				="Crafter"
 		price							="324"
 	>
-		<ingredients>					<ingredient	quantity="2"	item_name="Dwimeryte ore"					/>
+		<ingredients>					<ingredient	quantity="5"	item_name="Dwimeryte ore"					/>
 		</ingredients>
 	</schematic>
 
@@ -7076,7 +7074,7 @@
 		craftsmanType_name				="Crafter"
 		price							="648"
 	>
-		<ingredients>					<ingredient	quantity="2"	item_name="Dwimeryte ingot"					/>
+		<ingredients>					<ingredient	quantity="5"	item_name="Dwimeryte ingot"					/>
 		</ingredients>
 	</schematic>
 
@@ -7089,8 +7087,8 @@
 		craftsmanType_name				="Crafter"
 		price							="30"
 	>
-		<ingredients>					<ingredient	quantity="1"	item_name="Monstrous dust"					/>
-										<ingredient	quantity="1"	item_name="Monstrous essence"				/>
+		<ingredients>					<ingredient	quantity="4"	item_name="Monstrous dust"					/>
+										<ingredient	quantity="4"	item_name="Monstrous essence"				/>
 		</ingredients>
 	</schematic>
 
@@ -7101,7 +7099,7 @@
 		craftsmanType_name				="Crafter"
 		price							="60"
 	>
-		<ingredients>					<ingredient	quantity="2"	item_name="Infused dust"					/>
+		<ingredients>					<ingredient	quantity="5"	item_name="Infused dust"					/>
 		</ingredients>
 	</schematic>
 
@@ -7112,7 +7110,7 @@
 		craftsmanType_name				="Crafter"
 		price							="120"
 	>
-		<ingredients>					<ingredient	quantity="2"	item_name="Infused shard"					/>
+		<ingredients>					<ingredient	quantity="5"	item_name="Infused shard"					/>
 		</ingredients>
 	</schematic>
 
@@ -7125,8 +7123,8 @@
 		craftsmanType_name				="Crafter"
 		price							="95"
 	>
-		<ingredients>					<ingredient	quantity="1"	item_name="Black pearl dust"				/>
-										<ingredient	quantity="1"	item_name="Infused dust"					/>
+		<ingredients>					<ingredient	quantity="4"	item_name="Black pearl dust"				/>
+										<ingredient	quantity="4"	item_name="Infused dust"					/>
 		</ingredients>
 	</schematic>
 	
@@ -7137,7 +7135,7 @@
 		craftsmanType_name				="Crafter"
 		price							="285"
 	>
-		<ingredients>					<ingredient	quantity="3"	item_name="Runestone lesser"				/>
+		<ingredients>					<ingredient	quantity="6"	item_name="Runestone lesser"				/>
 		</ingredients>
 	</schematic>
 
@@ -7150,8 +7148,8 @@
 		craftsmanType_name				="Crafter"
 		price							="155"
 	>
-		<ingredients>					<ingredient	quantity="1"	item_name="Runestone lesser"				/>
-										<ingredient	quantity="1"	item_name="Amethyst dust"					/>
+		<ingredients>					<ingredient	quantity="4"	item_name="Runestone lesser"				/>
+										<ingredient	quantity="4"	item_name="Amethyst dust"					/>
 		</ingredients>
 	</schematic>
 
@@ -7162,7 +7160,7 @@
 		craftsmanType_name				="Crafter"
 		price							="310"
 	>
-		<ingredients>					<ingredient	quantity="2"	item_name="Rune stribog lesser"				/>
+		<ingredients>					<ingredient	quantity="5"	item_name="Rune stribog lesser"				/>
 		</ingredients>
 	</schematic>
 
@@ -7173,7 +7171,7 @@
 		craftsmanType_name				="Crafter"
 		price							="620"
 	>
-		<ingredients>					<ingredient	quantity="2"	item_name="Rune stribog"					/>
+		<ingredients>					<ingredient	quantity="5"	item_name="Rune stribog"					/>
 		</ingredients>
 	</schematic>
 
@@ -7186,8 +7184,8 @@
 		craftsmanType_name				="Crafter"
 		price							="170"
 	>
-		<ingredients>					<ingredient	quantity="1"	item_name="Runestone lesser"				/>
-										<ingredient	quantity="1"	item_name="Amber dust"						/>
+		<ingredients>					<ingredient	quantity="4"	item_name="Runestone lesser"				/>
+										<ingredient	quantity="4"	item_name="Amber dust"						/>
 		</ingredients>
 	</schematic>
 
@@ -7198,7 +7196,7 @@
 		craftsmanType_name				="Crafter"
 		price							="340"
 	>
-		<ingredients>					<ingredient	quantity="2"	item_name="Rune dazhbog lesser"				/>
+		<ingredients>					<ingredient	quantity="5"	item_name="Rune dazhbog lesser"				/>
 		</ingredients>
 	</schematic>
 
@@ -7209,7 +7207,7 @@
 		craftsmanType_name				="Crafter"
 		price							="680"
 	>
-		<ingredients>					<ingredient	quantity="2"	item_name="Rune dazhbog"					/>
+		<ingredients>					<ingredient	quantity="5"	item_name="Rune dazhbog"					/>
 		</ingredients>
 	</schematic>
 
@@ -7222,8 +7220,8 @@
 		craftsmanType_name				="Crafter"
 		price							="195"
 	>
-		<ingredients>					<ingredient	quantity="1"	item_name="Runestone lesser"				/>
-										<ingredient	quantity="1"	item_name="Ruby dust"						/>
+		<ingredients>					<ingredient	quantity="4"	item_name="Runestone lesser"				/>
+										<ingredient	quantity="4"	item_name="Ruby dust"						/>
 		</ingredients>
 	</schematic>
 
@@ -7234,7 +7232,7 @@
 		craftsmanType_name				="Crafter"
 		price							="390"
 	>
-		<ingredients>					<ingredient	quantity="2"	item_name="Rune devana lesser"				/>
+		<ingredients>					<ingredient	quantity="5"	item_name="Rune devana lesser"				/>
 		</ingredients>
 	</schematic>
 
@@ -7245,7 +7243,7 @@
 		craftsmanType_name				="Crafter"
 		price							="780"
 	>
-		<ingredients>					<ingredient	quantity="2"	item_name="Rune devana"						/>
+		<ingredients>					<ingredient	quantity="5"	item_name="Rune devana"						/>
 		</ingredients>
 	</schematic>
 
@@ -7258,8 +7256,8 @@
 		craftsmanType_name				="Crafter"
 		price							="205"
 	>
-		<ingredients>					<ingredient	quantity="1"	item_name="Runestone lesser"				/>
-										<ingredient	quantity="1"	item_name="Sapphire dust"					/>
+		<ingredients>					<ingredient	quantity="4"	item_name="Runestone lesser"				/>
+										<ingredient	quantity="4"	item_name="Sapphire dust"					/>
 		</ingredients>
 	</schematic>
 
@@ -7270,7 +7268,7 @@
 		craftsmanType_name				="Crafter"
 		price							="410"
 	>
-		<ingredients>					<ingredient	quantity="2"	item_name="Rune zoria lesser"				/>
+		<ingredients>					<ingredient	quantity="5"	item_name="Rune zoria lesser"				/>
 		</ingredients>
 	</schematic>
 
@@ -7281,7 +7279,7 @@
 		craftsmanType_name				="Crafter"
 		price							="820"
 	>
-		<ingredients>					<ingredient	quantity="2"	item_name="Rune zoria"						/>
+		<ingredients>					<ingredient	quantity="5"	item_name="Rune zoria"						/>
 		</ingredients>
 	</schematic>
 
@@ -7294,8 +7292,8 @@
 		craftsmanType_name				="Crafter"
 		price							="220"
 	>
-		<ingredients>					<ingredient	quantity="1"	item_name="Runestone lesser"				/>
-										<ingredient	quantity="1"	item_name="Emerald dust"					/>
+		<ingredients>					<ingredient	quantity="4"	item_name="Runestone lesser"				/>
+										<ingredient	quantity="4"	item_name="Emerald dust"					/>
 		</ingredients>
 	</schematic>
 
@@ -7306,7 +7304,7 @@
 		craftsmanType_name				="Crafter"
 		price							="440"
 	>
-		<ingredients>					<ingredient	quantity="2"	item_name="Rune morana lesser"				/>
+		<ingredients>					<ingredient	quantity="5"	item_name="Rune morana lesser"				/>
 		</ingredients>
 	</schematic>
 
@@ -7317,7 +7315,7 @@
 		craftsmanType_name				="Crafter"
 		price							="880"
 	>
-		<ingredients>					<ingredient	quantity="2"	item_name="Rune morana"						/>
+		<ingredients>					<ingredient	quantity="5"	item_name="Rune morana"						/>
 		</ingredients>
 	</schematic>
 
@@ -7330,8 +7328,8 @@
 		craftsmanType_name				="Crafter"
 		price							="245"
 	>
-		<ingredients>					<ingredient	quantity="1"	item_name="Runestone lesser"				/>
-										<ingredient	quantity="1"	item_name="Diamond dust"					/>
+		<ingredients>					<ingredient	quantity="4"	item_name="Runestone lesser"				/>
+										<ingredient	quantity="4"	item_name="Diamond dust"					/>
 		</ingredients>
 	</schematic>
 
@@ -7342,7 +7340,7 @@
 		craftsmanType_name				="Crafter"
 		price							="490"
 	>
-		<ingredients>					<ingredient	quantity="2"	item_name="Rune triglav lesser"				/>
+		<ingredients>					<ingredient	quantity="5"	item_name="Rune triglav lesser"				/>
 		</ingredients>
 	</schematic>
 
@@ -7353,7 +7351,7 @@
 		craftsmanType_name				="Crafter"
 		price							="980"
 	>
-		<ingredients>					<ingredient	quantity="2"	item_name="Rune triglav"					/>
+		<ingredients>					<ingredient	quantity="5"	item_name="Rune triglav"					/>
 		</ingredients>
 	</schematic>
 
@@ -7366,8 +7364,8 @@
 		craftsmanType_name				="Crafter"
 		price							="110"
 	>
-		<ingredients>					<ingredient	quantity="1"	item_name="Runestone lesser"				/>
-										<ingredient	quantity="1"	item_name="Monstrous saliva"				/>
+		<ingredients>					<ingredient	quantity="4"	item_name="Runestone lesser"				/>
+										<ingredient	quantity="4"	item_name="Monstrous saliva"				/>
 		</ingredients>
 	</schematic>
 
@@ -7378,7 +7376,7 @@
 		craftsmanType_name				="Crafter"
 		price							="220"
 	>
-		<ingredients>					<ingredient	quantity="2"	item_name="Rune svarog lesser"				/>
+		<ingredients>					<ingredient	quantity="5"	item_name="Rune svarog lesser"				/>
 		</ingredients>
 	</schematic>
 
@@ -7389,7 +7387,7 @@
 		craftsmanType_name				="Crafter"
 		price							="440"
 	>
-		<ingredients>					<ingredient	quantity="2"	item_name="Rune svarog"						/>
+		<ingredients>					<ingredient	quantity="5"	item_name="Rune svarog"						/>
 		</ingredients>
 	</schematic>
 
@@ -7402,8 +7400,8 @@
 		craftsmanType_name				="Crafter"
 		price							="110"
 	>
-		<ingredients>					<ingredient	quantity="1"	item_name="Runestone lesser"				/>
-										<ingredient	quantity="1"	item_name="Monstrous dust"					/>
+		<ingredients>					<ingredient	quantity="4"	item_name="Runestone lesser"				/>
+										<ingredient	quantity="4"	item_name="Monstrous dust"					/>
 		</ingredients>
 	</schematic>
 
@@ -7414,7 +7412,7 @@
 		craftsmanType_name				="Crafter"
 		price							="220"
 	>
-		<ingredients>					<ingredient	quantity="2"	item_name="Rune veles lesser"				/>
+		<ingredients>					<ingredient	quantity="5"	item_name="Rune veles lesser"				/>
 		</ingredients>
 	</schematic>
 
@@ -7425,7 +7423,7 @@
 		craftsmanType_name				="Crafter"
 		price							="440"
 	>
-		<ingredients>					<ingredient	quantity="2"	item_name="Rune veles"						/>
+		<ingredients>					<ingredient	quantity="5"	item_name="Rune veles"						/>
 		</ingredients>
 	</schematic>
 
@@ -7438,8 +7436,8 @@
 		craftsmanType_name				="Crafter"
 		price							="110"
 	>
-		<ingredients>					<ingredient	quantity="1"	item_name="Runestone lesser"				/>
-										<ingredient	quantity="1"	item_name="Monstrous brain"					/>
+		<ingredients>					<ingredient	quantity="4"	item_name="Runestone lesser"				/>
+										<ingredient	quantity="4"	item_name="Monstrous brain"					/>
 		</ingredients>
 	</schematic>
 
@@ -7450,7 +7448,7 @@
 		craftsmanType_name				="Crafter"
 		price							="220"
 	>
-		<ingredients>					<ingredient	quantity="2"	item_name="Rune perun lesser"				/>
+		<ingredients>					<ingredient	quantity="5"	item_name="Rune perun lesser"				/>
 		</ingredients>
 	</schematic>
 
@@ -7461,7 +7459,7 @@
 		craftsmanType_name				="Crafter"
 		price							="440"
 	>
-		<ingredients>					<ingredient	quantity="2"	item_name="Rune perun"						/>
+		<ingredients>					<ingredient	quantity="5"	item_name="Rune perun"						/>
 		</ingredients>
 	</schematic>
 
@@ -7474,8 +7472,8 @@
 		craftsmanType_name				="Crafter"
 		price							="110"
 	>
-		<ingredients>					<ingredient	quantity="1"	item_name="Runestone lesser"				/>
-										<ingredient	quantity="1"	item_name="Monstrous essence"				/>
+		<ingredients>					<ingredient	quantity="4"	item_name="Runestone lesser"				/>
+										<ingredient	quantity="4"	item_name="Monstrous essence"				/>
 		</ingredients>
 	</schematic>
 
@@ -7486,7 +7484,7 @@
 		craftsmanType_name				="Crafter"
 		price							="220"
 	>
-		<ingredients>					<ingredient	quantity="2"	item_name="Rune elemental lesser"			/>
+		<ingredients>					<ingredient	quantity="5"	item_name="Rune elemental lesser"			/>
 		</ingredients>
 	</schematic>
 
@@ -7497,7 +7495,7 @@
 		craftsmanType_name				="Crafter"
 		price							="440"
 	>
-		<ingredients>					<ingredient	quantity="2"	item_name="Rune elemental"					/>
+		<ingredients>					<ingredient	quantity="5"	item_name="Rune elemental"					/>
 		</ingredients>
 	</schematic>
 
