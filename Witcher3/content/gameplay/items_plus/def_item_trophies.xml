@@ -47,10 +47,10 @@
 			</ability>			
 		
 			<ability name="forktail_trophy_stats">
-				<elemental_resistance_perc type="add" min="0.25"/>
-				<armor type="mult" min="0.25" />
-				<attack_power type="mult" min="-0.25" />
-				<spell_power type="mult" min="-0.25" />
+				<elemental_resistance_perc type="add" min="0.2"/>
+				<armor type="mult" min="0.2" />
+				<attack_power type="mult" min="0.2" />
+				<toxicity type="add" min="-800" />
 			</ability>	
 			
 			<ability name="wyvern_trophy_stats">
@@ -78,10 +78,11 @@
 			</ability>	
 		
 			<ability name="fiend_trophy_stats">
-				<vitality type="mult" min="0.25" />
-				<spell_power_quen type="mult" min="0.5" />
-				<critical_hit_chance type="add" min="-0.95" />
-				<attack_power type="mult" min="-0.35" />
+				<vitality type="mult" min="0.35" />
+				<critical_hit_chance type="add" min="0.15" />
+				<attack_power type="mult" min="0.35" />
+				<spell_power type="mult" min="0.35" />
+				<toxicity type="add" min="-2000" />
 			</ability>	
 			
 			<ability name="czart_trophy_stats">
@@ -120,16 +121,19 @@
 			</ability>		
 
 			<ability name="cockatrice_trophy_stats">
-				<spell_power_igni type="mult" min="0.95" />
-				<spell_power_aard type="mult" min="0.95" />
+				<toxicity type="add" min="1000" />
 				<spell_power type="mult" min="-0.5" />
+				<attack_power type="mult" min="-0.5" />
 			</ability>
 
 			<ability name="nightwraith_trophy_stats">
-				<poison_resistance_perc type="add" min="1"/>
-				<bleeding_resistance_perc type="add" min="1"/>
-				<armor type="mult" min="0.25" />
-				<spell_power type="mult" min="-0.8" />
+				<toxicity type="add" min="5000" />
+				<vitality type="mult" min="-0.5" />
+				<spell_power type="mult" min="-0.90" />
+				<attack_power type="mult" min="-0.90" />
+				<armor type="mult" min="-0.99" />
+				<elemental_resistance_perc type="add" min="-0.99"/>
+				
 				
 			</ability>
 			
@@ -137,6 +141,7 @@
 				<critical_hit_chance type="add" min="0.99" />
 				<armor type="mult" min="-0.99" />
 				<elemental_resistance_perc type="add" min="-0.99"/>
+				<toxicity type="add" min="-1000" />
 			</ability>
 			
 			<ability name="arachas_trophy_stats">
@@ -149,6 +154,7 @@
 			<ability name="gryphon_trophy_stats">
 				<spell_power_aard type="mult" min="1.25" />
 				<spell_power type="mult" min="-0.5" />
+				<toxicityRegen type="add" min="-5" />
 			</ability>
 			
 			<ability name="gryphon_mh301_trophy_stats">
@@ -166,7 +172,7 @@
 			</ability>
 			
 			<ability name="succubus_trophy_stats">
-				<spell_power_axii type="mult" min="0.75" />
+				<spell_power_axii type="mult" min="0.25" />
 				<bonus_money type="add" min="0.5"/>
 			</ability>
 
