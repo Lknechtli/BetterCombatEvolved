@@ -172,8 +172,8 @@
       <!-- difficulty levels -->
       <ability name="difficulty_CommonEasy">
         <tags>DifficultyModeAbility, Easy</tags>
-        <health_final_multiplier type="add" min="0.3" />
-        <damage_final_multiplier type="add" min="1.25" />
+        <health_final_multiplier type="add" min="0.5" />
+        <damage_final_multiplier type="add" min="1.5" />
 		<root_ground_damage_area type="base" always_random="false" min="0" max="0" />
         <root_ground_damage_area type="mult" always_random="false" min="0" />
 		<burning_resistance_perc type="add" always_random="false" min="0.3" max="0.3" />
@@ -185,24 +185,24 @@
       </ability>-->
       <ability name="difficulty_CommonMedium">
         <tags>DifficultyModeAbility, Medium</tags>
-        <health_final_multiplier type="add" min="0.5" />
-        <damage_final_multiplier type="add" min="1.75" />
+        <health_final_multiplier type="add" min="0.65" />
+        <damage_final_multiplier type="add" min="1.95" />
 		<root_ground_damage_area type="base" always_random="false" min="0" max="0" />
         <root_ground_damage_area type="mult" always_random="false" min="0" />
 		<burning_resistance_perc type="add" always_random="false" min="0.3" max="0.3" />
       </ability>
       <ability name="difficulty_CommonHard">
         <tags>DifficultyModeAbility, Hard</tags>
-        <health_final_multiplier type="add" min="0.65" />
-        <damage_final_multiplier type="add" min="2.0" />
+        <health_final_multiplier type="add" min="0.7" />
+        <damage_final_multiplier type="add" min="2.2" />
 		<root_ground_damage_area type="base" always_random="false" min="0" max="0" />
         <root_ground_damage_area type="mult" always_random="false" min="0" />
 		<burning_resistance_perc type="add" always_random="false" min="0.3" max="0.3" />
       </ability>
       <ability name="difficulty_CommonHardcore">
         <tags>DifficultyModeAbility, Hardcore</tags>
-        <health_final_multiplier type="add" min="0.7" />
-        <damage_final_multiplier type="add" min="2.2" />
+        <health_final_multiplier type="add" min="0.8" />
+        <damage_final_multiplier type="add" min="2.5" />
         <staminaRegen type="mult" always_random="false" min="0.2" max="0.2" />
 		<root_ground_damage_area type="base" always_random="false" min="0" max="0" />
         <root_ground_damage_area type="mult" always_random="false" min="0" />
