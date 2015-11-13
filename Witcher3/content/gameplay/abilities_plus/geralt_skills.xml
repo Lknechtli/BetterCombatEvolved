@@ -634,7 +634,7 @@
 		
 		<ability name="perk_2">
 			<tags>perk_2</tags>
-			<attack_power type="mult" min="1" />
+			<attack_power type="mult" min="2" />
 		</ability>
 		<ability name="perk_3">
 			<tags>perk_3</tags>
@@ -933,7 +933,7 @@
         <skill skill_name="perk_1" requiredPointsSpent="0" maxLevel="1" priority="1" guiPositionID="98" localisationName="skill_name_perk_1" localisationDescription="skill_desc_perk_1" cost="1" pathType_name="" subpathType_name="" iconPath="icons\Perks\s_perk_32.png" linkVertical="yellow" linkLeft="yellow" linkRight="yellow" />
 		
 		<!-- Steady Shot -->
-        <skill skill_name="perk_2" requiredPointsSpent="0" maxLevel="1" priority="0" guiPositionID="99" localisationName="skill_name_perk_2" localisationDescription="skill_desc_perk_2" localisationDescriptionLevel2="skill_desc_perk_2" localisationDescriptionLevel3="skill_desc_perk_2" cost="1" pathType_name="Sword" subpathType_name="Sword_Utility" iconPath="icons\Perks\s_perk_18.png" linkVertical="yellow" linkLeft="yellow" linkRight="yellow" />
+        <skill skill_name="perk_2" requiredPointsSpent="0" maxLevel="1" priority="0" guiPositionID="99" localisationName="skill_name_perk_2" localisationDescription="skill_desc_perk_2" localisationDescriptionLevel2="skill_desc_perk_2" localisationDescriptionLevel3="skill_desc_perk_2" cost="1" pathType_name="" subpathType_name="" iconPath="icons\Perks\s_perk_18.png" linkVertical="red" linkLeft="red" linkRight="red" />
 		<!-- Hot Hacker 
         <skill skill_name="perk_3" requiredPointsSpent="0" maxLevel="1" priority="0" guiPositionID="99" localisationName="skill_name_perk_3" localisationDescription="skill_desc_perk_3" cost="1" pathType_name="Perks" subpathType_name="Perks_col3" iconPath="icons\Perks\s_perk_3.png" linkVertical="" linkLeft="" linkRight="" />
 		-->
@@ -949,13 +949,13 @@
         <skill skill_name="perk_8" isCoreSkill="1" requiredPointsSpent="0" maxLevel="1" priority="0" guiPositionID="99" localisationName="skill_name_perk_8" localisationDescription="skill_desc_perk_8" cost="" pathType_name="" subpathType_name="" iconPath="icons\Perks\s_perk_8.png" linkVertical="yellow" linkLeft="yellow" linkRight="yellow" />
 		
 		<!-- Written In Blood -->
-        <skill skill_name="perk_9" requiredPointsSpent="0" maxLevel="1" priority="0" guiPositionID="99" localisationName="skill_name_perk_9" localisationDescription="skill_desc_perk_9" cost="1" pathType_name="Signs" subpathType_name="Signs_Aard" iconPath="icons\Perks\s_perk_23.png" linkVertical="yellow" linkLeft="yellow" linkRight="yellow" />
+        <skill skill_name="perk_9" requiredPointsSpent="20" maxLevel="1" priority="0" guiPositionID="99" localisationName="skill_name_perk_9" localisationDescription="skill_desc_perk_9" cost="1" pathType_name="Signs" subpathType_name="Signs_Aard" iconPath="icons\Perks\s_perk_23.png" linkVertical="blue" linkLeft="blue" linkRight="blue" />
 		<!-- Boiling Blood -->
-        <skill skill_name="perk_10" requiredPointsSpent="0" maxLevel="1" priority="0" guiPositionID="99" localisationName="skill_name_perk_10" localisationDescription="skill_desc_perk_10" cost="1" pathType_name="Sword" subpathType_name="Sword_StyleStrong" iconPath="icons\Perks\s_perk_17.png" linkVertical="yellow" linkLeft="yellow" linkRight="yellow" />
+        <skill skill_name="perk_10" requiredPointsSpent="20" maxLevel="1" priority="0" guiPositionID="99" localisationName="skill_name_perk_10" localisationDescription="skill_desc_perk_10" cost="1" pathType_name="Sword" subpathType_name="Sword_StyleFast" iconPath="icons\Perks\s_perk_17.png" linkVertical="yellow" linkLeft="red" linkRight="red" />
 		<!-- To Your Health -->
-        <skill skill_name="perk_4" requiredPointsSpent="0" maxLevel="1" priority="0" guiPositionID="99" localisationName="skill_name_perk_4" localisationDescription="skill_desc_perk_4" cost="1" pathType_name="Sword" subpathType_name="Sword_StyleFast" iconPath="icons\Perks\s_perk_33.png" linkVertical="yellow" linkLeft="yellow" linkRight="yellow" />
+        <skill skill_name="perk_4" requiredPointsSpent="0" maxLevel="1" priority="0" guiPositionID="99" localisationName="skill_name_perk_4" localisationDescription="skill_desc_perk_4" cost="1" pathType_name="" subpathType_name="" iconPath="icons\Perks\s_perk_33.png" linkVertical="red" linkLeft="red" linkRight="red" />
 		<!-- Toxic Block -->
-        <skill skill_name="perk_12" requiredPointsSpent="0" maxLevel="1" priority="0" guiPositionID="99" localisationName="skill_name_perk_12" localisationDescription="skill_desc_perk_12" cost="1" pathType_name="Alchemy" subpathType_name="Alchemy_Potions" iconPath="icons\Perks\s_perk_30.png" linkVertical="yellow" linkLeft="yellow" linkRight="yellow" />
+        <skill skill_name="perk_12" requiredPointsSpent="20" maxLevel="1" priority="0" guiPositionID="99" localisationName="skill_name_perk_12" localisationDescription="skill_desc_perk_12" cost="1" pathType_name="Alchemy" subpathType_name="Alchemy_Potions" iconPath="icons\Perks\s_perk_30.png" linkVertical="green" linkLeft="green" linkRight="green" />
       </definitions>
     </skills>
     <skill_slots>
