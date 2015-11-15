@@ -250,7 +250,7 @@
       <ability name="NPCLevelBonusLow">
 	  <!--BCEv Edit-->
         <tags> "base" </tags>
-        <vitality type="base" always_random="false" min="45" max="45" />
+        <vitality type="base" always_random="false" min="50" max="50" />
         <attack_power type="base" always_random="false" min="25" max="25" />
       </ability>
 	  
@@ -276,8 +276,8 @@
       <ability name="NPCLevelBonusDeadly">
 	  <!--BCEv Edit-->
         <tags> "base" </tags>
-        <vitality type="base" always_random="false" min="-45" max="-45" />
-        <attack_power type="base" always_random="false" min="-25" max="-25" />
+        <vitality type="add" always_random="false" min="-45" max="-45" />
+        <attack_power type="add" always_random="false" min="-25" max="-25" />
       </ability>
 	  
       <ability name="MiniBoss">
