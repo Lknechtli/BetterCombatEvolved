@@ -656,8 +656,6 @@
 			<swimming_stamina_cost_per_sec type="add" always_random="false" min="1" max="1" />
 			<sprint_stamina_cost_per_sec type="add" always_random="false" min="1" max="1" />
 			<jump_stamina_cost type="add" always_random="false" min="1" max="1" />
-			<dodge_stamina_cost type="add" always_random="false" min="1" max="1" />
-			<evade_stamina_cost type="add" always_random="false" min="1" max="1" />
 		</ability>
 		<ability name="perk_6">
 			<tags>perk_6</tags>
@@ -670,8 +668,6 @@
 			<swimming_stamina_cost_per_sec type="add" always_random="false" min="3" max="3" />
 			<sprint_stamina_cost_per_sec type="add" always_random="false" min="3" max="3" />
 			<jump_stamina_cost type="add" always_random="false" min="3" max="3" />
-			<dodge_stamina_cost type="add" always_random="false" min="2" max="2" />
-			<evade_stamina_cost type="add" always_random="false" min="2" max="2" />
 		</ability>
 		<ability name="perk_7">
 			<tags>perk_7</tags>
@@ -684,8 +680,6 @@
 			<swimming_stamina_cost_per_sec type="add" always_random="false" min="5" max="5" />
 			<sprint_stamina_cost_per_sec type="add" always_random="false" min="5" max="5" />
 			<jump_stamina_cost type="add" always_random="false" min="5" max="5" />
-			<dodge_stamina_cost type="add" always_random="false" min="3" max="3" />
-			<evade_stamina_cost type="add" always_random="false" min="3" max="3" />
 		</ability>
 		<ability name="perk_10">
 			<tags>perk_10, GlobalPassiveBonus</tags>

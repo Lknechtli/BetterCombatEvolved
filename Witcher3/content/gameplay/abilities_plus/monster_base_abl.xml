@@ -1502,7 +1502,7 @@
 		<level type="add" always_random="false" min="1" max="1" />
 		<threat_level type="add" always_random="false" min="4" max="4" />
         <vitality type="base" always_random="false" min="0" max="0" />
-        <essence type="base" always_random="false" min="1920" max="1920" />
+        <essence type="base" always_random="false" min="1125" max="1125" />
 		<essenceRegen type="add" always_random="false" min="5" max="5" />
 		<attack_power type="add" always_random="false" min="-250" max="-250" />
       </ability>
@@ -1523,7 +1523,7 @@
         <level type="add" always_random="false" min="1" max="1" />
         <threat_level type="add" always_random="false" min="3" max="3" />
         <vitality type="base" always_random="false" min="80" max="80" />
-		<vitality type="mult" always_random="false" min="6" max="6" />
+		<vitality type="mult" always_random="false" min="3" max="3" />
         <essence type="base" always_random="false" min="0" max="0" />
 		<essenceRegen type="add" always_random="false" min="0" max="0" />
       </ability>
@@ -1531,7 +1531,7 @@
       <ability name="mon_bear_grizzly">
         <level type="add" always_random="false" min="1" max="1" />
         <threat_level type="add" always_random="false" min="3" max="3" />
-        <vitality type="base" always_random="false" min="1800" max="1800" />
+        <vitality type="base" always_random="false" min="900" max="900" />
         <essence type="base" always_random="false" min="0" max="0" />
 		<essenceRegen type="add" always_random="false" min="0" max="0" />
       </ability>
@@ -1539,7 +1539,7 @@
       <ability name="mon_bear_white">
         <level type="add" always_random="false" min="1" max="1" />
         <threat_level type="add" always_random="false" min="3" max="3" />
-        <vitality type="base" always_random="false" min="2250" max="2250" />
+        <vitality type="base" always_random="false" min="1125" max="1125" />
         <essence type="base" always_random="false" min="0" max="0" />
 		<essenceRegen type="add" always_random="false" min="0" max="0" />
       </ability>
