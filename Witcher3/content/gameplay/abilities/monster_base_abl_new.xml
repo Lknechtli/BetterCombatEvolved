@@ -117,15 +117,15 @@
       <ability name="MonsterLevelBonusHigh">
         <tags> "base" </tags>
         <experience type="base" always_random="false" min="1" max="1" />
-        <essence type="mult" always_random="false" min="0.0" max="0.0" />
-        <attack_power type="mult" always_random="false" min="0.0" max="0.0" />
+        <essence type="mult" always_random="false" min="-0.2" max="-0.2" />
+        <attack_power type="mult" always_random="false" min="-0.2" max="-0.2" />
       </ability>	  	  
 	  
       <ability name="MonsterLevelBonusDeadly">
         <tags> "base" </tags>
         <experience type="base" always_random="false" min="1" max="1" />
-        <essence type="add" always_random="false" min="-300" max="-300" />
-        <attack_power type="add" always_random="false" min="-75" max="-75" />
+        <essence type="mult" always_random="false" min="-0.35" max="-0.35" />
+        <attack_power type="mult" always_random="false" min="-0.4" max="-0.4" />
       </ability>	  
 	  
       <ability name="_Monster_group_base">
