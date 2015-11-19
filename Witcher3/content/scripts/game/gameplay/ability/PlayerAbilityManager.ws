@@ -122,6 +122,7 @@ class W3PlayerAbilityManager extends W3AbilityManager
 		
 		isInitialized = true;
 		// Elys start //
+
 		orgTotalSkillSlotsCount = 12;
 
 		for(i=0; i<skills.Size(); i+=1)
@@ -130,6 +131,7 @@ class W3PlayerAbilityManager extends W3AbilityManager
 				ForceEquipSkill(skills[i].skillType);
 		}
 		// Elys end //
+
 		return true;	
 	}
 	
@@ -1514,6 +1516,7 @@ class W3PlayerAbilityManager extends W3AbilityManager
 				uiStateSpecialAttacks.OnBoughtSkill(skill);
 		}
 		// Elys start
+
 		if( MustEquipSkill(skill) )
 			ForceEquipSkill(skill);
 		// Elys end
@@ -2238,6 +2241,7 @@ class W3PlayerAbilityManager extends W3AbilityManager
 		if(idx < 0)
 			return false;
 		// Elys start
+
 		if(IsSkillEquipped(skill))
 		{
 			i = GetSkillSlotID(skill);
@@ -2287,6 +2291,7 @@ class W3PlayerAbilityManager extends W3AbilityManager
 				ForceEquipSkill(skill);
 		}	
 		// Elys end
+
 		return true;
 	}
 	
@@ -2929,11 +2934,17 @@ class W3PlayerAbilityManager extends W3AbilityManager
 		{			
 			skillType = skills[i].skillType;
 			// Dazedy start
+
 			if(IsDefaultSkill(skillType)){
 				skills[i].level=1;
 				continue;
 			}
 			// Dazedy end
+
+
+
+
+
 		}
 		
 		for(i=0; i<pathPointsSpent.Size(); i+=1)
@@ -2942,6 +2953,10 @@ class W3PlayerAbilityManager extends W3AbilityManager
 		}
 		SetStatPointMax(BCS_Toxicity, 1000);
 		SetStatPointMax(BCS_Stamina, 100);
+
+
+
+
 	}
 	
 	//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -3200,13 +3215,13 @@ class W3PlayerAbilityManager extends W3AbilityManager
 		LogChannel('DEBUG_SKILLS',"");
 	}
 // Elys start
+
 	public final function MustEquipSkill(skill : ESkill) : bool
 	{
-
 		if(IsSkillEquipped(skill))
 			return false;
 		// Dazedy start
-		if(IsDefaultSkill(skill))
+		if(IsDefaultSkill(skill) || IsPassiveSkill(skill) && HasLearnedSkill(skill))
 			return true;
 		return false;
 	}
@@ -3241,6 +3256,31 @@ class W3PlayerAbilityManager extends W3AbilityManager
 	}
 	// Dazedy end
 	
+	//Chicken Start
+	public final function IsPassiveSkill(skill : ESkill) : bool
+	{
+		if(     skill == S_Sword_s21 ||
+				skill == S_Sword_s04 ||
+				skill == S_Sword_s11 ||
+				skill == S_Sword_s07 ||
+				skill == S_Sword_s20 ||
+				skill == S_Magic_s07 ||
+				skill == S_Magic_s12 ||
+				skill == S_Magic_s15 ||
+				skill == S_Magic_s16 ||
+				skill == S_Magic_s18 ||
+				skill == S_Alchemy_s01 ||
+				skill == S_Alchemy_s05 ||
+				skill == S_Alchemy_s10 ||
+				skill == S_Alchemy_s13 ||
+				skill == S_Alchemy_s20 ) {		
+			return true;
+		}
+		else {
+			return false;
+		}
+	}
+	//Chicken End
 	public final function GetFreeSkillSlotIndex() : int
 	{
 		var i : int;
@@ -3272,14 +3312,26 @@ class W3PlayerAbilityManager extends W3AbilityManager
 	{
 		var idx : int;
 
+
+
 		idx = GetFreeSkillSlotIndex();		
 		
+
+
+
+
+
+
+
 		skillSlots[idx].socketedSkill = skill;
 		
+
 		OnSkillEquip(skill);
 	}
 	//Elys end
 }
+
+
 
 exec function dbgskillslots()
 {
