@@ -132,7 +132,7 @@
       <!-- Whirl (ult) -->
       <ability name="sword_s1">
         <tags>sword_s1,attack_light</tags>
-        <stamina_cost_per_sec type="add" min="35" />
+        <stamina_cost_per_sec type="add" min="15" />
 		<focus_cost_per_sec_initial type="add" min="1" />
 		<cost_reduction type="mult" min="0.1" />
         <stamina_delay type="add" min="2" />
@@ -142,13 +142,11 @@
       <ability name="sword_s2">
         <tags>sword_s2,attack_heavy</tags>
 		<armor_reduction min="1000" max="1000"/>
-        <attack_power type="mult" min="0.15" /> <!-- it already gets bonus from heavy attack so that's enough -->
+        <attack_power type="mult" min="0.2" /> <!-- it already gets bonus from heavy attack so that's enough -->
 		<critical_hit_chance type="add" min="0.1" />
-		<adrenaline_final_damage_bonus type="mult" min="0.35" />
-		<stamina_max_dmg_bonus type="mult" min="0.35" />
-		
-		<stamina_cost type="add" min="40" />
-        <stamina_cost_per_sec type="add" min="20" />
+		<adrenaline_final_damage_bonus type="mult" min="0.45" />
+		<stamina_max_dmg_bonus type="mult" min="0.45" />
+        <stamina_cost_per_sec type="add" min="50" />
         <stamina_delay type="add" min="2.0" />
       </ability>
 	  
@@ -385,20 +383,19 @@
       <ability name="magic_s5">
         <tags>magic_s5</tags>
         <stamina_cost type="add" always_random="false" min="0" max="0" />
-        <stamina_cost_per_sec type="add" always_random="false" min="55" max="55" />
+        <stamina_cost_per_sec type="add" always_random="false" min="25" max="25" />
         <!-- duration modified by other skills, no mult as spell power covers that -->
         <duration type="base" min="3" />
 		<duration_animals type="base" min="18" />
 		<AxiiGuardMeEffect is_ability="true" />
 		<!-- attack power bonus -->
 		<attack_power type="mult" min="0.05" />
-		<damage_reduction type="add" min="0.5" />
       </ability>
 	  
       <!-- Static Discharge -->
       <ability name="magic_s6">
         <tags>magic_s6, magic_1, magic_s1</tags>
-        <ForceDamage type="add" min="20" />
+        <ForceDamage type="add" min="40" />
       </ability>
 	  
       <!-- Igni Power -->
