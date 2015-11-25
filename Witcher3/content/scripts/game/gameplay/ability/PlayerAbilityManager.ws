@@ -3231,18 +3231,12 @@ class W3PlayerAbilityManager extends W3AbilityManager
 		if(     skill == S_Sword_s01 ||
 				skill == S_Sword_s02 ||
 				skill == S_Sword_s10 ||
-				skill == S_Sword_s12 ||
-				skill == S_Sword_s16 ||
 				skill == S_Magic_s01 ||
 				skill == S_Magic_s02 ||
 				skill == S_Magic_s03 ||
 				skill == S_Magic_s04 ||
 				skill == S_Magic_s05 ||
-				skill == S_Alchemy_s02 ||
 				skill == S_Alchemy_s06 ||
-				skill == S_Alchemy_s09 ||
-				skill == S_Alchemy_s15 ||
-				skill == S_Alchemy_s19 ||
 				skill == S_Perk_02 ||
 				skill == S_Perk_05 ||
 				skill == S_Perk_06 ||
@@ -3263,6 +3257,8 @@ class W3PlayerAbilityManager extends W3AbilityManager
 				skill == S_Sword_s04 ||
 				skill == S_Sword_s11 ||
 				skill == S_Sword_s07 ||
+				skill == S_Sword_s13 ||
+				skill == S_Sword_s16 ||
 				skill == S_Sword_s20 ||
 				skill == S_Magic_s07 ||
 				skill == S_Magic_s12 ||
@@ -3271,8 +3267,11 @@ class W3PlayerAbilityManager extends W3AbilityManager
 				skill == S_Magic_s18 ||
 				skill == S_Alchemy_s01 ||
 				skill == S_Alchemy_s05 ||
+				skill == S_Alchemy_s09 ||
 				skill == S_Alchemy_s10 ||
 				skill == S_Alchemy_s13 ||
+				skill == S_Alchemy_s15 ||
+				skill == S_Alchemy_s19 ||
 				skill == S_Alchemy_s20 ) {		
 			return true;
 		}
