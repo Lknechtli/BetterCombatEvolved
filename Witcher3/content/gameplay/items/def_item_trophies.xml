@@ -4,209 +4,216 @@
 		<abilities>
 			<ability name="base_trophy_stats">
 				<weight type="base" min="2"/>
-				<quality type="add" min="4" max="4"/>
+				<quality type="add" min="5" max="5"/>
 			</ability>
 		
-			<ability name="cave_troll_trophy_stats">
-				<attack_power type="mult" min="0.25" />
-				<spell_power type="mult" min="-0.5" />
+			<ability name="cave_troll_trophy_stats"> <!-- Cat armor perk localization -->
+				<potion_duration type="add" always_random="false" min="0.2" max="0.2" />
+				<toxicity type="base" min="200" />
+				<staminaRegen type="mult" always_random="false" min="-0.15" max="-0.15" />
+				<vsOgre_attack_power min="0.1" type="mult" />
 			</ability>
 			
-			<ability name="nekkers_trophy_stats">
-			<critical_hit_chance type="add" min="0.1" />
-			<armor type="mult" min="-0.2" />
+			<ability name="nekkers_trophy_stats"> <!-- Useless, doesn't drop anywhere -->
+			<vsNecrophage_attack_power min="0.1" type="mult" />
 			</ability>
 			
-			<ability name="nekker_warrior_trophy_stats">
-			<critical_hit_chance type="add" min="0.15" />
-			<armor type="mult" min="-0.30" />
+			<ability name="nekker_warrior_trophy_stats"> <!-- Alt Igni rank 1 localization -->
+			<attack_power_heavy_style type="mult" min="0.1" />
+			<heavy_action_stamina_cost type="add" always_random="false" min="-3" max="-3" />
+			<attack_power_fast_style type="mult" min="-0.1" />
+			<light_action_stamina_cost type="add" always_random="false" min="5" max="5" />
+			<vsNecrophage_attack_power min="0.1" type="mult" />
 			</ability>
 			
 			<ability name="drowned_dead_trophy_stats">
-				<spell_power_igni type="mult" min="1.25" />
-				<spell_power type="mult" min="-0.5" />
+				<spell_power_igni type="mult" min="0.5" />
+				<spell_power type="mult" min="-0.25" />
+				<vsNecrophage_attack_power min="0.1" type="mult" />
 			</ability>
 			
-			<ability name="minion_trophy_stats">
-				<elemental_resistance_perc type="add" min="0.5"/>
-				<armor type="mult" min="-0.5" />
+			<ability name="minion_trophy_stats"> <!-- Alt Aard rank 3 localization -->
+				<attack_power_fast_style type="mult" min="0.1" />
+			<light_action_stamina_cost type="add" always_random="false" min="-3" max="-3" />
+			<attack_power_heavy_style type="mult" min="-0.1" />
+			<heavy_action_stamina_cost type="add" always_random="false" min="5" max="5" />
+				<vsMagicals_attack_power min="0.1" type="mult" />
 			</ability>
 			
 			<ability name="leshy_trophy_stats">
-				<poison_resistance_perc type="add" min="1"/>
-       			<bleeding_resistance_perc type="add" min="1"/>
-				<elemental_resistance_perc type="add" min="-0.5"/>
-				<armor type="mult" min="-0.5" />
+				<poison_resistance_perc type="add" min="0.25"/>
+       			<bleeding_resistance_perc type="add" min="0.25"/>
+				<vsRelic_attack_power min="0.1" type="mult" />
+				<bonus_herb_chance type="add" min="0.5"/>
 			</ability>
 
 			<ability name="leshy_mh302_trophy_stats">
-				<poison_resistance_perc type="add" min="1"/>
-       			<bleeding_resistance_perc type="add" min="1"/>
-				<elemental_resistance_perc type="add" min="-0.4"/>
-				<armor type="mult" min="-0.4" />
+				<poison_resistance_perc type="add" min="0.35"/>
+       			<bleeding_resistance_perc type="add" min="0.35"/>
+				<vsRelic_attack_power min="0.1" type="mult" />
+				<bonus_herb_chance type="add" min="0.75"/>
 			</ability>			
 		
-			<ability name="forktail_trophy_stats">
-				<elemental_resistance_perc type="add" min="0.2"/>
-				<armor type="mult" min="0.2" />
-				<attack_power type="mult" min="0.2" />
-				<toxicity type="add" min="-800" />
+			<ability name="forktail_trophy_stats"> <!-- Alt Aard rank 1 localization -->
+			<vsDraconide_attack_power min="0.1" type="mult" />
+			<light_action_stamina_cost type="add" always_random="false" min="-8" max="-8" />
+			<heavy_action_stamina_cost type="add" always_random="false" min="-8" max="-8" />
+			<attack_power type="mult" min="-0.15" />
 			</ability>	
 			
-			<ability name="wyvern_trophy_stats">
-				<attack_power type="mult" min="0.2" />
-				<spell_power type="mult" min="0.2" />
-				<critical_hit_chance type="add" min="-1" />
-				
+			<ability name="wyvern_trophy_stats"> <!-- Alt Aard rank 2 localization -->
+			<vsDraconide_attack_power min="0.1" type="mult" />
+			<attack_power type="mult" min="0.15" />
+			<heavy_action_stamina_cost type="add" always_random="false" min="6" max="6" />
+			<light_action_stamina_cost type="add" always_random="false" min="6" max="6" />
 			</ability>
 			
 			<ability name="wyvern_mq1051_trophy_stats">
-				<attack_power type="mult" min="0.22" />
-				<spell_power type="mult" min="0.22" />
-				<critical_hit_chance type="add" min="-0.8" />
+			<vsDraconide_attack_power min="0.1" type="mult" />
+			<critical_hit_chance type="add" min="0.25" />
+				<critical_hit_damage_bonus type="add" min="0.5" />
+				<armor type="mult" min="-0.90" />
+				<elemental_resistance_perc type="add" min="-0.90"/>
 			</ability>
 			
-			<ability name="gravehag_trophy_stats">
-				<spell_power type="mult" min="0.6" />
-				<armor type="mult" min="-0.5" />
-				<elemental_resistance_perc type="mult" min="-0.5"/>			
+			<ability name="gravehag_trophy_stats">	
+				<vsNecrophage_attack_power min="0.1" type="mult" />
+				<staminaRegen type="mult" always_random="false" min="0.3" max="0.3" />
+				<spell_power type="mult" min="-0.2" />
+				<attack_power type="mult" min="-0.05" />
 			</ability>	
 
 			<ability name="fogling_trophy_stats">
-				<critical_hit_damage_bonus type="add" min="0.75" />
-				<critical_hit_chance type="add" min="-0.2" />
+				<spell_power type="mult" min="0.2" />
+				<attack_power type="mult" min="0.05" />
+				<staminaRegen type="mult" always_random="false" min="-0.30" max="-0.30" />
+				<vsNecrophage_attack_power min="0.1" type="mult" />
 			</ability>	
 		
 			<ability name="fiend_trophy_stats">
-				<vitality type="mult" min="0.35" />
-				<critical_hit_chance type="add" min="0.15" />
-				<attack_power type="mult" min="0.35" />
-				<spell_power type="mult" min="0.35" />
-				<toxicity type="add" min="-2000" />
+			<vitality type="add" min="200" />
+				<SlashingDamage type="mult" min="0.2" />
+				<spell_power type="mult" min="-0.2" />
+				<vsRelic_attack_power min="0.1" type="mult" />
 			</ability>	
 			
 			<ability name="czart_trophy_stats">
-				<vitality type="mult" min="0.35" />
-				<spell_power_quen type="mult" min="1" />
-				<critical_hit_chance type="add" min="-1" />
-				<attack_power type="mult" min="-0.45" />
-				<spell_power type="mult" min="-0.45" />
-				
+				<vitality type="add" min="200" />
+				<SilverDamage type="mult" min="0.2" />
+				<spell_power type="mult" min="-0.2" />
+				<vsRelic_attack_power min="0.1" type="mult" />
 			</ability>	
 			
 			<ability name="wraith_trophy_stats">
-				<spell_power_yrden type="mult" min="1.25" />
-				<spell_power type="mult" min="-0.5" />
+				<spell_power_yrden type="mult" min="0.5" />
+				<spell_power type="mult" min="-0.25" />
+				<vsSpecter_attack_power min="0.1" type="mult" />
 			</ability>				
 
 			<ability name="lamia_trophy_stats">
-				<spell_power_axii type="mult" min="1.25" />
-				<spell_power type="mult" min="-0.5" />
+				<spell_power_axii type="mult" min="0.5" />
+				<spell_power type="mult" min="-0.25" />
+				<vsHybrid_attack_power min="0.1" type="mult" />
 			</ability>
 
 			<ability name="bies_trophy_stats">
 				<critical_hit_chance type="add" min="0.25" />
-				<critical_hit_damage_bonus type="add" min="0.25" />
-				<armor type="mult" min="-0.75" />
+				<critical_hit_damage_bonus type="add" min="0.5" />
+				<armor type="mult" min="-0.90" />
+				<vsRelic_attack_power min="0.1" type="mult" />
+				<elemental_resistance_perc type="add" min="-0.90"/>
 			</ability>
 
 			<ability name="erynie_trophy_stats">
-				<spell_power_quen type="mult" min="1.25" />
-				<spell_power type="mult" min="-0.5" />
+				<spell_power_quen type="mult" min="0.5" />
+				<spell_power type="mult" min="-0.25" />
+				<vsHybrid_attack_power min="0.1" type="mult" />
 			</ability>	
 			
 			<ability name="water_hag_trophy_stats">
-				<spell_power type="mult" min="0.75" />
-				<attack_power type="mult" min="-0.75" />
+			<vsNecrophage_attack_power min="0.1" type="mult" />
+				<spell_power_aard type="mult" min="0.5" />
+				<spell_power type="mult" min="-0.25" />
 			</ability>		
 
 			<ability name="cockatrice_trophy_stats">
-				<toxicity type="add" min="1000" />
-				<spell_power type="mult" min="-0.5" />
-				<attack_power type="mult" min="-0.5" />
+				<toxicity type="base" min="400" />
+				<potion_duration type="add" always_random="false" min="-0.35" max="-0.35" /> <!-- Bear armor perk localization -->
+				<vsDraconide_attack_power min="0.1" type="mult" />
 			</ability>
 
 			<ability name="nightwraith_trophy_stats">
-				<toxicity type="add" min="5000" />
-				<vitality type="mult" min="-0.5" />
-				<spell_power type="mult" min="-0.90" />
-				<attack_power type="mult" min="-0.90" />
-				<armor type="mult" min="-0.99" />
-				<elemental_resistance_perc type="add" min="-0.99"/>
-				
-				
+				<spell_power type="mult" min="0.15" />
+				<SlashingDamage type="mult" min="-0.15" />
+				<vsSpecter_attack_power min="0.1" type="mult" />
 			</ability>
 			
 			<ability name="ekimma_trophy_stats">
-				<critical_hit_chance type="add" min="0.99" />
-				<armor type="mult" min="-0.99" />
-				<elemental_resistance_perc type="add" min="-0.99"/>
-				<toxicity type="add" min="-1000" />
+				<potion_duration type="add" always_random="false" min="0.35" max="0.35" /> <!-- Gryphon armor perk localization -->
+				<toxicity type="base" min="-400" />
+				<vsVampire_attack_power min="0.1" type="mult" />
 			</ability>
 			
 			<ability name="arachas_trophy_stats">
-				<elemental_resistance_perc type="add" min="0.15"/>
-				<poison_resistance_perc type="add" min="0.25"/>
-       			<bleeding_resistance_perc type="add" min="0.25"/>
-				<bonus_herb_chance type="add" min="0.75"/>
+				<toxicity type="base" min="-200" />
+				<potion_duration type="add" always_random="false" min="-0.2" max="-0.2" /> <!-- HP Perk localization -->
+				<staminaRegen type="mult" always_random="false" min="0.2" max="0.2" />
+				<vsInsectoid_attack_power min="0.1" type="mult" />
 			</ability>
 			
 			<ability name="gryphon_trophy_stats">
-				<spell_power_aard type="mult" min="1.25" />
-				<spell_power type="mult" min="-0.5" />
-				<toxicityRegen type="add" min="-5" />
+				<spell_power_aard type="mult" min="0.5" />
+				<spell_power type="mult" min="-0.25" />
+				<vsHybrid_attack_power min="0.1" type="mult" />
 			</ability>
 			
 			<ability name="gryphon_mh301_trophy_stats">
-				<spell_power_aard type="mult" min="1" />
-				<armor type="mult" min="0.1" />
-				<spell_power type="mult" min="-0.5" />
-				<elemental_resistance_perc type="add" min="-0.2"/>
+				<focus_gain type="base" min="0.15" />
+				<staminaRegen type="mult" always_random="false" min="-0.15" max="-0.15" />
+				<vsHybrid_attack_power min="0.1" type="mult" />
 			</ability>
 			
 			<ability name="gryphon_sq108_trophy_stats">
-				<spell_power_aard type="mult" min="1.25" />
-				<armor type="mult" min="0.2" />
-				<spell_power type="mult" min="-0.5" />
-				<elemental_resistance_perc type="add" min="-0.3"/>
+				<staminaRegen type="mult" always_random="false" min="0.15" max="0.15" />
+				<focus_gain type="base" min="-0.15" />
+				<vsHybrid_attack_power min="0.1" type="mult" />
 			</ability>
 			
 			<ability name="succubus_trophy_stats">
-				<spell_power_axii type="mult" min="0.25" />
 				<bonus_money type="add" min="0.5"/>
+				<vsHybrid_attack_power min="0.1" type="mult" />
 			</ability>
 
 			<ability name="katakan_trophy_stats">
-				<spell_power type="mult" min="0.75" />
-				<spell_power_quen type="mult" min="-1" />
-				<spell_power_igni type="mult" min="-1" />
+				<vitalityRegen type="add" min="5" max="5" />
+        		<vitalityCombatRegen type="add" min="7" max="7" />
+				<potion_duration type="add" always_random="false" min="-0.35" max="-0.35" />
+				<vsVampire_attack_power min="0.1" type="mult" />
 			</ability>		
 
 			<ability name="dao_trophy_stats">
-				<armor type="mult" min="0.75" />
-				<elemental_resistance_perc type="add" min="0.75"/>
-				<attack_power type="mult" min="-0.5" />
-				<spell_power_quen type="mult" min="-0.8" />
+				<armor type="mult" min="0.20" />
+				<quen_chance_on_projectile type="add" min="0.50"/>
+				<vsMagicals_attack_power min="0.1" type="mult" />
 			</ability>	
 
 			<ability name="doppler_trophy_stats">
-				<attack_power type="mult" min="0.03" />
-				<spell_power type="mult" min="0.03" />
-				<human_exp_bonus_when_fatal type="add" min="1"/>
+				<human_exp_bonus_when_fatal type="add" min="2"/>
+				<nonhuman_exp_bonus_when_fatal type="add" min="2" />
+				<vsRelic_attack_power min="0.1" type="mult" />
 			</ability>				
 
 			<ability name="noonwraith_trophy_stats">
-				<spell_power_igni type="mult" min="0.75" />
-				<spell_power_yrden type="mult" min="0.75" />
-				<spell_power type="mult" min="-0.45" />
-				<nonhuman_exp_bonus_when_fatal type="add" min="0.75"/>
+				<spell_power type="mult" min="0.15" />
+				<SilverDamage type="mult" min="-0.15" />
+				<vsSpecter_attack_power min="0.1" type="mult" />
 			</ability>	
 			
 			<ability name="noonwraith_mh308_trophy_stats">
-				<spell_power_igni type="mult" min="0.75" />
-				<spell_power_yrden type="mult" min="0.75" />
-				<spell_power type="mult" min="-0.5" />
-				<nonhuman_exp_bonus_when_fatal type="add" min="0.5"/>
+				<spell_power type="mult" min="0.15" />
+				<SilverDamage type="mult" min="-0.15" />
+				<vsSpecter_attack_power min="0.1" type="mult" />
+				<human_exp_bonus_when_fatal type="add" min="1.25"/>
 			</ability>	
 			<!--
 			<ability name="werewolf_trophy_stats">
@@ -242,7 +249,7 @@
 
 		
 			<item name="mh101_cockatrice_trophy" category="trophy" stackable="1" equip_template="trophy__cockatris" ability_mode="OnMount" grid_size = "2"
-			icon_path="icons/inventory/quests/trophy_cockatris_64x64.png" localisation_key_name = "item_name_mh101_cockatrice_trophy" localisation_key_description = "item_desc_trophy" price = "150" >
+			icon_path="icons/inventory/quests/trophy_cockatris_64x64.png" localisation_key_name = "item_name_mh101_cockatrice_trophy" localisation_key_description = "skill_desc_perk_7" price = "150" >
 				<tags>Quest,Trophy,HorseTrophy</tags>
 				<base_abilities>
 					<a>cockatrice_trophy_stats</a>
@@ -251,7 +258,7 @@
 			</item>
 			
 			<item name="mh102_arachas_trophy" category="trophy" stackable="1" equip_template="trophy__universal" ability_mode="OnMount" grid_size = "2"
-			icon_path="icons/inventory/quests/trophy_arachas_64x64.png" localisation_key_name = "item_name_mh102_arachas_trophy" localisation_key_description = "item_desc_trophy" price = "250" >
+			icon_path="icons/inventory/quests/trophy_arachas_64x64.png" localisation_key_name = "item_name_mh102_arachas_trophy" localisation_key_description = "skill_desc_perk_4" price = "250" >
 				<tags>Quest,Trophy</tags>
 				<base_abilities>
 					<a>arachas_trophy_stats</a>
@@ -269,7 +276,7 @@
 			</item>	
 
 			<item name="mh104_ekimma_trophy" category="trophy" stackable="1" equip_template="trophy__ekima" ability_mode="OnMount" grid_size = "2"
-			icon_path="icons/inventory/quests/trophy_ekima_64x64.png" localisation_key_name = "item_name_mh104_ekimma_trophy" localisation_key_description = "item_desc_trophy" price = "500" >
+			icon_path="icons/inventory/quests/trophy_ekima_64x64.png" localisation_key_name = "item_name_mh104_ekimma_trophy" localisation_key_description = "skill_desc_perk_6" price = "500" >
 				<tags>Quest,Trophy</tags>
 				<base_abilities>
 					<a>ekimma_trophy_stats</a>
@@ -278,7 +285,7 @@
 			</item>	
 
 			<item name="mh105_wyvern_trophy" category="trophy" stackable="1" equip_template="trophy__wyvern" ability_mode="OnMount" grid_size = "2"
-			icon_path="icons/inventory/quests/trophy_wyvern_64x64.png" localisation_key_name = "item_name_mh105_wyvern_trophy" localisation_key_description = "item_desc_trophy" price = "300" >
+			icon_path="icons/inventory/quests/trophy_wyvern_64x64.png" localisation_key_name = "item_name_mh105_wyvern_trophy" localisation_key_description = "skill_desc_magic_s1_2" price = "300" >
 				<tags>Quest,Trophy</tags>
 				<base_abilities>
 					<a>wyvern_trophy_stats</a>
@@ -314,7 +321,7 @@
 			</item>	
 			
 			<item name="mh201_cave_troll_trophy" category="trophy" stackable="1" equip_template="trophy__cave_troll" ability_mode="OnMount" grid_size = "2"
-			icon_path="icons/inventory/quests/trophy_cave_troll_64x64.png" localisation_key_name = "item_name_mh201_cave_troll_trophy" localisation_key_description = "item_desc_trophy" price = "100" >
+			icon_path="icons/inventory/quests/trophy_cave_troll_64x64.png" localisation_key_name = "item_name_mh201_cave_troll_trophy" localisation_key_description = "skill_desc_perk_5" price = "100" >
 				<tags>Quest,Trophy</tags>
 				<base_abilities>
 					<a>cave_troll_trophy_stats</a>
@@ -323,7 +330,7 @@
 			</item>
 		
 			<item name="mh202_nekker_warrior_trophy" category="trophy" stackable="1" equip_template="trophy__universal" ability_mode="OnMount" grid_size = "2"
-			icon_path="icons/inventory/quests/trophy_nekker_64x64.png" localisation_key_name = "item_name_mh202_nekker_warrior_trophy" localisation_key_description = "item_desc_trophy" price = "30" >
+			icon_path="icons/inventory/quests/trophy_nekker_64x64.png" localisation_key_name = "item_name_mh202_nekker_warrior_trophy" localisation_key_description = "skill_desc_magic_s2" price = "30" >
 				<tags>Quest,Trophy</tags>
 				<base_abilities>
 					<a>nekker_warrior_trophy_stats</a>
@@ -368,7 +375,7 @@
 			</item>	
 			
 			<item name="mh208_forktail_trophy" category="trophy" stackable="1" equip_template="trophy__forktail" ability_mode="OnMount" grid_size = "2"
-			icon_path="icons/inventory/quests/trophy_forktail_64x64.png" localisation_key_name = "item_name_mh208_forktail_trophy" localisation_key_description = "item_desc_trophy" price = "350" >
+			icon_path="icons/inventory/quests/trophy_forktail_64x64.png" localisation_key_name = "item_name_mh208_forktail_trophy" localisation_key_description = "skill_desc_magic_s1_3" price = "350" >
 				<tags>Quest,Trophy</tags>
 				<base_abilities>
 					<a>forktail_trophy_stats</a>
@@ -422,7 +429,7 @@
 			</item>	
 
 			<item name="mh304_katakan_trophy" category="trophy" stackable="1" equip_template="trophy__katakan" ability_mode="OnMount" grid_size = "2"
-			icon_path="icons/inventory/quests/trophy_katakan_64x64.png" localisation_key_name = "item_name_mh304_katakan_trophy" localisation_key_description = "item_desc_trophy" price = "500" >
+			icon_path="icons/inventory/quests/trophy_katakan_64x64.png" localisation_key_name = "item_name_mh304_katakan_trophy" localisation_key_description = "skill_desc_perk_7" price = "500" >
 				<tags>Quest,Trophy</tags>
 				<base_abilities>
 					<a>katakan_trophy_stats</a>
@@ -449,7 +456,7 @@
 			</item>	
 			
 			<item name="mh307_minion_trophy" category="trophy" stackable="1" equip_template="trophy__universal" ability_mode="OnMount" grid_size = "2"
-			icon_path="icons/inventory/quests/trophy_mh307_minion_64x64.png" localisation_key_name = "item_name_mh307_minion_trophy" localisation_key_description = "item_desc_trophy" price = "50" >
+			icon_path="icons/inventory/quests/trophy_mh307_minion_64x64.png" localisation_key_name = "item_name_mh307_minion_trophy" localisation_key_description = "skill_desc_magic_s1" price = "50" >
 				<tags>Quest,Trophy</tags>
 				<base_abilities>
 					<a>minion_trophy_stats</a>
