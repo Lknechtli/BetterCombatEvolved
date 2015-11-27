@@ -3265,6 +3265,14 @@ class W3PlayerAbilityManager extends W3AbilityManager
 				skill == S_Magic_s15 ||
 				skill == S_Magic_s16 ||
 				skill == S_Magic_s18 ||
+				skill == S_Perk_09 ||
+				skill == S_Perk_10 ||
+				skill == S_Perk_12 ||
+				skill == S_Perk_13 ||
+				skill == S_Perk_17 ||
+				skill == S_Perk_18 ||
+				skill == S_Perk_19 ||
+				skill == S_Perk_22 ||
 				skill == S_Alchemy_s01 ||
 				skill == S_Alchemy_s05 ||
 				skill == S_Alchemy_s09 ||

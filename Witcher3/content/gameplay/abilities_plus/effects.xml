@@ -216,7 +216,7 @@
       <ability name="HypnotizedEffect">
         <duration type="add" min="3" max="3" />
       </ability>
-      <ability name="IgnorePainEffect">
+      <ability name="IgnorePainEffect"> <!-- 10 ranks -->
         <duration type="add" min="-1" />
 		<vitality type="mult" min="0.03" />
       </ability>

@@ -72,7 +72,7 @@
 	  
       <!-- Heightened Senses-->
       <ability name="Cat_1">
-        <toxicity min="375" max="375" type="add" />
+        <toxicity min="275" max="275" type="add" />
         <duration min="240" type="add" />
         <ammo type="add" min="3" />
         <CatEffect_Level1 is_ability="true" />
@@ -80,7 +80,7 @@
 		<level type="add" min="1" />
       </ability>
       <ability name="Cat_2">
-        <toxicity min="375" max="375" type="add" />
+        <toxicity min="275" max="275" type="add" />
         <duration min="480" type="add" />
         <ammo type="add" min="4" />
         <CatEffect_Level2 is_ability="true" />
@@ -89,7 +89,7 @@
 		<quality type="add" min="3" max="3"/>
       </ability>
       <ability name="Cat_3">
-		<toxicity min="375" max="375" type="add" />
+		<toxicity min="275" max="275" type="add" />
         <duration min="720" type="add" />
         <ammo type="add" min="5" />
         <CatEffect_Level3 is_ability="true" />
@@ -156,7 +156,7 @@
 	  
       <!-- Oxygen & underwater vision bonus -->
       <ability name="KillerWhale_1">
-        <toxicity min="375" max="375" type="add" />
+        <toxicity min="275" max="275" type="add" />
         <duration min="180" type="add" />
         <ammo type="add" min="3" />
         <KillerWhaleEffect_Level1 is_ability="true" />

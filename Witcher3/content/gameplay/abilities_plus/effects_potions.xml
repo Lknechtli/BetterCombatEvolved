@@ -89,7 +89,7 @@
 			<!-- MARIBOR FOREST -->
 			<ability name="MariborForestEffect_Level1">
 				<tags>passive</tags>
-				<focus_gain type="add" min="0.12" max="0.12"/>
+				<focus_gain type="add" min="0.08" max="0.08"/>
 			</ability>
 			<ability name="MariborForestEffect_Level2">
 				<tags>passive</tags>
@@ -97,7 +97,7 @@
 			</ability>
 			<ability name="MariborForestEffect_Level3">
 				<tags>passive</tags>
-				<focus_gain type="add" min="0.12" max="0.12"/>
+				<focus_gain type="add" min="0.15" max="0.15"/>
 				<focus_on_drink type="add" min="1" />
 			</ability>
 			
@@ -123,18 +123,18 @@
 			<!-- SWALLOW -->
 			<ability name="SwallowEffect_Level1">
 				<tags>passive</tags>
-				<vitalityRegen type="add" max="12" min="12" always_random="false"/>
-				<vitalityCombatRegen type="add" min="35" max="35"/>
+				<vitalityRegen type="add" max="10" min="10" always_random="false"/>
+				<vitalityCombatRegen type="add" min="30" max="30"/>
 			</ability>
 			<ability name="SwallowEffect_Level2">
 				<tags>passive</tags>
-				<vitalityRegen type="add" max="14" min="14" always_random="false"/>
-				<vitalityCombatRegen type="add" min="55" max="55"/>
+				<vitalityRegen type="add" max="13" min="13" always_random="false"/>
+				<vitalityCombatRegen type="add" min="40" max="40"/>
 			</ability>
 			<ability name="SwallowEffect_Level3">
 				<tags>passive</tags>
-				<vitalityRegen type="add" max="18" min="18" always_random="false"/>
-				<vitalityCombatRegen type="add" min="68" max="68"/>
+				<vitalityRegen type="add" max="16" min="16" always_random="false"/>
+				<vitalityCombatRegen type="add" min="50" max="50"/>
 			</ability>
 			
 			<!-- TAWNY OWL -->
@@ -154,15 +154,15 @@
 			<!-- THUNDERBOLT -->
 			<ability name="ThunderboltEffect_Level1">
 				<tags>passive</tags>
-				<attack_power type="mult" min="0.12"/>
+				<attack_power type="mult" min="0.08"/>
 			</ability>
 			<ability name="ThunderboltEffect_Level2">
 				<tags>passive</tags>
-				<attack_power type="mult" min="0.16"/>
+				<attack_power type="mult" min="0.12"/>
 			</ability>
 			<ability name="ThunderboltEffect_Level3">
 				<tags>passive</tags>
-				<attack_power type="mult" min="0.2"/>
+				<attack_power type="mult" min="0.16"/>
 			</ability>
 			
 			<!-- WHITE HONEY -->

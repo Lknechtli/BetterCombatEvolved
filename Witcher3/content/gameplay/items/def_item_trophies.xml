@@ -116,7 +116,7 @@
 				<vsHybrid_attack_power min="0.1" type="mult" />
 			</ability>
 
-			<ability name="bies_trophy_stats">
+			<ability name="bies_trophy_stats"> <!-- Useless, doesn't drop anywhere -->
 				<critical_hit_chance type="add" min="0.25" />
 				<critical_hit_damage_bonus type="add" min="0.5" />
 				<armor type="mult" min="-0.90" />

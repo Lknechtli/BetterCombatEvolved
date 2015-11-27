@@ -89,7 +89,7 @@
 			<!-- MARIBOR FOREST -->
 			<ability name="MariborForestEffect_Level1">
 				<tags>passive</tags>
-				<focus_gain type="add" min="0.12" max="0.12"/>
+				<focus_gain type="add" min="0.08" max="0.08"/>
 			</ability>
 			<ability name="MariborForestEffect_Level2">
 				<tags>passive</tags>
@@ -97,7 +97,7 @@
 			</ability>
 			<ability name="MariborForestEffect_Level3">
 				<tags>passive</tags>
-				<focus_gain type="add" min="0.12" max="0.12"/>
+				<focus_gain type="add" min="0.15" max="0.15"/>
 				<focus_on_drink type="add" min="1" />
 			</ability>
 			
@@ -124,17 +124,19 @@
 			<ability name="SwallowEffect_Level1">
 				<tags>passive</tags>
 				<vitalityRegen type="add" max="8" min="8" always_random="false"/>
-				<vitalityCombatRegen type="add" min="18" max="18"/>
+
+				<vitalityCombatRegen type="add" min="15" max="15"/>
 			</ability>
 			<ability name="SwallowEffect_Level2">
 				<tags>passive</tags>
 				<vitalityRegen type="add" max="10" min="10" always_random="false"/>
-				<vitalityCombatRegen type="add" min="30" max="30"/>
+				<vitalityCombatRegen type="add" min="25" max="25"/>
 			</ability>
 			<ability name="SwallowEffect_Level3">
 				<tags>passive</tags>
 				<vitalityRegen type="add" max="12" min="12" always_random="false"/>
-				<vitalityCombatRegen type="add" min="40" max="40"/>
+
+				<vitalityCombatRegen type="add" min="35" max="35"/>
 			</ability>
 			
 			<!-- TAWNY OWL -->
@@ -154,15 +156,15 @@
 			<!-- THUNDERBOLT -->
 			<ability name="ThunderboltEffect_Level1">
 				<tags>passive</tags>
-				<attack_power type="mult" min="0.12"/>
+				<attack_power type="mult" min="0.08"/>
 			</ability>
 			<ability name="ThunderboltEffect_Level2">
 				<tags>passive</tags>
-				<attack_power type="mult" min="0.16"/>
+				<attack_power type="mult" min="0.12"/>
 			</ability>
 			<ability name="ThunderboltEffect_Level3">
 				<tags>passive</tags>
-				<attack_power type="mult" min="0.2"/>
+				<attack_power type="mult" min="0.16"/>
 			</ability>
 			
 			<!-- WHITE HONEY -->
@@ -227,6 +229,7 @@
 					SwallowEffect
 				</overrides>
 			</effect>
+
 			<effect name_name="PheromoneEffectBear" 	defaultAbilityName_name="PheromoneEffectBear" 		iconType_name="EffectBear"		isPotionEffect="1"	showOnHUD="1" effectNameLocalisationKey_name="item_name_pheromone_potion_bear_1" />
 			<effect name_name="PheromoneEffectDrowner" 	defaultAbilityName_name="PheromoneEffectDrowner" 	iconType_name="EffectDrowner"	isPotionEffect="1"	showOnHUD="1" effectNameLocalisationKey_name="item_name_pheromone_potion_drowner_1" />
 			<effect name_name="PheromoneEffectNekker" 	defaultAbilityName_name="PheromoneEffectNekker" 	iconType_name="EffectNekker"	isPotionEffect="1"	showOnHUD="1" effectNameLocalisationKey_name="item_name_pheromone_potion_nekker_1" />
