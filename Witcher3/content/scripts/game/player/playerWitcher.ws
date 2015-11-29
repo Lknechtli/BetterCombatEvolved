@@ -400,6 +400,7 @@ statemachine class W3PlayerWitcher extends CR4Player
 		
 		//failsafe - sometimes whirl does not end properly and keeps stamina lock, cannot pinpoint why this happens
 		ResumeStaminaRegen('WhirlSkill');
+		ResumeStaminaRegen('RendSkill'); //modSigns
 		
 		if(HasAbility('Runeword 4 _Stats', true))
 			StartVitalityRegen();
@@ -1732,12 +1733,17 @@ statemachine class W3PlayerWitcher extends CR4Player
 		//alchemy oil criticical damage skill bonus
 		if(inv.ItemHasOilApplied(weaponId) && GetStat(BCS_Focus) >= 3 && CanUseSkill(S_Alchemy_s07))
 		{
-			vsAttributeName = MonsterCategoryToCriticalDamageBonus(victimMonsterCategory);
+			//vsAttributeName = MonsterCategoryToCriticalDamageBonus(victimMonsterCategory);
+			vsAttributeName = MonsterCategoryToAttackPowerBonus(victimMonsterCategory); //modSigns: fix crit bonus
 			oilBonus = inv.GetItemAttributeValue(weaponId, vsAttributeName);
 			if(oilBonus != null)	//has proper oil type
 			{
-				bonus += GetSkillAttributeValue(S_Alchemy_s07, theGame.params.CRITICAL_HIT_DAMAGE_BONUS, false, true);
+				//bonus += GetSkillAttributeValue(S_Alchemy_s07, theGame.params.CRITICAL_HIT_DAMAGE_BONUS, false, true);
+				//modSigns: fix crit bonus
+				bonus += GetSkillAttributeValue(S_Alchemy_s07, theGame.params.CRITICAL_HIT_DAMAGE_BONUS, false, false) * GetSkillLevel(S_Alchemy_s07);
 			}
+			//combat log
+			//theGame.witcherLog.AddCombatMessage("Crit dmg bonus: " + FloatToString(bonus.valueAdditive), thePlayer, NULL);
 		}
 		
 		// Mutagen 11 - back strike bonus
@@ -2240,6 +2246,8 @@ statemachine class W3PlayerWitcher extends CR4Player
 		var hud : CR4ScriptedHud;
 		var hudWolfHeadModule : CR4HudModuleWolfHead;		
 
+		PauseStaminaRegen('RendSkill'); //modSigns
+		
 		//drain stamina
 		DrainStamina(ESAT_Ability, 0, 0, GetSkillAbilityName(S_Sword_s02), dt);
 
@@ -4907,7 +4915,12 @@ statemachine class W3PlayerWitcher extends CR4Player
 			mutagenSkillMod = val.valueMultiplicative * GetSkillLevel(S_Alchemy_s14);
 		}
 		
-		duration = duration * (1 + skillPassiveMod + mutagenSkillMod);
+		//modSigns: don't add passive skill mod to mutagen potions
+		//duration = duration * (1 + skillPassiveMod + mutagenSkillMod);
+		if(isMutagenPotion)
+			duration = duration * (1 + mutagenSkillMod);
+		else
+			duration = duration * (1 + skillPassiveMod);
 		
 		return duration;
 	}
@@ -5102,7 +5115,7 @@ statemachine class W3PlayerWitcher extends CR4Player
 				//Chicken no cat end
 				randomPotions.PushBack(EET_FullMoon);
 				randomPotions.PushBack(EET_GoldenOriole);
-				randomPotions.PushBack(EET_KillerWhale);
+				//randomPotions.PushBack(EET_KillerWhale); //modSigns
 				randomPotions.PushBack(EET_MariborForest);
 				randomPotions.PushBack(EET_PetriPhiltre);
 				randomPotions.PushBack(EET_Swallow);
@@ -6379,6 +6392,8 @@ statemachine class W3PlayerWitcher extends CR4Player
 		var penalty : SAbilityAttributeValue;
 		var penaltyReduction : float;
 		var penaltyReductionLevel : int; 
+		var mutagen : CBaseGameplayEffect; //modSigns
+		var min, max : SAbilityAttributeValue; //modSigns
 		
 		//character SP + spell specific skills
 		sp = GetSkillAttributeValue(signSkill, PowerStatEnumToName(CPS_SpellPower), true, true);
@@ -6387,12 +6402,20 @@ statemachine class W3PlayerWitcher extends CR4Player
 		if ( signSkill == S_Magic_s01 )
 		{
 			//wave leveling penalty reduction
-			penaltyReductionLevel = GetSkillLevel(S_Magic_s01) + 1;
+			/*penaltyReductionLevel = GetSkillLevel(S_Magic_s01) + 1;
 			if(penaltyReductionLevel > 0)
 			{
 				penaltyReduction = 1 - penaltyReductionLevel * CalculateAttributeValue(GetSkillAttributeValue(S_Magic_s01, 'spell_power_penalty_reduction', true, true));
 				penalty = GetSkillAttributeValue(S_Magic_s01, PowerStatEnumToName(CPS_SpellPower), false, false);
 				sp += penalty * penaltyReduction;	//add amount equal to penalty reduction (since full penalty is already applied)
+			}*/
+			//modSigns: fix percentages as they are completely off from what skill description says
+			penaltyReductionLevel = GetSkillLevel(S_Magic_s01) - 1;
+			if(penaltyReductionLevel > 0)
+			{
+				penaltyReduction = penaltyReductionLevel * CalculateAttributeValue(GetSkillAttributeValue(S_Magic_s01, 'spell_power_penalty_reduction', false, false));
+				//penalty was already applied, so we revert it based on penalty reduction and skill level
+				sp.valueMultiplicative += penaltyReduction;
 			}
 		}
 		

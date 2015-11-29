@@ -1889,10 +1889,16 @@ class W3PlayerAbilityManager extends W3AbilityManager
 		}
 		
 		// Mutagen 21 - action costing stamina heal geralt, Whirl and Rend handled separately due to their hacks
-		if (cost > 0 && dt <= 0 && owner == thePlayer && thePlayer.HasBuff(EET_Mutagen21) && abilityName != 'sword_s1' && abilityName != 'sword_s2')
+		// modSigns: remove hacks, make healing proportional to stamina spent
+		/*if (cost > 0 && dt <= 0 && owner == thePlayer && thePlayer.HasBuff(EET_Mutagen21) && abilityName != 'sword_s1' && abilityName != 'sword_s2')
 		{	
 			mutagen = (W3Mutagen21_Effect)thePlayer.GetBuff(EET_Mutagen21);
 			mutagen.Heal();
+		}*/
+		if(cost > 0 && owner == thePlayer && thePlayer.HasBuff(EET_Mutagen21))
+		{
+			mutagen = (W3Mutagen21_Effect)thePlayer.GetBuff(EET_Mutagen21);
+			mutagen.Heal(cost);
 		}
 		
 		//Force abort sign cast if stamina reached 0. Otherwise if we have regen, stamina might regenerate before it is checked in 

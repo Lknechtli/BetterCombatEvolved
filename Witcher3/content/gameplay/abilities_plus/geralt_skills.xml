@@ -302,8 +302,8 @@
       <!-- Quen -->
       <ability name="magic_4">
         <tags>magic_4</tags>
-        <stamina_cost type="add" always_random="false" min="50" max="50" />
-        <stamina_delay type="base" min="6.0" />
+        <stamina_cost type="add" always_random="false" min="30" max="30" />
+        <stamina_delay type="base" min="1" />
         <stamina_delay type="mult" min="1" />
         <shield_duration type="base" min="6" />
         <shield_duration type="mult" min="1" />
@@ -369,20 +369,24 @@
 		<stamina_cost type="add" always_random="false" min="0" max="0" />
         <stamina_cost_per_sec type="add" always_random="false" min="20" max="20" />
 		<stamina_cost_reduction_after_1 type="mult" min="0.25" />
-		<shield_health_factor type="add" always_random="false" min="3" max="3" />
+		<shield_health_factor type="add" always_random="false" min="6" max="6" />
+		<stamina_delay type="base" min="0.5" />
+        <stamina_delay type="mult" min="1" />
       </ability>
 	  
       <!-- Guard Me! (ult) -->
       <ability name="magic_s5">
         <tags>magic_s5</tags>
         <stamina_cost type="add" always_random="false" min="0" max="0" />
-        <stamina_cost_per_sec type="add" always_random="false" min="25" max="25" />
+        <stamina_cost_per_sec type="add" always_random="false" min="22.2" max="22.2" />
         <!-- duration modified by other skills, no mult as spell power covers that -->
         <duration type="base" min="7" />
 		<duration_animals type="base" min="18" />
 		<AxiiGuardMeEffect is_ability="true" />
 		<!-- attack power bonus -->
 		<attack_power type="mult" min="0.05" />
+		<stamina_delay type="base" min="0.5" />
+        <stamina_delay type="mult" min="1" />
       </ability>
 	  
       <!-- Static Discharge -->
@@ -408,6 +412,8 @@
       <ability name="magic_s9"> <!-- 3 ranks -->
         <tags>magic_s9</tags>
         <chance_bonus type="add" min="0.25" />
+		<FireDamage type="add" always_random="false" min="20" max="20" />
+		<channeling_damage type="add" always_random="false" min="5" max="5" />
       </ability>
 	  
       <!-- Glyph Sustenance -->

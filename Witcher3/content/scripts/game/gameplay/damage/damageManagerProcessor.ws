@@ -476,11 +476,20 @@ class W3DamageManagerProcessor extends CObject /* CObject extension is required 
 		if(!actorVictim || !attackAction || !actorAttacker || actorVictim.HasAbility('InstantKillImmune') || actorVictim.IsImmortal() || actorVictim.IsInvulnerable())
 			return;
 		
-		//player has internal cooldown on instant kills
+		//modSigns: cooldown removed, whirl has zero instant kill chance
+		//player has internal cooldown on instant kills <- removed
 		if(actorAttacker == thePlayer)
 		{
-			if( ConvertGameSecondsToRealTimeSeconds(GameTimeToSeconds(theGame.GetGameTime()-thePlayer.lastInstantKillTime)) < theGame.params.INSTANT_KILL_INTERNAL_PLAYER_COOLDOWN)
+			//if( ConvertGameSecondsToRealTimeSeconds(GameTimeToSeconds(theGame.GetGameTime()-thePlayer.lastInstantKillTime)) < theGame.params.INSTANT_KILL_INTERNAL_PLAYER_COOLDOWN)
+				//return;
+			//if(attackAction && SkillNameToEnum(attackAction.GetAttackTypeName()) == S_Sword_s01)
+			if(playerAttacker && playerAttacker.GetBehaviorVariable( 'isPerformingSpecialAttack' ) > 0 && 
+			   playerAttacker.GetBehaviorVariable( 'playerAttackType' ) == (int)PAT_Light)
+			{
+				//combat log
+				//theGame.witcherLog.AddCombatMessage("Whirl has zero instant kill chance", actorAttacker, actorVictim);
 				return;
+			}
 		}
 	
 			
@@ -495,6 +504,9 @@ class W3DamageManagerProcessor extends CObject /* CObject extension is required 
 			if(focus >= 1)
 				instantKill += focus * CalculateAttributeValue( thePlayer.GetSkillAttributeValue(S_Sword_s03, 'instant_kill_chance', false, true) ) * thePlayer.GetSkillLevel(S_Sword_s03);
 		}
+		
+		//combat log
+		//theGame.witcherLog.AddCombatMessage("Instant kill chance: " + FloatToString(instantKill), actorAttacker, actorVictim);
 
 		//test
 		if ( RandF() < instantKill )
@@ -530,6 +542,7 @@ class W3DamageManagerProcessor extends CObject /* CObject extension is required 
 		var oilLevel, skillLevel, i : int;
 		var baseChance, perOilLevelChance, chance : float;
 		var buffs : array<name>;
+		var resPt, resPrc : float; //modSigns
 	
 		//test for skill having chance to poison victim if we use proper oil on enemy
 		if(playerAttacker && actorVictim && attackAction && attackAction.IsActionMelee() && playerAttacker.CanUseSkill(S_Alchemy_s12))
@@ -560,6 +573,9 @@ class W3DamageManagerProcessor extends CObject /* CObject extension is required 
 						baseChance = CalculateAttributeValue(playerAttacker.GetSkillAttributeValue(S_Alchemy_s12, 'skill_chance', false, true));
 						perOilLevelChance = CalculateAttributeValue(playerAttacker.GetSkillAttributeValue(S_Alchemy_s12, 'oil_level_chance', false, true));						
 						chance = baseChance * skillLevel + perOilLevelChance * oilLevel;
+						//modSigns: check resistance
+						actorVictim.GetResistValue(theGame.effectMgr.GetBuffResistStat(EET_Poison), resPt, resPrc);
+						chance = MaxF(0, chance * (1 - resPrc));
 						
 						//percentage test
 						if(RandF() < chance)
@@ -638,6 +654,23 @@ class W3DamageManagerProcessor extends CObject /* CObject extension is required 
 				//log				
 				LogDMHits("", action);				
 				LogDMHits("Trying critical hit (" + NoTrailZeros(critChance*100) + "% chance, dealing " + NoTrailZeros(critDamageBonus) + "% damage)...", action);
+			}
+			
+			//modSigns: whirl has zero critical chance
+			if(playerAttacker && playerAttacker == GetWitcherPlayer() && playerAttacker.GetBehaviorVariable( 'isPerformingSpecialAttack' ) > 0 && 
+			   playerAttacker.GetBehaviorVariable( 'playerAttackType' ) == (int)PAT_Light)
+			{
+				critChance = 0;
+				//combat log
+				//theGame.witcherLog.AddCombatMessage("Zero crit chance from whirl", actorAttacker, actorVictim);
+			}
+			//modSigns: zero critical chance to hit the player performing whirl
+			if(playerVictim && playerVictim == GetWitcherPlayer() && playerVictim.GetBehaviorVariable( 'isPerformingSpecialAttack' ) > 0 && 
+			   playerVictim.GetBehaviorVariable( 'playerAttackType' ) == (int)PAT_Light)
+			{
+				critChance = 0;
+				//combat log
+				//theGame.witcherLog.AddCombatMessage("Zero crit chance to hit through whirl", actorAttacker, actorVictim);
 			}
 			
 			//test
@@ -1151,13 +1184,16 @@ class W3DamageManagerProcessor extends CObject /* CObject extension is required 
 		if(playerAttacker && attackAction && playerAttacker.IsHeavyAttack(attackAction.GetAttackName()))
 			powerMod.valueMultiplicative -= 0.833;
 		
+		//modSigns: remove igni boost (does nothing in fact, as IGNI_SPELL_POWER_MILT = 1) and aard scaling block
+		/*
 		// M.J. - Igni has extra damage bonus from spell power
 		if ( playerAttacker && (W3IgniProjectile)action.causer )
 			powerMod.valueMultiplicative = 1 + (powerMod.valueMultiplicative - 1) * theGame.params.IGNI_SPELL_POWER_MILT;
 		
 		// M.J. Aard damage do noet get damage increase from spell power
 		if ( playerAttacker && (W3AardProjectile)action.causer )
-			powerMod.valueMultiplicative = 1;
+			powerMod.valueMultiplicative = 1
+		*/
 		
 		//critical hits
 		if(attackAction && attackAction.IsCriticalHit())
@@ -1178,7 +1214,6 @@ class W3DamageManagerProcessor extends CObject /* CObject extension is required 
 			totalBonus = CalculateAttributeValue(criticalDamageBonus);
 			critReduction = actorVictim.GetAttributeValue(theGame.params.CRITICAL_HIT_REDUCTION);
 			totalBonus = totalBonus * ClampF(1 - critReduction.valueMultiplicative, 0.f, 1.f);
-			
 			//final mod
 			powerMod.valueMultiplicative += totalBonus;
 		}
@@ -1197,17 +1232,38 @@ class W3DamageManagerProcessor extends CObject /* CObject extension is required 
 		return powerMod;
 	}
 	
+	//modSigns
+	private function GetOilBonusByLevel(oilName : name) : float
+	{
+		var left, right : string;
+		var oilLevel : int;
+		StrSplitLast(oilName, " ", left, right);
+		oilLevel = StringToInt(right);
+		switch(oilLevel)
+		{
+			case 1: return 0.1; //10% resist reduction for lvl 1 oil
+			case 2: return 0.2; //20%
+			case 3: return 0.5; //50%
+		}
+		return 0.0;
+	}
+	
 	// Calculates final damage resistances
 	private function GetDamageResists(dmgType : name, out resistPts : float, out resistPerc : float)
 	{
 		var armorReduction, armorReductionPerc, skillArmorReduction : SAbilityAttributeValue;
 		var bonusReduct, bonusResist, maxOilCharges : float;
-		var oilCharges : int;
+		var armorVal : float;
+		var oilCharges, oilLevel : int; //modSigns
 		var mutagenBuff : W3Mutagen28_Effect;
 		var appliedOilName, vsMonsterResistReduction : name;
 		
 		//fists ignore armor (all res is equal to 0)
 		if(attackAction && attackAction.IsActionMelee() && actorAttacker.GetInventory().IsItemFists(weaponId) && !actorVictim.UsesEssence())
+			return;
+			
+		//modSigns: wooden sword training hack - NG+ mostly
+		if(attackAction && attackAction.IsActionMelee() && actorVictim.IsSwordWooden() && actorAttacker.IsSwordWooden())
 			return;
 			
 		//reductions from victim
@@ -1236,29 +1292,33 @@ class W3DamageManagerProcessor extends CObject /* CObject extension is required 
 			//from attacker
 			if(actorAttacker)
 			{
+				//modSigns: armor reduction applies to actual armor
 				//base armor reduction
-				armorReduction = actorAttacker.GetAttributeValue('armor_reduction');
+				//armorReduction = actorAttacker.GetAttributeValue('armor_reduction');
 				armorReductionPerc = actorAttacker.GetAttributeValue('armor_reduction_perc');
 				
-				//lvl3 oil resistance reduction
-				if(playerAttacker)
+				//lvl3 oil resistance reduction - modSigns: all oils give bonus reduction
+				if(playerAttacker && weaponId != GetInvalidUniqueId())
 				{
-					vsMonsterResistReduction = MonsterCategoryToResistReduction(victimMonsterCategory);
+					//vsMonsterResistReduction = MonsterCategoryToResistReduction(victimMonsterCategory);
 					appliedOilName = playerAttacker.inv.GetSwordOil(weaponId);
-					
+					vsMonsterResistReduction = MonsterCategoryToAttackPowerBonus(victimMonsterCategory); //modSigns
 					//if proper oil for this monster type
 					if(dm.ItemHasAttribute(appliedOilName, true, vsMonsterResistReduction))
 					{
 						oilCharges = playerAttacker.GetCurrentOilAmmo(weaponId);
 						maxOilCharges = playerAttacker.GetMaxOilAmmo(weaponId);
-						
-						armorReductionPerc.valueMultiplicative += ((float)oilCharges) / maxOilCharges;
+						//armorReductionPerc.valueMultiplicative += ((float)oilCharges) / maxOilCharges;
+						armorReductionPerc.valueAdditive += ((float)oilCharges) / maxOilCharges * GetOilBonusByLevel(appliedOilName); //modSigns
+						//combat log
+						//theGame.witcherLog.AddCombatMessage("Oil armor reduction: " + FloatToString(((float)oilCharges) / maxOilCharges * GetOilBonusByLevel(appliedOilName)), thePlayer, NULL);
 					}
 				}
 				
+				//modSigns: armor reduction applies to actual armor
 				//basic heavy attack armor piercing
-				if(playerAttacker && action.IsActionMelee() && playerAttacker.IsHeavyAttack(attackAction.GetAttackName()) && playerAttacker.CanUseSkill(S_Sword_2))
-					armorReduction += playerAttacker.GetSkillAttributeValue(S_Sword_2, 'armor_reduction', false, true);
+				//if(playerAttacker && action.IsActionMelee() && playerAttacker.IsHeavyAttack(attackAction.GetAttackName()) && playerAttacker.CanUseSkill(S_Sword_2))
+				//	armorReduction += playerAttacker.GetSkillAttributeValue(S_Sword_2, 'armor_reduction', false, true);
 				
 				//skill damage reduction
 				if ( playerAttacker && 
@@ -1282,17 +1342,37 @@ class W3DamageManagerProcessor extends CObject /* CObject extension is required 
 		
 		//add ARMOR if can
 		if(!action.GetIgnoreArmor())
-			resistPts += CalculateAttributeValue( actorVictim.GetTotalArmor() );
+		{
+			//modSigns: armor reduction applies to actual armor
+			//resistPts += CalculateAttributeValue( actorVictim.GetTotalArmor() );
+			armorVal = CalculateAttributeValue( actorVictim.GetTotalArmor() );
+			//base armor reduction
+			armorReduction = actorAttacker.GetAttributeValue('armor_reduction');
+			//basic heavy attack armor piercing
+			if(playerAttacker && action.IsActionMelee() && playerAttacker.IsHeavyAttack(attackAction.GetAttackName()) && playerAttacker.CanUseSkill(S_Sword_2))
+				armorReduction += playerAttacker.GetSkillAttributeValue(S_Sword_2, 'armor_reduction', false, true);
+			//reduce armor
+			resistPts += MaxF(0, armorVal - CalculateAttributeValue(armorReduction));
+		}
 		
+		//modSigns: reduce armor only if there is armor
 		//reduce resistance points by armor reduction
-		resistPts = MaxF(0, resistPts - CalculateAttributeValue(armorReduction) );		
+		//resistPts = MaxF(0, resistPts - CalculateAttributeValue(armorReduction) );		
+		resistPts = MaxF(0, resistPts);
 		resistPerc -= CalculateAttributeValue(armorReductionPerc);		
 		//resistPerc *= (1 - MinF(1, armorReductionPerc.valueMultiplicative));		//bug or design change?		
 		
 		//percents resistance cap
 		resistPerc = MaxF(0, resistPerc);
-		// Restrict Resistance
-		if (playerVictim) { resistPerc = resistPerc * 0.75; }
+		
+		//modSigns: whirl adds 30% resistance
+		if(playerVictim && playerVictim == GetWitcherPlayer() && playerVictim.GetBehaviorVariable( 'isPerformingSpecialAttack' ) > 0 && 
+		   playerVictim.GetBehaviorVariable( 'playerAttackType' ) == (int)PAT_Light)
+		{
+			resistPerc += 0.3;
+			//combat log
+			//theGame.witcherLog.AddCombatMessage("Whirl 30% resist bonus", actorAttacker, actorVictim);
+		}
 	}
 		
 	// Calculates final damage for a single damage type
@@ -1367,13 +1447,29 @@ class W3DamageManagerProcessor extends CObject /* CObject extension is required 
 		if(playerAttacker && attackAction && playerAttacker.IsHeavyAttack(attackAction.GetAttackName()))
 			finalDamage *= 1.833;
 			
+		//modSigns: remove ep1 igni hack
 		//EP1 hack for boosting Igni damage against bosses
-		burning = (W3Effect_Burning)action.causer;
+		/*burning = (W3Effect_Burning)action.causer;
 		if(actorVictim && (((W3IgniEntity)action.causer) || ((W3IgniProjectile)action.causer) || ( burning && burning.IsSignEffect())) )
 		{
 			min = actorVictim.GetAttributeValue('igni_damage_amplifier');
 			finalDamage = finalDamage * (1 + min.valueMultiplicative) + min.valueAdditive;
-		}
+		}*/
+		
+		//modSigns: combat log
+		/*if(!action.IsDoTDamage())
+		{
+			theGame.witcherLog.AddCombatMessage("Dmg manager:", actorAttacker, actorVictim);
+			theGame.witcherLog.AddCombatMessage("Target: " + actorVictim.GetDisplayName(), actorAttacker, actorVictim);
+			theGame.witcherLog.AddCombatMessage("Dmg type: " + NameToString(dmgInfo.dmgType), actorAttacker, actorVictim);
+			theGame.witcherLog.AddCombatMessage("Raw dmg: " + FloatToString(dmgInfo.dmgVal), actorAttacker, actorVictim);
+			theGame.witcherLog.AddCombatMessage("Mod.base: " + FloatToString(powerMod.valueBase), actorAttacker, actorVictim);
+			theGame.witcherLog.AddCombatMessage("Mod.mult: " + FloatToString(powerMod.valueMultiplicative), actorAttacker, actorVictim);
+			theGame.witcherLog.AddCombatMessage("Mod.add: " + FloatToString(powerMod.valueAdditive), actorAttacker, actorVictim);
+			theGame.witcherLog.AddCombatMessage("Resist pts: " + FloatToString(resistPoints), actorAttacker, actorVictim);
+			theGame.witcherLog.AddCombatMessage("Resist %: " + FloatToString(resistPercents), actorAttacker, actorVictim);
+			theGame.witcherLog.AddCombatMessage("Final dmg: " + FloatToString(finalDamage), actorAttacker, actorVictim);
+		}*/
 		
 		//extensive logging
 		if ( theGame.CanLog() )
@@ -1595,6 +1691,7 @@ class W3DamageManagerProcessor extends CObject /* CObject extension is required 
 		var toxicCloud					: W3ToxicCloud;
 		var playsNonAdditiveAnim		: bool;
 		var bleedCustomEffect 			: SCustomEffectParams;
+		var resPt, resPrc, chance		: float; //modSigns
 		
 		if(!actorVictim)
 			return;
@@ -1625,7 +1722,15 @@ class W3DamageManagerProcessor extends CObject /* CObject extension is required 
 					bleedCustomEffect.sourceName = SkillEnumToName(S_Sword_s05);
 					bleedCustomEffect.duration = CalculateAttributeValue(playerAttacker.GetSkillAttributeValue(S_Sword_s05, 'duration', false, true));
 					bleedCustomEffect.effectValue.valueAdditive = CalculateAttributeValue(playerAttacker.GetSkillAttributeValue(S_Sword_s05, 'dmg_per_sec', false, true)) * playerAttacker.GetSkillLevel(S_Sword_s05);
-					actorVictim.AddEffectCustom(bleedCustomEffect);
+					//modSigns: add attacker's power mod
+					bleedCustomEffect.customPowerStatValue = GetAttackersPowerMod();
+					//modSigns: check resistance
+					actorVictim.GetResistValue(theGame.effectMgr.GetBuffResistStat(EET_Bleeding), resPt, resPrc);
+					chance = MaxF(0, 1 - resPrc);
+					//combat log
+					//theGame.witcherLog.AddCombatMessage("Crippling strikes bleeding chance: " + FloatToString(chance), actorAttacker, actorVictim);
+					if(RandF() < chance)
+						actorVictim.AddEffectCustom(bleedCustomEffect);
 				}
 			}
 			
