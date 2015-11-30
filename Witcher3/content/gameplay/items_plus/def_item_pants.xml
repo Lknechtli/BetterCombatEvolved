@@ -10,15 +10,14 @@
 	<ability name="Starting Pants _Stats">
 		<weight 						type="base" min="2.1" 				/>
 		<quality 						type="add" 	min="5" 	max="5"		/>
-		<armor 							type="base" min="1" 	max="1" 	/>
-		<armor							type="add"	min="74"	max="74"	/>
+		<armor 							type="base" min="75" 	max="75" 	/>
 		<slashing_resistance_perc 		type="base"	min="0.06"				/>
 		<piercing_resistance_perc 		type="base" min="0.04"				/>
 		<bludgeoning_resistance_perc	type="base" min="0.04"				/>
 		<rending_resistance_perc 		type="base" min="0.04"				/>
 		<elemental_resistance_perc 		type="base" min="0.10"				/>
 		<poison_resistance_perc			type="base"	min="0.03"				/>
-		<spell_power					type="mult"	min="0.01"				/>
+		<spell_power					type="mult"	min="0.02"				/>
 	</ability>
 
 <!-- Human pants -->

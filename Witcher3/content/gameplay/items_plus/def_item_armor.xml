@@ -29,8 +29,7 @@
 	<ability name="Starting Armor _Stats">
 		<weight							type="base"	min="3.12"				/>
 		<quality						type="add"	min="5"		max="5"		/>
-		<armor							type="base"	min="1"	max="1"	/>
-		<armor							type="add"	min="216"	/>
+		<armor							type="base"	min="217"	max="217"	/>
 		<slashing_resistance_perc		type="base"	min="0.09"				/>
 		<piercing_resistance_perc		type="base"	min="0.09"				/>
 		<bludgeoning_resistance_perc	type="base"	min="0.09"				/>

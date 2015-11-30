@@ -348,7 +348,7 @@
         <hp_regen_reduction_duration type="add" min="5" />
       </ability>
       <ability name="ToxicityEffect">
-        <toxicityRegen type="add" min="-0.75" />
+        <toxicityRegen type="add" min="-0.95" />
         <DirectDamage type="mult" min="0.005" max="0.005" />
         <duration type="add" min="-1" max="-1" />
       </ability>
@@ -369,37 +369,37 @@
         <duration type="add" min="-1" />
       </ability>
       <ability name="WellFedEffect_Level1">
-        <duration type="add" min="60" max="60" />
+        <duration type="add" min="300" max="300" />
         <vitalityRegen type="add" min="8" max="8" />
         <vitalityCombatRegen type="add" min="2" max="2" />
         <level type="add" min="1" />
       </ability>
       <ability name="WellFedEffect_Level2">
-        <duration type="add" min="68" max="68" />
+        <duration type="add" min="330" max="330" />
         <vitalityRegen type="add" min="10" max="10" />
         <vitalityCombatRegen type="add" min="2" max="2" />
         <level type="add" min="2" />
       </ability>
       <ability name="WellFedEffect_Level3">
-        <duration type="add" min="75" max="75" />
+        <duration type="add" min="360" max="360" />
         <vitalityRegen type="add" min="12" max="12" />
         <vitalityCombatRegen type="add" min="2" max="2" />
         <level type="add" min="3" />
       </ability>
       <ability name="WellHydratedEffect_Level1">
-        <duration type="add" min="80" max="80" />
+        <duration type="add" min="450" max="450" />
         <vitalityRegen type="add" min="5" max="5" />
         <vitalityCombatRegen type="add" min="1" max="1" />
         <level type="add" min="1" />
       </ability>
       <ability name="WellHydratedEffect_Level2">
-        <duration type="add" min="90" max="90" />
+        <duration type="add" min="480" max="480" />
         <vitalityRegen type="add" min="7" max="7" />
         <vitalityCombatRegen type="add" min="1" max="1" />
         <level type="add" min="2" />
       </ability>
       <ability name="WellHydratedEffect_Level3">
-        <duration type="add" min="100" max="100" />
+        <duration type="add" min="510" max="510" />
         <vitalityRegen type="add" min="9" max="9" />
         <vitalityCombatRegen type="add" min="1" max="1" />
         <level type="add" min="3" />

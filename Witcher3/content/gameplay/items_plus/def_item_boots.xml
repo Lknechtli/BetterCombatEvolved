@@ -9,15 +9,14 @@
 	<ability name="Starting Boots _Stats">
 		<weight							type="base"	min="1.4"				/>
 		<quality						type="add"	min="5"		max="5"		/>
-		<armor							type="base"	min="1"					/>
-		<armor							type="add"	min="64"		/>
+		<armor							type="base"	min="65"					/>
 		<slashing_resistance_perc 		type="base"	min="0.04"				/>
 		<piercing_resistance_perc 		type="base" min="0.04"				/>
 		<bludgeoning_resistance_perc	type="base" min="0.04"				/>
 		<rending_resistance_perc 		type="base" min="0.04"				/>
 		<elemental_resistance_perc 		type="base" min="0.04"				/>
 		<poison_resistance_perc			type="base"	min="0.02"				/>
-		<spell_power					type="mult"	min="0.01"				/>
+		<spell_power					type="mult"	min="0.02"				/>
 	</ability>
 
 <!-- BOOTS LIGHT -->

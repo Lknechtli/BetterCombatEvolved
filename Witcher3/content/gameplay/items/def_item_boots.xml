@@ -9,8 +9,7 @@
 	<ability name="Starting Boots _Stats">
 		<weight							type="base"	min="1.4"				/>
 		<quality						type="add"	min="5"		max="5"		/>
-		<armor							type="base"	min="1"					/>
-		<armor							type="add"	min="10"		/>
+		<armor							type="base"	min="10"					/>
 		<slashing_resistance_perc		type="base" min="0.01"				/>
 		<bludgeoning_resistance_perc	type="base" min="0.01"				/>
 		<piercing_resistance_perc		type="base"	min="0.01"				/>

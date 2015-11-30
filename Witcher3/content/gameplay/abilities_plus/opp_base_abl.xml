@@ -152,7 +152,7 @@
         <humanoid type="add" always_random="false" min="1.0" max="1.0" />
         <vitalityRegen type="mult" always_random="false" min="0" max="0" />
         <essenceRegen type="mult" always_random="false" min="0" max="0" />
-        <staminaRegen type="mult" always_random="false" min="0.75" max="0.75" />
+        <staminaRegen type="mult" always_random="false" min="-0.33" max="-0.33" />
         <moraleRegen type="mult" always_random="false" min="0.08" max="0.12" />
        <light_attack_damage_vitality type="base" always_random="false" min="108" max="108" />
         <light_attack_damage_essence type="base" always_random="false" min="0" max="0" />

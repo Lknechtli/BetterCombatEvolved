@@ -18,7 +18,7 @@
 		<rending_resistance_perc 		type="base" min="0.08"				/>
 		<elemental_resistance_perc 		type="base" min="0.14"				/>
 		<poison_resistance_perc			type="base"	min="0.04"				/>
-		<spell_power					type="mult"	min="0.01"				/>
+		<spell_power					type="mult"	min="0.08"				/>
 	</ability>
 
 	<ability name="Starting Pants 2 _Stats">
@@ -31,7 +31,7 @@
 		<rending_resistance_perc 		type="base" min="0.10"				/>
 		<elemental_resistance_perc 		type="base" min="0.12"				/>
 		<poison_resistance_perc			type="base"	min="0.06"				/>
-		<spell_power					type="mult"	min="0.01"				/>
+		<spell_power					type="mult"	min="0.11"				/>
 	</ability>
 
 	<ability name="Starting Pants 3 _Stats">
@@ -44,7 +44,7 @@
 		<rending_resistance_perc 		type="base" min="0.12"				/>
 		<elemental_resistance_perc 		type="base" min="0.14"				/>
 		<poison_resistance_perc			type="base"	min="0.08"				/>
-		<spell_power					type="mult"	min="0.01"				/>
+		<spell_power					type="mult"	min="0.14"				/>
 	</ability>
 
 <!-- PANTS LIGHT -->

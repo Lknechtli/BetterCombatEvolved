@@ -16,7 +16,7 @@
 				<fish_price_mult type="base" min="5" max="5"/>
 				<books_price_mult type="base" min="2" max="2"/>
 				<valuables_price_mult type="base" min="1.5" max="1.5"/>
-				<junk_price_mult type="base" min="1.15" max="1.15"/>
+				<junk_price_mult type="base" min="-1" max="-1"/>
 				
 				<novigrad_price_mult type="base" min="1.15" max="1.15"/>
 				<nilfgard_price_mult type="base" min="1" max="1"/>
@@ -91,7 +91,7 @@
 				<fish_price_mult type="base" min="5" max="5"/>
 				<books_price_mult type="base" min="-1" max="-1"/>
 				<valuables_price_mult type="base" min="1.5" max="1.5"/>
-				<junk_price_mult type="base" min="0.85" max="0.85"/>
+				<junk_price_mult type="base" min="-1" max="-1"/>
 				
 				<novigrad_price_mult type="base" min="1" max="1"/>
 				<nilfgard_price_mult type="base" min="1" max="1"/>
@@ -117,7 +117,7 @@
 				<fish_price_mult type="base" min="5" max="5"/>
 				<books_price_mult type="base" min="2" max="2"/>
 				<valuables_price_mult type="base" min="1.5" max="1.5"/>
-				<junk_price_mult type="base" min="1.15" max="1.15"/>
+				<junk_price_mult type="base" min="-1" max="-1"/>
 				
 				<novigrad_price_mult type="base" min="1.15" max="1.15"/>
 				<nilfgard_price_mult type="base" min="1" max="1"/>
@@ -141,7 +141,7 @@
 				<fish_price_mult type="base" min="5" max="5"/>
 				<books_price_mult type="base" min="2" max="2"/>
 				<valuables_price_mult type="base" min="1.5" max="1.5"/>
-				<junk_price_mult type="base" min="1.15" max="1.15"/>
+				<junk_price_mult type="base" min="-1" max="-1"/>
 				
 				<novigrad_price_mult type="base" min="1.15" max="1.15"/>
 				<nilfgard_price_mult type="base" min="1" max="1"/>
@@ -165,7 +165,7 @@
 				<fish_price_mult type="base" min="5" max="5"/>
 				<books_price_mult type="base" min="2" max="2"/>
 				<valuables_price_mult type="base" min="1.5" max="1.5"/>
-				<junk_price_mult type="base" min="1.15" max="1.15"/>
+				<junk_price_mult type="base" min="-1" max="-1"/>
 				
 				<novigrad_price_mult type="base" min="1.15" max="1.15"/>
 				<nilfgard_price_mult type="base" min="1" max="1"/>
@@ -189,7 +189,7 @@
 				<fish_price_mult type="base" min="5" max="5"/>
 				<books_price_mult type="base" min="2" max="2"/>
 				<valuables_price_mult type="base" min="1.5" max="1.5"/>
-				<junk_price_mult type="base" min="1.15" max="1.15"/>
+				<junk_price_mult type="base" min="-1" max="-1"/>
 				
 				<novigrad_price_mult type="base" min="1.15" max="1.15"/>
 				<nilfgard_price_mult type="base" min="1" max="1"/>
@@ -213,7 +213,7 @@
 				<fish_price_mult type="base" min="5" max="5"/>
 				<books_price_mult type="base" min="2" max="2"/>
 				<valuables_price_mult type="base" min="1.5" max="1.5"/>
-				<junk_price_mult type="base" min="1.15" max="1.15"/>
+				<junk_price_mult type="base" min="-1" max="-1"/>
 				
 				<novigrad_price_mult type="base" min="1.15" max="1.15"/>
 				<nilfgard_price_mult type="base" min="1" max="1"/>
@@ -237,7 +237,7 @@
 				<fish_price_mult type="base" min="5" max="5"/>
 				<books_price_mult type="base" min="2" max="2"/>
 				<valuables_price_mult type="base" min="1.5" max="1.5"/>
-				<junk_price_mult type="base" min="1.15" max="1.15"/>
+				<junk_price_mult type="base" min="-1" max="-1"/>
 				
 				<novigrad_price_mult type="base" min="1.15" max="1.15"/>
 				<nilfgard_price_mult type="base" min="1" max="1"/>
@@ -563,7 +563,7 @@
 				<fish_price_mult type="base" min="5" max="5"/>
 				<books_price_mult type="base" min="-1" max="-1"/>
 				<valuables_price_mult type="base" min="1.5" max="1.5"/>
-				<junk_price_mult type="base" min="0.85" max="0.85"/>
+				<junk_price_mult type="base" min="-1" max="-1"/>
 				
 				<novigrad_price_mult type="base" min="1" max="1"/>
 				<nilfgard_price_mult type="base" min="1" max="1"/>
@@ -587,7 +587,7 @@
 				<fish_price_mult type="base" min="5" max="5"/>
 				<books_price_mult type="base" min="-1" max="-1"/>
 				<valuables_price_mult type="base" min="1.5" max="1.5"/>
-				<junk_price_mult type="base" min="0.85" max="0.85"/>
+				<junk_price_mult type="base" min="-1" max="-1"/>
 				
 				<novigrad_price_mult type="base" min="1" max="1"/>
 				<nilfgard_price_mult type="base" min="1" max="1"/>
@@ -611,7 +611,7 @@
 				<fish_price_mult type="base" min="1" max="1"/>
 				<books_price_mult type="base" min="2" max="2"/>
 				<valuables_price_mult type="base" min="1" max="1"/>
-				<junk_price_mult type="base" min="1" max="1"/>
+				<junk_price_mult type="base" min="-1" max="-1"/>
 				
 				<novigrad_price_mult type="base" min="1" max="1"/>
 				<nilfgard_price_mult type="base" min="1" max="1"/>
@@ -637,7 +637,7 @@
 				<fish_price_mult type="base" min="1" max="1"/>
 				<books_price_mult type="base" min="2" max="2"/>
 				<valuables_price_mult type="base" min="1" max="1"/>
-				<junk_price_mult type="base" min="1" max="1"/>
+				<junk_price_mult type="base" min="-1" max="-1"/>
 				
 				<novigrad_price_mult type="base" min="1.15" max="1.15"/>
 				<nilfgard_price_mult type="base" min="1.15" max="1.15"/>
@@ -661,7 +661,7 @@
 				<fish_price_mult type="base" min="1" max="1"/>
 				<books_price_mult type="base" min="2" max="2"/>
 				<valuables_price_mult type="base" min="1" max="1"/>
-				<junk_price_mult type="base" min="1" max="1"/>
+				<junk_price_mult type="base" min="-1" max="-1"/>
 				
 				<novigrad_price_mult type="base" min="1.15" max="1.15"/>
 				<nilfgard_price_mult type="base" min="1.15" max="1.15"/>
@@ -685,7 +685,7 @@
 				<fish_price_mult type="base" min="1" max="1"/>
 				<books_price_mult type="base" min="2" max="2"/>
 				<valuables_price_mult type="base" min="1" max="1"/>
-				<junk_price_mult type="base" min="1" max="1"/>
+				<junk_price_mult type="base" min="-1" max="-1"/>
 				
 				<novigrad_price_mult type="base" min="1.15" max="1.15"/>
 				<nilfgard_price_mult type="base" min="1.15" max="1.15"/>
@@ -709,7 +709,7 @@
 				<fish_price_mult type="base" min="1" max="1"/>
 				<books_price_mult type="base" min="2" max="2"/>
 				<valuables_price_mult type="base" min="1" max="1"/>
-				<junk_price_mult type="base" min="1" max="1"/>
+				<junk_price_mult type="base" min="-1" max="-1"/>
 				
 				<novigrad_price_mult type="base" min="1.15" max="1.15"/>
 				<nilfgard_price_mult type="base" min="1.15" max="1.15"/>
@@ -733,7 +733,7 @@
 				<fish_price_mult type="base" min="1" max="1"/>
 				<books_price_mult type="base" min="2" max="2"/>
 				<valuables_price_mult type="base" min="1" max="1"/>
-				<junk_price_mult type="base" min="1" max="1"/>
+				<junk_price_mult type="base" min="-1" max="-1"/>
 				
 				<novigrad_price_mult type="base" min="1.15" max="1.15"/>
 				<nilfgard_price_mult type="base" min="1.15" max="1.15"/>
@@ -757,7 +757,7 @@
 				<fish_price_mult type="base" min="1" max="1"/>
 				<books_price_mult type="base" min="2" max="2"/>
 				<valuables_price_mult type="base" min="1" max="1"/>
-				<junk_price_mult type="base" min="1" max="1"/>
+				<junk_price_mult type="base" min="-1" max="-1"/>
 				
 				<novigrad_price_mult type="base" min="1.15" max="1.15"/>
 				<nilfgard_price_mult type="base" min="1.15" max="1.15"/>
@@ -781,7 +781,7 @@
 				<fish_price_mult type="base" min="1" max="1"/>
 				<books_price_mult type="base" min="2" max="2"/>
 				<valuables_price_mult type="base" min="1" max="1"/>
-				<junk_price_mult type="base" min="1" max="1"/>
+				<junk_price_mult type="base" min="-1" max="-1"/>
 				
 				<novigrad_price_mult type="base" min="1.15" max="1.15"/>
 				<nilfgard_price_mult type="base" min="1.15" max="1.15"/>
@@ -805,7 +805,7 @@
 				<fish_price_mult type="base" min="1" max="1"/>
 				<books_price_mult type="base" min="2" max="2"/>
 				<valuables_price_mult type="base" min="1" max="1"/>
-				<junk_price_mult type="base" min="1" max="1"/>
+				<junk_price_mult type="base" min="-1" max="-1"/>
 				
 				<novigrad_price_mult type="base" min="1.15" max="1.15"/>
 				<nilfgard_price_mult type="base" min="1.15" max="1.15"/>
@@ -829,7 +829,7 @@
 				<fish_price_mult type="base" min="1" max="1"/>
 				<books_price_mult type="base" min="2" max="2"/>
 				<valuables_price_mult type="base" min="1" max="1"/>
-				<junk_price_mult type="base" min="1" max="1"/>
+				<junk_price_mult type="base" min="-1" max="-1"/>
 				
 				<novigrad_price_mult type="base" min="1.15" max="1.15"/>
 				<nilfgard_price_mult type="base" min="1.15" max="1.15"/>
@@ -853,7 +853,7 @@
 				<fish_price_mult type="base" min="1" max="1"/>
 				<books_price_mult type="base" min="2" max="2"/>
 				<valuables_price_mult type="base" min="1" max="1"/>
-				<junk_price_mult type="base" min="1" max="1"/>
+				<junk_price_mult type="base" min="-1" max="-1"/>
 				
 				<novigrad_price_mult type="base" min="1.15" max="1.15"/>
 				<nilfgard_price_mult type="base" min="1.15" max="1.15"/>
@@ -877,7 +877,7 @@
 				<fish_price_mult type="base" min="1" max="1"/>
 				<books_price_mult type="base" min="2" max="2"/>
 				<valuables_price_mult type="base" min="1" max="1"/>
-				<junk_price_mult type="base" min="1" max="1"/>
+				<junk_price_mult type="base" min="-1" max="-1"/>
 				
 				<novigrad_price_mult type="base" min="1.15" max="1.15"/>
 				<nilfgard_price_mult type="base" min="1.15" max="1.15"/>
@@ -901,7 +901,7 @@
 				<fish_price_mult type="base" min="1" max="1"/>
 				<books_price_mult type="base" min="2" max="2"/>
 				<valuables_price_mult type="base" min="1" max="1"/>
-				<junk_price_mult type="base" min="1" max="1"/>
+				<junk_price_mult type="base" min="-1" max="-1"/>
 				
 				<novigrad_price_mult type="base" min="1.15" max="1.15"/>
 				<nilfgard_price_mult type="base" min="1.15" max="1.15"/>
@@ -1535,7 +1535,7 @@
 				<fish_price_mult type="base" min="0.85" max="0.85"/>
 				<books_price_mult type="base" min="-1" max="-1"/>
 				<valuables_price_mult type="base" min="1" max="1"/>
-				<junk_price_mult type="base" min="1" max="1"/>
+				<junk_price_mult type="base" min="-1" max="-1"/>
 				
 				<novigrad_price_mult type="base" min="1.15" max="1.15"/>
 				<nilfgard_price_mult type="base" min="1.15" max="1.15"/>
@@ -1559,7 +1559,7 @@
 				<fish_price_mult type="base" min="0.85" max="0.85"/>
 				<books_price_mult type="base" min="-1" max="-1"/>
 				<valuables_price_mult type="base" min="1" max="1"/>
-				<junk_price_mult type="base" min="1" max="1"/>
+				<junk_price_mult type="base" min="-1" max="-1"/>
 				
 				<novigrad_price_mult type="base" min="1.15" max="1.15"/>
 				<nilfgard_price_mult type="base" min="1.15" max="1.15"/>
@@ -1583,7 +1583,7 @@
 				<fish_price_mult type="base" min="0.85" max="0.85"/>
 				<books_price_mult type="base" min="-1" max="-1"/>
 				<valuables_price_mult type="base" min="1" max="1"/>
-				<junk_price_mult type="base" min="1" max="1"/>
+				<junk_price_mult type="base" min="-1" max="-1"/>
 				
 				<novigrad_price_mult type="base" min="1.15" max="1.15"/>
 				<nilfgard_price_mult type="base" min="1.15" max="1.15"/>
@@ -1607,7 +1607,7 @@
 				<fish_price_mult type="base" min="0.85" max="0.85"/>
 				<books_price_mult type="base" min="-1" max="-1"/>
 				<valuables_price_mult type="base" min="1" max="1"/>
-				<junk_price_mult type="base" min="1" max="1"/>
+				<junk_price_mult type="base" min="-1" max="-1"/>
 				
 				<novigrad_price_mult type="base" min="1.15" max="1.15"/>
 				<nilfgard_price_mult type="base" min="1.15" max="1.15"/>
@@ -1631,7 +1631,7 @@
 				<fish_price_mult type="base" min="0.85" max="0.85"/>
 				<books_price_mult type="base" min="-1" max="-1"/>
 				<valuables_price_mult type="base" min="1" max="1"/>
-				<junk_price_mult type="base" min="1" max="1"/>
+				<junk_price_mult type="base" min="-1" max="-1"/>
 				
 				<novigrad_price_mult type="base" min="1.15" max="1.15"/>
 				<nilfgard_price_mult type="base" min="1.15" max="1.15"/>
@@ -1655,7 +1655,7 @@
 				<fish_price_mult type="base" min="0.85" max="0.85"/>
 				<books_price_mult type="base" min="-1" max="-1"/>
 				<valuables_price_mult type="base" min="1" max="1"/>
-				<junk_price_mult type="base" min="1" max="1"/>
+				<junk_price_mult type="base" min="-1" max="-1"/>
 				
 				<novigrad_price_mult type="base" min="1.15" max="1.15"/>
 				<nilfgard_price_mult type="base" min="1.15" max="1.15"/>
@@ -1681,7 +1681,7 @@
 				<fish_price_mult type="base" min="1" max="1"/>
 				<books_price_mult type="base" min="2" max="2"/>
 				<valuables_price_mult type="base" min="1.3" max="1.3"/>
-				<junk_price_mult type="base" min="0.85" max="0.85"/>
+				<junk_price_mult type="base" min="-1" max="-1"/>
 				
 				<novigrad_price_mult type="base" min="1" max="1"/>
 				<nilfgard_price_mult type="base" min="-1" max="-1"/>
@@ -1705,7 +1705,7 @@
 				<fish_price_mult type="base" min="1" max="1"/>
 				<books_price_mult type="base" min="2" max="2"/>
 				<valuables_price_mult type="base" min="1.3" max="1.3"/>
-				<junk_price_mult type="base" min="0.85" max="0.85"/>
+				<junk_price_mult type="base" min="-1" max="-1"/>
 				
 				<novigrad_price_mult type="base" min="1" max="1"/>
 				<nilfgard_price_mult type="base" min="-1" max="-1"/>
@@ -1729,7 +1729,7 @@
 				<fish_price_mult type="base" min="1" max="1"/>
 				<books_price_mult type="base" min="2" max="2"/>
 				<valuables_price_mult type="base" min="1.3" max="1.3"/>
-				<junk_price_mult type="base" min="0.85" max="0.85"/>
+				<junk_price_mult type="base" min="-1" max="-1"/>
 				
 				<novigrad_price_mult type="base" min="1" max="1"/>
 				<nilfgard_price_mult type="base" min="-1" max="-1"/>
@@ -1753,7 +1753,7 @@
 				<fish_price_mult type="base" min="1" max="1"/>
 				<books_price_mult type="base" min="2" max="2"/>
 				<valuables_price_mult type="base" min="1.3" max="1.3"/>
-				<junk_price_mult type="base" min="0.85" max="0.85"/>
+				<junk_price_mult type="base" min="-1" max="-1"/>
 				
 				<novigrad_price_mult type="base" min="1" max="1"/>
 				<nilfgard_price_mult type="base" min="-1" max="-1"/>
@@ -1777,7 +1777,7 @@
 				<fish_price_mult type="base" min="1" max="1"/>
 				<books_price_mult type="base" min="2" max="2"/>
 				<valuables_price_mult type="base" min="1.3" max="1.3"/>
-				<junk_price_mult type="base" min="0.85" max="0.85"/>
+				<junk_price_mult type="base" min="-1" max="-1"/>
 				
 				<novigrad_price_mult type="base" min="1" max="1"/>
 				<nilfgard_price_mult type="base" min="-1" max="-1"/>
@@ -1801,7 +1801,7 @@
 				<fish_price_mult type="base" min="1" max="1"/>
 				<books_price_mult type="base" min="2" max="2"/>
 				<valuables_price_mult type="base" min="1.3" max="1.3"/>
-				<junk_price_mult type="base" min="0.85" max="0.85"/>
+				<junk_price_mult type="base" min="-1" max="-1"/>
 				
 				<novigrad_price_mult type="base" min="1" max="1"/>
 				<nilfgard_price_mult type="base" min="-1" max="-1"/>
@@ -1825,7 +1825,7 @@
 				<fish_price_mult type="base" min="1" max="1"/>
 				<books_price_mult type="base" min="2" max="2"/>
 				<valuables_price_mult type="base" min="1.3" max="1.3"/>
-				<junk_price_mult type="base" min="0.85" max="0.85"/>
+				<junk_price_mult type="base" min="-1" max="-1"/>
 				
 				<novigrad_price_mult type="base" min="1" max="1"/>
 				<nilfgard_price_mult type="base" min="-1" max="-1"/>
@@ -1849,7 +1849,7 @@
 				<fish_price_mult type="base" min="1" max="1"/>
 				<books_price_mult type="base" min="2" max="2"/>
 				<valuables_price_mult type="base" min="1.3" max="1.3"/>
-				<junk_price_mult type="base" min="0.85" max="0.85"/>
+				<junk_price_mult type="base" min="-1" max="-1"/>
 				
 				<novigrad_price_mult type="base" min="1" max="1"/>
 				<nilfgard_price_mult type="base" min="-1" max="-1"/>
@@ -1873,7 +1873,7 @@
 				<fish_price_mult type="base" min="1" max="1"/>
 				<books_price_mult type="base" min="2" max="2"/>
 				<valuables_price_mult type="base" min="1.3" max="1.3"/>
-				<junk_price_mult type="base" min="0.85" max="0.85"/>
+				<junk_price_mult type="base" min="-1" max="-1"/>
 				
 				<novigrad_price_mult type="base" min="1" max="1"/>
 				<nilfgard_price_mult type="base" min="-1" max="-1"/>
@@ -1898,7 +1898,7 @@
 				<fish_price_mult type="base" min="1" max="1"/>
 				<books_price_mult type="base" min="2" max="2"/>
 				<valuables_price_mult type="base" min="1.3" max="1.3"/>
-				<junk_price_mult type="base" min="0.85" max="0.85"/>
+				<junk_price_mult type="base" min="-1" max="-1"/>
 				
 				<novigrad_price_mult type="base" min="1" max="1"/>
 				<nilfgard_price_mult type="base" min="-1" max="-1"/>
@@ -1922,7 +1922,7 @@
 				<fish_price_mult type="base" min="1" max="1"/>
 				<books_price_mult type="base" min="2" max="2"/>
 				<valuables_price_mult type="base" min="1.3" max="1.3"/>
-				<junk_price_mult type="base" min="0.85" max="0.85"/>
+				<junk_price_mult type="base" min="-1" max="-1"/>
 				
 				<novigrad_price_mult type="base" min="1" max="1"/>
 				<nilfgard_price_mult type="base" min="-1" max="-1"/>
@@ -1946,7 +1946,7 @@
 				<fish_price_mult type="base" min="1.3" max="1.3"/>
 				<books_price_mult type="base" min="2" max="2"/>
 				<valuables_price_mult type="base" min="1.15" max="1.15"/>
-				<junk_price_mult type="base" min="0.85" max="0.85"/>
+				<junk_price_mult type="base" min="-1" max="-1"/>
 				
 				<novigrad_price_mult type="base" min="0.85" max="0.85"/>
 				<nilfgard_price_mult type="base" min="0.85" max="0.85"/>
@@ -1970,7 +1970,7 @@
 				<fish_price_mult type="base" min="1.3" max="1.3"/>
 				<books_price_mult type="base" min="2" max="2"/>
 				<valuables_price_mult type="base" min="1.15" max="1.15"/>
-				<junk_price_mult type="base" min="0.85" max="0.85"/>
+				<junk_price_mult type="base" min="-1" max="-1"/>
 				
 				<novigrad_price_mult type="base" min="0.85" max="0.85"/>
 				<nilfgard_price_mult type="base" min="0.85" max="0.85"/>
@@ -1994,7 +1994,7 @@
 				<fish_price_mult type="base" min="1" max="1"/>
 				<books_price_mult type="base" min="2" max="2"/>
 				<valuables_price_mult type="base" min="1.3" max="1.3"/>
-				<junk_price_mult type="base" min="0.85" max="0.85"/>
+				<junk_price_mult type="base" min="-1" max="-1"/>
 				
 				<novigrad_price_mult type="base" min="1" max="1"/>
 				<nilfgard_price_mult type="base" min="-1" max="-1"/>
@@ -2465,7 +2465,7 @@
 				<fish_price_mult type="base" min="1" max="1"/>
 				<books_price_mult type="base" min="-1" max="-1"/>
 				<valuables_price_mult type="base" min="1.3" max="1.3"/>
-				<junk_price_mult type="base" min="0.85" max="0.85"/>
+				<junk_price_mult type="base" min="-1" max="-1"/>
 				
 				<novigrad_price_mult type="base" min="1" max="1"/>
 				<nilfgard_price_mult type="base" min="-1" max="-1"/>
@@ -2489,7 +2489,7 @@
 				<fish_price_mult type="base" min="1" max="1"/>
 				<books_price_mult type="base" min="-1" max="-1"/>
 				<valuables_price_mult type="base" min="1.3" max="1.3"/>
-				<junk_price_mult type="base" min="0.85" max="0.85"/>
+				<junk_price_mult type="base" min="-1" max="-1"/>
 				
 				<novigrad_price_mult type="base" min="1" max="1"/>
 				<nilfgard_price_mult type="base" min="-1" max="-1"/>
@@ -2513,7 +2513,7 @@
 				<fish_price_mult type="base" min="1" max="1"/>
 				<books_price_mult type="base" min="-1" max="-1"/>
 				<valuables_price_mult type="base" min="1.3" max="1.3"/>
-				<junk_price_mult type="base" min="0.85" max="0.85"/>
+				<junk_price_mult type="base" min="-1" max="-1"/>
 				
 				<novigrad_price_mult type="base" min="1" max="1"/>
 				<nilfgard_price_mult type="base" min="-1" max="-1"/>
@@ -2537,7 +2537,7 @@
 				<fish_price_mult type="base" min="1" max="1"/>
 				<books_price_mult type="base" min="-1" max="-1"/>
 				<valuables_price_mult type="base" min="1.3" max="1.3"/>
-				<junk_price_mult type="base" min="0.85" max="0.85"/>
+				<junk_price_mult type="base" min="-1" max="-1"/>
 				
 				<novigrad_price_mult type="base" min="1" max="1"/>
 				<nilfgard_price_mult type="base" min="-1" max="-1"/>
@@ -2561,7 +2561,7 @@
 				<fish_price_mult type="base" min="1" max="1"/>
 				<books_price_mult type="base" min="-1" max="-1"/>
 				<valuables_price_mult type="base" min="1.3" max="1.3"/>
-				<junk_price_mult type="base" min="0.85" max="0.85"/>
+				<junk_price_mult type="base" min="-1" max="-1"/>
 				
 				<novigrad_price_mult type="base" min="1" max="1"/>
 				<nilfgard_price_mult type="base" min="-1" max="-1"/>
@@ -2585,7 +2585,7 @@
 				<fish_price_mult type="base" min="1" max="1"/>
 				<books_price_mult type="base" min="-1" max="-1"/>
 				<valuables_price_mult type="base" min="1.3" max="1.3"/>
-				<junk_price_mult type="base" min="0.85" max="0.85"/>
+				<junk_price_mult type="base" min="-1" max="-1"/>
 				
 				<novigrad_price_mult type="base" min="1" max="1"/>
 				<nilfgard_price_mult type="base" min="-1" max="-1"/>
@@ -2609,7 +2609,7 @@
 				<fish_price_mult type="base" min="1" max="1"/>
 				<books_price_mult type="base" min="-1" max="-1"/>
 				<valuables_price_mult type="base" min="1.3" max="1.3"/>
-				<junk_price_mult type="base" min="0.85" max="0.85"/>
+				<junk_price_mult type="base" min="-1" max="-1"/>
 				
 				<novigrad_price_mult type="base" min="1" max="1"/>
 				<nilfgard_price_mult type="base" min="-1" max="-1"/>
@@ -2633,7 +2633,7 @@
 				<fish_price_mult type="base" min="1" max="1"/>
 				<books_price_mult type="base" min="-1" max="-1"/>
 				<valuables_price_mult type="base" min="1.3" max="1.3"/>
-				<junk_price_mult type="base" min="0.85" max="0.85"/>
+				<junk_price_mult type="base" min="-1" max="-1"/>
 				
 				<novigrad_price_mult type="base" min="1" max="1"/>
 				<nilfgard_price_mult type="base" min="-1" max="-1"/>

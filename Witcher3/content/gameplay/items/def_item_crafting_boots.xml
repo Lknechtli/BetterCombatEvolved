@@ -16,7 +16,7 @@
 		<rending_resistance_perc 		type="base" min="0.03"				/>
 		<elemental_resistance_perc 		type="base" min="0.06"				/>
 		<poison_resistance_perc			type="base"	min="0.02"				/>
-		<spell_power					type="mult"	min="0.01"				/>
+		<spell_power					type="mult"	min="0.03"				/>
 	</ability>
 
 	<ability name="Starting Boots 2 _Stats">
@@ -29,7 +29,7 @@
 		<rending_resistance_perc 		type="base" min="0.04"				/>
 		<elemental_resistance_perc 		type="base" min="0.07"				/>
 		<poison_resistance_perc			type="base"	min="0.03"				/>
-		<spell_power					type="mult"	min="0.01"				/>
+		<spell_power					type="mult"	min="0.05"				/>
 	</ability>
 
 	<ability name="Starting Boots 3 _Stats">
@@ -42,7 +42,7 @@
 		<rending_resistance_perc 		type="base" min="0.05"				/>
 		<elemental_resistance_perc 		type="base" min="0.08"				/>
 		<poison_resistance_perc			type="base"	min="0.04"				/>
-		<spell_power					type="mult"	min="0.01"				/>
+		<spell_power					type="mult"	min="0.07"				/>
 	</ability>
 
 <!-- BOOTS CRAFTED LIGHT -->

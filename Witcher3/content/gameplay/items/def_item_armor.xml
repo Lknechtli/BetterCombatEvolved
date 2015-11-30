@@ -20,15 +20,14 @@
 	<ability name="Starting Armor _Stats">
 		<weight							type="base"	min="3.12"				/>
 		<quality						type="add"	min="5"		max="5"		/>
-		<armor							type="base"	min="1"	max="1"	/>
-		<armor							type="add"	min="55"	max="55"	/>
+		<armor							type="base"	min="55"	max="55"	/>
 		<slashing_resistance_perc		type="base" min="0.02"				/>
 		<bludgeoning_resistance_perc	type="base" min="0.02"				/>
 		<piercing_resistance_perc		type="base"	min="0.02"				/>
 		<rending_resistance_perc		type="base" min="0.02"				/>
 		<elemental_resistance_perc		type="base" min="0.02"				/>
 		<poison_resistance_perc			type="base"	min="0.05"				/>
-		<spell_power					type="mult"	min="0.01"				/>
+		<spell_power					type="mult"	min="0.02"				/>
 		<staminaRegen_armor_mod			type="mult" min="0.01"				/>
 	</ability>
 
