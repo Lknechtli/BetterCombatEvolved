@@ -162,9 +162,9 @@
         <essenceRegen type="mult" always_random="false" min="0" max="0" />
         <staminaRegen type="mult" always_random="false" min="-0.33" max="-0.33" />
         <moraleRegen type="mult" always_random="false" min="0.08" max="0.12" />
-        <light_attack_damage_vitality type="base" always_random="false" min="108" max="108" />
+        <light_attack_damage_vitality type="base" always_random="false" min="87" max="87" />
         <light_attack_damage_essence type="base" always_random="false" min="0" max="0" />
-        <heavy_attack_damage_vitality type="base" always_random="false" min="115" max="115" />
+        <heavy_attack_damage_vitality type="base" always_random="false" min="92" max="92" />
         <heavy_attack_damage_vitality type="mult" always_random="false" min="0.0" max="0.0" />
         <heavy_attack_damage_essence type="base" always_random="false" min="0" max="0" />
         <physical_resistance type="add" always_random="false" min="0" max="0" />
@@ -197,8 +197,8 @@
 		<burning_resistance_perc type="add" always_random="false" min="0.007" max="0.007" />
 		<will_resistance_perc type="add" always_random="false" min="0.007" max="0.007" />
 		<shock_resistance_perc type="add" always_random="false" min="0.007" max="0.007" />
-        <light_attack_damage_vitality type="base" always_random="false" min="28" max="28" />
-        <heavy_attack_damage_vitality type="base" always_random="false" min="32" max="32" />
+        <light_attack_damage_vitality type="base" always_random="false" min="22" max="22" />
+        <heavy_attack_damage_vitality type="base" always_random="false" min="27" max="27" />
       </ability>
 	  
 	  <ability name="NPCDelevelBonus">
