@@ -533,7 +533,7 @@
 	 
 	  <ability name="q103_wolf">
         <tags> "base" </tags>
-        <vitality type="add" always_random="false" min="2000" max="2000" />
+        <vitality type="add" always_random="false" min="700" max="700" />
 		<essenceRegen type="add" always_random="false" min="-2" max="-2" />
       </ability>
 	  

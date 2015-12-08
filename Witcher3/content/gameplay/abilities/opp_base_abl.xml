@@ -423,26 +423,26 @@
       </ability>
 	  <ability name="Ciri_Q205">
         <tags> "base" </tags>
-        <vitality type="base" always_random="false" min="250" max="250" />
+        <vitality type="base" always_random="false" min="325" max="325" />
       </ability>
       <ability name="Ciri_Q305">
         <tags> "base" </tags>
-        <vitality type="base" always_random="false" min="500" max="500" />
+        <vitality type="base" always_random="false" min="650" max="650" />
         <attack_power type="add" always_random="false" min="100" max="100" />
       </ability>
       <ability name="Ciri_Q403">
         <tags> "base" </tags>
-        <vitality type="base" always_random="false" min="2000" max="2000" />
+        <vitality type="base" always_random="false" min="2600" max="2600" />
         <attack_power type="add" always_random="false" min="500" max="500" />
       </ability>
       <ability name="Ciri_Q111">
         <tags> "base" </tags>
-        <vitality type="base" always_random="false" min="2500" max="2500" />
+        <vitality type="base" always_random="false" min="3250" max="3250" />
         <attack_power type="add" always_random="false" min="600" max="600" />
       </ability>
 	  <ability name="Ciri_Q501">
         <tags> "base" </tags>
-		<vitality type="base" always_random="false" min="2500" max="2500" />
+		<vitality type="base" always_random="false" min="3250" max="3250" />
         <attack_power type="add" always_random="false" min="80" max="80" />
       </ability>
 	   <ability name="CiriCannotTeleport">
