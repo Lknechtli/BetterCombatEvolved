@@ -99,12 +99,12 @@
         <tags> "base" </tags>	
         <level type="add" always_random="false" min="1" max="1" />
         <experience type="base" always_random="false" min="10" max="10" />
-        <essence type="base" always_random="false" min="9000" max="9000" />
+        <essence type="base" always_random="false" min="8000" max="8000" />
 		<staminaRegen type="mult" always_random="false" min="0.75" max="0.75" />
 		<force_resistance_perc type="add" always_random="false" min="0.5" max="0.5" />
 		<will_resistance_perc type="add" always_random="false" min="0.5" max="0.5" />
 		<shock_resistance_perc type="add" always_random="false" min="0.5" max="0.5" />
-        <attack_power type="base" always_random="false" min="300" max="300" />
+        <attack_power type="base" always_random="false" min="200" max="200" />
       </ability>	  
 	  
       <ability name="MonsterLevelBonusLow">
@@ -117,15 +117,15 @@
       <ability name="MonsterLevelBonusHigh">
         <tags> "base" </tags>
         <experience type="base" always_random="false" min="1" max="1" />
-        <essence type="mult" always_random="false" min="-0.2" max="-0.2" />
-        <attack_power type="mult" always_random="false" min="-0.2" max="-0.2" />
+        <essence type="mult" always_random="false" min="-0.3" max="-0.3" />
+        <attack_power type="mult" always_random="false" min="-0.3" max="-0.3" />
       </ability>	  	  
 	  
       <ability name="MonsterLevelBonusDeadly">
         <tags> "base" </tags>
         <experience type="base" always_random="false" min="1" max="1" />
-        <essence type="mult" always_random="false" min="-0.3" max="-0.3" />
-        <attack_power type="mult" always_random="false" min="-0.3" max="-0.3" />
+        <essence type="mult" always_random="false" min="-0.4" max="-0.4" />
+        <attack_power type="mult" always_random="false" min="-0.4" max="-0.4" />
       </ability>	  
 	  
       <ability name="_Monster_group_base">
@@ -133,7 +133,7 @@
         <threat_level type="add" always_random="false" min="2" max="2" />
         <essence type="base" always_random="false" min="100" max="100" />
 		<stamina type="add" always_random="false" min="100" max="100" />
-		<staminaRegen type="mult" always_random="false" min="-0.33" max="-0.33" />
+		<staminaRegen type="mult" always_random="false" min="0.3" max="0.3" />
         <raise_guard_chance type="add" always_random="false" min="0.65" max="0.65" />
         <dodge_melee_light_chance type="add" always_random="false" min="0.75" max="0.75" />
       </ability>
@@ -143,7 +143,7 @@
         <threat_level type="add" always_random="false" min="2" max="2" />
         <essence type="base" always_random="false" min="100" max="100" />
 		<stamina type="add" always_random="false" min="100" max="100" />
-		<staminaRegen type="mult" always_random="false" min="-0.33" max="-0.33" />
+		<staminaRegen type="mult" always_random="false" min="0.3" max="0.3" />
         <raise_guard_chance type="add" always_random="false" min="1.0" max="1.0" />
         <lower_guard_chance type="add" always_random="false" min="0.15" max="0.15" />
       </ability>

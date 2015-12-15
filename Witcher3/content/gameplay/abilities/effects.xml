@@ -112,7 +112,7 @@
       </ability>
 	  
       <ability name="BurningEffect_DancingStar_1">
-        <FireDamage type="mult" min="0.1" max="0.1" />
+        <FireDamage type="mult" min="0.065" max="0.065" />
 		<FireDamage type="add" min="20" />
         <duration type="add" min="0.3" />
         <hp_regen_reduction_strength type="add" min="200" />
@@ -120,7 +120,7 @@
       </ability>
 	  
       <ability name="BurningEffect_DancingStar_2">
-        <FireDamage type="mult" min="0.1" max="0.1" />
+        <FireDamage type="mult" min="0.065" max="0.065" />
 		<FireDamage type="add" min="30" />
         <duration type="add" min="0.3" />
         <hp_regen_reduction_strength type="add" min="200" />
@@ -128,7 +128,7 @@
       </ability>
 	  
       <ability name="BurningEffect_DancingStar_3">
-        <FireDamage type="mult" min="0.1" max="0.1" />
+        <FireDamage type="mult" min="0.065" max="0.065" />
 		<FireDamage type="add" min="40" />
         <duration type="add" min="3" max="3" />
         <hp_regen_reduction_strength type="add" min="200" />

@@ -281,7 +281,7 @@
         <stamina_cost type="add" always_random="false" min="65" max="65" />		
         <stamina_delay type="base" min="0.5" />
         <stamina_delay type="mult" min="1" />
-        <FireDamage type="add" always_random="false" min="90" max="90" />
+        <FireDamage type="add" always_random="false" min="70" max="70" />
 		<burn_threshold type="add" always_random="false" min="1.5" max="1.5" />
 		<BurningEffect is_ability="true" />
       </ability>
@@ -404,7 +404,7 @@
       <!-- Melt Armor -->
       <ability name="magic_s8"> <!-- 3 ranks -->
         <tags>magic_s8</tags>
-        <max_armor_reduction type="add" min="0.25" />
+        <max_armor_reduction type="add" min="0.1" />
         <armor type="mult" min="-0.01" />
       </ability>
 	  
@@ -412,7 +412,7 @@
       <ability name="magic_s9"> <!-- 3 ranks -->
         <tags>magic_s9</tags>
         <chance_bonus type="add" min="0.25" />
-		<FireDamage type="add" always_random="false" min="20" max="20" />
+		<FireDamage type="add" always_random="false" min="10" max="10" />
 		<channeling_damage type="add" always_random="false" min="5" max="5" />
       </ability>
 	  

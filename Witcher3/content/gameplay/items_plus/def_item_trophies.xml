@@ -78,15 +78,15 @@
 			
 			<ability name="gravehag_trophy_stats">	
 				<vsNecrophage_attack_power min="0.1" type="mult" />
-				<staminaRegen type="mult" always_random="false" min="0.3" max="0.3" />
+				<staminaRegen type="mult" always_random="false" min="0.2" max="0.2" />
 				<spell_power type="mult" min="-0.2" />
+				<spell_power_igni type="mult" min="-0.3" />
 				<attack_power type="mult" min="-0.05" />
 			</ability>	
 
 			<ability name="fogling_trophy_stats">
-				<spell_power type="mult" min="0.2" />
+				<spell_power type="mult" min="0.05" />
 				<attack_power type="mult" min="0.05" />
-				<staminaRegen type="mult" always_random="false" min="-0.30" max="-0.30" />
 				<vsNecrophage_attack_power min="0.1" type="mult" />
 			</ability>	
 		
